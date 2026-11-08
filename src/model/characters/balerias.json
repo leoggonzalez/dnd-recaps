@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "id": "balerias",
+  "name": "Balerias Chukk",
+  "category": "characters",
+  "description": "Elderly rugged ranger, long gray hair/beard, brass mechanical eye, worn moss-brown gear and oversized crossbow on his back.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "balerias",
+    "ranger",
+    "offering",
+    "food"
+  ],
+  "reuseWhen": "Reuse for calm feeding/offering actions with these clothes and equipment. Both poses share one frame and foot anchor.",
+  "assets": [
+    {
+      "id": "balerias-ready",
+      "description": "Patient crouched stance, food held near his chest.",
+      "sourcePath": "public/assets/sources/balerias-ready-v1.png",
+      "width": 600,
+      "height": 800,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/characters/balerias-ready-v1.webp",
+      "bytes": 152768,
+      "sha256": "c8bee4ad3f7422d6968f3fbc2cc8f1f8ea8aad34ff82ee54a1fa2ea842383ada",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 152768,
+        "nearLosslessBytes": 414656
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "balerias-offering",
+      "description": "Same frame with right arm extended toward screen right to offer food.",
+      "sourcePath": "public/assets/sources/balerias-offering-v1.png",
+      "width": 600,
+      "height": 800,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/characters/balerias-offering-v1.webp",
+      "bytes": 136902,
+      "sha256": "619f13ccc728f6bd22020befca2dfb580c150a8383f1f025e91d743d0260dde5",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 136902,
+        "nearLosslessBytes": 378274
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "legacy-scene-03-a-cautious-offering",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-03-a-cautious-offering.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2704774,
+      "sha256": "e4d03adfac6af101d6fdc3833c61b45f112a9bc1895d425647cbe3fd1077bee0",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-05-counting-the-wagons-v2",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-05-counting-the-wagons-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3038499,
+      "sha256": "e01fac943c3801bb92c7ce1d0558524e037d79404ebce3ae185390cf1ccb0161",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-08-the-cocoons-secret",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-08-the-cocoons-secret.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2688781,
+      "sha256": "21f537adce043313426ec8b85c59509d4ad74517a517445afe445907d87fc260",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-party-retro-action-cartoon-v2",
+      "description": "Balerias Chukk appears in the shared six-member retro cartoon party illustration; full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/party-retro-action-cartoon-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2804967,
+      "sha256": "57c26377c7f1bcd90e2fd6b02a0ed392bf76be445e6fdf4ac11c7a287b690e35",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "species": "human",
+  "class": "ranger",
+  "party_status": "party member",
+  "appearance": {
+    "age": "Elderly; visibly older than the other party members.",
+    "build": "Rugged and sturdy, like an experienced outdoorsman.",
+    "hair": "Long, unkempt gray hair.",
+    "beard": "Long, thick gray beard.",
+    "face": "Deep wrinkles, weathered skin, and a stern expression.",
+    "distinctive_feature": "One mechanical or cybernetic eye.",
+    "clothing": "Worn ranger gear, leather armor, and practical traveling clothes.",
+    "vibe": "Grumpy veteran hunter and tough old survivor."
+  },
+  "weapons": [
+    "An enormous, oversized crossbow"
+  ],
+  "visual_identifiers": [
+    "mechanical eye",
+    "long gray hair and beard",
+    "gigantic crossbow"
+  ],
+  "unknowns": [
+    "exact age",
+    "eye details",
+    "specific armor design details",
+    "personality beyond the visual notes"
+  ],
+  "sheet_name": "(Baron) Balerias Chukk",
+  "subclass": "Drakewarden",
+  "proficiencies": {
+    "armor": [
+      "Light Armor",
+      "Medium Armor",
+      "Shields"
+    ],
+    "weapons": [
+      "Martial Weapons",
+      "Simple Weapons"
+    ],
+    "tools": [
+      "Calligrapher’s Supplies"
+    ],
+    "languages": [
+      "Common",
+      "Draconic",
+      "Dwarvish",
+      "Elvish",
+      "Giant",
+      "Goblin",
+      "Undercommon"
+    ],
+    "expertise": [
+      "Survival"
+    ],
+    "other_skill_proficiencies": [
+      "Athletics",
+      "Deception",
+      "Insight",
+      "Persuasion",
+      "Sleight of Hand",
+      "Stealth"
+    ]
+  },
+  "sheet_snapshot": {
+    "source": "https://www.dndbeyond.com/characters/159939642",
+    "retrieved_on": "2026-10-29",
+    "level": 4,
+    "ability_scores": {
+      "strength": 10,
+      "dexterity": 18,
+      "constitution": 14,
+      "intelligence": 8,
+      "wisdom": 14,
+      "charisma": 12
+    },
+    "combat": {
+      "armor_class": 16,
+      "hit_points_current": 36,
+      "hit_points_max": 36,
+      "initiative": 4,
+      "proficiency_bonus": 2,
+      "speed_ft": 30,
+      "darkvision_ft": 60,
+      "passive_perception": 12,
+      "passive_investigation": 9,
+      "passive_insight": 14
+    },
+    "saving_throws": {
+      "strength": 2,
+      "dexterity": 6,
+      "constitution": 2,
+      "intelligence": -1,
+      "wisdom": 2,
+      "charisma": 1
+    },
+    "attacks": [
+      {
+        "name": "Heavy Crossbow",
+        "attack_bonus": 8,
+        "damage": "1d10+4 piercing",
+        "range_ft": "100/400",
+        "mastery": "Push"
+      },
+      {
+        "name": "Rapier",
+        "attack_bonus": 6,
+        "damage": "1d8+4 piercing",
+        "mastery": "Vex"
+      }
+    ],
+    "class_features": [
+      "Archery Fighting Style",
+      "Favored Enemy: Hunter’s Mark (2 free casts per Long Rest)",
+      "Drake Companion",
+      "Draconic Gift",
+      "Drakewarden"
+    ],
+    "drake_companion": {
+      "armor_class": 16,
+      "hit_points": 25,
+      "current_essence": "Lightning",
+      "cosmetic_appearance": "Chosen when summoned"
+    },
+    "spells": [
+      "Thaumaturgy",
+      "Cure Wounds",
+      "Ensnaring Strike",
+      "Hunter’s Mark",
+      "Snare"
+    ],
+    "notable_items": [
+      "Goggles of Night",
+      "Green Gem Eyepatch",
+      "Heavy Crossbow",
+      "Rapier",
+      "Chain Shirt",
+      "Scale Mail"
+    ],
+    "currency": {
+      "gold": 346,
+      "copper": 19
+    },
+    "notes": [
+      "Sheet lists both Chain Shirt and Scale Mail; Scale Mail carries Stealth Disadvantage. Current hit points are a session-time snapshot."
+    ]
+  },
+  "events": [
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Carefully fed the caged peryton through the bars, gained its tentative trust, and readied magic to speak with it."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Privately discussed Aldrik's wagon and decoy suspicions, shared what he knew of the cult, and emphasized the importance of its destination."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Defended the caravan during the ettercap and giant-spider attack with his heavy crossbow."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Opened a web cocoon and recovered a scroll from the dead woman inside; the company gathered a silver cloak pin and 76 gold pieces."
+    }
+  ]
+}

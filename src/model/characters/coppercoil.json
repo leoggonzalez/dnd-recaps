@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "coppercoil",
+  "name": "Coppercoil",
+  "category": "characters",
+  "description": "Coppercoil — canonical party character record.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "coppercoil"
+  ],
+  "reuseWhen": "Consult the appearance, equipment and events in this record before reusing any image.",
+  "assets": [
+    {
+      "id": "legacy-party-retro-action-cartoon-v2",
+      "description": "Coppercoil appears in the shared six-member retro cartoon party illustration; full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/party-retro-action-cartoon-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2804967,
+      "sha256": "57c26377c7f1bcd90e2fd6b02a0ed392bf76be445e6fdf4ac11c7a287b690e35",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "species": "copper dragonborn",
+  "class": "artificer",
+  "party_status": "party member",
+  "appearance": {
+    "height": "Approximately 1 meter.",
+    "build": "The smallest party member; very small compared with everyone else and compact.",
+    "scales": "Orange-copper metallic scales.",
+    "head": "Clearly draconic and reptilian, with a snout.",
+    "eyes": "Bright green.",
+    "jaw": "Mechanical or metallic lower jaw.",
+    "chest": "Distinctive glowing green core.",
+    "clothing_and_gear": "Artificer gear, mechanical equipment, and goggles.",
+    "vibe": "Eccentric miniature engineer and inventor."
+  },
+  "equipment_and_inventions": [
+    "Gadgets and mechanical inventions.",
+    "Deployable copper constructs.",
+    "Copper spheres that transform into a mechanical goat and a mechanical lion.",
+    "The mechanical goat has been depicted wearing a top hat."
+  ],
+  "mobility": {
+    "walks_normally": true,
+    "wheelchair": false
+  },
+  "visual_identifiers": [
+    "tiny copper-scaled dragonborn",
+    "green eyes",
+    "mechanical jaw",
+    "glowing green chest core",
+    "goggles"
+  ],
+  "unknowns": [
+    "artificer specialization",
+    "age",
+    "personality beyond the visual notes",
+    "specific gadget designs"
+  ],
+  "sheet_name": "Coppercoil",
+  "gender": "male",
+  "subclass": "Armorer",
+  "proficiencies": {
+    "armor": [
+      "Heavy Armor",
+      "Light Armor",
+      "Medium Armor",
+      "Shields"
+    ],
+    "weapons": [
+      "Simple Weapons"
+    ],
+    "tools": [
+      "Alchemist’s Supplies",
+      "Jeweler’s Tools",
+      "Smith’s Tools",
+      "Thieves’ Tools",
+      "Tinker’s Tools"
+    ],
+    "languages": [
+      "Common",
+      "Draconic",
+      "Dwarvish"
+    ],
+    "skill_proficiencies": [
+      "Arcana",
+      "Investigation",
+      "Persuasion",
+      "Sleight of Hand"
+    ]
+  },
+  "sheet_snapshot": {
+    "source": "https://www.dndbeyond.com/characters/158082672",
+    "retrieved_on": "2026-10-29",
+    "level": 4,
+    "ability_scores": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 18,
+      "wisdom": 10,
+      "charisma": 12
+    },
+    "combat": {
+      "armor_class": 21,
+      "hit_points_current": 31,
+      "hit_points_max": 31,
+      "initiative": 2,
+      "proficiency_bonus": 2,
+      "speed_ft": 30,
+      "darkvision_ft": 60,
+      "passive_perception": 10,
+      "passive_investigation": 16,
+      "passive_insight": 10
+    },
+    "saving_throws": {
+      "strength": -1,
+      "dexterity": 2,
+      "constitution": 4,
+      "intelligence": 6,
+      "wisdom": 0,
+      "charisma": 1
+    },
+    "spellcasting": {
+      "spell_attack_bonus": 6,
+      "spell_save_dc": 14
+    },
+    "attacks": [
+      {
+        "name": "Force Demolisher (Intelligence)",
+        "attack_bonus": 6,
+        "damage": "1d10+4 force",
+        "reach_ft": 10
+      },
+      {
+        "name": "Acid Breath Weapon",
+        "save_dc": 12,
+        "damage": "1d10 acid",
+        "area": "15-ft cone or 30-ft line"
+      },
+      {
+        "name": "Poison Spray",
+        "attack_bonus": 6,
+        "damage": "1d12 poison",
+        "range_ft": 30
+      }
+    ],
+    "class_features": [
+      "Armorer",
+      "Arcane Armor",
+      "Force Demolisher",
+      "Giant Stature",
+      "Tinker’s Magic (4 uses per Long Rest)",
+      "Replicate Magic Item"
+    ],
+    "magic_item_plans": [
+      "Shield, +1",
+      "Blast Disk (Common)",
+      "Smoldering Armor, Plate",
+      "Mythallar Bracelet"
+    ],
+    "cantrips": [
+      "Mending",
+      "Poison Spray",
+      "Prestidigitation"
+    ],
+    "level_1_spells": [
+      "Absorb Elements",
+      "Alarm",
+      "Cure Wounds",
+      "Feather Fall",
+      "Identify"
+    ],
+    "level_2_spells": [
+      "Magic Weapon",
+      "Spiritual Weapon"
+    ],
+    "notable_items": [
+      "Shield, +1 (+3 AC)",
+      "Periapt of Wound Closure",
+      "Rust Bag of Tricks (3/3 charges)",
+      "Spell Scroll of Raise Dead",
+      "Spell Scroll of Revivify",
+      "Spellscroll of Web"
+    ],
+    "currency": {
+      "gold": 1017,
+      "silver": 245,
+      "copper": 417
+    },
+    "weight_carried_lb": 164,
+    "carrying_status": "Over carrying capacity",
+    "notes": [
+      "Current hit points and carried weight are session-time snapshots. Visual reference describes Coppercoil as tiny and approximately 1 meter tall; preserve that visual description."
+    ]
+  },
+  "events": [
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Sent Coppergoat to ram an attacking spider, then used force darts against the attackers while defending the caravan horses."
+    }
+  ]
+}

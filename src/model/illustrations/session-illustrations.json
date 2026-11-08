@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "session-illustrations",
+  "name": "Legacy session and party illustrations",
+  "category": "illustrations",
+  "description": "Preserved original flattened still illustrations and revisions, including the separate retro cartoon style.",
+  "style": "legacy",
+  "references": [
+    "src/data/sessions/28.10.2026/storyboard.md"
+  ],
+  "tags": [
+    "legacy",
+    "reference",
+    "storyboard",
+    "party"
+  ],
+  "reuseWhen": "Use for framing/history only. These are flattened 3:2 PNGs with older appearances/styles, not independently movable cutouts. Current character records take precedence.",
+  "assets": [
+    {
+      "id": "legacy-party-retro-action-cartoon-v2",
+      "description": "Original party illustration: party retro action cartoon v2. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/party-retro-action-cartoon-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2804967,
+      "sha256": "57c26377c7f1bcd90e2fd6b02a0ed392bf76be445e6fdf4ac11c7a287b690e35",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-party-retro-action-cartoon",
+      "description": "Original party illustration: party retro action cartoon. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/party-retro-action-cartoon.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3015555,
+      "sha256": "8744cbf8773690439b49c9303661afb06d4958df4293241897d7a974834f0d17",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-01-a-little-luck",
+      "description": "Original session scene illustration: scene 01 a little luck. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-01-a-little-luck.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2244859,
+      "sha256": "c5e45f217c6d5557f679a0b0d1d517cd11d1cc3520c31016893aa06aa6a3f052",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-02-a-walk-through-camp",
+      "description": "Original session scene illustration: scene 02 a walk through camp. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-02-a-walk-through-camp.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2487057,
+      "sha256": "9046709ccd0ee2dac8ed89ac81980411c453a3ff518a668cbf135ec75af55364",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-03-a-cautious-offering-v1",
+      "description": "Original session scene illustration: scene 03 a cautious offering v1. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-03-a-cautious-offering-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2796338,
+      "sha256": "b8b55e4dfc8897fa475cba859afec782457377a902a0ed8fbd43fb182978dd2a",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-03-a-cautious-offering",
+      "description": "Original session scene illustration: scene 03 a cautious offering. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-03-a-cautious-offering.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2704774,
+      "sha256": "e4d03adfac6af101d6fdc3833c61b45f112a9bc1895d425647cbe3fd1077bee0",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-04-a-note-in-the-dark",
+      "description": "Original session scene illustration: scene 04 a note in the dark. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-04-a-note-in-the-dark.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2054780,
+      "sha256": "36edddad773514f896d1573d6ea059c256c548a4a2e0ce096337452ef839a78d",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-05-counting-the-wagons-v1",
+      "description": "Original session scene illustration: scene 05 counting the wagons v1. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-05-counting-the-wagons-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3133388,
+      "sha256": "36a5ff867fe3e191e4a2e1cb55d52293aeeea83034b88352c21a1347269cde5e",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-05-counting-the-wagons-v2",
+      "description": "Original session scene illustration: scene 05 counting the wagons v2. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-05-counting-the-wagons-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3038499,
+      "sha256": "e01fac943c3801bb92c7ce1d0558524e037d79404ebce3ae185390cf1ccb0161",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-06-under-the-horses-neck",
+      "description": "Original session scene illustration: scene 06 under the horses neck. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-06-under-the-horses-neck.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3255456,
+      "sha256": "9a7ca0c434adaac4cf6a3301dabc42d6331526abb5701014b4e9a3a4eb3eaed9",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-07-the-horses-fight-back",
+      "description": "Original session scene illustration: scene 07 the horses fight back. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-07-the-horses-fight-back.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3533479,
+      "sha256": "414762dd8a863318b4248bb4abd7d553c2893af43eddf700af5e7fca3abdc613",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-08-the-cocoons-secret",
+      "description": "Original session scene illustration: scene 08 the cocoons secret. Full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/scene-08-the-cocoons-secret.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2688781,
+      "sha256": "21f537adce043313426ec8b85c59509d4ad74517a517445afe445907d87fc260",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ]
+}

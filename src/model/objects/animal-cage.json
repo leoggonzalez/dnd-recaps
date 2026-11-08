@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "animal-cage",
+  "name": "Travelling animal cage",
+  "category": "objects",
+  "description": "Matched rear assembly and front gate planes for correct cage/animal depth ordering.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "cage",
+    "bars",
+    "wood",
+    "iron"
+  ],
+  "reuseWhen": "Reuse rear at depth 35 and front at 45, placing the animal between them. Keep matching scale, frame, anchor and perspective.",
+  "assets": [
+    {
+      "id": "cage-rear",
+      "description": "Empty roof/floor, rear bars and side posts, open front plane.",
+      "sourcePath": "public/assets/sources/cage-rear-v1.png",
+      "width": 800,
+      "height": 600,
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.92
+      },
+      "path": "public/assets/objects/cage-rear-v1.webp",
+      "bytes": 146068,
+      "sha256": "5c818fe8e448e63e1536e866de455040c2f728ed875841a40f209bce144fa9f7",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 146068,
+        "nearLosslessBytes": 369632
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "cage-front",
+      "description": "Front corner posts, thin iron bars and gate rim only; interior gaps transparent.",
+      "sourcePath": "public/assets/sources/cage-front-v1.png",
+      "width": 800,
+      "height": 600,
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.92
+      },
+      "path": "public/assets/objects/cage-front-v1.webp",
+      "bytes": 62132,
+      "sha256": "da3af1dba78d14f3a91c9beabe510f3e0e066b4eee842695e1f92c2cd3497b24",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 62132,
+        "nearLosslessBytes": 152166
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

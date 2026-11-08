@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "id": "lucien",
+  "name": "Lucien",
+  "category": "characters",
+  "description": "Dark-skinned sorcerer with cropped black hair, short trimmed beard, crimson-purple robes and gold details.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "public/assets/references/lucien-visual-reference.png"
+  ],
+  "tags": [
+    "lucien",
+    "sorcerer",
+    "hurling",
+    "casting"
+  ],
+  "reuseWhen": "Reuse for a spell-assisted hurling action toward screen right. Attached stone/swirl is visual shorthand, not confirmation of a particular named spell.",
+  "assets": [
+    {
+      "id": "lucien-casting",
+      "description": "Full-body rightward casting/hurling pose with small loose stone and restrained ink swirl.",
+      "sourcePath": "public/assets/sources/lucien-casting-v1.png",
+      "width": 600,
+      "height": 720,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/characters/lucien-casting-v1.webp",
+      "bytes": 75594,
+      "sha256": "96bde4e072043068cc81166a4e043279c1732fa10a15623b418ebdd405035244",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 75594,
+        "nearLosslessBytes": 219666
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "reference-lucien",
+      "description": "Canonical supplied portrait reference for lucien; use for appearance continuity.",
+      "path": "public/assets/references/lucien-visual-reference.png",
+      "width": 452,
+      "height": 272,
+      "bytes": 166863,
+      "sha256": "58f1d4901505bdd272f9454b06455dda2d61b5665a013686936feb6b85a574d1",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
+    },
+    {
+      "id": "arietta-lucien",
+      "description": "Lucien walking with Arietta; the pair is one shared bitmap, not a standalone Lucien pose.",
+      "sourcePath": "public/assets/sources/arietta-lucien-v1.png",
+      "width": 640,
+      "height": 768,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/groups/arietta-lucien-v1.webp",
+      "bytes": 135842,
+      "sha256": "79c9d742be9ccb9f9e139015cd67b5eda738f4352336099e60b79ceb460777ee",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 135842,
+        "nearLosslessBytes": 395136
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-01-a-little-luck",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-01-a-little-luck.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2244859,
+      "sha256": "c5e45f217c6d5557f679a0b0d1d517cd11d1cc3520c31016893aa06aa6a3f052",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-02-a-walk-through-camp",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-02-a-walk-through-camp.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2487057,
+      "sha256": "9046709ccd0ee2dac8ed89ac81980411c453a3ff518a668cbf135ec75af55364",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-07-the-horses-fight-back",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-07-the-horses-fight-back.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3533479,
+      "sha256": "414762dd8a863318b4248bb4abd7d553c2893af43eddf700af5e7fca3abdc613",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-party-retro-action-cartoon-v2",
+      "description": "Lucien appears in the shared six-member retro cartoon party illustration; full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/party-retro-action-cartoon-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2804967,
+      "sha256": "57c26377c7f1bcd90e2fd6b02a0ed392bf76be445e6fdf4ac11c7a287b690e35",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "species": "aasimar",
+  "class": "sorcerer",
+  "party_status": "party member",
+  "appearance": {
+    "build": "Humanlike, average-to-tall proportions.",
+    "skin": "Dark brown to Black complexion.",
+    "hair": "Short, tightly cropped black hair.",
+    "facial_hair": "Short, neatly trimmed black beard and mustache, with light cheek stubble.",
+    "face": "Dark brown eyes, strong eyebrows, a defined jaw, and a composed, charismatic expression.",
+    "clothing": "Dark crimson and purple robes with gold details.",
+    "vibe": "Stylish, charismatic, and powerful spellcaster."
+  },
+  "magic_visuals": "Bright, vivid arcane spell effects.",
+  "class_correction": "Sorcerer, not monk.",
+  "visual_reference": "User-provided portrait reference for Lucien's short cropped hair and close-trimmed beard; retain his established dark complexion and fantasy clothing.",
+  "visual_reference_image": "public/assets/references/lucien-visual-reference.png",
+  "visual_identifiers": [
+    "short, closely cropped black hair",
+    "dark skin",
+    "short trimmed beard and mustache",
+    "crimson and purple robes with gold details"
+  ],
+  "unknowns": [
+    "age",
+    "exact height and build",
+    "specific spells",
+    "equipment"
+  ],
+  "sheet_name": "Lucien",
+  "subspecies": "Fernian Aasimar",
+  "subclass": "Shadow Sorcery",
+  "proficiencies": {
+    "weapons": [
+      "Simple Weapons"
+    ],
+    "languages": [
+      "Common",
+      "Draconic",
+      "Thayan"
+    ],
+    "skill_proficiencies": [
+      "Arcana",
+      "Intimidation",
+      "Performance",
+      "Stealth"
+    ]
+  },
+  "sheet_snapshot": {
+    "source": "https://www.dndbeyond.com/characters/159881477",
+    "retrieved_on": "2026-10-29",
+    "level": 4,
+    "ability_scores": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 18
+    },
+    "combat": {
+      "armor_class": 12,
+      "hit_points_current": 10,
+      "hit_points_max": 26,
+      "initiative": 2,
+      "proficiency_bonus": 2,
+      "speed_ft": 30,
+      "passive_perception": 11,
+      "passive_investigation": 10,
+      "passive_insight": 11
+    },
+    "saving_throws": {
+      "strength": -1,
+      "dexterity": 2,
+      "constitution": 4,
+      "intelligence": 0,
+      "wisdom": 1,
+      "charisma": 6
+    },
+    "spellcasting": {
+      "spell_attack_bonus": 6,
+      "spell_save_dc": 14,
+      "metamagic": [
+        "Seeking Spell",
+        "Quickened Spell"
+      ]
+    },
+    "cantrips": [
+      "Acid Splash",
+      "Aegir’s Breath",
+      "Confounding Shadows",
+      "Finger Guns",
+      "Pins & Needles",
+      "Produce Flame",
+      "Ray of Frost"
+    ],
+    "level_1_spells": [
+      "Bane",
+      "Catapult",
+      "Chaos Bolt",
+      "Disguise Self",
+      "False Life",
+      "Illusory Script",
+      "Inflict Wounds",
+      "Mage Armor",
+      "Magic Missile",
+      "Tide of Darkness"
+    ],
+    "level_2_spells": [
+      "Darkness",
+      "Invisibility",
+      "Misty Step",
+      "Pass without Trace",
+      "Shielding Word"
+    ],
+    "class_features": [
+      "Innate Sorcery",
+      "Font of Magic",
+      "Shadow Sorcery",
+      "Eyes of the Dark"
+    ],
+    "feats_and_sources": [
+      "Magic Initiate (Wizard)",
+      "Shadow Touched",
+      "Flame Bearer"
+    ],
+    "notable_items": [
+      "Three Daggers",
+      "Spear",
+      "Crystal Arcane Focus",
+      "Devil Mask",
+      "Emerald Pen"
+    ],
+    "currency": {
+      "gold": 146,
+      "silver": 4
+    },
+    "notes": [
+      "Current hit points are a session-time snapshot. Sheet includes several custom or setting-specific spell names; preserve their listed names."
+    ]
+  },
+  "events": [
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Joined the Three-Dragon Ante gathering after Arietta drew him toward an open seat."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Walked with Arietta and discussed his past and bloodline magic; sensed she might be concealing something."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "While invisible, searched Arietta and Zelina's belongings, found a healing potion and journal, and left a disguised note in the journal."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Killed a rushing spider with a hurled object and later struck an ettercap with another."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Killed the ettercap that was dragging a horse toward the forest, preventing it from carrying the horse away."
+    }
+  ]
+}

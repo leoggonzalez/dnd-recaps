@@ -1,0 +1,486 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "caravan-camp",
+    "name": "Woodland caravan camp",
+    "category": "environments",
+    "description": "Empty woodland clearing at dusk, warm lantern light and subdued blue hills; three independently composed layers.",
+    "style": "parchment-ink-v1",
+    "references": [],
+    "tags": [
+      "camp",
+      "dusk",
+      "caravan",
+      "woodland"
+    ],
+    "reuseWhen": "Reuse the three matching layers together for woodland caravan evenings; keep the shared horizon, warm left light and overscan.",
+    "assets": [
+      {
+        "id": "camp-far",
+        "description": "Opaque dusk sky, distant trees/hills and reconstructed empty ground.",
+        "sourcePath": "public/assets/sources/camp-far-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "id": "camp-middle",
+        "description": "Transparent covered wagons at the sides with a small hanging lantern.",
+        "sourcePath": "public/assets/sources/camp-middle-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "id": "camp-near",
+        "description": "Transparent corner grasses, brambles and overhanging twigs.",
+        "sourcePath": "public/assets/sources/camp-near-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "tangled-forest",
+    "name": "Tangled woodland road",
+    "category": "environments",
+    "description": "Ochre road under a dense moss-and-blue canopy; transparent side trunks and fine near webbing.",
+    "style": "parchment-ink-v1",
+    "references": [],
+    "tags": [
+      "forest",
+      "road",
+      "webs",
+      "daylight"
+    ],
+    "reuseWhen": "Reuse for subdued woodland ambushes; match perspective and road direction. Webs are visual dressing, not proof of an encounter.",
+    "assets": [
+      {
+        "id": "forest-far",
+        "description": "Opaque distant canopy and continuous empty dirt road.",
+        "sourcePath": "public/assets/sources/forest-far-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "id": "forest-middle",
+        "description": "Transparent gnarled trunks, roots and upper branches.",
+        "sourcePath": "public/assets/sources/forest-middle-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      {
+        "id": "forest-near",
+        "description": "Transparent corner thorns, roots and sparse silk strands.",
+        "sourcePath": "public/assets/sources/forest-near-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "three-dragon-ante",
+    "name": "Three-Dragon Ante gathering",
+    "category": "groups",
+    "description": "Grouped game crate, cards, Samardag/Radecere with indistinct faces, and watchful Sulesdeg/Tyjit. Cannot separate individual figures from this bitmap.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/model/npcs/sulesdeg-the-pole.json",
+      "src/model/npcs/tyjit-skesh.json"
+    ],
+    "tags": [
+      "camp",
+      "cards",
+      "samardag",
+      "radecere",
+      "sulesdeg",
+      "tyjit"
+    ],
+    "reuseWhen": "Reuse only when these four people gather at the same game. Traveller appearances are provisional; no claim of approved individual portraits.",
+    "assets": [
+      {
+        "id": "camp-game",
+        "description": "Seated card players with coin pouches; two guards stand watching and do not play.",
+        "sourcePath": "public/assets/sources/camp-game-v1.png",
+        "width": 900,
+        "height": 600,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        },
+        "status": "retired"
+      },
+      {
+        "id": "camp-game-refined",
+        "description": "Selected card-game group with the dwarf guard’s stern face clearly rendered; travellers remain indistinct.",
+        "sourcePath": "public/assets/sources/camp-game-refined-v1.png",
+        "width": 900,
+        "height": 600,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        },
+        "status": "prototype"
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "arietta-lucien",
+    "name": "Arietta and Lucien walking",
+    "category": "groups",
+    "description": "Arietta holds Lucien’s forearm; grouped walking pose preserves their interaction.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/model/characters/lucien.json",
+      "public/assets/references/lucien-visual-reference.png",
+      "src/model/npcs/arietta-innevar.json"
+    ],
+    "tags": [
+      "arietta",
+      "lucien",
+      "walking",
+      "camp"
+    ],
+    "reuseWhen": "Reuse for the pair walking calmly toward screen left. Lucien has cropped hair and trimmed beard; Arietta has olive cloak and blue-gray scarf.",
+    "assets": [
+      {
+        "id": "arietta-lucien",
+        "description": "Full-body paired walking cutout; no spell effect or extra props.",
+        "sourcePath": "public/assets/sources/arietta-lucien-v1.png",
+        "width": 640,
+        "height": 768,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "balerias",
+    "name": "Balerias Chukk",
+    "category": "characters",
+    "description": "Elderly rugged ranger, long gray hair/beard, brass mechanical eye, worn moss-brown gear and oversized crossbow on his back.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/model/characters/balerias.json"
+    ],
+    "tags": [
+      "balerias",
+      "ranger",
+      "offering",
+      "food"
+    ],
+    "reuseWhen": "Reuse for calm feeding/offering actions with these clothes and equipment. Both poses share one frame and foot anchor.",
+    "assets": [
+      {
+        "id": "balerias-ready",
+        "description": "Patient crouched stance, food held near his chest.",
+        "sourcePath": "public/assets/sources/balerias-ready-v1.png",
+        "width": 600,
+        "height": 800,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        }
+      },
+      {
+        "id": "balerias-offering",
+        "description": "Same frame with right arm extended toward screen right to offer food.",
+        "sourcePath": "public/assets/sources/balerias-offering-v1.png",
+        "width": 600,
+        "height": 800,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "oyn-evenmor",
+    "name": "Oyn Evenmor",
+    "category": "npcs",
+    "description": "Broad graying wagon master with salt-and-pepper beard, cream tunic, green shawl, red sash, staff and small bird-cage rack.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/model/npcs/oyn-evenmor.json"
+    ],
+    "tags": [
+      "oyn",
+      "birds",
+      "staff",
+      "watching"
+    ],
+    "reuseWhen": "Reuse for Oyn watching cautiously at a safe distance; bird species remain unspecified.",
+    "assets": [
+      {
+        "id": "oyn",
+        "description": "Full-body cautious watcher facing right with staff and small caged birds.",
+        "sourcePath": "public/assets/sources/oyn-v1.png",
+        "width": 420,
+        "height": 630,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "lucien",
+    "name": "Lucien",
+    "category": "characters",
+    "description": "Dark-skinned sorcerer with cropped black hair, short trimmed beard, crimson-purple robes and gold details.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/model/characters/lucien.json",
+      "public/assets/references/lucien-visual-reference.png"
+    ],
+    "tags": [
+      "lucien",
+      "sorcerer",
+      "hurling",
+      "casting"
+    ],
+    "reuseWhen": "Reuse for a spell-assisted hurling action toward screen right. Attached stone/swirl is visual shorthand, not confirmation of a particular named spell.",
+    "assets": [
+      {
+        "id": "lucien-casting",
+        "description": "Full-body rightward casting/hurling pose with small loose stone and restrained ink swirl.",
+        "sourcePath": "public/assets/sources/lucien-casting-v1.png",
+        "width": 600,
+        "height": 720,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "peryton",
+    "name": "Captive peryton",
+    "category": "creatures",
+    "description": "Provisional standard antlered feathered predator interpretation, folded wings, taloned legs and tiny amber eye reflection.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/data/sessions/28.10.2026.md"
+    ],
+    "tags": [
+      "peryton",
+      "antlers",
+      "feathers",
+      "calm"
+    ],
+    "reuseWhen": "Reuse as this provisional peryton when cautious and calm, facing left. Do not treat the eye glimmer as explained magic.",
+    "assets": [
+      {
+        "id": "peryton",
+        "description": "Full-body wary peryton lowering its head toward an offering.",
+        "sourcePath": "public/assets/sources/peryton-v1.png",
+        "width": 640,
+        "height": 427,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "animal-cage",
+    "name": "Travelling animal cage",
+    "category": "objects",
+    "description": "Matched rear assembly and front gate planes for correct cage/animal depth ordering.",
+    "style": "parchment-ink-v1",
+    "references": [],
+    "tags": [
+      "cage",
+      "bars",
+      "wood",
+      "iron"
+    ],
+    "reuseWhen": "Reuse rear at depth 35 and front at 45, placing the animal between them. Keep matching scale, frame, anchor and perspective.",
+    "assets": [
+      {
+        "id": "cage-rear",
+        "description": "Empty roof/floor, rear bars and side posts, open front plane.",
+        "sourcePath": "public/assets/sources/cage-rear-v1.png",
+        "width": 800,
+        "height": 600,
+        "kind": "prop",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.92
+        }
+      },
+      {
+        "id": "cage-front",
+        "description": "Front corner posts, thin iron bars and gate rim only; interior gaps transparent.",
+        "sourcePath": "public/assets/sources/cage-front-v1.png",
+        "width": 800,
+        "height": 600,
+        "kind": "prop",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.92
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "webbed-horse",
+    "name": "Horse wrapped in silk",
+    "category": "creatures",
+    "description": "Unnamed caravan horse grouped with harness, body webbing and silk tether; monochrome sepia avoids declaring a canonical coat.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/data/sessions/28.10.2026.md"
+    ],
+    "tags": [
+      "horse",
+      "webbed",
+      "harness",
+      "rescue"
+    ],
+    "reuseWhen": "Reuse for an unnamed living horse under restraint, facing right. Do not identify it as Strawberry Three or Mo Two without source support.",
+    "assets": [
+      {
+        "id": "webbed-horse",
+        "description": "Full-body braced horse and silk tether, no visible injury.",
+        "sourcePath": "public/assets/sources/webbed-horse-v1.png",
+        "width": 720,
+        "height": 480,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "ettercap",
+    "name": "Horse-dragging ettercap",
+    "category": "creatures",
+    "description": "One long-limbed coarse-haired spiderlike humanoid with mandibles; dragging and non-graphic defeated poses.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/data/sessions/28.10.2026.md"
+    ],
+    "tags": [
+      "ettercap",
+      "silk",
+      "dragging",
+      "defeated"
+    ],
+    "reuseWhen": "Reuse as one continuous creature instance; a pose swap is not a second enemy. Keep existing encounter counts and do not resurrect defeated individuals.",
+    "assets": [
+      {
+        "id": "ettercap-dragging",
+        "description": "Braced left-facing creature pulling a silk tether.",
+        "sourcePath": "public/assets/sources/ettercap-dragging-v1.png",
+        "width": 720,
+        "height": 540,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.65,
+          "y": 0.72
+        }
+      },
+      {
+        "id": "ettercap-fallen",
+        "description": "Same creature collapsed with slack limbs and dropped silk; no gore.",
+        "sourcePath": "public/assets/sources/ettercap-fallen-v1.png",
+        "width": 720,
+        "height": 540,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.65,
+          "y": 0.72
+        }
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "horses-counterattack",
+    "name": "Caravan horses fighting back",
+    "category": "groups",
+    "description": "Two unnamed sepia caravan horses counterattack one spider; tightly grouped secondary battle beat.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/data/sessions/28.10.2026.md"
+    ],
+    "tags": [
+      "horse",
+      "kick",
+      "spider",
+      "counterattack",
+      "battle"
+    ],
+    "reuseWhen": "Reuse as the supporting horse/spider beat in this encounter; unnamed horses do not establish coats or assign a precise named target. Do not clone the group into extra enemies.",
+    "assets": [
+      {
+        "id": "horses-counterattack",
+        "description": "One horse kicks a recoiling spider while a second raises a forehoof; non-graphic midground cutout.",
+        "sourcePath": "public/assets/sources/horses-counterattack-v1.png",
+        "width": 720,
+        "height": 480,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.83
+        },
+        "status": "prototype"
+      }
+    ]
+  }
+]

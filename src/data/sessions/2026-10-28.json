@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-10-28",
+  "title": "A little luck, a little silk",
+  "date": "2026-10-28",
+  "displayDate": "28.10.2026",
+  "inWorldDate": "6 Ches 1492 DR",
+  "location": "Road from Baldur’s Gate to Waterdeep",
+  "summary": "Questions by lanternlight. Three suspicious wagons. A forest that wants the horses.",
+  "status": "draft",
+  "coverAssetId": "camp-far",
+  "assets": [
+    {
+      "id": "camp-far",
+      "path": "assets/environments/camp-far-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 325366,
+      "sha256": "b5f22a27bc2b8f1653877560d493bfb0aa307f78280f11a76ddda2051ff90369",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "camp-middle",
+      "path": "assets/environments/camp-middle-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 188980,
+      "sha256": "6326f58cc184829d3267421172be9cd13dc8c3de00f68f54c27a91e8bb0de877",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "camp-near",
+      "path": "assets/environments/camp-near-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 199370,
+      "sha256": "242114727e25f00b7ef67a622b3e9fcba5d155d33e9bf651dc9b41ee35d00639",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "forest-far",
+      "path": "assets/environments/forest-far-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 350980,
+      "sha256": "4cc450585d6f4c56855ca93a2f1259e27170ee689d52af07d23a3b94b09ed92d",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "forest-middle",
+      "path": "assets/environments/forest-middle-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 467262,
+      "sha256": "e31a88cbb9f267882a964d20b9b7484416980b1e786a8e809de3b6323a944ada",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "forest-near",
+      "path": "assets/environments/forest-near-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 141306,
+      "sha256": "933a5a04dfb3e0e319e2182d0b5773b4263df54c3026dfb4619ee144b2ff10c3",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "camp-game-refined",
+      "path": "assets/groups/camp-game-refined-v1.webp",
+      "width": 900,
+      "height": 600,
+      "bytes": 136640,
+      "sha256": "7b740e9a178c96e9672f762b387310a2ecb0847994d9da65017a0452544f70c3",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "arietta-lucien",
+      "path": "assets/groups/arietta-lucien-v1.webp",
+      "width": 640,
+      "height": 768,
+      "bytes": 135842,
+      "sha256": "79c9d742be9ccb9f9e139015cd67b5eda738f4352336099e60b79ceb460777ee",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "oyn",
+      "path": "assets/npcs/oyn-v1.webp",
+      "width": 420,
+      "height": 630,
+      "bytes": 83104,
+      "sha256": "dd73116b779f792c7a7592323598895ada9b746a3e65d92d8c45993cecb674d9",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "cage-rear",
+      "path": "assets/objects/cage-rear-v1.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 146068,
+      "sha256": "5c818fe8e448e63e1536e866de455040c2f728ed875841a40f209bce144fa9f7",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.92
+      }
+    },
+    {
+      "id": "peryton",
+      "path": "assets/creatures/peryton-v1.webp",
+      "width": 640,
+      "height": 427,
+      "bytes": 84320,
+      "sha256": "ca419243c2b34d9ed2decf5c556185e4abfe51b2f036b7465be436b6be2b8c32",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "cage-front",
+      "path": "assets/objects/cage-front-v1.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 62132,
+      "sha256": "da3af1dba78d14f3a91c9beabe510f3e0e066b4eee842695e1f92c2cd3497b24",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.92
+      }
+    },
+    {
+      "id": "balerias-ready",
+      "path": "assets/characters/balerias-ready-v1.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 152768,
+      "sha256": "c8bee4ad3f7422d6968f3fbc2cc8f1f8ea8aad34ff82ee54a1fa2ea842383ada",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "balerias-offering",
+      "path": "assets/characters/balerias-offering-v1.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 136902,
+      "sha256": "619f13ccc728f6bd22020befca2dfb580c150a8383f1f025e91d743d0260dde5",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "horses-counterattack",
+      "path": "assets/groups/horses-counterattack-v1.webp",
+      "width": 720,
+      "height": 480,
+      "bytes": 91952,
+      "sha256": "343cb144d7842ee31749551f64af8dd03a5f462b20caa0c6d80f902150f70871",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.83
+      }
+    },
+    {
+      "id": "lucien-casting",
+      "path": "assets/characters/lucien-casting-v1.webp",
+      "width": 600,
+      "height": 720,
+      "bytes": 75594,
+      "sha256": "96bde4e072043068cc81166a4e043279c1732fa10a15623b418ebdd405035244",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "webbed-horse",
+      "path": "assets/creatures/webbed-horse-v1.webp",
+      "width": 720,
+      "height": 480,
+      "bytes": 112618,
+      "sha256": "a2240bd0cae243b854132e9e7c9816fa485b645c91ed7d64d3c5e65e202e2d3a",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "ettercap-dragging",
+      "path": "assets/creatures/ettercap-dragging-v1.webp",
+      "width": 720,
+      "height": 540,
+      "bytes": 81848,
+      "sha256": "22778aa69961204156521c5656477995dd3aae6ac06b925448a6dfb7c6167c18",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.65,
+        "y": 0.72
+      }
+    },
+    {
+      "id": "ettercap-fallen",
+      "path": "assets/creatures/ettercap-fallen-v1.webp",
+      "width": 720,
+      "height": 540,
+      "bytes": 58122,
+      "sha256": "1e3546ef72978aaf3b5ebc63fae31f5844f980d7159bfc18f0ff2e72f700de5c",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.65,
+        "y": 0.72
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "caravan-camp",
+      "name": "Woodland caravan camp",
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "camp-far",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "camp-middle",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "camp-near",
+          "zIndex": 80
+        }
+      ],
+      "overscan": 48,
+      "cameraLimit": 32
+    },
+    {
+      "id": "tangled-forest",
+      "name": "Tangled woodland road",
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "forest-far",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "forest-middle",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "forest-near",
+          "zIndex": 80
+        }
+      ],
+      "overscan": 48,
+      "cameraLimit": 32
+    }
+  ],
+  "scenes": [
+    {
+      "id": "a-little-luck",
+      "title": "A little luck",
+      "environmentId": "caravan-camp",
+      "description": "Camp layers drift gently; pouch rises; Arietta and Lucien move toward the game. Guards remain watchful.",
+      "durationMs": 4800,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "Samardag invited the caravan to Three-Dragon Ante. Radecere arrived with a surprisingly substantial purse.",
+          "delayMs": 150,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "Arietta drew Lucien toward a seat. Sulesdeg and Tyjit watched without joining.",
+          "delayMs": 850,
+          "durationMs": 450
+        }
+      ],
+      "actors": [
+        {
+          "id": "card-game",
+          "assetId": "camp-game-refined",
+          "position": {
+            "x": 770,
+            "y": 850
+          },
+          "width": 960,
+          "zIndex": 40,
+          "poses": []
+        },
+        {
+          "id": "arriving-pair",
+          "assetId": "arietta-lucien",
+          "position": {
+            "x": 1440,
+            "y": 930
+          },
+          "width": 510,
+          "zIndex": 50,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 90,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 300,
+            "durationMs": 2300,
+            "easing": "ease-out"
+          }
+        }
+      ],
+      "reducedMotion": "final",
+      "artwork": "prototype"
+    },
+    {
+      "id": "a-walk-through-camp",
+      "title": "A walk through camp",
+      "environmentId": "caravan-camp",
+      "description": "Two cutouts move together a short distance through the lantern-lit camp and settle.",
+      "durationMs": 4800,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "By lanternlight, Arietta asked about Lucien’s past and the magic in his bloodline.",
+          "delayMs": 150,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "Lucien sensed she was concealing something. He could not yet say what.",
+          "delayMs": 850,
+          "durationMs": 450
+        }
+      ],
+      "actors": [
+        {
+          "id": "walking-pair",
+          "assetId": "arietta-lucien",
+          "position": {
+            "x": 960,
+            "y": 950
+          },
+          "width": 610,
+          "zIndex": 45,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 70,
+              "y": 0
+            },
+            "to": {
+              "x": -30,
+              "y": 0
+            },
+            "delayMs": 100,
+            "durationMs": 3500,
+            "easing": "ease-out"
+          }
+        }
+      ],
+      "reducedMotion": "final",
+      "artwork": "prototype"
+    },
+    {
+      "id": "an-offering-for-the-peryton",
+      "title": "An offering for the peryton",
+      "environmentId": "caravan-camp",
+      "description": "Balerias changes to offering pose; peryton approaches behind cage bars; subtle glimmer appears.",
+      "durationMs": 4800,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "Balerias extended food through the cage while Oyn kept a safer distance.",
+          "delayMs": 150,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "The peryton accepted and stayed close. Something glimmered strangely in its eyes.",
+          "delayMs": 850,
+          "durationMs": 450
+        }
+      ],
+      "actors": [
+        {
+          "id": "oyn-watching",
+          "assetId": "oyn",
+          "position": {
+            "x": 310,
+            "y": 825
+          },
+          "width": 290,
+          "zIndex": 30,
+          "poses": []
+        },
+        {
+          "id": "cage-rear",
+          "assetId": "cage-rear",
+          "position": {
+            "x": 1290,
+            "y": 880
+          },
+          "width": 860,
+          "zIndex": 35,
+          "poses": []
+        },
+        {
+          "id": "captive-peryton",
+          "assetId": "peryton",
+          "position": {
+            "x": 1315,
+            "y": 810
+          },
+          "width": 610,
+          "zIndex": 40,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 55,
+              "y": 0
+            },
+            "to": {
+              "x": -25,
+              "y": 0
+            },
+            "delayMs": 1500,
+            "durationMs": 1800,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "cage-front",
+          "assetId": "cage-front",
+          "position": {
+            "x": 1290,
+            "y": 880
+          },
+          "width": 860,
+          "zIndex": 45,
+          "poses": []
+        },
+        {
+          "id": "balerias-feeding",
+          "assetId": "balerias-ready",
+          "position": {
+            "x": 850,
+            "y": 930
+          },
+          "width": 400,
+          "zIndex": 50,
+          "poses": [
+            {
+              "assetId": "balerias-offering",
+              "startMs": 1200
+            }
+          ]
+        }
+      ],
+      "reducedMotion": "final",
+      "artwork": "prototype"
+    },
+    {
+      "id": "a-note-in-the-dark",
+      "title": "A note in the dark",
+      "environmentId": "sleeping-space",
+      "description": "Sleeping-space layers; journal and pen cutouts; pen moves over the page.",
+      "durationMs": 4800,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "Invisible, Lucien searched the sisters’ belongings and found a healing potion and a journal.",
+          "delayMs": 150,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "Its entries concealed familiar names behind descriptions. On the final page, he disguised his handwriting:",
+          "delayMs": 850,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-3",
+          "text": "“I know what you are doing.”",
+          "delayMs": 1550,
+          "durationMs": 450
+        }
+      ],
+      "actors": [],
+      "reducedMotion": "final",
+      "artwork": "planned"
+    },
+    {
+      "id": "counting-the-wagons",
+      "title": "Counting the wagons",
+      "environmentId": "woodland-road",
+      "description": "Exactly three guarded wagons recede behind Aldrik and Balerias as they discuss the unconfirmed decoy suspicion away from prying ears.",
+      "durationMs": 4800,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "Aldrik rode past three cult wagons, studying their disciplined watches. The middle wagon carried an extra traveller.",
+          "delayMs": 150,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "Could one be a decoy? For now, it was only a suspicion.",
+          "delayMs": 850,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-3",
+          "text": "Far from prying eyes, Aldrik and Balerias discussed the wagons.",
+          "delayMs": 1550,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-4",
+          "text": "They agreed that earning the cultists’ trust might help them follow if the wagons left the caravan.",
+          "delayMs": 2250,
+          "durationMs": 450
+        }
+      ],
+      "actors": [],
+      "reducedMotion": "final",
+      "artwork": "planned"
+    },
+    {
+      "id": "under-the-horses-neck",
+      "title": "Under the horse’s neck",
+      "environmentId": "tangled-forest",
+      "description": "Aldrik rides sideways and aims his light crossbow beneath his horse’s neck at a huge spider. Tangled forest and webs frame the attack; no additional kill is implied.",
+      "durationMs": 4800,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "The road narrowed beneath tangled branches. Webbing caught the horses; three ettercaps and huge spiders emerged.",
+          "delayMs": 150,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "The caravan fought back. From horseback, Aldrik sighted beneath his horse’s neck with his light crossbow.",
+          "delayMs": 850,
+          "durationMs": 450
+        }
+      ],
+      "actors": [],
+      "reducedMotion": "final",
+      "artwork": "planned"
+    },
+    {
+      "id": "the-horses-fight-back",
+      "title": "The horses fight back",
+      "environmentId": "tangled-forest",
+      "description": "Strawberry Three and Mo Two strike back at the spiders. Nearby, an ettercap drags a webbed horse; Lucien stops it before the horse can be taken away.",
+      "durationMs": 6000,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "The intended prey fought back. Strawberry Three kicked; Mo Two struck another attacker.",
+          "delayMs": 150,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "Pounding hooves helped bring down a great spider.",
+          "delayMs": 850,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-3",
+          "text": "An ettercap wrapped a horse in silk and began hauling it toward the forest.",
+          "delayMs": 1550,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-4",
+          "text": "Lucien killed the creature before it could carry the horse away.",
+          "delayMs": 2250,
+          "durationMs": 450
+        }
+      ],
+      "actors": [
+        {
+          "id": "horses-counterattack",
+          "assetId": "horses-counterattack",
+          "position": {
+            "x": 1420,
+            "y": 590
+          },
+          "width": 620,
+          "zIndex": 30,
+          "poses": [],
+          "motion": {
+            "preset": "recoil",
+            "from": {
+              "x": -12,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 300,
+            "durationMs": 700,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "lucien-rescuing",
+          "assetId": "lucien-casting",
+          "position": {
+            "x": 390,
+            "y": 950
+          },
+          "width": 500,
+          "zIndex": 50,
+          "poses": [],
+          "motion": {
+            "preset": "lunge",
+            "from": {
+              "x": -10,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1800,
+            "durationMs": 450,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "silk-bound-horse",
+          "assetId": "webbed-horse",
+          "position": {
+            "x": 1050,
+            "y": 900
+          },
+          "width": 760,
+          "zIndex": 40,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 0,
+              "y": 0
+            },
+            "to": {
+              "x": 55,
+              "y": 0
+            },
+            "delayMs": 300,
+            "durationMs": 1700,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "horse-dragger",
+          "assetId": "ettercap-dragging",
+          "position": {
+            "x": 1570,
+            "y": 910
+          },
+          "width": 650,
+          "zIndex": 45,
+          "poses": [
+            {
+              "assetId": "ettercap-fallen",
+              "startMs": 2400
+            }
+          ]
+        }
+      ],
+      "reducedMotion": "final",
+      "artwork": "prototype"
+    },
+    {
+      "id": "the-cocoons-secret",
+      "title": "The cocoon’s secret",
+      "environmentId": "tangled-forest",
+      "description": "Web cover shifts away; hand and scroll become visible; final slow drift emphasizes the discovery.",
+      "durationMs": 4800,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "Balerias cut open a cocoon. A dead woman lay inside, clutching a scroll.",
+          "delayMs": 150,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "The company recovered it, a silver cloak pin, and seventy-six gold pieces.",
+          "delayMs": 850,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-3",
+          "text": "What the scroll contained—and why she had held it so tightly—remained unknown.",
+          "delayMs": 1550,
+          "durationMs": 450
+        }
+      ],
+      "actors": [],
+      "reducedMotion": "final",
+      "artwork": "planned"
+    }
+  ]
+}

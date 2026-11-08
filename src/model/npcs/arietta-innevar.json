@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "arietta-innevar",
+  "name": "Arietta Innevar",
+  "category": "npcs",
+  "description": "traveller",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "arietta-innevar"
+  ],
+  "reuseWhen": "Consult the appearance, equipment and events in this record before reusing any image.",
+  "assets": [
+    {
+      "id": "arietta-lucien",
+      "description": "Arietta leading Lucien by the arm; shared paired bitmap, not an isolated Arietta pose.",
+      "sourcePath": "public/assets/sources/arietta-lucien-v1.png",
+      "width": 640,
+      "height": 768,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/groups/arietta-lucien-v1.webp",
+      "bytes": 135842,
+      "sha256": "79c9d742be9ccb9f9e139015cd67b5eda738f4352336099e60b79ceb460777ee",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 135842,
+        "nearLosslessBytes": 395136
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-01-a-little-luck",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-01-a-little-luck.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2244859,
+      "sha256": "c5e45f217c6d5557f679a0b0d1d517cd11d1cc3520c31016893aa06aa6a3f052",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-02-a-walk-through-camp",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-02-a-walk-through-camp.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2487057,
+      "sha256": "9046709ccd0ee2dac8ed89ac81980411c453a3ff518a668cbf135ec75af55364",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "character_type": "npc",
+  "species": "human",
+  "role": "traveller",
+  "relationship": [
+    {
+      "person": "sister",
+      "name": "Zelina Innevar"
+    }
+  ],
+  "appearance": {
+    "depiction": "Adult woman; exact age is unknown.",
+    "build": "Buxom.",
+    "hair": "Long auburn-brown hair, partly braided and worn loose around the face.",
+    "clothing": "Layered, worn travel clothes in muted cream, blue-gray, and brown, with an olive-green hooded cloak and blue-gray scarf.",
+    "gear": [
+      "Leather belt and pouches",
+      "Worn bracers and boots",
+      "Travel pack with a bedroll",
+      "Coiled rope"
+    ],
+    "vibe": "Charming and approachable, with a quietly observant quality."
+  },
+  "manner": "Buxom and charming; asks travellers about their pasts, plans, and families.",
+  "visual_reference": "Appearance transcribed from a user-provided character-card image.",
+  "unknowns": [
+    "exact age",
+    "height",
+    "eye color",
+    "background beyond being a traveller",
+    "whether the pictured clothing and gear are her usual attire"
+  ],
+  "events": [
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Drew Lucien toward a Three-Dragon Ante game, believing he would be lucky."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Walked with Lucien and asked about his past and bloodline magic; her curiosity sharpened when he explained his magic."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "While she slept, Lucien searched her and Zelina's belongings and left a disguised note in the journal he found."
+    }
+  ]
+}

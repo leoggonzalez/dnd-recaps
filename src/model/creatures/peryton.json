@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "peryton",
+  "name": "Captive peryton",
+  "category": "creatures",
+  "description": "Provisional standard antlered feathered predator interpretation, folded wings, taloned legs and tiny amber eye reflection.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "peryton",
+    "antlers",
+    "feathers",
+    "calm"
+  ],
+  "reuseWhen": "Reuse as this provisional peryton when cautious and calm, facing left. Do not treat the eye glimmer as explained magic.",
+  "assets": [
+    {
+      "id": "peryton",
+      "description": "Full-body wary peryton lowering its head toward an offering.",
+      "sourcePath": "public/assets/sources/peryton-v1.png",
+      "width": 640,
+      "height": 427,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/creatures/peryton-v1.webp",
+      "bytes": 84320,
+      "sha256": "ca419243c2b34d9ed2decf5c556185e4abfe51b2f036b7465be436b6be2b8c32",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 84320,
+        "nearLosslessBytes": 208328
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "legacy-scene-03-a-cautious-offering",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-03-a-cautious-offering.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2704774,
+      "sha256": "e4d03adfac6af101d6fdc3833c61b45f112a9bc1895d425647cbe3fd1077bee0",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ]
+}

@@ -1,0 +1,1475 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "parchment-ink-v1",
+            "legacy"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(src\\/(model|data)|public\\/assets)\\/[a-zA-Z0-9_./-]+\\.(json|md|png|webp)$"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reuseWhen": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/[a-zA-Z0-9_./-]+\\.(webp|png)$"
+              },
+              "sourcePath": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/sources\\/[a-z0-9-]+-v\\d+\\.png$"
+              },
+              "width": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "height": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "bytes": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "background",
+                  "cutout",
+                  "prop",
+                  "effect",
+                  "cover",
+                  "reference",
+                  "illustration"
+                ]
+              },
+              "anchor": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ],
+                "additionalProperties": false
+              },
+              "hasAlpha": {
+                "type": "boolean"
+              },
+              "encoding": {
+                "type": "string",
+                "enum": [
+                  "lossy-webp",
+                  "original-png"
+                ]
+              },
+              "version": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "prototype",
+                  "approved",
+                  "retired",
+                  "reference"
+                ]
+              },
+              "usage": {
+                "type": "string",
+                "enum": [
+                  "standalone",
+                  "shared-composition",
+                  "portrait-reference"
+                ]
+              },
+              "alternatives": {
+                "type": "object",
+                "properties": {
+                  "lossyBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "nearLosslessBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "lossyBytes",
+                  "nearLosslessBytes"
+                ],
+                "additionalProperties": false
+              },
+              "provenance": {
+                "type": "string",
+                "pattern": "^src\\/data\\/[a-zA-Z0-9_./-]+\\.json$"
+              }
+            },
+            "required": [
+              "id",
+              "description",
+              "path",
+              "width",
+              "height",
+              "bytes",
+              "sha256",
+              "kind",
+              "anchor",
+              "hasAlpha",
+              "encoding",
+              "version",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "category": {
+          "type": "string",
+          "const": "characters"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "name",
+        "description",
+        "style",
+        "references",
+        "tags",
+        "reuseWhen",
+        "assets",
+        "category"
+      ],
+      "additionalProperties": {}
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "parchment-ink-v1",
+            "legacy"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(src\\/(model|data)|public\\/assets)\\/[a-zA-Z0-9_./-]+\\.(json|md|png|webp)$"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reuseWhen": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/[a-zA-Z0-9_./-]+\\.(webp|png)$"
+              },
+              "sourcePath": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/sources\\/[a-z0-9-]+-v\\d+\\.png$"
+              },
+              "width": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "height": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "bytes": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "background",
+                  "cutout",
+                  "prop",
+                  "effect",
+                  "cover",
+                  "reference",
+                  "illustration"
+                ]
+              },
+              "anchor": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ],
+                "additionalProperties": false
+              },
+              "hasAlpha": {
+                "type": "boolean"
+              },
+              "encoding": {
+                "type": "string",
+                "enum": [
+                  "lossy-webp",
+                  "original-png"
+                ]
+              },
+              "version": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "prototype",
+                  "approved",
+                  "retired",
+                  "reference"
+                ]
+              },
+              "usage": {
+                "type": "string",
+                "enum": [
+                  "standalone",
+                  "shared-composition",
+                  "portrait-reference"
+                ]
+              },
+              "alternatives": {
+                "type": "object",
+                "properties": {
+                  "lossyBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "nearLosslessBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "lossyBytes",
+                  "nearLosslessBytes"
+                ],
+                "additionalProperties": false
+              },
+              "provenance": {
+                "type": "string",
+                "pattern": "^src\\/data\\/[a-zA-Z0-9_./-]+\\.json$"
+              }
+            },
+            "required": [
+              "id",
+              "description",
+              "path",
+              "width",
+              "height",
+              "bytes",
+              "sha256",
+              "kind",
+              "anchor",
+              "hasAlpha",
+              "encoding",
+              "version",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "category": {
+          "type": "string",
+          "const": "npcs"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "name",
+        "description",
+        "style",
+        "references",
+        "tags",
+        "reuseWhen",
+        "assets",
+        "category"
+      ],
+      "additionalProperties": {}
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "parchment-ink-v1",
+            "legacy"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(src\\/(model|data)|public\\/assets)\\/[a-zA-Z0-9_./-]+\\.(json|md|png|webp)$"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reuseWhen": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/[a-zA-Z0-9_./-]+\\.(webp|png)$"
+              },
+              "sourcePath": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/sources\\/[a-z0-9-]+-v\\d+\\.png$"
+              },
+              "width": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "height": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "bytes": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "background",
+                  "cutout",
+                  "prop",
+                  "effect",
+                  "cover",
+                  "reference",
+                  "illustration"
+                ]
+              },
+              "anchor": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ],
+                "additionalProperties": false
+              },
+              "hasAlpha": {
+                "type": "boolean"
+              },
+              "encoding": {
+                "type": "string",
+                "enum": [
+                  "lossy-webp",
+                  "original-png"
+                ]
+              },
+              "version": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "prototype",
+                  "approved",
+                  "retired",
+                  "reference"
+                ]
+              },
+              "usage": {
+                "type": "string",
+                "enum": [
+                  "standalone",
+                  "shared-composition",
+                  "portrait-reference"
+                ]
+              },
+              "alternatives": {
+                "type": "object",
+                "properties": {
+                  "lossyBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "nearLosslessBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "lossyBytes",
+                  "nearLosslessBytes"
+                ],
+                "additionalProperties": false
+              },
+              "provenance": {
+                "type": "string",
+                "pattern": "^src\\/data\\/[a-zA-Z0-9_./-]+\\.json$"
+              }
+            },
+            "required": [
+              "id",
+              "description",
+              "path",
+              "width",
+              "height",
+              "bytes",
+              "sha256",
+              "kind",
+              "anchor",
+              "hasAlpha",
+              "encoding",
+              "version",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "category": {
+          "type": "string",
+          "const": "creatures"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "name",
+        "description",
+        "style",
+        "references",
+        "tags",
+        "reuseWhen",
+        "assets",
+        "category"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "parchment-ink-v1",
+            "legacy"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(src\\/(model|data)|public\\/assets)\\/[a-zA-Z0-9_./-]+\\.(json|md|png|webp)$"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reuseWhen": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/[a-zA-Z0-9_./-]+\\.(webp|png)$"
+              },
+              "sourcePath": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/sources\\/[a-z0-9-]+-v\\d+\\.png$"
+              },
+              "width": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "height": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "bytes": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "background",
+                  "cutout",
+                  "prop",
+                  "effect",
+                  "cover",
+                  "reference",
+                  "illustration"
+                ]
+              },
+              "anchor": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ],
+                "additionalProperties": false
+              },
+              "hasAlpha": {
+                "type": "boolean"
+              },
+              "encoding": {
+                "type": "string",
+                "enum": [
+                  "lossy-webp",
+                  "original-png"
+                ]
+              },
+              "version": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "prototype",
+                  "approved",
+                  "retired",
+                  "reference"
+                ]
+              },
+              "usage": {
+                "type": "string",
+                "enum": [
+                  "standalone",
+                  "shared-composition",
+                  "portrait-reference"
+                ]
+              },
+              "alternatives": {
+                "type": "object",
+                "properties": {
+                  "lossyBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "nearLosslessBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "lossyBytes",
+                  "nearLosslessBytes"
+                ],
+                "additionalProperties": false
+              },
+              "provenance": {
+                "type": "string",
+                "pattern": "^src\\/data\\/[a-zA-Z0-9_./-]+\\.json$"
+              }
+            },
+            "required": [
+              "id",
+              "description",
+              "path",
+              "width",
+              "height",
+              "bytes",
+              "sha256",
+              "kind",
+              "anchor",
+              "hasAlpha",
+              "encoding",
+              "version",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "category": {
+          "type": "string",
+          "const": "objects"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "name",
+        "description",
+        "style",
+        "references",
+        "tags",
+        "reuseWhen",
+        "assets",
+        "category"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "parchment-ink-v1",
+            "legacy"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(src\\/(model|data)|public\\/assets)\\/[a-zA-Z0-9_./-]+\\.(json|md|png|webp)$"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reuseWhen": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/[a-zA-Z0-9_./-]+\\.(webp|png)$"
+              },
+              "sourcePath": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/sources\\/[a-z0-9-]+-v\\d+\\.png$"
+              },
+              "width": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "height": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "bytes": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "background",
+                  "cutout",
+                  "prop",
+                  "effect",
+                  "cover",
+                  "reference",
+                  "illustration"
+                ]
+              },
+              "anchor": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ],
+                "additionalProperties": false
+              },
+              "hasAlpha": {
+                "type": "boolean"
+              },
+              "encoding": {
+                "type": "string",
+                "enum": [
+                  "lossy-webp",
+                  "original-png"
+                ]
+              },
+              "version": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "prototype",
+                  "approved",
+                  "retired",
+                  "reference"
+                ]
+              },
+              "usage": {
+                "type": "string",
+                "enum": [
+                  "standalone",
+                  "shared-composition",
+                  "portrait-reference"
+                ]
+              },
+              "alternatives": {
+                "type": "object",
+                "properties": {
+                  "lossyBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "nearLosslessBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "lossyBytes",
+                  "nearLosslessBytes"
+                ],
+                "additionalProperties": false
+              },
+              "provenance": {
+                "type": "string",
+                "pattern": "^src\\/data\\/[a-zA-Z0-9_./-]+\\.json$"
+              }
+            },
+            "required": [
+              "id",
+              "description",
+              "path",
+              "width",
+              "height",
+              "bytes",
+              "sha256",
+              "kind",
+              "anchor",
+              "hasAlpha",
+              "encoding",
+              "version",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "category": {
+          "type": "string",
+          "const": "environments"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "name",
+        "description",
+        "style",
+        "references",
+        "tags",
+        "reuseWhen",
+        "assets",
+        "category"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "parchment-ink-v1",
+            "legacy"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(src\\/(model|data)|public\\/assets)\\/[a-zA-Z0-9_./-]+\\.(json|md|png|webp)$"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reuseWhen": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/[a-zA-Z0-9_./-]+\\.(webp|png)$"
+              },
+              "sourcePath": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/sources\\/[a-z0-9-]+-v\\d+\\.png$"
+              },
+              "width": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "height": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "bytes": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "background",
+                  "cutout",
+                  "prop",
+                  "effect",
+                  "cover",
+                  "reference",
+                  "illustration"
+                ]
+              },
+              "anchor": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ],
+                "additionalProperties": false
+              },
+              "hasAlpha": {
+                "type": "boolean"
+              },
+              "encoding": {
+                "type": "string",
+                "enum": [
+                  "lossy-webp",
+                  "original-png"
+                ]
+              },
+              "version": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "prototype",
+                  "approved",
+                  "retired",
+                  "reference"
+                ]
+              },
+              "usage": {
+                "type": "string",
+                "enum": [
+                  "standalone",
+                  "shared-composition",
+                  "portrait-reference"
+                ]
+              },
+              "alternatives": {
+                "type": "object",
+                "properties": {
+                  "lossyBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "nearLosslessBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "lossyBytes",
+                  "nearLosslessBytes"
+                ],
+                "additionalProperties": false
+              },
+              "provenance": {
+                "type": "string",
+                "pattern": "^src\\/data\\/[a-zA-Z0-9_./-]+\\.json$"
+              }
+            },
+            "required": [
+              "id",
+              "description",
+              "path",
+              "width",
+              "height",
+              "bytes",
+              "sha256",
+              "kind",
+              "anchor",
+              "hasAlpha",
+              "encoding",
+              "version",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "category": {
+          "type": "string",
+          "const": "groups"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "name",
+        "description",
+        "style",
+        "references",
+        "tags",
+        "reuseWhen",
+        "assets",
+        "category"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "type": "number",
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "parchment-ink-v1",
+            "legacy"
+          ]
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(src\\/(model|data)|public\\/assets)\\/[a-zA-Z0-9_./-]+\\.(json|md|png|webp)$"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "reuseWhen": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/[a-zA-Z0-9_./-]+\\.(webp|png)$"
+              },
+              "sourcePath": {
+                "type": "string",
+                "pattern": "^public\\/assets\\/sources\\/[a-z0-9-]+-v\\d+\\.png$"
+              },
+              "width": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "height": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "bytes": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "background",
+                  "cutout",
+                  "prop",
+                  "effect",
+                  "cover",
+                  "reference",
+                  "illustration"
+                ]
+              },
+              "anchor": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "required": [
+                  "x",
+                  "y"
+                ],
+                "additionalProperties": false
+              },
+              "hasAlpha": {
+                "type": "boolean"
+              },
+              "encoding": {
+                "type": "string",
+                "enum": [
+                  "lossy-webp",
+                  "original-png"
+                ]
+              },
+              "version": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "status": {
+                "type": "string",
+                "enum": [
+                  "prototype",
+                  "approved",
+                  "retired",
+                  "reference"
+                ]
+              },
+              "usage": {
+                "type": "string",
+                "enum": [
+                  "standalone",
+                  "shared-composition",
+                  "portrait-reference"
+                ]
+              },
+              "alternatives": {
+                "type": "object",
+                "properties": {
+                  "lossyBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "nearLosslessBytes": {
+                    "type": "integer",
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                },
+                "required": [
+                  "lossyBytes",
+                  "nearLosslessBytes"
+                ],
+                "additionalProperties": false
+              },
+              "provenance": {
+                "type": "string",
+                "pattern": "^src\\/data\\/[a-zA-Z0-9_./-]+\\.json$"
+              }
+            },
+            "required": [
+              "id",
+              "description",
+              "path",
+              "width",
+              "height",
+              "bytes",
+              "sha256",
+              "kind",
+              "anchor",
+              "hasAlpha",
+              "encoding",
+              "version",
+              "status"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "category": {
+          "type": "string",
+          "const": "illustrations"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "id",
+        "name",
+        "description",
+        "style",
+        "references",
+        "tags",
+        "reuseWhen",
+        "assets",
+        "category"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

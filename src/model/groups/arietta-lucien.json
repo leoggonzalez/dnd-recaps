@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "arietta-lucien",
+  "name": "Arietta and Lucien walking",
+  "category": "groups",
+  "description": "Arietta holds Lucien’s forearm; grouped walking pose preserves their interaction.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/model/characters/lucien.json",
+    "public/assets/references/lucien-visual-reference.png",
+    "src/model/npcs/arietta-innevar.json"
+  ],
+  "tags": [
+    "arietta",
+    "lucien",
+    "walking",
+    "camp"
+  ],
+  "reuseWhen": "Reuse for the pair walking calmly toward screen left. Lucien has cropped hair and trimmed beard; Arietta has olive cloak and blue-gray scarf.",
+  "assets": [
+    {
+      "id": "arietta-lucien",
+      "description": "Full-body paired walking cutout; no spell effect or extra props.",
+      "sourcePath": "public/assets/sources/arietta-lucien-v1.png",
+      "width": 640,
+      "height": 768,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/groups/arietta-lucien-v1.webp",
+      "bytes": 135842,
+      "sha256": "79c9d742be9ccb9f9e139015cd67b5eda738f4352336099e60b79ceb460777ee",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 135842,
+        "nearLosslessBytes": 395136
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "rumble",
+  "name": "Rumble",
+  "category": "characters",
+  "description": "Rumble — canonical party character record.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "rumble"
+  ],
+  "reuseWhen": "Consult the appearance, equipment and events in this record before reusing any image.",
+  "assets": [
+    {
+      "id": "legacy-party-retro-action-cartoon-v2",
+      "description": "Rumble appears in the shared six-member retro cartoon party illustration; full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/party-retro-action-cartoon-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2804967,
+      "sha256": "57c26377c7f1bcd90e2fd6b02a0ed392bf76be445e6fdf4ac11c7a287b690e35",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "species": "firbolg",
+  "class": "barbarian",
+  "party_status": "party member",
+  "appearance": {
+    "size": "Substantially the largest party member; huge and towering over the others.",
+    "build": "Massive, extremely muscular, and powerful.",
+    "skin": "Blue.",
+    "hair": "Blue.",
+    "face": "Distinctive firbolg features.",
+    "clothing": "Barbarian-style adventuring gear that allows freedom of movement.",
+    "vibe": "A gentle giant outside combat and a terrifying force while fighting."
+  },
+  "weapon": {
+    "name": "Enormous two-handed axe",
+    "possible_effect": "Can glow with intense electric-blue energy.",
+    "construction_note": "Keep it physically coherent and properly constructed; avoid oddly shaped blades or floating pieces of metal."
+  },
+  "combat_pose_notes": [
+    "Huge leaps",
+    "Powerful overhead attacks",
+    "Superhero landings"
+  ],
+  "unknowns": [
+    "age",
+    "specific facial details",
+    "armor design details",
+    "whether the axe glow is always present"
+  ],
+  "sheet_name": "Rumble",
+  "subclass": "Path of the Giant",
+  "proficiencies": {
+    "armor": [
+      "Light Armor",
+      "Medium Armor",
+      "Shields"
+    ],
+    "weapons": [
+      "Martial Weapons",
+      "Simple Weapons"
+    ],
+    "tools": [
+      "Carpenter’s Tools"
+    ],
+    "languages": [
+      "Common",
+      "Giant",
+      "Sylvan"
+    ],
+    "skill_proficiencies": [
+      "Animal Handling",
+      "Athletics",
+      "Intimidation",
+      "Nature",
+      "Survival"
+    ]
+  },
+  "sheet_snapshot": {
+    "source": "https://www.dndbeyond.com/characters/164261360",
+    "retrieved_on": "2026-10-29",
+    "level": 4,
+    "ability_scores": {
+      "strength": 18,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 8,
+      "wisdom": 10,
+      "charisma": 8
+    },
+    "combat": {
+      "armor_class": 15,
+      "hit_points_current": 53,
+      "hit_points_max": 53,
+      "initiative": 2,
+      "proficiency_bonus": 2,
+      "speed_ft": 30,
+      "passive_perception": 10,
+      "passive_investigation": 9,
+      "passive_insight": 10
+    },
+    "saving_throws": {
+      "strength": 6,
+      "dexterity": 2,
+      "constitution": 5,
+      "intelligence": -1,
+      "wisdom": 0,
+      "charisma": -1
+    },
+    "attacks": [
+      {
+        "name": "Greataxe",
+        "attack_bonus": 6,
+        "damage": "1d12+6 slashing",
+        "properties": [
+          "Heavy",
+          "Two-Handed"
+        ],
+        "mastery": "Cleave"
+      },
+      {
+        "name": "Dragon Slayer Longsword",
+        "attack_bonus": 7,
+        "damage": "1d8+7 slashing; 1d10+7 versatile",
+        "mastery": "Sap"
+      },
+      {
+        "name": "Handaxe",
+        "attack_bonus": 6,
+        "damage": "1d6+4 slashing",
+        "range_ft": "20/60"
+      }
+    ],
+    "class_features": [
+      "Rage (3 uses per Long Rest; regain one use on a Short Rest)",
+      "Unarmored Defense (base AC 15)",
+      "Danger Sense",
+      "Reckless Attack",
+      "Path of the Giant",
+      "Giant’s Power"
+    ],
+    "spells": [
+      "Thaumaturgy",
+      "Detect Magic (1/LR)",
+      "Disguise Self (1/LR)"
+    ],
+    "notable_items": [
+      "Greataxe",
+      "Dragon Slayer Longsword",
+      "Handaxes",
+      "Potion of Heroism",
+      "Carpenter’s Tools"
+    ],
+    "currency": {
+      "gold": 370
+    },
+    "notes": [
+      "Current hit points are a session-time snapshot. The sheet includes both the huge greataxe and a Dragon Slayer Longsword."
+    ]
+  },
+  "events": []
+}

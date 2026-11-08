@@ -1,0 +1,142 @@
+[
+  {
+    "id": "camp-far",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-88efcf17-8f21-4fbb-9f26-53c08b907898.png",
+    "prompt": "Use case: illustration-story. Asset: caravan-camp-far-v1, an opaque far background layer for a layered 16:9 D&D storybook stage. Wide landscape 1920x1080 composition, no border. Hand drawn sepia ink, delicate crosshatching on warm parchment, restrained ochre/moss/dusty blue watercolor, antique illustrated travel journal, legible at phone size. A quiet woodland caravan clearing at blue dusk on the road to Waterdeep: distant tree silhouettes, soft low hills, pale evening sky, gently sloping empty earthen clearing filling lower half. Horizon 42% down. Lantern warmth suggested at left but NO people, NO wagons, NO cages, NO creatures, NO game props, NO foreground trees or branches; those are separate layers. Keep center open with continuous reconstructed ground under future figures. Soft atmospheric depth, warm faded parchment throughout, full bleed beyond every edge for camera overscan, no lettering or watermark. This is the first art-style master for a cohesive cut-paper storybook.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/camp-far-v1.png"
+  },
+  {
+    "id": "camp-middle",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-54dffa42-9609-43da-9f45-ae276c8cf1e8.png",
+    "prompt": "Use case: illustration-story. Create ONLY the MIDDLE overlay for the referenced woodland camp, preserving its sepia crosshatched ink and muted ochre/moss/dusty blue watercolor style. This will be composited over that image on a 16:9 stage: keep the same eye-level perspective and horizon. Transparent canvas, no parchment rectangle, no sky or ground fill. At the left outer third a modest covered travelling wagon seen at three quarters and a small warm hanging lantern; right outer third a second covered wagon, a few sacks and a rolled bedroll. The central 55 percent and bottom 25 percent remain entirely transparent for foreground actors. No people, animals, cages or campfire; no text or border. Draw the objects as delicately outlined hand-illustrated cutouts, not photorealistic. Wide landscape image, clean genuine alpha between all objects and around outlines, objects not cropped by edges.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/camp-middle-v1.png"
+  },
+  {
+    "id": "camp-near",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-25dc0dcc-3ef7-4309-b758-40a4236944c3.png",
+    "prompt": "Use case: illustration-story. Asset: camp-near-v1. Draw ONLY a sparse foreground vegetation overlay for a 16:9 storybook stage, genuine transparent background. Sepia ink crosshatching and hand drawn muted moss/ochre watercolor edges matching the reference. A few low grasses and brambles in bottom left and bottom right corners; one slender overhanging leafy branch across upper left edge, another shorter twig in upper right. Leave the central 80% completely empty and transparent. No ground plane, no sky, no landscape, no people, animals, wagons, or opaque parchment. Clean cut-paper alpha silhouette, full landscape canvas. Sparse composition so foreground never hides actors or lanterns. No lettering, frame, or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/camp-near-v1.png"
+  },
+  {
+    "id": "forest-far",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-b9b6ff0b-4a2d-4b47-a06f-5a1966ecf77e.png",
+    "prompt": "Use case: illustration-story. Create a new opaque FAR landscape background in the same sepia crosshatched storybook ink and muted watercolor art style as the provided camp image. Wide 16:9 full-bleed woodland road on the way to Waterdeep: dense tangled forest, cool moss and dusty-blue shadows, rough roots along edges, road receding into an ominous tunnel at upper center-right. Horizon 40 percent down. Keep lower central 70 percent as empty continuous ochre dirt road for separate actors. Thin distant tree silhouettes, faint diffuse daylight under canopy. No characters, horses, spiders, webbing, wagons, or near foreground framing branches. Avoid an opaque decorative border. This is the far layer only; middle trunks and near webs will be separate alpha layers. Match antique hand-drawn parchment texture and restrained warm palette. No text or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/forest-far-v1.png"
+  },
+  {
+    "id": "forest-middle",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-cb056815-890b-4b74-adea-e071983491a0.png",
+    "prompt": "Use case: illustration-story. Asset forest-middle-v1. Genuine transparent landscape 16:9 overlay, ONLY midground woodland objects, hand-drawn sepia crosshatching with muted moss and umber watercolor, antique storybook illustration. Two slim gnarled tree trunks at left outer 15 percent, one larger tree at right outer 15 percent, low roots at their bases and delicate branches across the top edge. Central 65 percent and bottom center fully transparent, no opaque ground/sky/parchment. Same eye-level slightly elevated view as reference, trunks rooted at 65% down image. No animals, characters, spiders, webs, or wagons, no text, no border. Do not repeat the distant forest; the referenced image is only the style/perspective guide. Render actual alpha around branches, keeping their delicate ink edges.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/forest-middle-v1.png"
+  },
+  {
+    "id": "forest-near",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-519b43ff-a1c6-4e07-b1e3-9f6104983804.png",
+    "prompt": "Use case: illustration-story. Asset forest-near-v1. ONLY isolated foreground thorny twigs, mossy roots and fine spider silk strands at the extreme corners of a wide 16:9 canvas, genuine transparency everywhere else. Sparse sepia ink crosshatching with moss-green watercolor INSIDE the objects only. Upper right thin triangular silken web between two bare twigs; lower left a few thorns and curled roots; lower right small tuft of grass. Center 85% completely clear alpha. No white paint, no white paper haze or parchment patch, no background fill, no big tree trunks, no characters or creatures, no lettering. Delicate antique storybook style compatible with a muted ochre woodland road. Edge-to-edge corner framing, never occlude the central action.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/forest-near-v1.png"
+  },
+  {
+    "id": "camp-game",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-3bf71bf6-6d7e-4989-b6b4-6f048a269e6d.png",
+    "prompt": "Use case: illustration-story. Asset camp-game-v1. One cohesive grouped cutout on genuine transparent background, hand drawn sepia ink crosshatching, restrained ochre, muted navy and burgundy washes, antique storybook style. A low overturned wooden crate used for a Three-Dragon Ante card game with two distant travelling men seated around it: the left man holds up a small coin pouch inviting play, the right man leans toward a substantial purse on the crate. Faces indistinct in shadow, no invented identifying features. A tall broad-shouldered dark-brown-skinned human guard with dark beard and layered tan/navy headwrap stands behind at far left, cream tunic, navy robes gold trim, long spear upright; a short sturdy adult female shield dwarf stands behind at far right with long braided red hair, dark armor/chainmail and deep red cloak, arms folded. These two guards do NOT play cards. Group arranged in a low wide triangle, seen slightly from above at ground level, figures fully visible including boots, no cropped spear. Empty seat toward right for two separate arriving characters. No Lucien or Arietta here. No background, no parchment halo or floor rectangle; only tiny soft contact shadows immediately under boots/crate. No readable card text, no lettering or watermark. Entire compact group fits canvas with transparent margins.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/camp-game-v1.png"
+  },
+  {
+    "id": "arietta-lucien",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-8f9ae24b-a7be-4323-a4b0-f82d14fadaf6.png",
+    "prompt": "Use case: illustration-story. Asset arietta-lucien-walking-v1. A full-body grouped cutout of two fantasy travellers walking gently toward screen LEFT, seen at three-quarter angle. Lucien is a dark-brown-skinned man with SHORT CLOSE-CROPPED BLACK HAIR and a SHORT TRIMMED BLACK BEARD AND MOUSTACHE (use the supplied portrait for face/hair continuity, not its modern clothing). Dark crimson and purple sorcerer robes with modest gold details, leather boots, no weapon drawn. Arietta is a buxom adult human woman, long auburn-brown partly braided hair, olive green hooded cloak down, blue-gray scarf, worn cream/blue-gray/brown travel layers, boots and belt pouches. She gently draws him along by his forearm toward a card game; both calm and curious. Feet aligned on same baseline, fully visible heads and boots with generous transparent margins. Hand drawn sepia ink crosshatching, restrained burgundy/olive watercolor inside silhouettes, charming antique parchment storybook drawing. GENUINE transparent background, NO opaque parchment or halo, no scenery, no props, no text or watermark. Keep anatomically coherent hands and relative scale, no spell effects.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/arietta-lucien-v1.png"
+  },
+  {
+    "id": "balerias-ready",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-d90b9d34-e484-4690-bd82-57616dd211c5.png",
+    "prompt": "Use case: illustration-story. Asset balerias-ready-v1. Single FULL BODY elderly rugged human ranger facing screen RIGHT in a slightly crouched patient stance, holding a small piece of food in his right hand close to his chest before offering it. Long unkempt gray hair, long thick gray beard, deeply weathered wrinkled face, one small brass mechanical eye, worn moss-brown leather ranger gear, boots, belt pouches. Enormous oversized crossbow strapped across his back visible above shoulder but not aimed. Stern old survivor, calm around a dangerous animal. No hat, no glowing spell. Sepia ink outlines, fine crosshatching, warm ochre and muted moss watercolor only inside the figure, antique travel storybook illustration. Genuine transparent background, no paper rectangle, no floor or halo. Entire figure and boots in frame with margins, 3:4 portrait composition. Foot baseline near bottom, figure centered for an aligned second pose. No cage or creature, no text or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/balerias-ready-v1.png"
+  },
+  {
+    "id": "balerias-offering",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-ef72b65e-1818-40bf-b2ec-38c9e461f198.png",
+    "prompt": "Use case: identity-preserve. Edit the supplied Balerias cutout into the SECOND offering pose. Keep exactly the same elderly ranger, face, long gray hair/beard, brass mechanical eye, moss-brown patched clothing, enormous crossbow on back, boots, scale, foot placement, camera, frame dimensions and genuine alpha. Change ONLY his right forearm and upper-body lean: extend the food-holding hand farther toward screen RIGHT, straight out at the level of his waist, as though reaching through animal-cage bars. Feet and crossbow remain still. Maintain sepia crosshatching and restrained watercolor. Full body, no added cage, creature, scenery, contact glow, text or paper background. Preserve transparent margins and baseline for a discrete aligned pose swap.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/balerias-offering-v1.png"
+  },
+  {
+    "id": "peryton",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-b26f22c6-9e59-4fb4-aceb-b0ba51a5381b.png",
+    "prompt": "Use case: illustration-story. Asset peryton-waiting-v1. A single large antlered feathered winged predator for a D&D storybook, standard provisional peryton interpretation: staglike antlered head, hooked predatory beak, feathered brown/umber body, folded powerful wings, two birdlike taloned legs. Cautious calm posture, full side/three-quarter view facing screen LEFT, head lowered slightly toward an offering just outside frame. NOT attacking, no blood, mouth closed, eyes with tiny amber lantern reflection only (no magic rays). Entire creature and antlers in frame with transparent margins, no cage, food, ground or background. Hand-drawn sepia ink crosshatching with restrained umber/ochre/moss watercolor inside silhouette, antique parchment storybook style, natural animal anatomy. GENUINE transparent background with no paper patch or halo, no text or watermark. Wide compact full-body cutout, feet aligned bottom.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/peryton-v1.png"
+  },
+  {
+    "id": "cage-rear",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-484f0767-453a-4f5c-9c06-a9eed7479b70.png",
+    "prompt": "Use case: illustration-story. Asset cage-rear-v1. One empty medieval travelling animal cage, straight-on elevation with slight visible right side, wider than tall (4:3 frame). Rear assembly ONLY: broad rectangular wooden platform/floor, two stout rear corner posts, narrow rear iron bars, modest flat wooden roof. A spacious box proportioned to contain a large antlered bird. The FRONT plane is open with NO front vertical bars, so a separate animal cutout can be layered in front of the rear bars and behind a second front-bar asset. No animals, people or wheels. Full cage fits centered with 6% transparent margins all around. Sepia ink crosshatching, aged brown wood, subdued gray iron, restrained warm watercolor washes inside objects. GENUINE transparency through every gap and around object; no background, sky, ground rectangle, paper haze, labels or watermark. Keep perspective simple for matching front overlay.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/cage-rear-v1.png"
+  },
+  {
+    "id": "cage-front",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-46b052b9-ce31-45d3-af98-959715235e88.png",
+    "prompt": "Use case: precise-object-edit. Make a FRONT-BARS OVERLAY for the supplied cage. Preserve exactly the original canvas size, cage scale, camera perspective, outer frame coordinates and transparency. Keep ONLY the front left/right corner posts, front top crossbeam and front bottom rim, adding six thin evenly spaced vertical iron bars across the FRONT opening between the front beam and rim. Remove every rear bar, every side/rear wall and the floorboards/roof surface; those areas must be genuinely transparent because a separately rendered rear cage and animal will appear behind this overlay. In effect this is only the thin front gate plane, full transparent space between bars. Do not move or resize frame. Same sepia crosshatching, aged wood and dark-gray iron. NO animal, hand, scenery, paper fill, shadow rectangle, writing or watermark. Leave clean alpha in all empty areas. These front bars should be narrow enough that the animal remains clearly visible.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/cage-front-v1.png"
+  },
+  {
+    "id": "oyn",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-a8f91478-ed5a-4f87-afb3-781a58e56659.png",
+    "prompt": "Use case: illustration-story. Asset oyn-watching-v1. Single full-body broad sturdy middle-aged-to-older human wagon master standing cautiously, body turned screen RIGHT but leaning slightly away, holding a walking staff upright. Shoulder-length wavy dark-gray hair with receding hairline, full salt-and-pepper beard and moustache. Cream tunic, loose brown trousers, dark green shawl, muted red sash, leather straps/pouches and travel boots. Small wooden rack with several tiny bird cages strapped behind his back; small muted blue/green/yellow/red birds barely visible, not dominant. He observes a dangerous caged animal at a safe distance (do not draw the animal or big cage). Grounded medieval fantasy. Fine hand-drawn sepia ink and crosshatching, restrained ochre/moss watercolor, parchment storybook treatment inside silhouette ONLY. GENUINE transparent background, no paper rectangle, haze, ground, lettering or watermark. Entire figure/staff/rack in frame, transparent margins, feet baseline at bottom.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/oyn-v1.png"
+  },
+  {
+    "id": "webbed-horse",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-81ffbce4-4eab-4294-8b33-44be825c596c.png",
+    "prompt": "Use case: illustration-story. Asset webbed-horse-v1. Single full-body caravan draft horse being hauled toward screen RIGHT, wrapped in silken strands around torso and harness, legs braced and frightened head lifted slightly. A narrow bundled silk tether trails from its harness toward right edge but stays within frame. Non-graphic, NO wounds, horse alive, no rider, no ettercap, no spider. Render horse in monochrome sepia crosshatching with pale parchment-colored highlights INSIDE body, do not establish a particular coat color. Genuine transparent background, clean alpha through gaps between legs and around silk, no ground plane or paper patch. Eye-level three-quarter side view, full mane/tail/hooves visible with margins. Antique hand-drawn travel-storybook style, restrained ochre wash, natural animal proportions. Compact landscape composition. No text, no watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/webbed-horse-v1.png"
+  },
+  {
+    "id": "ettercap-dragging",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-1742ae2b-1c24-478b-80c1-b601a141a8aa.png",
+    "prompt": "Use case: illustration-story. Asset ettercap-dragging-v1. ONE hunched long-limbed coarse-haired ettercap, an inhuman spiderlike forest predator with clicking mandibles, two legs and two long arms, not a spider with eight legs. Full-body side/three-quarter view facing screen LEFT, braced stance pulling a small bundle of silk with both hands toward its chest. Silk tether extends leftward but stays inside canvas. No horse, no victim, no weapons. Umber and moss-brown crosshatched skin/hair, muted tones, unsettling but non-graphic, no blood. Hand-drawn sepia ink with restrained watercolor and antique travel-storybook contours. Genuine transparent background, no floor, scenery, paper patch or halo. Full figure fully contained with generous transparent margins on a landscape 4:3 canvas; allow lower space for a second fallen pose using same frame. No lettering or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/ettercap-dragging-v1.png"
+  },
+  {
+    "id": "ettercap-fallen",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-b49dd9ff-1e6b-4642-8b04-3701e343f24d.png",
+    "prompt": "Use case: precise-object-edit. Create the DEFEATED second pose of the exact ettercap in the reference. Same 4:3 landscape canvas dimensions, same sepia ink/umber watercolor, same species/body/hair/mandibles and genuine alpha. It has been struck by a hurled object and lies collapsed on its right side low in the frame, head near center-left, long limbs slack, its silk tether dropped loosely toward screen LEFT. No wounds, blood, weapons, detached limbs, extra creature or victim. Reserve the same transparent margins and keep floor baseline at 72% image height matching the standing figure's feet; do not crop limbs. Upper half mostly transparent. This is one non-graphic still final pose, no motion blur, no glow, no background, no paper rectangle, no text or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/ettercap-fallen-v1.png"
+  },
+  {
+    "id": "lucien-casting",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-969fef79-857e-4285-877a-d4b9f9333043.png",
+    "prompt": "Use case: identity-preserve. Create a single FULL-BODY Lucien cutout in an action pose for the forest rescue, using ONLY Lucien from the provided paired storybook cutout as face, hairstyle, beard and clothing reference; do not include Arietta. Dark-brown-skinned humanlike aasimar man, short close-cropped black hair, short neat beard and moustache, dark crimson/purple robes with modest gold trim, leather boots. Facing screen RIGHT, feet firmly planted, right arm thrust out in a spell-assisted throwing gesture, left hand balancing at chest. A small loose stone just beyond the forward hand and a very restrained dusty-blue ink swirl communicate a hurled object, not a named invented spell. Focused protective expression. Same sepia crosshatched ink and restrained watercolor as reference, all anatomy coherent. Genuine transparent background with no paper patch/halo, no ground/scenery/enemy. Entire body/boots/hands/effect in portrait frame with wide margins. No text or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/lucien-casting-v1.png"
+  },
+  {
+    "id": "camp-game-refined",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-5eb7017d-6679-4230-9421-f05c0db4f879.png",
+    "prompt": "Use case: precise-object-edit. Edit ONLY the adult female dwarf guard's FACE at upper-right in the supplied grouped card-game cutout. Her face is blank in the first pass. Give her natural strong mature dwarven features: stern watchful expression, small clearly drawn eyes and brows, nose, closed mouth, sturdy cheeks; keep her long braided red hair. Preserve the entire rest exactly: same group layout, scale, frame, outfits, crossed arms, red cloak, armor, taller dark-skinned guard with headwrap/spear, crate/cards/coins and both seated men. The two seated travellers' faces should remain indistinct under their hats. Do NOT change positions or lighting, do not add people. Maintain the sepia crosshatched parchment-storybook ink and muted watercolor, and the original genuine transparent background with no paper patch or halo. No text or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/camp-game-refined-v1.png"
+  },
+  {
+    "id": "horses-counterattack",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-19f62953-16ac-42b6-a1d1-7c4a0353be06.png",
+    "prompt": "Use case: illustration-story. Asset horses-counterattack-v1. One small grouped MIDGROUND cutout for a D&D forest battle. Two caravan draft horses in monochrome sepia crosshatched ink, no declared coat colors: one horse seen side-on delivering a clear powerful hind-leg kick toward a single large spider at screen RIGHT; the second horse farther behind braces with a raised forehoof. The large spider recoils below the hooves, legs splayed, non-graphic, no blood or injuries. Horses and spider anatomically readable and clearly separate; no riders, no people, no harness entanglement, no extra enemies. Leave some space between silhouettes, full hooves/tails/spider legs inside a wide 3:2 frame with generous transparent margins. Same delicate sepia ink and muted ochre/moss watercolor as antique hand-drawn parchment storybook art; color washes only INSIDE silhouettes. GENUINE transparent background, no forest, ground plane, opaque paper or shadow rectangle. This is a secondary battle group to be placed small behind a horse rescue, not a complete scene. No lettering or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/horses-counterattack-v1.png"
+  }
+]

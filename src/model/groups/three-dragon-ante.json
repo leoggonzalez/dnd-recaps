@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "three-dragon-ante",
+  "name": "Three-Dragon Ante gathering",
+  "category": "groups",
+  "description": "Grouped game crate, cards, Samardag/Radecere with indistinct faces, and watchful Sulesdeg/Tyjit. Cannot separate individual figures from this bitmap.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/model/npcs/sulesdeg-the-pole.json",
+    "src/model/npcs/tyjit-skesh.json"
+  ],
+  "tags": [
+    "camp",
+    "cards",
+    "samardag",
+    "radecere",
+    "sulesdeg",
+    "tyjit"
+  ],
+  "reuseWhen": "Reuse only when these four people gather at the same game. Traveller appearances are provisional; no claim of approved individual portraits.",
+  "assets": [
+    {
+      "id": "camp-game",
+      "description": "Seated card players with coin pouches; two guards stand watching and do not play.",
+      "sourcePath": "public/assets/sources/camp-game-v1.png",
+      "width": 900,
+      "height": 600,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "retired",
+      "path": "public/assets/groups/camp-game-v1.webp",
+      "bytes": 161362,
+      "sha256": "bfc68c8a2a6389a4c4df86150a899c2154b99eac128ed52aa518e9bd7615796e",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 161362,
+        "nearLosslessBytes": 448454
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "camp-game-refined",
+      "description": "Selected card-game group with the dwarf guard’s stern face clearly rendered; travellers remain indistinct.",
+      "sourcePath": "public/assets/sources/camp-game-refined-v1.png",
+      "width": 900,
+      "height": 600,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/camp-game-refined-v1.webp",
+      "bytes": 136640,
+      "sha256": "7b740e9a178c96e9672f762b387310a2ecb0847994d9da65017a0452544f70c3",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 136640,
+        "nearLosslessBytes": 410198
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

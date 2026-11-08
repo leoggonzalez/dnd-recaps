@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "id": "vladifix",
+  "name": "Vladifix",
+  "category": "characters",
+  "description": "Vladifix — canonical party character record.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "vladifix"
+  ],
+  "reuseWhen": "Consult the appearance, equipment and events in this record before reusing any image.",
+  "assets": [
+    {
+      "id": "legacy-party-retro-action-cartoon-v2",
+      "description": "Vladifix appears in the shared six-member retro cartoon party illustration; full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/party-retro-action-cartoon-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2804967,
+      "sha256": "57c26377c7f1bcd90e2fd6b02a0ed392bf76be445e6fdf4ac11c7a287b690e35",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "aliases": [
+    "Vlad"
+  ],
+  "species": "human",
+  "class": "druid",
+  "party_status": "party member",
+  "appearance": {
+    "overall_direction": "Human adventurer with a nature-oriented aesthetic.",
+    "clothing": "Earthy colors, practical fabrics, and natural materials; this is a proposed visual direction, not fully confirmed canon.",
+    "equipment": "Druidic gear and nature-themed accessories.",
+    "magic_visuals": "Nature-based magic; avoid divine or clerical imagery.",
+    "vibe": "Outdoorsy, grounded, and connected to the natural world."
+  },
+  "visual_status": "Least visually specified party member; most appearance details are not established.",
+  "unknowns": [
+    "hairstyle",
+    "hair color",
+    "facial hair",
+    "age",
+    "build",
+    "signature weapon",
+    "specific clothing and accessories"
+  ],
+  "sheet_name": "Vladefix",
+  "subclass": "Circle of the Land (Arid Land)",
+  "proficiencies": {
+    "armor": [
+      "Light Armor",
+      "Shields"
+    ],
+    "weapons": [
+      "Simple Weapons"
+    ],
+    "tools": [
+      "Herbalism Kit"
+    ],
+    "languages": [
+      "Common",
+      "Druidic",
+      "Elvish",
+      "Orc"
+    ],
+    "skill_proficiencies": [
+      "Deception",
+      "Insight",
+      "Nature",
+      "Perception",
+      "Sleight of Hand"
+    ]
+  },
+  "sheet_snapshot": {
+    "source": "https://www.dndbeyond.com/characters/159950501",
+    "retrieved_on": "2026-10-29",
+    "level": 4,
+    "ability_scores": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 18,
+      "charisma": 8
+    },
+    "combat": {
+      "armor_class": 16,
+      "hit_points_current": 35,
+      "hit_points_max": 35,
+      "initiative": 2,
+      "proficiency_bonus": 2,
+      "speed_ft": 30,
+      "passive_perception": 16,
+      "passive_investigation": 10,
+      "passive_insight": 16
+    },
+    "saving_throws": {
+      "strength": -1,
+      "dexterity": 2,
+      "constitution": 3,
+      "intelligence": 2,
+      "wisdom": 6,
+      "charisma": -1,
+      "concentration_advantage": true
+    },
+    "spellcasting": {
+      "spell_attack_bonus": 6,
+      "spell_save_dc": 14
+    },
+    "cantrips": [
+      "Fire Bolt",
+      "Guidance",
+      "Produce Flame",
+      "Thorn Whip"
+    ],
+    "level_1_spells": [
+      "Burning Hands",
+      "Entangle",
+      "Ice Knife",
+      "Speak with Animals"
+    ],
+    "level_2_spells": [
+      "Blur"
+    ],
+    "class_features": [
+      "Druidic",
+      "Primal Order: Magician",
+      "Wild Shape",
+      "Wild Companion",
+      "Circle of the Land",
+      "Land’s Aid",
+      "War Caster"
+    ],
+    "notable_items": [
+      "Herbalism Kit",
+      "Shield",
+      "Sickle",
+      "Staff (Arcane Focus)",
+      "Studded Leather"
+    ],
+    "currency": {
+      "gold": 327
+    },
+    "notes": [
+      "The sheet spells the name “Vladefix”; the party reference uses “Vladifix”. Current hit points are a session-time snapshot."
+    ]
+  },
+  "events": []
+}

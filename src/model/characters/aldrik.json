@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "id": "aldrik",
+  "name": "Aldrik Gauls’Thein",
+  "category": "characters",
+  "description": "Aldrik Gauls’Thein — canonical party character record.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "aldrik"
+  ],
+  "reuseWhen": "Consult the appearance, equipment and events in this record before reusing any image.",
+  "assets": [
+    {
+      "id": "reference-aldrik",
+      "description": "Canonical supplied portrait reference for aldrik; use for appearance continuity.",
+      "path": "public/assets/references/aldrik.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2477329,
+      "sha256": "5bfcc1dd155ba7b35377e6a7717a347f499ae7988daebbecd5c14b878d0a90d6",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
+    },
+    {
+      "id": "legacy-scene-05-counting-the-wagons-v2",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-05-counting-the-wagons-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3038499,
+      "sha256": "e01fac943c3801bb92c7ce1d0558524e037d79404ebce3ae185390cf1ccb0161",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-06-under-the-horses-neck",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-06-under-the-horses-neck.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3255456,
+      "sha256": "9a7ca0c434adaac4cf6a3301dabc42d6331526abb5701014b4e9a3a4eb3eaed9",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-party-retro-action-cartoon-v2",
+      "description": "Aldrik Gauls’Thein appears in the shared six-member retro cartoon party illustration; full composition, not an isolated pose.",
+      "path": "public/assets/illustrations/party-retro-action-cartoon-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2804967,
+      "sha256": "57c26377c7f1bcd90e2fd6b02a0ed392bf76be445e6fdf4ac11c7a287b690e35",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "sheet_name": "Aldrik",
+  "species": "high elf",
+  "gender": "male",
+  "class": "rogue",
+  "level": 4,
+  "subclass": "Arcane Trickster",
+  "party_status": "party member",
+  "appearance": {
+    "build": "Slender, agile, and athletic rather than muscular.",
+    "skin": "Pale, fair elven complexion.",
+    "hair": "Short, messy, dark brown to black.",
+    "face": "Youthful, sharp elven features with pointed ears.",
+    "facial_hair": "None.",
+    "clothing": "Dark, fitted leather rogue armor suited to stealth.",
+    "vibe": "Cunning, confident, and slightly mischievous; has a detective-like quality.",
+    "must_avoid": [
+      "sunglasses",
+      "beard",
+      "mustache"
+    ]
+  },
+  "ability_scores": {
+    "strength": {
+      "score": 10,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 18,
+      "modifier": 4
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "combat_stats": {
+    "armor_class": 13,
+    "hit_points": {
+      "current": 27,
+      "maximum": 27,
+      "temporary": 0
+    },
+    "initiative": 4,
+    "proficiency_bonus": 2,
+    "walking_speed_ft": 30,
+    "size": "Medium",
+    "darkvision_ft": 60,
+    "passive_perception": 13,
+    "passive_investigation": 18,
+    "passive_insight": 15
+  },
+  "saving_throws": {
+    "dexterity": {
+      "bonus": 4,
+      "proficient": true
+    },
+    "intelligence": {
+      "bonus": 6,
+      "proficient": true
+    },
+    "other_saves": {
+      "strength": 0,
+      "constitution": 1,
+      "wisdom": 1,
+      "charisma": -1
+    },
+    "advantage": [
+      "saving throws to avoid or end the Charmed condition"
+    ]
+  },
+  "skills": {
+    "expertise": {
+      "Insight": 5,
+      "Investigation": 8
+    },
+    "proficient": {
+      "History": 6,
+      "Intimidation": 1,
+      "Perception": 3,
+      "Stealth": 4,
+      "Survival": 3
+    },
+    "other_bonuses": {
+      "Acrobatics": 2,
+      "Animal Handling": 1,
+      "Arcana": 4,
+      "Athletics": 0,
+      "Deception": -1,
+      "Medicine": 1,
+      "Nature": 4,
+      "Performance": -1,
+      "Persuasion": -1,
+      "Religion": 4,
+      "Sleight of Hand": 2
+    },
+    "stealth_advantage": true
+  },
+  "proficiencies": {
+    "armor": [
+      "Light armor"
+    ],
+    "weapons": [
+      "Hand crossbow",
+      "Rapier",
+      "Scimitar",
+      "Shortsword",
+      "Simple weapons",
+      "Whip"
+    ],
+    "tools": [
+      "Thieves’ Tools",
+      "Tinker’s Tools"
+    ],
+    "languages": [
+      "Common",
+      "Draconic",
+      "Dwarvish",
+      "Elvish",
+      "Thieves’ Cant"
+    ]
+  },
+  "weapons_and_attacks": [
+    {
+      "name_on_sheet": "Crossbow, Light (customized)",
+      "attack_bonus": 6,
+      "damage": "1d8 + 4 piercing",
+      "range_ft": "80/320",
+      "properties": [
+        "Ammunition",
+        "Loading",
+        "Two-Handed",
+        "Slow"
+      ],
+      "source": "D&D Beyond sheet"
+    },
+    {
+      "name_on_sheet": "Enspelled Rapier",
+      "attack_bonus": 4,
+      "damage": "1d8 + 2 piercing; sheet lists True Strike as radiant damage",
+      "charges": "6/6",
+      "properties": [
+        "Martial",
+        "Finesse",
+        "Vex"
+      ],
+      "source": "D&D Beyond sheet"
+    },
+    {
+      "name": "Hand crossbow with radiant-damage bolts that shine brightly",
+      "source": "Earlier visual reference; differs from the light crossbow currently listed on the sheet"
+    },
+    {
+      "name": "Unarmed strike",
+      "attack_bonus": 2,
+      "damage": "1 bludgeoning"
+    }
+  ],
+  "spells": {
+    "spell_attack_bonus": 6,
+    "spell_save_dc": 14,
+    "cantrips": [
+      {
+        "name": "Mage Hand",
+        "source": "Arcane Trickster; Mage Hand Legerdemain"
+      },
+      {
+        "name": "True Strike",
+        "source": "High Elf lineage; sheet lists radiant damage"
+      }
+    ],
+    "level_1": [
+      {
+        "name": "Detect Magic",
+        "source": "High Elf lineage; once per long rest"
+      },
+      {
+        "name": "Fog Cloud",
+        "source": "Rogue"
+      },
+      {
+        "name": "Silent Image",
+        "source": "Rogue"
+      },
+      {
+        "name": "Tasha’s Hideous Laughter",
+        "source": "Rogue"
+      }
+    ]
+  },
+  "features_and_traits": [
+    "Expertise in Insight and Investigation.",
+    "Sneak Attack: 2d6 extra damage once per turn when its conditions are met.",
+    "Cunning Action: Dash, Disengage, or Hide as a Bonus Action.",
+    "Steady Aim: gain Advantage on the next attack roll if he has not moved that turn; his Speed becomes 0 for the turn.",
+    "Mage Hand Legerdemain: cast Mage Hand as a Bonus Action and make it invisible; control it as a Bonus Action and use it for Dexterity (Sleight of Hand) checks.",
+    "Weapon Mastery: Rapier (Vex) and Light Crossbow (Slow).",
+    "Fey Ancestry: Advantage on saves to avoid or end Charmed.",
+    "Keen Senses: Survival proficiency.",
+    "Trance: does not need sleep, cannot be magically put to sleep, and can finish a Long Rest in 4 hours of trancelike meditation.",
+    "Elven Accuracy feat: increase one of Dexterity, Intelligence, Wisdom, or Charisma by 1; reroll one die once when making an advantaged attack using one of those modifiers.",
+    "Alert feat: add +2 to Initiative and may swap Initiative with a willing ally immediately after rolling."
+  ],
+  "familiar": {
+    "name": "Owl",
+    "size": "Tiny",
+    "creature_type_options": [
+      "Fey",
+      "Fiend",
+      "Celestial"
+    ],
+    "armor_class": 11,
+    "hit_points": {
+      "current": 1,
+      "maximum": 1
+    },
+    "speed": "60 ft. flying"
+  },
+  "inventory": {
+    "equipped_or_active": [
+      "Boots of Elvenkind",
+      "Customized Light Crossbow",
+      "Enspelled Rapier (attuned; 6/6 charges)",
+      "Leather armor (AC 11)",
+      "Orb (Arcane Focus)",
+      "Thieves’ Tools",
+      "Bolts x34",
+      "Quiver"
+    ],
+    "other_items": [
+      "Caltrop (custom) x5",
+      "Caltrops x100",
+      "Magnifying Glass",
+      "Oil Flask x2",
+      "Backpack",
+      "Ball Bearings x1000",
+      "Bell",
+      "Candle x10",
+      "Crowbar",
+      "Hooded Lantern",
+      "Oil x12",
+      "Potion of Healing x4",
+      "Rations x5",
+      "Rope",
+      "Tinderbox",
+      "Waterskin"
+    ],
+    "coins": {
+      "gold": 515,
+      "electrum": 5,
+      "silver": 7
+    },
+    "weight_carried_lb": 35.55,
+    "encumbrance_status": "Unencumbered"
+  },
+  "backstory": [
+    "He studied wizardry at a wizard school but left before learning much.",
+    "He became an Arcane Trickster because he felt he should use what little he had learned before leaving."
+  ],
+  "relationships": [
+    {
+      "person": "younger brother",
+      "name": null,
+      "details": "A straight-up, dedicated wizard in training who is exactly what their father wanted."
+    },
+    {
+      "person": "father",
+      "name": null,
+      "details": "Wanted a straight-up, dedicated wizard."
+    }
+  ],
+  "portrait_notes": {
+    "requested_damage_states": [
+      "healthy",
+      "hurt",
+      "bloodied",
+      "badly hurt / near death"
+    ],
+    "must_preserve": [
+      "short messy dark hair",
+      "pointed ears",
+      "pale skin",
+      "youthful elven face",
+      "no facial hair",
+      "dark leather rogue armor"
+    ],
+    "must_avoid": [
+      "sunglasses",
+      "beard",
+      "mustache"
+    ]
+  },
+  "sheet_source": "https://www.dndbeyond.com/characters/159937414",
+  "unknowns": [
+    "age",
+    "family members’ names",
+    "wizard school name",
+    "background",
+    "alignment",
+    "height and weight",
+    "specific armor design details"
+  ],
+  "events": [
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Rode guard past the three Cult of the Dragon wagons and observed their watch formation and the extra traveller in the middle wagon."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Suspected the wagons might include a decoy; privately discussed the question with Balerias, the party's acting leader, while walking away from prying eyes."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Fought the spider ambush from horseback, riding sideways and aiming his light crossbow beneath the horse's neck at a huge spider."
+    }
+  ]
+}

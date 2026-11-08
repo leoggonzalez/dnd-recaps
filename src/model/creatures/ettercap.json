@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "ettercap",
+  "name": "Horse-dragging ettercap",
+  "category": "creatures",
+  "description": "One long-limbed coarse-haired spiderlike humanoid with mandibles; dragging and non-graphic defeated poses.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "ettercap",
+    "silk",
+    "dragging",
+    "defeated"
+  ],
+  "reuseWhen": "Reuse as one continuous creature instance; a pose swap is not a second enemy. Keep existing encounter counts and do not resurrect defeated individuals.",
+  "assets": [
+    {
+      "id": "ettercap-dragging",
+      "description": "Braced left-facing creature pulling a silk tether.",
+      "sourcePath": "public/assets/sources/ettercap-dragging-v1.png",
+      "width": 720,
+      "height": 540,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.65,
+        "y": 0.72
+      },
+      "path": "public/assets/creatures/ettercap-dragging-v1.webp",
+      "bytes": 81848,
+      "sha256": "22778aa69961204156521c5656477995dd3aae6ac06b925448a6dfb7c6167c18",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 81848,
+        "nearLosslessBytes": 177148
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "ettercap-fallen",
+      "description": "Same creature collapsed with slack limbs and dropped silk; no gore.",
+      "sourcePath": "public/assets/sources/ettercap-fallen-v1.png",
+      "width": 720,
+      "height": 540,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.65,
+        "y": 0.72
+      },
+      "path": "public/assets/creatures/ettercap-fallen-v1.webp",
+      "bytes": 58122,
+      "sha256": "1e3546ef72978aaf3b5ebc63fae31f5844f980d7159bfc18f0ff2e72f700de5c",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 58122,
+        "nearLosslessBytes": 128862
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+playwright-report/
+test-results/
+
+# Local animated artwork source archive (selected WebP only is published)
+public/assets/sources/

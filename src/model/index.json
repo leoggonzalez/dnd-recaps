@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    "src/model/environments/caravan-camp.json",
+    "src/model/environments/tangled-forest.json",
+    "src/model/groups/three-dragon-ante.json",
+    "src/model/groups/arietta-lucien.json",
+    "src/model/characters/balerias.json",
+    "src/model/npcs/oyn-evenmor.json",
+    "src/model/characters/lucien.json",
+    "src/model/creatures/peryton.json",
+    "src/model/objects/animal-cage.json",
+    "src/model/creatures/webbed-horse.json",
+    "src/model/creatures/ettercap.json",
+    "src/model/groups/horses-counterattack.json",
+    "src/model/characters/aldrik.json",
+    "src/model/characters/rumble.json",
+    "src/model/characters/vladifix.json",
+    "src/model/characters/coppercoil.json",
+    "src/model/npcs/arietta-innevar.json",
+    "src/model/npcs/tyjit-skesh.json",
+    "src/model/npcs/sulesdeg-the-pole.json",
+    "src/model/illustrations/session-illustrations.json"
+  ]
+}

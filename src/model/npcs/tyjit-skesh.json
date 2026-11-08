@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "tyjit-skesh",
+  "name": "Tyjit Skesh",
+  "category": "npcs",
+  "description": "caravan guard",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "tyjit-skesh"
+  ],
+  "reuseWhen": "Consult the appearance, equipment and events in this record before reusing any image.",
+  "assets": [
+    {
+      "id": "camp-game",
+      "description": "tyjit skesh watching the card game in a shared four-person composition; cannot be separated from the group.",
+      "sourcePath": "public/assets/sources/camp-game-v1.png",
+      "width": 900,
+      "height": 600,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "retired",
+      "path": "public/assets/groups/camp-game-v1.webp",
+      "bytes": 161362,
+      "sha256": "bfc68c8a2a6389a4c4df86150a899c2154b99eac128ed52aa518e9bd7615796e",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 161362,
+        "nearLosslessBytes": 448454
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "camp-game-refined",
+      "description": "tyjit skesh watching the card game in a shared four-person composition; cannot be separated from the group.",
+      "sourcePath": "public/assets/sources/camp-game-refined-v1.png",
+      "width": 900,
+      "height": 600,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/camp-game-refined-v1.webp",
+      "bytes": 136640,
+      "sha256": "7b740e9a178c96e9672f762b387310a2ecb0847994d9da65017a0452544f70c3",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 136640,
+        "nearLosslessBytes": 410198
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "legacy-scene-01-a-little-luck",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-01-a-little-luck.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2244859,
+      "sha256": "c5e45f217c6d5557f679a0b0d1d517cd11d1cc3520c31016893aa06aa6a3f052",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "character_type": "npc",
+  "species": "shield dwarf",
+  "role": "caravan guard",
+  "appearance": {
+    "depiction": "Adult dwarf woman; exact age is unknown.",
+    "build": "Short, sturdy, and powerfully built.",
+    "hair": "Long red hair arranged in several braids.",
+    "face": "Strong features and a stern, readily angered expression.",
+    "clothing": "Chainmail and fitted dark armor with engraved plates, a deep red cloak, leather straps, and fur-trimmed leg armor.",
+    "gear": [
+      "Decorated handaxe",
+      "Dagger"
+    ],
+    "vibe": "A formidable, battle-ready guard."
+  },
+  "manner": "Quick to anger and quicker to her blades; honest to a fault and says why she is angry.",
+  "visual_reference": "Appearance transcribed from a user-provided character-card image.",
+  "unknowns": [
+    "age",
+    "height",
+    "eye color",
+    "specific guard rank",
+    "whether she carries both pictured weapons at all times"
+  ],
+  "events": [
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Watched the Three-Dragon Ante game with Sulesdeg; neither joined, and both appeared ready to deter cheating."
+    }
+  ]
+}

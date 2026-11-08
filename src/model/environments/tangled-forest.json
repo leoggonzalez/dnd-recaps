@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "tangled-forest",
+  "name": "Tangled woodland road",
+  "category": "environments",
+  "description": "Ochre road under a dense moss-and-blue canopy; transparent side trunks and fine near webbing.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "forest",
+    "road",
+    "webs",
+    "daylight"
+  ],
+  "reuseWhen": "Reuse for subdued woodland ambushes; match perspective and road direction. Webs are visual dressing, not proof of an encounter.",
+  "assets": [
+    {
+      "id": "forest-far",
+      "description": "Opaque distant canopy and continuous empty dirt road.",
+      "sourcePath": "public/assets/sources/forest-far-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "path": "public/assets/environments/forest-far-v1.webp",
+      "bytes": 350980,
+      "sha256": "4cc450585d6f4c56855ca93a2f1259e27170ee689d52af07d23a3b94b09ed92d",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 350980,
+        "nearLosslessBytes": 1573320
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "forest-middle",
+      "description": "Transparent gnarled trunks, roots and upper branches.",
+      "sourcePath": "public/assets/sources/forest-middle-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "path": "public/assets/environments/forest-middle-v1.webp",
+      "bytes": 467262,
+      "sha256": "e31a88cbb9f267882a964d20b9b7484416980b1e786a8e809de3b6323a944ada",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 467262,
+        "nearLosslessBytes": 1009830
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "forest-near",
+      "description": "Transparent corner thorns, roots and sparse silk strands.",
+      "sourcePath": "public/assets/sources/forest-near-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "path": "public/assets/environments/forest-near-v1.webp",
+      "bytes": 141306,
+      "sha256": "933a5a04dfb3e0e319e2182d0b5773b4263df54c3026dfb4619ee144b2ff10c3",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 141306,
+        "nearLosslessBytes": 263452
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

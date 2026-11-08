@@ -1,0 +1,50 @@
+{
+  "name": "dnd-recaps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate && npm run compile:timelines && next build",
+    "start": "next dev",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "validate": "npm run validate:library && node --import tsx scripts/validate-content.ts",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:browser": "playwright test",
+    "prepare-asset": "node --import tsx scripts/prepare-asset.ts",
+    "assets:build": "node --import tsx scripts/build-asset-library.ts",
+    "assets:find": "node --import tsx scripts/find-assets.ts",
+    "validate:library": "node --import tsx scripts/validate-library.ts",
+    "compile:timelines": "node --import tsx scripts/compile-timelines.ts",
+    "predev": "npm run compile:timelines",
+    "assets:assemble": "node --import tsx scripts/assemble-prototype.ts",
+    "postbuild": "node --import tsx scripts/prune-export.ts",
+    "schema:generate": "node --import tsx scripts/generate-model-schema.ts"
+  },
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0"
+  },
+  "dependencies": {
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.5",
+    "prettier": "3.9.10",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "11.0.5"
+    }
+  }
+}

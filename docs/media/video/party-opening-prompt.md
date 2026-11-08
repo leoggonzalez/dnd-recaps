@@ -1,0 +1,21 @@
+# Party Opening Video Prompt
+
+Create a 30-second fantasy-adventure opening as a sequence of quick, clear animated shots. Use the attached reference image to keep the same six heroes recognizable throughout. Style: hand-drawn late-1980s/1990s Saturday-morning action cartoon, bold ink outlines, expressive heroic poses, clean silhouettes, saturated jewel and primary colors, simple cel-shaded shadows, painted fantasy backgrounds, energetic camera moves, bright adventurous mood. Original designs; no copied characters or costumes. Keep faces, species, clothing, proportions, and signature gear consistent. No dialogue, captions, logos, or generated lettering. No gore; keep action readable and family-friendly.
+
+HEROES — all six are distinct:
+• Aldrik: slender, pale high-elf rogue with long pointed ears and short messy dark hair; clean-shaven. Fitted dark leather armor, dark blue-black scarf or cloak, light crossbow and rapier. Agile, narrow silhouette.
+• Balerias: elderly, rugged human ranger with lined weathered skin, long unkempt gray hair, thick gray beard, and one mechanical eye beneath a green-gem eyepatch. Worn ranger leathers; enormous but usable heavy crossbow.
+• Coppercoil: male copper dragonborn artificer, about one meter tall and much smaller than everyone else. Organic reptilian head and snout, copper scales, bright green eyes, mechanical lower jaw, glowing green chest core, goggles, compact inventor gear. He is a dragon-person, not a robot. His gadgets can deploy a small mechanical goat and lion.
+• Lucien: humanlike aasimar sorcerer with dark-brown skin, short tightly cropped black hair, dark eyes, strong brows, and a neat short black beard connected to his mustache. Crimson and purple robes with gold details; vivid arcane light. No wings or halo.
+• Rumble: blue firbolg barbarian, by far the tallest and largest, towering and massively muscular, with blue hair and a powerful, gentle-looking face. Practical gear and one enormous two-handed axe; restrained electric-blue glow during attacks.
+• Vladifix: human druid in practical earthy fabrics and natural materials. Keep unspecified face, hair, age, and build neutral, guided by the attached reference image. Nature magic uses leaves, roots, soil, and green growth. Not an elf.
+
+Keep Rumble visibly towering and Coppercoil waist-high beside adults in group shots. Aldrik stays slender, Balerias clearly elderly, Lucien's face and beard visible, and Vladifix human. Never swap, merge, duplicate, or redesign heroes; never give one hero another's signature weapon or traits.
+
+SHOT SEQUENCE:
+1. Sunrise over a mountain pass. Reveal the six heroes on a ridge, then have them charge toward camera: Rumble leads with his axe, Coppercoil's chest core sparks, Aldrik readies his crossbow, Balerias scans the horizon, Lucien raises a glowing hand, and Vladifix summons curling leaves. Leave open sky above the group.
+2. On a forest road, giant fantasy spiders threaten a merchant wagon. Show a fast, readable team counterattack: Aldrik darts between roots and fires; Balerias fires his oversized crossbow; Rumble sweeps away a web with his axe; Coppercoil sends a gadget under the cart; Lucien flashes purple arcane light; Vladifix binds a spider with thorny vines. Travelers take shelter and remain unharmed.
+3. Quick power showcase with clean transitions: Rumble lands with blue energy along his axe; tiny Coppercoil deploys a mechanical goat and lion; Lucien shapes purple magic; Vladifix sweeps roots and leaves across the ground; Aldrik vaults with crossbow and rapier; Balerias reloads, his green gem glinting. End with all six advancing together.
+4. In a village square after a storm, Rumble lifts a fallen beam, Coppercoil's mechanical goat helps right a cart, Vladifix restores crushed plants, Aldrik returns a dropped pouch, and Balerias steadies an adult woman adventurer as she steps down safely. Lucien offers her a hand; they share a playful, mutual smile. Villagers cheer. Finish on a bold group pose against bright open sky, leaving uncluttered space above the heroes for a title to be added later.
+
+Use quick cuts between these moments while keeping each action easy to understand. The heroes help people as well as fight monsters. Keep the flirt light and family-friendly.

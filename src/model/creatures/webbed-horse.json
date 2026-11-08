@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "webbed-horse",
+  "name": "Horse wrapped in silk",
+  "category": "creatures",
+  "description": "Unnamed caravan horse grouped with harness, body webbing and silk tether; monochrome sepia avoids declaring a canonical coat.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "horse",
+    "webbed",
+    "harness",
+    "rescue"
+  ],
+  "reuseWhen": "Reuse for an unnamed living horse under restraint, facing right. Do not identify it as Strawberry Three or Mo Two without source support.",
+  "assets": [
+    {
+      "id": "webbed-horse",
+      "description": "Full-body braced horse and silk tether, no visible injury.",
+      "sourcePath": "public/assets/sources/webbed-horse-v1.png",
+      "width": 720,
+      "height": 480,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/creatures/webbed-horse-v1.webp",
+      "bytes": 112618,
+      "sha256": "a2240bd0cae243b854132e9e7c9816fa485b645c91ed7d64d3c5e65e202e2d3a",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 112618,
+        "nearLosslessBytes": 261460
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

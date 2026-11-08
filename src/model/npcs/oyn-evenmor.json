@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "oyn-evenmor",
+  "name": "Oyn Evenmor",
+  "category": "npcs",
+  "description": "Broad graying wagon master with salt-and-pepper beard, cream tunic, green shawl, red sash, staff and small bird-cage rack.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "oyn",
+    "birds",
+    "staff",
+    "watching"
+  ],
+  "reuseWhen": "Reuse for Oyn watching cautiously at a safe distance; bird species remain unspecified.",
+  "assets": [
+    {
+      "id": "oyn",
+      "description": "Full-body cautious watcher facing right with staff and small caged birds.",
+      "sourcePath": "public/assets/sources/oyn-v1.png",
+      "width": 420,
+      "height": 630,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "path": "public/assets/npcs/oyn-v1.webp",
+      "bytes": 83104,
+      "sha256": "dd73116b779f792c7a7592323598895ada9b746a3e65d92d8c45993cecb674d9",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 83104,
+        "nearLosslessBytes": 219696
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "legacy-scene-03-a-cautious-offering",
+      "description": "Legacy full scene reference from the approved still storyboard; older appearance/style may differ from the current character record. Not an isolated pose.",
+      "path": "public/assets/illustrations/scene-03-a-cautious-offering.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2704774,
+      "sha256": "e4d03adfac6af101d6fdc3833c61b45f112a9bc1895d425647cbe3fd1077bee0",
+      "kind": "illustration",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": false,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "shared-composition"
+    }
+  ],
+  "character_type": "npc",
+  "species": "human",
+  "role": "wagon master hauling exotic birds",
+  "appearance": {
+    "depiction": "Middle-aged to older man; exact age is unknown.",
+    "build": "Broad and sturdy.",
+    "hair": "Shoulder-length, wavy dark-gray hair with a receding hairline.",
+    "facial_hair": "Full salt-and-pepper beard and moustache.",
+    "clothing": "Cream tunic and loose brown trousers, layered with a dark green shawl, a muted red sash, leather straps, and travel gear.",
+    "gear": [
+      "Walking staff",
+      "Leather belt, pouches, and hanging travel trinkets",
+      "Wooden rack of bird cages strapped behind him"
+    ],
+    "birds": "Several colorful exotic birds are visible in the cages, including blue, green, yellow, and red plumage.",
+    "vibe": "A seasoned caravan worker with a practical, well-travelled appearance."
+  },
+  "manner": "Stubborn and argumentative, but generous with drinks for anyone willing to argue with him.",
+  "visual_reference": "Appearance transcribed from a user-provided character-card image.",
+  "unknowns": [
+    "exact age",
+    "height",
+    "eye color",
+    "details of his wagon",
+    "names and species of the birds he transports"
+  ],
+  "events": [
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Warned Balerias about the peryton’s talons, kept a safe distance during the feeding, and asked about Sanyphillis bird breeding."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur's Gate to Waterdeep",
+      "event": "Joined the caravan’s defense against ettercaps and giant spiders."
+    }
+  ]
+}

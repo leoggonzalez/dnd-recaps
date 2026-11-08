@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "horses-counterattack",
+  "name": "Caravan horses fighting back",
+  "category": "groups",
+  "description": "Two unnamed sepia caravan horses counterattack one spider; tightly grouped secondary battle beat.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "horse",
+    "kick",
+    "spider",
+    "counterattack",
+    "battle"
+  ],
+  "reuseWhen": "Reuse as the supporting horse/spider beat in this encounter; unnamed horses do not establish coats or assign a precise named target. Do not clone the group into extra enemies.",
+  "assets": [
+    {
+      "id": "horses-counterattack",
+      "description": "One horse kicks a recoiling spider while a second raises a forehoof; non-graphic midground cutout.",
+      "sourcePath": "public/assets/sources/horses-counterattack-v1.png",
+      "width": 720,
+      "height": 480,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.83
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/horses-counterattack-v1.webp",
+      "bytes": 91952,
+      "sha256": "343cb144d7842ee31749551f64af8dd03a5f462b20caa0c6d80f902150f70871",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 91952,
+        "nearLosslessBytes": 189174
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

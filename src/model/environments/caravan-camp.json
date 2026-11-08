@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "caravan-camp",
+  "name": "Woodland caravan camp",
+  "category": "environments",
+  "description": "Empty woodland clearing at dusk, warm lantern light and subdued blue hills; three independently composed layers.",
+  "style": "parchment-ink-v1",
+  "references": [],
+  "tags": [
+    "camp",
+    "dusk",
+    "caravan",
+    "woodland"
+  ],
+  "reuseWhen": "Reuse the three matching layers together for woodland caravan evenings; keep the shared horizon, warm left light and overscan.",
+  "assets": [
+    {
+      "id": "camp-far",
+      "description": "Opaque dusk sky, distant trees/hills and reconstructed empty ground.",
+      "sourcePath": "public/assets/sources/camp-far-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "path": "public/assets/environments/camp-far-v1.webp",
+      "bytes": 325366,
+      "sha256": "b5f22a27bc2b8f1653877560d493bfb0aa307f78280f11a76ddda2051ff90369",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 325366,
+        "nearLosslessBytes": 1517070
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "camp-middle",
+      "description": "Transparent covered wagons at the sides with a small hanging lantern.",
+      "sourcePath": "public/assets/sources/camp-middle-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "path": "public/assets/environments/camp-middle-v1.webp",
+      "bytes": 188980,
+      "sha256": "6326f58cc184829d3267421172be9cd13dc8c3de00f68f54c27a91e8bb0de877",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 188980,
+        "nearLosslessBytes": 525180
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "camp-near",
+      "description": "Transparent corner grasses, brambles and overhanging twigs.",
+      "sourcePath": "public/assets/sources/camp-near-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "path": "public/assets/environments/camp-near-v1.webp",
+      "bytes": 199370,
+      "sha256": "242114727e25f00b7ef67a622b3e9fcba5d155d33e9bf651dc9b41ee35d00639",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "alternatives": {
+        "lossyBytes": 199370,
+        "nearLosslessBytes": 348350
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}
