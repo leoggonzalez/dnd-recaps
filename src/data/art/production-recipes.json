@@ -50,6 +50,45 @@
           "x": 0.5,
           "y": 0.5
         }
+      },
+      {
+        "id": "camp-night-far",
+        "description": "Night variant: indigo sky, dim wooded clearing and amber illumination at an overnight rest stop; opaque far layer.",
+        "sourcePath": "public/assets/sources/camp-night-far-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "status": "prototype"
+      },
+      {
+        "id": "camp-night-middle",
+        "description": "Night variant: twelve distinct covered wagons parked in one long receding line, with amber lanterns; transparent middle layer.",
+        "sourcePath": "public/assets/sources/camp-night-middle-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "status": "prototype"
+      },
+      {
+        "id": "camp-night-near",
+        "description": "Night variant: dark corner foliage with amber-lit leaf edges; transparent near layer.",
+        "sourcePath": "public/assets/sources/camp-night-near-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "status": "prototype"
       }
     ]
   },
@@ -147,6 +186,19 @@
         "sourcePath": "public/assets/sources/camp-game-refined-v1.png",
         "width": 900,
         "height": 600,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
+        },
+        "status": "prototype"
+      },
+      {
+        "id": "camp-night-gamblers",
+        "description": "Night rest-stop game: five seated gamblers—Samardag, Balerias, Lucien beside Arietta, and Radecere—around the same lantern-lit crate table. Shared composition.",
+        "sourcePath": "public/assets/sources/camp-night-gamblers-v1.png",
+        "width": 1280,
+        "height": 560,
         "kind": "cutout",
         "anchor": {
           "x": 0.5,
@@ -478,6 +530,41 @@
         "anchor": {
           "x": 0.5,
           "y": 0.83
+        },
+        "status": "prototype"
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "caravan-guards",
+    "name": "Sulesdeg and Tyjit on watch",
+    "category": "groups",
+    "description": "Shared guard compositions; the guards watch without joining the card game.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/model/npcs/sulesdeg-the-pole.json",
+      "src/model/npcs/tyjit-skesh.json"
+    ],
+    "tags": [
+      "guards",
+      "sulesdeg",
+      "tyjit",
+      "night",
+      "camp"
+    ],
+    "reuseWhen": "Reuse for these two stationary guards at a nighttime camp, preserving their height difference and firelit/indigo lighting.",
+    "assets": [
+      {
+        "id": "camp-night-guards",
+        "description": "Night variants of Sulesdeg with upright spear and Tyjit with folded arms, standing watch; neither plays cards.",
+        "sourcePath": "public/assets/sources/camp-night-guards-v1.png",
+        "width": 600,
+        "height": 560,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.99
         },
         "status": "prototype"
       }

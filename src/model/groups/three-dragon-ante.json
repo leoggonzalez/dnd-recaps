@@ -3,11 +3,16 @@
   "id": "three-dragon-ante",
   "name": "Three-Dragon Ante gathering",
   "category": "groups",
-  "description": "Grouped game crate, cards, Samardag/Radecere with indistinct faces, and watchful Sulesdeg/Tyjit. Cannot separate individual figures from this bitmap.",
+  "description": "Three-Dragon Ante group compositions: earlier camp variants and the five seated gamblers at the night rest. Figures cannot be separated from these bitmaps.",
   "style": "parchment-ink-v1",
   "references": [
     "src/model/npcs/sulesdeg-the-pole.json",
-    "src/model/npcs/tyjit-skesh.json"
+    "src/model/npcs/tyjit-skesh.json",
+    "src/model/characters/lucien.json",
+    "src/model/characters/balerias.json",
+    "src/model/npcs/arietta-innevar.json",
+    "src/model/npcs/samardag-the-hoper.json",
+    "src/model/npcs/radecere-perethun.json"
   ],
   "tags": [
     "camp",
@@ -15,9 +20,14 @@
     "samardag",
     "radecere",
     "sulesdeg",
-    "tyjit"
+    "tyjit",
+    "night",
+    "rest-stop",
+    "lucien",
+    "arietta",
+    "balerias"
   ],
-  "reuseWhen": "Reuse only when these four people gather at the same game. Traveller appearances are provisional; no claim of approved individual portraits.",
+  "reuseWhen": "Match the description and lighting of each variant: night group includes Samardag, Balerias, Lucien, Arietta and Radecere; earlier variants also include standing guards. Samardag and Radecere remain provisional.",
   "assets": [
     {
       "id": "camp-game",
@@ -64,6 +74,30 @@
       "alternatives": {
         "lossyBytes": 136640,
         "nearLosslessBytes": 410198
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "camp-night-gamblers",
+      "description": "Night rest-stop game: five seated gamblers—Samardag, Balerias, Lucien beside Arietta, and Radecere—around the same lantern-lit crate table. Shared composition.",
+      "sourcePath": "public/assets/sources/camp-night-gamblers-v1.png",
+      "width": 1280,
+      "height": 560,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/camp-night-gamblers-v1.webp",
+      "bytes": 256042,
+      "sha256": "d10ced1a8757a59d4c87c331f5cbee9f174bc50843461569438e5e61b584440f",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 256042,
+        "nearLosslessBytes": 774804
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
     }

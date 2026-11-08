@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "caravan-guards",
+  "name": "Sulesdeg and Tyjit on watch",
+  "category": "groups",
+  "description": "Shared guard compositions; the guards watch without joining the card game.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/model/npcs/sulesdeg-the-pole.json",
+    "src/model/npcs/tyjit-skesh.json"
+  ],
+  "tags": [
+    "guards",
+    "sulesdeg",
+    "tyjit",
+    "night",
+    "camp"
+  ],
+  "reuseWhen": "Reuse for these two stationary guards at a nighttime camp, preserving their height difference and firelit/indigo lighting.",
+  "assets": [
+    {
+      "id": "camp-night-guards",
+      "description": "Night variants of Sulesdeg with upright spear and Tyjit with folded arms, standing watch; neither plays cards.",
+      "sourcePath": "public/assets/sources/camp-night-guards-v1.png",
+      "width": 600,
+      "height": 560,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/camp-night-guards-v1.webp",
+      "bytes": 72454,
+      "sha256": "71c00d37ceb075b2d7e1fc844c385d6b6cef82cc5147c78e397761807eae4c0d",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 72454,
+        "nearLosslessBytes": 203694
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

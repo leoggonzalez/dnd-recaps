@@ -11,8 +11,9 @@ This storyboard and its scene prompts are based on the session recap and availab
 ## 1. A little luck
 
 - **Recap event:** Samardag offers the caravan a game of Three-Dragon Ante. Radecere joins with a surprisingly substantial purse; Arietta draws Lucien toward an empty seat. Sulesdeg and Tyjit watch without joining.
-- **Characters:** Lucien, Arietta, Samardag, Radecere, Sulesdeg, Tyjit.
-- **Proposed framing:** Warm firelight around the game, with Arietta guiding Lucien into the circle and the two guards holding a quiet watch nearby. Keep Samardag and Radecere's appearances provisional until references are available.
+- **Characters:** Lucien, Arietta, Balerias, Samardag, Radecere, Sulesdeg, Tyjit.
+- **Current framing (user clarification):** The caravan has stopped to rest for the night. At least ten wagons are parked in a long line; the night middle layer depicts twelve. Lucien and Arietta sit together gambling with Balerias, Samardag and Radecere around a lantern-lit crate table. Sulesdeg and Tyjit stand watch. Samardag and Radecere remain indistinct and provisional. Earlier still prompts below are historical references.
+- **Night assets:** [far sky/ground](../../../../public/assets/environments/camp-night-far-v1.webp), [twelve parked wagons](../../../../public/assets/environments/camp-night-middle-v1.webp), [near foliage](../../../../public/assets/environments/camp-night-near-v1.webp), [seated gamblers](../../../../public/assets/groups/camp-night-gamblers-v1.webp), [watching guards](../../../../public/assets/groups/camp-night-guards-v1.webp). Earlier assets are preserved.
 - **Mood:** Welcoming and lively, with a trace of watchfulness.
 
 ## 2. A walk through camp

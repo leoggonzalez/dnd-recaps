@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "radecere-perethun",
+  "name": "Radecere Perethun",
+  "category": "npcs",
+  "description": "Traveller who joined the game with a substantial purse. Appearance remains provisional and indistinct in the group illustration.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "caravan",
+    "cards",
+    "night"
+  ],
+  "reuseWhen": "Reuse this shared game composition for this night rest only. No approved individual portrait or detailed appearance reference exists.",
+  "assets": [
+    {
+      "id": "camp-night-gamblers",
+      "description": "Night rest-stop game: five seated gamblers—Samardag, Balerias, Lucien beside Arietta, and Radecere—around the same lantern-lit crate table. Shared composition.",
+      "sourcePath": "public/assets/sources/camp-night-gamblers-v1.png",
+      "width": 1280,
+      "height": 560,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/camp-night-gamblers-v1.webp",
+      "bytes": 256042,
+      "sha256": "d10ced1a8757a59d4c87c331f5cbee9f174bc50843461569438e5e61b584440f",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 256042,
+        "nearLosslessBytes": 774804
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    }
+  ],
+  "events": [
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Traveller who joined the game with a substantial purse while the caravan rested for the night."
+    }
+  ]
+}

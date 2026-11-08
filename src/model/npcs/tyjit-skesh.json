@@ -79,6 +79,31 @@
       "version": 1,
       "status": "reference",
       "usage": "shared-composition"
+    },
+    {
+      "id": "camp-night-guards",
+      "description": "Tyjit standing watch beside Sulesdeg during the night rest. Shared two-guard composition; neither is gambling.",
+      "sourcePath": "public/assets/sources/camp-night-guards-v1.png",
+      "width": 600,
+      "height": 560,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/camp-night-guards-v1.webp",
+      "bytes": 72454,
+      "sha256": "71c00d37ceb075b2d7e1fc844c385d6b6cef82cc5147c78e397761807eae4c0d",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 72454,
+        "nearLosslessBytes": 203694
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "character_type": "npc",

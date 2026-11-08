@@ -8,8 +8,47 @@
   "location": "Road from Baldur’s Gate to Waterdeep",
   "summary": "Questions by lanternlight. Three suspicious wagons. A forest that wants the horses.",
   "status": "draft",
-  "coverAssetId": "camp-far",
+  "coverAssetId": "camp-night-far",
   "assets": [
+    {
+      "id": "camp-night-far",
+      "path": "assets/environments/camp-night-far-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169602,
+      "sha256": "ce25f697d6452708bbb6202f8e6be788eba57b25bc019799f8891ae1222096c8",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "camp-night-middle",
+      "path": "assets/environments/camp-night-middle-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 136904,
+      "sha256": "2c207d1098e03c042a0670f4a03604dbf5222eea8fa0274d1f0dab998826a404",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "camp-night-near",
+      "path": "assets/environments/camp-night-near-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 129560,
+      "sha256": "e4f26f80aa5e95e551def6c848a46c14d3d3f622c1a757da789652e66742766d",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
     {
       "id": "camp-far",
       "path": "assets/environments/camp-far-v1.webp",
@@ -89,12 +128,25 @@
       }
     },
     {
-      "id": "camp-game-refined",
-      "path": "assets/groups/camp-game-refined-v1.webp",
-      "width": 900,
-      "height": 600,
-      "bytes": 136640,
-      "sha256": "7b740e9a178c96e9672f762b387310a2ecb0847994d9da65017a0452544f70c3",
+      "id": "camp-night-guards",
+      "path": "assets/groups/camp-night-guards-v1.webp",
+      "width": 600,
+      "height": 560,
+      "bytes": 72454,
+      "sha256": "71c00d37ceb075b2d7e1fc844c385d6b6cef82cc5147c78e397761807eae4c0d",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      }
+    },
+    {
+      "id": "camp-night-gamblers",
+      "path": "assets/groups/camp-night-gamblers-v1.webp",
+      "width": 1280,
+      "height": 560,
+      "bytes": 256042,
+      "sha256": "d10ced1a8757a59d4c87c331f5cbee9f174bc50843461569438e5e61b584440f",
       "kind": "cutout",
       "anchor": {
         "x": 0.5,
@@ -260,6 +312,29 @@
   ],
   "environments": [
     {
+      "id": "caravan-camp-night",
+      "name": "Caravan resting for the night",
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "camp-night-far",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "camp-night-middle",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "camp-night-near",
+          "zIndex": 80
+        }
+      ],
+      "overscan": 48,
+      "cameraLimit": 32
+    },
+    {
       "id": "caravan-camp",
       "name": "Woodland caravan camp",
       "layers": [
@@ -310,59 +385,51 @@
     {
       "id": "a-little-luck",
       "title": "A little luck",
-      "environmentId": "caravan-camp",
-      "description": "Camp layers drift gently; pouch rises; Arietta and Lucien move toward the game. Guards remain watchful.",
+      "environmentId": "caravan-camp-night",
+      "description": "The caravan rests for the night. Twelve wagons stand parked in a long line behind five seated gamblers. Lucien and Arietta sit together; Balerias plays too. Sulesdeg and Tyjit keep watch.",
       "durationMs": 4800,
       "narration": [
         {
           "id": "segment-1",
-          "text": "Samardag invited the caravan to Three-Dragon Ante. Radecere arrived with a surprisingly substantial purse.",
+          "text": "The long caravan had stopped for the night. Along the parked wagons, Samardag called a game of Three-Dragon Ante.",
           "delayMs": 150,
           "durationMs": 450
         },
         {
           "id": "segment-2",
-          "text": "Arietta drew Lucien toward a seat. Sulesdeg and Tyjit watched without joining.",
+          "text": "Lucien and Arietta sat together at the cards, with Balerias playing too. Radecere brought a surprisingly substantial purse.",
           "delayMs": 850,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-3",
+          "text": "Sulesdeg and Tyjit stood watch without joining.",
+          "delayMs": 1550,
           "durationMs": 450
         }
       ],
       "actors": [
         {
-          "id": "card-game",
-          "assetId": "camp-game-refined",
+          "id": "night-guards",
+          "assetId": "camp-night-guards",
           "position": {
-            "x": 770,
-            "y": 850
+            "x": 300,
+            "y": 790
           },
-          "width": 960,
-          "zIndex": 40,
+          "width": 550,
+          "zIndex": 35,
           "poses": []
         },
         {
-          "id": "arriving-pair",
-          "assetId": "arietta-lucien",
+          "id": "night-gamblers",
+          "assetId": "camp-night-gamblers",
           "position": {
-            "x": 1440,
-            "y": 930
+            "x": 1110,
+            "y": 1025
           },
-          "width": 510,
+          "width": 1280,
           "zIndex": 50,
-          "poses": [],
-          "motion": {
-            "preset": "translate",
-            "from": {
-              "x": 90,
-              "y": 0
-            },
-            "to": {
-              "x": 0,
-              "y": 0
-            },
-            "delayMs": 300,
-            "durationMs": 2300,
-            "easing": "ease-out"
-          }
+          "poses": []
         }
       ],
       "reducedMotion": "final",

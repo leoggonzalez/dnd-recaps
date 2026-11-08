@@ -26,8 +26,19 @@ const assets = records
 const path = resolve("src/data/sessions/2026-10-28.json");
 const session = JSON.parse(readFileSync(path, "utf8"));
 const byId = new Map(assets.map((asset) => [asset.id, asset]));
-session.coverAssetId = "camp-far";
+session.coverAssetId = "camp-night-far";
 session.environments = [
+  {
+    id: "caravan-camp-night",
+    name: "Caravan resting for the night",
+    layers: [
+      { slot: "far", assetId: "camp-night-far", zIndex: 0 },
+      { slot: "middle", assetId: "camp-night-middle", zIndex: 20 },
+      { slot: "near", assetId: "camp-night-near", zIndex: 80 },
+    ],
+    overscan: 48,
+    cameraLimit: 32,
+  },
   {
     id: "caravan-camp",
     name: "Woodland caravan camp",
@@ -76,11 +87,32 @@ const actor = (
   extra = {},
 ) => ({ id, assetId, position: { x, y }, width, zIndex, poses: [], ...extra });
 session.scenes[0].artwork = "prototype";
+session.scenes[0].environmentId = "caravan-camp-night";
+session.scenes[0].description =
+  "The caravan rests for the night. Twelve wagons stand parked in a long line behind five seated gamblers. Lucien and Arietta sit together; Balerias plays too. Sulesdeg and Tyjit keep watch.";
+session.scenes[0].narration = [
+  {
+    id: "segment-1",
+    text: "The long caravan had stopped for the night. Along the parked wagons, Samardag called a game of Three-Dragon Ante.",
+    delayMs: 150,
+    durationMs: 450,
+  },
+  {
+    id: "segment-2",
+    text: "Lucien and Arietta sat together at the cards, with Balerias playing too. Radecere brought a surprisingly substantial purse.",
+    delayMs: 850,
+    durationMs: 450,
+  },
+  {
+    id: "segment-3",
+    text: "Sulesdeg and Tyjit stood watch without joining.",
+    delayMs: 1550,
+    durationMs: 450,
+  },
+];
 session.scenes[0].actors = [
-  actor("card-game", "camp-game-refined", 770, 850, 960, 40),
-  actor("arriving-pair", "arietta-lucien", 1440, 930, 510, 50, {
-    motion: travel(90, 0, 300, 2300),
-  }),
+  actor("night-guards", "camp-night-guards", 300, 790, 550, 35),
+  actor("night-gamblers", "camp-night-gamblers", 1110, 1025, 1280, 50),
 ];
 session.scenes[1].artwork = "prototype";
 session.scenes[1].actors = [

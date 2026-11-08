@@ -37,15 +37,24 @@ async function main() {
   };
   const records = new Set(previousIndex.records);
   const requested = process.argv.indexOf("--entity");
-  const selected =
-    requested < 0
-      ? recipes
-      : recipes.filter((entity) => entity.id === process.argv[requested + 1]);
+  const requestedAssets = new Set(
+    process.argv.flatMap((arg, index) =>
+      arg === "--asset" ? [process.argv[index + 1]] : [],
+    ),
+  );
+  const selected = recipes.filter(
+    (entity) =>
+      (requested < 0 || entity.id === process.argv[requested + 1]) &&
+      (!requestedAssets.size ||
+        entity.assets.some((asset) => requestedAssets.has(asset.id))),
+  );
   if (!selected.length)
     throw new Error("No preparation recipe matched the requested entity");
   for (const entity of selected) {
     const assets = [];
-    for (const recipe of entity.assets) {
+    for (const recipe of entity.assets.filter(
+      (asset) => !requestedAssets.size || requestedAssets.has(asset.id),
+    )) {
       const original = await readFile(resolve(root, recipe.sourcePath));
       const input = await sharp(original).metadata();
       const pipeline = () =>

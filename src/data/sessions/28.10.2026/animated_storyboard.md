@@ -14,7 +14,8 @@ Each environment has far (depth 0), middle (20), near (80) layers. Actors use ex
 
 | Environment | Scenes | Layers and reuse |
 | --- | --- | --- |
-| caravan-camp | 01–03 | Distant canopy/sky; wagons and camp; foreground vegetation. Cage and game props separate. |
+| caravan-camp-night | 01 | Night sky/ground; twelve stationary wagons in one long line; dark near foliage. Seated game and standing guards are separate cutouts. |
+| caravan-camp | 02–03 | Earlier camp layers retained for these prototype scenes and future reuse. |
 | sleeping-space | 04 | Dark sleeping area; belongings; close foreground cloth. No visible Lucien. |
 | woodland-road | 05 | Distant road; exactly three cult wagons as separate props; foreground verge. |
 | tangled-forest | 06–08 | Canopy; road and trunks; transparent branches/web edges. Reframe 08 before commissioning a fifth environment. |
@@ -36,7 +37,7 @@ Required shared cutouts and variants (not a generated-image quota):
 
 The recap explicitly introduces **three ettercaps**, but later describes Balerias bringing down one, Aldrik felling the next, Lucien killing the horse-dragger, and a final bolt at a remaining attacker. It does not unambiguously identify every target’s species or link the final target to prior individuals. Do not silently add a fourth ettercap or pretend this is a round-by-round reconstruction. Use E1–E3 only, keep unspecified hits/defeats offscreen, focus scene 07 on the horse-dragger, and show the final bolt leaving frame in 07. Resolve any literal target-to-kill mapping against further user notes before final battle art. Spiders S1 (Lucien), S2 (Coppergoat/Aldrik), S3 (horse-hoof sequence) are staging labels; the total spider count is unspecified. The mounted insert asserts no extra kill.
 
-Samardag, Radecere, Orvustia, Leda, horse coats, and detailed peryton markings lack close-up references. Keep them indistinct in rough staging; resolve close-ups before final art. Arietta’s intentions, the decoy suspicion, the eye reflection, and the scroll’s contents stay unresolved. Rumble and Vladifix are absent. No changes to character records are needed.
+Samardag, Radecere, Orvustia, Leda, horse coats, and detailed peryton markings lack close-up references. Keep them indistinct in rough staging; resolve close-ups before final art. Arietta’s intentions, the decoy suspicion, the eye reflection, and the scroll’s contents stay unresolved. Rumble and Vladifix are absent. User clarifications about participation are recorded in the affected character/NPC events without changing their sheets.
 
 ## Scene specification — approved eight-scene scope
 
@@ -44,13 +45,15 @@ The user selected the eight scenes in [storyboard.md](storyboard.md). This repla
 
 ### 01 — A little luck (`a-little-luck`)
 
-Environment: `caravan-camp`.
+Environment: `caravan-camp-night`.
 
-Samardag invited the caravan to Three-Dragon Ante. Radecere arrived with a surprisingly substantial purse.
+The long caravan had stopped for the night. Along the parked wagons, Samardag called a game of Three-Dragon Ante.
 
-Arietta drew Lucien toward a seat. Sulesdeg and Tyjit watched without joining.
+Lucien and Arietta sat together at the cards, with Balerias playing too. Radecere brought a surprisingly substantial purse.
 
-Proposed staging: Camp layers drift gently; pouch rises; Arietta and Lucien move toward the game. Guards remain watchful.
+Sulesdeg and Tyjit stood watch without joining.
+
+Current staging: twelve stationary wagons form a long line behind five seated gamblers. Lucien and Arietta share a bench. Balerias holds cards. The two guards stand separately at depth 35; the game group is at depth 50. No walking or travelling motion is assigned to these cutouts. Background parallax and the existing ink reveal run concurrently. The night sky, wagon line, near foliage, game and guards are five new assets; earlier lighting variants remain registered for reuse. The caravan total is distinct from the three cult wagons in scene 05.
 
 ### 02 — A walk through camp (`a-walk-through-camp`)
 

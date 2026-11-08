@@ -20,6 +20,9 @@
     "src/model/npcs/arietta-innevar.json",
     "src/model/npcs/tyjit-skesh.json",
     "src/model/npcs/sulesdeg-the-pole.json",
-    "src/model/illustrations/session-illustrations.json"
+    "src/model/illustrations/session-illustrations.json",
+    "src/model/groups/caravan-guards.json",
+    "src/model/npcs/samardag-the-hoper.json",
+    "src/model/npcs/radecere-perethun.json"
   ]
 }

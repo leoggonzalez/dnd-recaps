@@ -151,7 +151,7 @@ test("ink draws far, middle, near, then actors; movement overlaps the drawing an
 test("a moving cutout changes position while its ink mask is still expanding", async ({
   page,
 }) => {
-  await page.goto("./sessions/2026-10-28/");
+  await page.goto("./sessions/2026-10-28/#scene=a-walk-through-camp");
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
   await page.locator(".scene-player").hover();
   await page.getByRole("button", { name: "Pause", exact: true }).click();
@@ -162,7 +162,7 @@ test("a moving cutout changes position while its ink mask is still expanding", a
         animation.currentTime = time;
       }
     }, time);
-  const actor = page.locator('[data-actor="arriving-pair"]');
+  const actor = page.locator('[data-actor="walking-pair"]');
   await seek(850);
   const position = await actor
     .locator(".actor-motion")

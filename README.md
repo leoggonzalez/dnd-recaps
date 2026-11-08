@@ -81,3 +81,5 @@ The parchment/ink toolbar floats at the bottom of the scene: mouse hover or keyb
 The effect uses native CSS gradient masks and a registered custom property ([Chrome technique reference](https://developer.chrome.com/docs/modern-web-guidance/guides/ui-behaviors/interactive-content-reveal)); no animation framework or extra reveal artwork is needed.
 
 CI validates root and `/dnd-recaps` exports. The manual Pages workflow builds/tests and deploys only `out/`. Configure Pages with GitHub Actions as its build source, then run **Deploy recap app to Pages** on `main`. The current draft may be published for review; it is not the completed recap MVP.
+
+The opening scene now depicts the caravan resting for the night, with twelve parked wagons and Lucien, Arietta and Balerias seated at the game. Five new night assets are registered alongside all preserved earlier versions.

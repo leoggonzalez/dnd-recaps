@@ -3,16 +3,19 @@
   "id": "caravan-camp",
   "name": "Woodland caravan camp",
   "category": "environments",
-  "description": "Empty woodland clearing at dusk, warm lantern light and subdued blue hills; three independently composed layers.",
+  "description": "Reusable caravan camp layers, including preserved earlier light variants and a matched night rest set with twelve parked wagons.",
   "style": "parchment-ink-v1",
   "references": [],
   "tags": [
     "camp",
     "dusk",
     "caravan",
-    "woodland"
+    "woodland",
+    "night",
+    "rest-stop",
+    "twelve-wagons"
   ],
-  "reuseWhen": "Reuse the three matching layers together for woodland caravan evenings; keep the shared horizon, warm left light and overscan.",
+  "reuseWhen": "Use matched lighting sets: camp-night-far/middle/near depict the stationary night rest with twelve wagons; camp-far/middle/near preserve the earlier camp lighting for future reuse. Do not mix the sets.",
   "assets": [
     {
       "id": "camp-far",
@@ -83,6 +86,78 @@
       "alternatives": {
         "lossyBytes": 199370,
         "nearLosslessBytes": 348350
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "camp-night-far",
+      "description": "Night variant: indigo sky, dim wooded clearing and amber illumination at an overnight rest stop; opaque far layer.",
+      "sourcePath": "public/assets/sources/camp-night-far-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/camp-night-far-v1.webp",
+      "bytes": 169602,
+      "sha256": "ce25f697d6452708bbb6202f8e6be788eba57b25bc019799f8891ae1222096c8",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 169602,
+        "nearLosslessBytes": 1173008
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "camp-night-middle",
+      "description": "Night variant: twelve distinct covered wagons parked in one long receding line, with amber lanterns; transparent middle layer.",
+      "sourcePath": "public/assets/sources/camp-night-middle-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/camp-night-middle-v1.webp",
+      "bytes": 136904,
+      "sha256": "2c207d1098e03c042a0670f4a03604dbf5222eea8fa0274d1f0dab998826a404",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 136904,
+        "nearLosslessBytes": 383100
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "camp-night-near",
+      "description": "Night variant: dark corner foliage with amber-lit leaf edges; transparent near layer.",
+      "sourcePath": "public/assets/sources/camp-night-near-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/camp-night-near-v1.webp",
+      "bytes": 129560,
+      "sha256": "e4f26f80aa5e95e551def6c848a46c14d3d3f622c1a757da789652e66742766d",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 129560,
+        "nearLosslessBytes": 228142
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
     }

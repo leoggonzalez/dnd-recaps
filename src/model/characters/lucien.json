@@ -159,6 +159,31 @@
       "version": 1,
       "status": "reference",
       "usage": "shared-composition"
+    },
+    {
+      "id": "camp-night-gamblers",
+      "description": "Lucien seated immediately beside Arietta playing cards with Balerias, Samardag and Radecere during the night rest. Full shared five-person composition.",
+      "sourcePath": "public/assets/sources/camp-night-gamblers-v1.png",
+      "width": 1280,
+      "height": 560,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.99
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/camp-night-gamblers-v1.webp",
+      "bytes": 256042,
+      "sha256": "d10ced1a8757a59d4c87c331f5cbee9f174bc50843461569438e5e61b584440f",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 256042,
+        "nearLosslessBytes": 774804
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "species": "aasimar",
@@ -326,6 +351,11 @@
       "date": "6 Ches 1492 DR",
       "location": "Road from Baldur's Gate to Waterdeep",
       "event": "Killed the ettercap that was dragging a horse toward the forest, preventing it from carrying the horse away."
+    },
+    {
+      "date": "6 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Played Three-Dragon Ante with Balerias, Lucien, Arietta, Samardag and Radecere while the caravan rested for the night; Lucien and Arietta sat together."
     }
   ]
 }
