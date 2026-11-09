@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "cocoon-observers",
+  "name": "Aldrik, Balerias and Coppercoil at the cocoon",
+  "category": "groups",
+  "description": "Three party members look down at the opened cocoon.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/model/characters/aldrik.json",
+    "src/model/characters/balerias.json",
+    "src/model/characters/coppercoil.json"
+  ],
+  "tags": [
+    "party",
+    "cocoon",
+    "forest"
+  ],
+  "reuseWhen": "Reuse for the same three characters observing something below them.",
+  "assets": [
+    {
+      "id": "cocoon-party-observers",
+      "description": "Standing group of Aldrik, Balerias and Coppercoil looking down.",
+      "sourcePath": "public/assets/sources/cocoon-party-observers-v1.png",
+      "width": 750,
+      "height": 750,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/cocoon-party-observers-v1.webp",
+      "bytes": 212170,
+      "sha256": "aac2ceb709f0461b995056ee14594a7ba8e59bc5a9f025389dac9730c32cba1b",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 212170,
+        "nearLosslessBytes": 530414
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

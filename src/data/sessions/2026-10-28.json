@@ -141,6 +141,45 @@
       }
     },
     {
+      "id": "deep-forest-far",
+      "path": "assets/environments/deep-forest-far-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 477202,
+      "sha256": "7b186637bef31e14ac7ba2c81b0cf6d8c4dd990b0566429577c18340e18e15e8",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "deep-forest-middle",
+      "path": "assets/environments/deep-forest-middle-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 273926,
+      "sha256": "b9a65d00776f03a50fa493677e408216807c080bf872493371a59ae2c1b070ac",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "deep-forest-near",
+      "path": "assets/environments/deep-forest-near-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 123570,
+      "sha256": "86b8570fe1c576eb6f7c55d313f5cb1e980cec75764b3ffc0098b8d2c992844a",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
       "id": "forest-far",
       "path": "assets/environments/forest-far-v1.webp",
       "width": 1600,
@@ -542,6 +581,58 @@
         "x": 0.65,
         "y": 0.72
       }
+    },
+    {
+      "id": "cocoon-party-observers",
+      "path": "assets/groups/cocoon-party-observers-v1.webp",
+      "width": 750,
+      "height": 750,
+      "bytes": 212170,
+      "sha256": "aac2ceb709f0461b995056ee14594a7ba8e59bc5a9f025389dac9730c32cba1b",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "cocoon-closed",
+      "path": "assets/objects/cocoon-closed-v1.webp",
+      "width": 960,
+      "height": 480,
+      "bytes": 151352,
+      "sha256": "92e57ac45fbfcd61b297a52d4f47be2abd2c50520e2c18d396430ac1c9e33e6f",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "cocoon-open-loot",
+      "path": "assets/objects/cocoon-open-loot-v1.webp",
+      "width": 960,
+      "height": 480,
+      "bytes": 183762,
+      "sha256": "51759b461d0bcda6c504105b8debde50d713cf5c84f3474c69a148063ef7fdb8",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "lucien-cutting-cocoon",
+      "path": "assets/characters/lucien-cutting-cocoon-v1.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 76854,
+      "sha256": "e72882d5b855376a5fc65f4834ac557c61f3bebea4d5841fa9d45b1a853f8fe7",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
     }
   ],
   "environments": [
@@ -632,6 +723,29 @@
         {
           "slot": "near",
           "assetId": "day-road-near",
+          "zIndex": 80
+        }
+      ],
+      "overscan": 48,
+      "cameraLimit": 32
+    },
+    {
+      "id": "deep-forest",
+      "name": "Root-tangled woodland interior",
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "deep-forest-far",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "deep-forest-middle",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "deep-forest-near",
           "zIndex": 80
         }
       ],
@@ -1969,8 +2083,8 @@
     {
       "id": "the-horses-fight-back",
       "title": "The horses fight back",
-      "environmentId": "tangled-forest",
-      "description": "Strawberry Three and Mo Two strike back at the spiders. Nearby, an ettercap drags a webbed horse; Lucien stops it before the horse can be taken away.",
+      "environmentId": "deep-forest",
+      "description": "Off the caravan road, an ettercap drags a silk-bound horse across uneven, root-covered ground toward denser trees. Lucien stops it while Strawberry Three and Mo Two fight back farther behind.",
       "durationMs": 6000,
       "narration": [
         {
@@ -1987,7 +2101,7 @@
         },
         {
           "id": "segment-3",
-          "text": "An ettercap wrapped a horse in silk and began hauling it toward the forest.",
+          "text": "An ettercap wrapped a horse in silk and dragged it over the roots, deeper into the trees.",
           "delayMs": 1550,
           "durationMs": 450
         },
@@ -2063,7 +2177,7 @@
             "preset": "translate",
             "from": {
               "x": 0,
-              "y": 0
+              "y": 24
             },
             "to": {
               "x": 55,
@@ -2097,32 +2211,91 @@
     {
       "id": "the-cocoons-secret",
       "title": "The cocoon’s secret",
-      "environmentId": "tangled-forest",
-      "description": "Web cover shifts away; hand and scroll become visible; final slow drift emphasizes the discovery.",
+      "environmentId": "deep-forest",
+      "description": "On the same forest floor, Lucien kneels and cuts open a cocoon with a knife while Coppercoil, Balerias and Aldrik watch. Inside, a dead woman clutches a rolled scroll beside a silver cloak pin and scattered gold.",
       "durationMs": 4800,
       "narration": [
         {
           "id": "segment-1",
-          "text": "Balerias cut open a cocoon. A dead woman lay inside, clutching a scroll.",
+          "text": "After the fight, Lucien knelt beside a silk cocoon. Coppercoil, Balerias and Aldrik gathered around.",
           "delayMs": 0,
           "durationMs": 450
         },
         {
           "id": "segment-2",
-          "text": "The company recovered it, a silver cloak pin, and seventy-six gold pieces.",
-          "delayMs": 850,
+          "text": "Lucien cut the silk with his knife. A dead woman lay inside, clutching a scroll.",
+          "delayMs": 1450,
           "durationMs": 450
         },
         {
           "id": "segment-3",
+          "text": "The company recovered it, a silver cloak pin, and seventy-six gold pieces.",
+          "delayMs": 2200,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-4",
           "text": "What the scroll contained—and why she had held it so tightly—remained unknown.",
-          "delayMs": 1550,
+          "delayMs": 3000,
           "durationMs": 450
         }
       ],
-      "actors": [],
+      "actors": [
+        {
+          "id": "cocoon-onlookers",
+          "assetId": "cocoon-party-observers",
+          "position": {
+            "x": 720,
+            "y": 820
+          },
+          "width": 705,
+          "zIndex": 34,
+          "poses": []
+        },
+        {
+          "id": "opened-cocoon",
+          "assetId": "cocoon-closed",
+          "position": {
+            "x": 1155,
+            "y": 1000
+          },
+          "width": 685,
+          "zIndex": 44,
+          "poses": [
+            {
+              "assetId": "cocoon-open-loot",
+              "startMs": 1450
+            }
+          ]
+        },
+        {
+          "id": "lucien-cutting",
+          "assetId": "lucien-cutting-cocoon",
+          "position": {
+            "x": 738,
+            "y": 996
+          },
+          "width": 545,
+          "zIndex": 49,
+          "poses": [],
+          "motion": {
+            "preset": "lunge",
+            "from": {
+              "x": -23,
+              "y": -10
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 850,
+            "durationMs": 600,
+            "easing": "ease-out"
+          }
+        }
+      ],
       "reducedMotion": "final",
-      "artwork": "planned"
+      "artwork": "prototype"
     }
   ]
 }

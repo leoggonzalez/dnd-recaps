@@ -348,5 +348,54 @@
     "prompt": "One small mechanical goat construct made of aged hammered orange copper plates, visible brass joints, curled metal horns and a tiny jade-green chest light. It charges to SCREEN LEFT, head and horns lowered to ram an offscreen enemy, short leaping stride. A few close green sparks suggest it has just been summoned. Full goat isolated on transparent alpha, wide 4:3 framing, no ground, wheels, humanoids, or enemies. Fine antique fantasy ink crosshatching and muted watercolor on parchment, woodland daylight matching the supplied game assets. Isolated true-alpha game sprite, no scenery or text.",
     "tool": "built-in image_gen",
     "archive": "public/assets/sources/coppergoat-charge-v1.png"
+  },
+  {
+    "id": "deep-forest-far",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-5f0492de-7a16-4d46-b950-3cd3221d335f.png",
+    "prompt": "Antique fantasy storybook fine ink crosshatching and muted watercolor, moss green, warm brown, and shaded daylight consistent with the reference. 16:9 wide landscape. Rework the reference into a new distinct environment DEEP INSIDE the same woodland, well off the road. No path, no flat clearing. Full opaque background, dense irregular tree trunks across entire vista, dark enclosed canopy, rising sloped terrain and exposed knotted roots, low rock shelves and patches of leaf litter. Ground slopes gently upward into darker trees to the right where a monster could drag a horse. Keep lower central band readable for a horse and figures composited later: irregular traversable forest floor with leaf litter and low roots, no huge obstacle in the lower central band. Camera low, afternoon dappled light left, deep green-brown shade right. No animals, creatures, figures, lettering, buildings or wagon.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/deep-forest-far-v1.png"
+  },
+  {
+    "id": "deep-forest-middle",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-ec7c5e1e-4adc-4921-a588-4f54ca2cffa5.png",
+    "prompt": "Antique fantasy storybook fine ink crosshatching and muted watercolor, moss green, warm brown, and shaded daylight consistent with the reference. 16:9 wide landscape. Transparent parallax overlay only: rough moss-covered roots, two broken tree trunks and low ferns at outer left and right of a deep woodland, plus a thin low bank of mossy stones around x60% y50%. Keep the lower center mostly transparent for the actors. The right-side roots run diagonally uphill into shadow. Genuine alpha around all individual forms, no ground fill, sky, complete background or opaque canvas. No animals, people, wagons or text.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/deep-forest-middle-v1.png"
+  },
+  {
+    "id": "deep-forest-near",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-5da637b3-fcc3-4b1c-a558-4bcafc847900.png",
+    "prompt": "Antique fantasy storybook fine ink crosshatching and muted watercolor, moss green, warm brown, and shaded daylight consistent with the reference. 16:9 wide landscape. Transparent foreground overlay only: a low foreground root and dark ferns entering from the extreme bottom LEFT corner and one brambly branch entering at the upper RIGHT corner. The central 80% should be fully transparent and all forms restricted to corners. True alpha, no scene or floor backdrop, no people, creatures or text.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/deep-forest-near-v1.png"
+  },
+  {
+    "id": "cocoon-closed",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-3d324920-44d4-4258-9ac2-4e7b9c686b07.png",
+    "prompt": "Edit the transparent open cocoon into its closed state immediately before the silk was slit. KEEP the exact existing crop, pose, perspective, canvas dimensions, ground anchor, horizontal silhouette and outside edges. Replace ONLY the exposed interior opening on the center and RIGHT, including visible woman, hand, scroll, silver pin and coins, with taut continuous layered white-gray spider silk matching the left end, so all contents are fully concealed. Keep the wide right end in the same position and height, do not taper it. Genuine alpha outside same cocoon, no scene, no extra details.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/cocoon-closed-v1.png"
+  },
+  {
+    "id": "cocoon-open-loot",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-a2085879-decc-4133-ae5a-96cf9e48edd9.png",
+    "prompt": "Wide 2:1 transparent game sprite of an opened giant spider-silk cocoon lying low horizontally on its side, three-quarter view from slightly above, left-to-right. Inside lies one deceased adult woman in worn travel clothing, pale face, eyes closed, most of body modestly covered by ragged ivory-gray silk, absolutely no visible wounds or gore. One hand clearly clenches a single rolled parchment scroll tied shut, resting on her chest, with nothing legible. Beside her hand in the opened cocoon clearly show a small silver cloak pin (ornate ring brooch with needle) and a scattered little pile of gold coins from a tipped small leather coin pouch. Make all three separate readable details. Torn web flaps remain around the edges. Complete isolated silhouette, no other figures, no ground. Hand-drawn antique fantasy storybook, fine sepia ink crosshatching, muted watercolor, soft shaded woodland daylight. True alpha outside cutout, no backdrop, scenery, text or frame.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/cocoon-open-loot-v1.png"
+  },
+  {
+    "id": "cocoon-party-observers",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-e57fc8e1-c920-4ace-a11b-e1867766a73b.png",
+    "prompt": "A single isolated full-body group of exactly three fantasy party members standing together with solemn expressions, looking down toward screen right at something offscreen. Reference 1 for Aldrik and Balerias, reference 2 for Coppercoil only. Left Aldrik: youthful pale dark-haired clean-shaven elf in dark leather and navy cloak, light crossbow stowed. Center Balerias: older gray-haired bearded ranger, brass mechanical eye, moss cloak, oversized crossbow stowed. Right Coppercoil: very short 1-meter copper-scaled dragonborn with mechanical brass lower jaw, vivid green eyes and green chest core, wearing small artificer kit. Three pairs of feet visible, all standing still; clear separation of silhouettes. No one kneeling, no wagon, animals, body or cocoon. Hand-drawn antique fantasy storybook, fine sepia ink crosshatching, muted watercolor, soft shaded woodland daylight. True alpha outside cutout, no backdrop, scenery, text or frame.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/cocoon-party-observers-v1.png"
+  },
+  {
+    "id": "lucien-cutting-cocoon",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-2aab9bf5-9354-4ff8-b3ce-6f6a5c609c5e.png",
+    "prompt": "Preserve Lucien's identity from reference: dark brown skin, cropped black hair, trimmed beard, burgundy robes and gold trim. New isolated full-body crouched kneeling sprite, seen three-quarter from the front, looking down toward screen RIGHT. He kneels on one knee beside an offscreen floor object, cautiously extending his right hand low and forward to screen right with a small plain knife gripped naturally, blade angled down-right toward where the cocoon will be; other hand steady on knee. Knees and boots visible. Quiet solemn scene, no magic effects, no cocoon or other objects. Hand-drawn antique fantasy storybook, fine sepia ink crosshatching, muted watercolor, soft shaded woodland daylight. True alpha outside cutout, no backdrop, scenery, text or frame.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/lucien-cutting-cocoon-v1.png"
   }
 ]

@@ -58,12 +58,10 @@ This storyboard and its scene prompts are based on the session recap and availab
 - **Proposed framing:** Catch the rescue at its clearest instant: the horse is being hauled toward the dark tree line while Lucien's attack brings down the ettercap. In the wider scene, show other horses kicking at the spider attackers, so their decisive contribution reads clearly without competing with Aldrik's separate mounted shot.
 - **Mood:** Desperate, kinetic, then abruptly relieved.
 
-## 9. The cocoon's secret
+## 9. The cocoon’s secret
 
-- **Recap event:** After the fight, Balerias opens a cocoon and finds a dead woman clutching a scroll. The company gathers the scroll, a silver cloak pin, and seventy-six gold pieces.
-- **Characters:** Balerias and the gathered company; the unidentified dead woman.
-- **Proposed framing:** Balerias opens the webbing as the others gather behind him. Keep the remains mostly obscured and non-graphic, centering the hand still holding the scroll and the party's reaction.
-- **Mood:** Somber discovery and a new unanswered question.
+- Lucien kneels beside the cocoon in the same woodland and cuts it open with a knife while Coppercoil, Balerias and Aldrik look on.
+- A dead woman lies inside clutching a rolled scroll. The company recovers the scroll, a silver cloak pin and seventy-six gold pieces. The scroll’s contents remain unknown.
 
 ## Open visual references
 

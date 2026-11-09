@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-forest",
+  "name": "Root-tangled woodland interior",
+  "category": "environments",
+  "description": "Dense woodland beyond the road with uneven ground, exposed roots and shaded undergrowth.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "forest",
+    "roots",
+    "daylight"
+  ],
+  "reuseWhen": "Use these three layers together for action deep in the shaded forest, away from the road.",
+  "assets": [
+    {
+      "id": "deep-forest-far",
+      "description": "Opaque deep forest interior with dense trunks, rock shelves and sloping ground.",
+      "sourcePath": "public/assets/sources/deep-forest-far-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/deep-forest-far-v1.webp",
+      "bytes": 477202,
+      "sha256": "7b186637bef31e14ac7ba2c81b0cf6d8c4dd990b0566429577c18340e18e15e8",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 477202,
+        "nearLosslessBytes": 1833488
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "deep-forest-middle",
+      "description": "Transparent midground roots, ferns and rough mossy stone.",
+      "sourcePath": "public/assets/sources/deep-forest-middle-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/deep-forest-middle-v1.webp",
+      "bytes": 273926,
+      "sha256": "b9a65d00776f03a50fa493677e408216807c080bf872493371a59ae2c1b070ac",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 273926,
+        "nearLosslessBytes": 640072
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "deep-forest-near",
+      "description": "Transparent close root, fern and branch silhouettes framing the woodland floor.",
+      "sourcePath": "public/assets/sources/deep-forest-near-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/deep-forest-near-v1.webp",
+      "bytes": 123570,
+      "sha256": "86b8570fe1c576eb6f7c55d313f5cb1e980cec75764b3ffc0098b8d2c992844a",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 123570,
+        "nearLosslessBytes": 268948
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

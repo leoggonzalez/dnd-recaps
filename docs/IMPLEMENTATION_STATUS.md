@@ -17,7 +17,7 @@ The app uses **nine scenes from `src/data/sessions/28.10.2026/storyboard.md`** a
 
 ## Still missing
 
-- **Remaining artwork/assembly:** scene 09 (cocoon discovery) still uses a labelled placeholder. Nine scenes have narration and eight have layered artwork drafts.
+- **Artwork review:** All nine scenes have layered artwork drafts. The final scene reuses the deep-forest layers and switches from the closed cocoon to the revealed woman, scroll and loot.
 - **Prototype acceptance:** inspect all three focal prototype animations and pose alignment, alpha edges and small-screen legibility; real mobile memory/loading review remains outstanding. The local screenshots and mobile browser emulation are useful evidence, not a substitute for actual mobile hardware.
 - **Hardening:** extend manual visual/performance review across browsers; test throttled/slow decodes and interruption on real devices; measure peak memory and cold-load time before scaling artwork. The decoded retention policy is implemented, but physical-device memory performance is not yet measured.
 - **Release:** GitHub Pages and CI are configured and the initial draft deployed successfully. Verify each new hosted revision and complete the remaining release checklist. Publishing the draft does not complete the full-artwork or real-device release gates.
@@ -27,7 +27,7 @@ The app uses **nine scenes from `src/data/sessions/28.10.2026/storyboard.md`** a
 
 Focused tests cover content/reference/timing validation, pose intervals, loading failures/retries, corrupt decodes, cancellation/late completion, URL revocation and hash mismatches. Browser checks cover root/subpath navigation, deep reloads, invalid links, history, boundaries, keyboard/rapid navigation, pause/replay/reduced motion, exported 404, retry without redownloading successful assets, and navigation through all nine drafts while offline after complete readiness. Responsive screenshots of prototype scenes are reviewed during this increment. Latest run: lint and typecheck pass, nine unit tests pass, and all 40 browser checks pass across Chromium, Firefox, WebKit and mobile emulation at each of root and `/dnd-recaps` (80 checks total). Both updated project skills and all local documentation links validate. Root and repository-subpath static builds are verified. Exact before/after pose-cue and ink-reveal checkpoints also pass.
 
-The merged register now has 34 entities and 61 unique images, including portraits and legacy references; 40 selected active images total 6,261,996 bytes and pass per-image/recap budgets. Exact dimensions, bytes and hashes live in the register and session manifest. All images are stored locally under `public/assets/`, but postbuild pruning exports only selected runtime WebP images. Source PNGs, portraits, legacy stills, canonical sheets and model JSON are excluded from the static release.
+The merged register now has 39 entities and 71 unique images, including portraits and legacy references; 48 selected active images total 7,775,974 bytes and pass per-image/recap budgets. Exact dimensions, bytes and hashes live in the register and session manifest. All images are stored locally under `public/assets/`, but postbuild pruning exports only selected runtime WebP images. Source PNGs, portraits, legacy stills, canonical sheets and model JSON are excluded from the static release.
 
 ## Repository state
 
@@ -47,7 +47,7 @@ The Next.js package/config/scripts now run from the repository root. Runtime cod
 
 Images are consolidated in `public/assets/`, including supplied portraits, original scene stills and the ignored source archive. The postbuild script keeps only selected runtime manifest files in `out/assets`, and preparation preserves merged sheets and non-recipe assets. Documentation, project skills, imports, aliases, CI, validators and asset lookup paths are updated for the root layout. Earlier Yarn lockfiles were preserved under `docs/legacy/package-manager-locks/`; npm’s lockfile is the active app lockfile.
 
-The user authorized a GitHub Pages deployment after these checks. Review URL: `https://leoggonzalez.github.io/dnd-recaps/`. GitHub Actions records the deployed commit and the result of each publish; the draft is still one artwork scene short of the full MVP.
+The user authorized a GitHub Pages deployment after these checks. Review URL: `https://leoggonzalez.github.io/dnd-recaps/`. GitHub Actions records the deployed commit and the result of each publish; the latest artwork is available in the local draft.
 
 ## Scene 01 night rest correction
 

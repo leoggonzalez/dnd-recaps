@@ -78,6 +78,17 @@ session.environments = [
     cameraLimit: 32,
   },
   {
+    id: "deep-forest",
+    name: "Root-tangled woodland interior",
+    layers: [
+      { slot: "far", assetId: "deep-forest-far", zIndex: 0 },
+      { slot: "middle", assetId: "deep-forest-middle", zIndex: 20 },
+      { slot: "near", assetId: "deep-forest-near", zIndex: 80 },
+    ],
+    overscan: 48,
+    cameraLimit: 32,
+  },
+  {
     id: "tangled-forest",
     name: "Tangled woodland road",
     layers: [
@@ -294,6 +305,11 @@ mountedShot.actors = [
   }),
 ];
 session.scenes[7].artwork = "prototype";
+session.scenes[7].environmentId = "deep-forest";
+session.scenes[7].description =
+  "Off the caravan road, an ettercap drags a silk-bound horse across uneven, root-covered ground toward denser trees. Lucien stops it while Strawberry Three and Mo Two fight back farther behind.";
+session.scenes[7].narration[2].text =
+  "An ettercap wrapped a horse in silk and dragged it over the roots, deeper into the trees.";
 session.scenes[7].actors = [
   actor("horses-counterattack", "horses-counterattack", 1420, 590, 620, 30, {
     motion: { ...travel(-12, 0, 300, 700), preset: "recoil" },
@@ -302,10 +318,50 @@ session.scenes[7].actors = [
     motion: { ...travel(-10, 0, 1800, 450), preset: "lunge" },
   }),
   actor("silk-bound-horse", "webbed-horse", 1050, 900, 760, 40, {
-    motion: travel(0, 55, 300, 1700),
+    motion: travel(0, 55, 300, 1700, 24, 0),
   }),
   actor("horse-dragger", "ettercap-dragging", 1570, 910, 650, 45, {
     poses: [{ assetId: "ettercap-fallen", startMs: 2400 }],
+  }),
+];
+const cocoonScene = session.scenes[8];
+cocoonScene.artwork = "prototype";
+cocoonScene.environmentId = "deep-forest";
+cocoonScene.description =
+  "On the same forest floor, Lucien kneels and cuts open a cocoon with a knife while Coppercoil, Balerias and Aldrik watch. Inside, a dead woman clutches a rolled scroll beside a silver cloak pin and scattered gold.";
+cocoonScene.narration = [
+  {
+    id: "segment-1",
+    text: "After the fight, Lucien knelt beside a silk cocoon. Coppercoil, Balerias and Aldrik gathered around.",
+    delayMs: 0,
+    durationMs: 450,
+  },
+  {
+    id: "segment-2",
+    text: "Lucien cut the silk with his knife. A dead woman lay inside, clutching a scroll.",
+    delayMs: 1450,
+    durationMs: 450,
+  },
+  {
+    id: "segment-3",
+    text: "The company recovered it, a silver cloak pin, and seventy-six gold pieces.",
+    delayMs: 2200,
+    durationMs: 450,
+  },
+  {
+    id: "segment-4",
+    text: "What the scroll contained—and why she had held it so tightly—remained unknown.",
+    delayMs: 3000,
+    durationMs: 450,
+  },
+];
+cocoonScene.actors = [
+  actor("cocoon-onlookers", "cocoon-party-observers", 720, 820, 705, 34),
+  actor("opened-cocoon", "cocoon-closed", 1155, 1000, 685, 44, {
+    poses: [{ assetId: "cocoon-open-loot", startMs: 1450 }],
+  }),
+  actor("lucien-cutting", "lucien-cutting-cocoon", 738, 996, 545, 49, {
+    motion: { ...travel(-23, 0, 850, 600, -10, 0), preset: "lunge" },
   }),
 ];
 const required = new Set<string>([session.coverAssetId]);

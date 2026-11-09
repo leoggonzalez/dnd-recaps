@@ -1,6 +1,6 @@
 # The Caravan Chronicles
 
-A static Next.js storybook for D&D session recaps, hosted on GitHub Pages. The app currently has nine scenes from the [October 28 storyboard](src/data/sessions/28.10.2026/storyboard.md), with layered artwork drafts for scenes 1–8. Scene 9 still needs artwork; see [implementation status](docs/IMPLEMENTATION_STATUS.md) and [the plan](docs/IMPLEMENTATION_PLAN.md).
+A static Next.js storybook for D&D session recaps, hosted on GitHub Pages. The app currently has nine scenes from the [October 28 storyboard](src/data/sessions/28.10.2026/storyboard.md), with layered artwork drafts for all nine scenes; see [implementation status](docs/IMPLEMENTATION_STATUS.md) and [the plan](docs/IMPLEMENTATION_PLAN.md).
 
 ## Project layout
 

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "forest-cocoon",
+  "name": "Forest cocoon and recovered items",
+  "category": "objects",
+  "description": "Two aligned states of the forest cocoon. The opened composition includes the woman, her scroll, a silver cloak pin and the gold.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "forest",
+    "cocoon",
+    "scroll",
+    "loot"
+  ],
+  "reuseWhen": "Use the aligned frames together for a closed-to-open pose change. The gold pile represents seventy-six pieces.",
+  "assets": [
+    {
+      "id": "cocoon-closed",
+      "description": "Closed silk cocoon on its side, contents concealed.",
+      "sourcePath": "public/assets/sources/cocoon-closed-v1.png",
+      "width": 960,
+      "height": 480,
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/objects/cocoon-closed-v1.webp",
+      "bytes": 151352,
+      "sha256": "92e57ac45fbfcd61b297a52d4f47be2abd2c50520e2c18d396430ac1c9e33e6f",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 151352,
+        "nearLosslessBytes": 375744
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "cocoon-open-loot",
+      "description": "Opened cocoon revealing a dead woman clutching a sealed scroll, a silver cloak pin and a pile of gold.",
+      "sourcePath": "public/assets/sources/cocoon-open-loot-v1.png",
+      "width": 960,
+      "height": 480,
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/objects/cocoon-open-loot-v1.webp",
+      "bytes": 183762,
+      "sha256": "51759b461d0bcda6c504105b8debde50d713cf5c84f3474c69a148063ef7fdb8",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 183762,
+        "nearLosslessBytes": 460670
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

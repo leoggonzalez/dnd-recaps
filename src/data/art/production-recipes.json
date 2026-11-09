@@ -387,6 +387,19 @@
           "y": 0.93
         },
         "status": "prototype"
+      },
+      {
+        "id": "lucien-cutting-cocoon",
+        "description": "Lucien kneeling on one knee with a knife extended toward the cocoon.",
+        "sourcePath": "public/assets/sources/lucien-cutting-cocoon-v1.png",
+        "width": 640,
+        "height": 640,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.98
+        },
+        "status": "prototype"
       }
     ]
   },
@@ -1137,6 +1150,144 @@
         "sourcePath": "public/assets/sources/coppergoat-charge-v1.png",
         "width": 480,
         "height": 360,
+        "kind": "cutout",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.98
+        },
+        "status": "prototype"
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "deep-forest",
+    "name": "Root-tangled woodland interior",
+    "category": "environments",
+    "description": "Dense woodland beyond the road with uneven ground, exposed roots and shaded undergrowth.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/data/sessions/28.10.2026.md"
+    ],
+    "tags": [
+      "forest",
+      "roots",
+      "daylight"
+    ],
+    "reuseWhen": "Use these three layers together for action deep in the shaded forest, away from the road.",
+    "assets": [
+      {
+        "id": "deep-forest-far",
+        "description": "Opaque deep forest interior with dense trunks, rock shelves and sloping ground.",
+        "sourcePath": "public/assets/sources/deep-forest-far-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "status": "prototype"
+      },
+      {
+        "id": "deep-forest-middle",
+        "description": "Transparent midground roots, ferns and rough mossy stone.",
+        "sourcePath": "public/assets/sources/deep-forest-middle-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "status": "prototype"
+      },
+      {
+        "id": "deep-forest-near",
+        "description": "Transparent close root, fern and branch silhouettes framing the woodland floor.",
+        "sourcePath": "public/assets/sources/deep-forest-near-v1.png",
+        "width": 1600,
+        "height": 900,
+        "kind": "background",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "status": "prototype"
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "forest-cocoon",
+    "name": "Forest cocoon and recovered items",
+    "category": "objects",
+    "description": "Two aligned states of the forest cocoon. The opened composition includes the woman, her scroll, a silver cloak pin and the gold.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/data/sessions/28.10.2026.md"
+    ],
+    "tags": [
+      "forest",
+      "cocoon",
+      "scroll",
+      "loot"
+    ],
+    "reuseWhen": "Use the aligned frames together for a closed-to-open pose change. The gold pile represents seventy-six pieces.",
+    "assets": [
+      {
+        "id": "cocoon-closed",
+        "description": "Closed silk cocoon on its side, contents concealed.",
+        "sourcePath": "public/assets/sources/cocoon-closed-v1.png",
+        "width": 960,
+        "height": 480,
+        "kind": "prop",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.98
+        },
+        "status": "prototype"
+      },
+      {
+        "id": "cocoon-open-loot",
+        "description": "Opened cocoon revealing a dead woman clutching a sealed scroll, a silver cloak pin and a pile of gold.",
+        "sourcePath": "public/assets/sources/cocoon-open-loot-v1.png",
+        "width": 960,
+        "height": 480,
+        "kind": "prop",
+        "anchor": {
+          "x": 0.5,
+          "y": 0.98
+        },
+        "status": "prototype"
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "cocoon-observers",
+    "name": "Aldrik, Balerias and Coppercoil at the cocoon",
+    "category": "groups",
+    "description": "Three party members look down at the opened cocoon.",
+    "style": "parchment-ink-v1",
+    "references": [
+      "src/model/characters/aldrik.json",
+      "src/model/characters/balerias.json",
+      "src/model/characters/coppercoil.json"
+    ],
+    "tags": [
+      "party",
+      "cocoon",
+      "forest"
+    ],
+    "reuseWhen": "Reuse for the same three characters observing something below them.",
+    "assets": [
+      {
+        "id": "cocoon-party-observers",
+        "description": "Standing group of Aldrik, Balerias and Coppercoil looking down.",
+        "sourcePath": "public/assets/sources/cocoon-party-observers-v1.png",
+        "width": 750,
+        "height": 750,
         "kind": "cutout",
         "anchor": {
           "x": 0.5,

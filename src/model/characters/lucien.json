@@ -282,6 +282,30 @@
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "lucien-cutting-cocoon",
+      "description": "Lucien kneeling on one knee with a knife extended toward the cocoon.",
+      "sourcePath": "public/assets/sources/lucien-cutting-cocoon-v1.png",
+      "width": 640,
+      "height": 640,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/characters/lucien-cutting-cocoon-v1.webp",
+      "bytes": 76854,
+      "sha256": "e72882d5b855376a5fc65f4834ac557c61f3bebea4d5841fa9d45b1a853f8fe7",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 76854,
+        "nearLosslessBytes": 222294
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
     }
   ],
   "species": "aasimar",

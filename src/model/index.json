@@ -36,6 +36,9 @@
     "src/model/groups/ettercap-horse-attack.json",
     "src/model/objects/crossbow-bolt.json",
     "src/model/groups/spiders-and-caravan-guards.json",
-    "src/model/creatures/coppergoat.json"
+    "src/model/creatures/coppergoat.json",
+    "src/model/environments/deep-forest.json",
+    "src/model/objects/forest-cocoon.json",
+    "src/model/groups/cocoon-observers.json"
   ]
 }

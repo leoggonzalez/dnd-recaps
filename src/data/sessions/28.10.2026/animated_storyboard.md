@@ -18,13 +18,14 @@ Each environment has far (depth 0), middle (20), near (80) layers. Actors use ex
 | sleeping-space | 04 | Wagon shell and moonlit opening; sleeping sisters and lantern; close foreground cloth. Lucien appears as a translucent outline for the audience. |
 | woodland-road | 05 | Morning road, roadside hedges and foreground foliage. Three guarded wagon teams travel past Aldrik. |
 | private-trail | 06 | Secluded woodland path with matching daylight and reused verge layers. |
-| tangled-forest | 07–09 | Canopy; road and trunks; transparent branches/web edges. Reframe 09 before commissioning a fifth environment. |
+| tangled-forest | 07 | Canopy, forest road and trunks, with transparent branches and web edges. |
+| deep-forest | 08–09 | Dense trunks and rising terrain, midground mossy roots and rocks, and close ferns and branches. |
 
 Required shared cutouts and variants (not a generated-image quota):
 
 - Lucien: neutral, casting/hurling; dark skin, closely cropped black hair, short trimmed beard and moustache, crimson-purple robes (current character record supersedes older prompts). Invisible to the other characters in scene 04, shown to the audience as a translucent monochrome outline.
 - Aldrik: mounted neutral and under-neck aiming group; youthful pale elf, short dark hair, no facial hair, dark leather, light crossbow.
-- Balerias: neutral, food offering, crossbow aiming/fired, cocoon opening; gray hair/beard, mechanical eye, oversized crossbow.
+- Balerias: neutral, food offering, crossbow aiming/fired; gray hair/beard, mechanical eye, oversized crossbow.
 - Coppercoil: neutral/casting, visibly tiny copper dragonborn with mechanical jaw and green core; Coppergoat neutral/ramming. No other constructs added.
 - Arietta: seated/walking; auburn-brown hair, olive cloak, blue-gray scarf, established travel gear. Sulesdeg and Tyjit watch the game; Oyn stands back at the cage.
 - Samardag and Radecere: distant silhouettes only pending references. Orvustia and Leda: small spear-bearing defenders pending appearance references. Zelina sleeps offscreen.
@@ -105,33 +106,33 @@ Environment: `tangled-forest`.
 
 The caravan comes down the forest road in a long line. Guards defend against two giant spiders farther back. Lucien and Coppercoil fight from the lead wagon.
 
-An ettercap lunges at the lead wagon’s left draft horse while it is still in harness. Coppercoil summons Coppergoat and sends it charging left at the ettercap. On the right, Aldrik hangs sideways from his saddle and fires beneath his mount’s neck toward the same attacker. The three forest layers are shared with Scene 08.
+An ettercap lunges at the lead wagon’s left draft horse while it is still in harness. Coppercoil summons Coppergoat and sends it charging left at the ettercap. On the right, Aldrik hangs sideways from his saddle and fires beneath his mount’s neck toward the same attacker. The caravan approaches along the forest road.
 
 ### 08 — The horses fight back (`the-horses-fight-back`)
 
-Environment: `tangled-forest`.
+Environment: `deep-forest`.
 
 The intended prey fought back. Strawberry Three kicked; Mo Two struck another attacker.
 
 Pounding hooves helped bring down a great spider.
 
-An ettercap wrapped a horse in silk and began hauling it toward the forest.
+An ettercap wrapped a horse in silk and dragged it over the roots, deeper into the trees.
 
 Lucien killed the creature before it could carry the horse away.
 
-Proposed staging: Strawberry Three and Mo Two strike back at the spiders. Nearby, an ettercap drags a webbed horse; Lucien stops it before the horse can be taken away.
+Strawberry Three and Mo Two strike back in the distance. Off the road, the ettercap drags the webbed horse across the uneven forest floor toward the thick trees on the right. Lucien stops it.
 
 ### 09 — The cocoon’s secret (`the-cocoons-secret`)
 
-Environment: `tangled-forest`.
+Environment: `deep-forest`.
 
-Balerias cut open a cocoon. A dead woman lay inside, clutching a scroll.
+Lucien knelt beside the cocoon and cut it open with his knife. A dead woman lay inside, clutching a scroll.
 
 The company recovered it, a silver cloak pin, and seventy-six gold pieces.
 
 What the scroll contained—and why she had held it so tightly—remained unknown.
 
-Proposed staging: Web cover shifts away; hand and scroll become visible; final slow drift emphasizes the discovery.
+Current staging: Coppercoil, Balerias and Aldrik look on as Lucien kneels and cuts the silk. The closed cocoon switches to the opened view at the end of his knife motion. The woman’s grip on the rolled scroll, the silver pin and the spilled gold are visible.
 
 ## Existing image audit
 
@@ -143,6 +144,6 @@ Audit dimensions and byte counts are recorded in [asset_audit.json](asset_audit.
 
 Selected assets are registered in [src/model/index.json](../../../model/index.json). Each categorized entity record has an `assets` array with descriptions and image paths. See [the register guide](../../../model/README.md) before creating another asset. Generated source PNGs are preserved in the ignored local `public/assets/sources/` archive; optimized WebP copies are in `public/assets/`. Exact prompts and source paths are in [art/generation-prompts.json](art/generation-prompts.json).
 
-Scenes 01–03 share the night camp layers. The seated game appears in Scene 01 and the walking pair appears in Scene 02. Scene 03 uses Oyn, two aligned Balerias poses, a peryton, and matching rear/front cage planes at depths 35/45 around the creature at 40. Scene 08 uses the forest layers, Lucien’s hurling pose, an unnamed webbed horse, and one ettercap switching from dragging to defeated at 2400 ms. A smaller two-horse/spider group supports the counterattack beat behind the rescue. The spider is a distinct target; the grouped bitmap is not copied into additional enemies.
+Scenes 01–03 share the night camp layers. The seated game appears in Scene 01 and the walking pair appears in Scene 02. Scene 03 uses Oyn, two aligned Balerias poses, a peryton, and matching rear/front cage planes at depths 35/45 around the creature at 40. Scene 08 uses its own deep-forest layers, Lucien’s hurling pose, an unnamed webbed horse, and one ettercap switching from dragging to defeated at 2400 ms. A smaller two-horse/spider group supports the counterattack beat behind the rescue. The spider is a distinct target; the grouped bitmap is not copied into additional enemies.
 
 These are integrated prototype drafts. Remaining scene artwork and real-device visual/memory acceptance are still required before marking the recap complete.
