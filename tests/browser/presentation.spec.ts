@@ -1,67 +1,55 @@
 import { expect, test } from "@playwright/test";
-import { SCENE_NARRATION_DELAY_MS } from "../../src/lib/scene-entrance";
 
-test("controls float inside the stage, reveal on hover or keyboard focus, and remain usable on touch", async ({
+test("scene controls stay in the sidebar and keep focus through replay", async ({
   page,
-  isMobile,
 }) => {
   await page.goto("./sessions/2026-10-28/");
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
-  const stage = page.locator(".scene-player"),
-    controls = page.getByRole("navigation", { name: "Story controls" });
-  const frame = await stage.boundingBox();
-  const toolbar = await controls.boundingBox();
-  expect(frame).not.toBeNull();
-  expect(toolbar).not.toBeNull();
-  expect(toolbar!.y).toBeGreaterThan(frame!.y);
-  expect(toolbar!.y + toolbar!.height).toBeLessThanOrEqual(
-    frame!.y + frame!.height,
-  );
-  expect(toolbar!.x).toBeGreaterThanOrEqual(frame!.x);
-  expect(toolbar!.x + toolbar!.width).toBeLessThanOrEqual(
-    frame!.x + frame!.width,
-  );
-  await page.mouse.move(0, 0);
-  await expect(controls).toHaveCSS("opacity", isMobile ? "1" : "0");
-  if (!isMobile) {
-    // Tab from the preceding library link must expose the first enabled control.
-    await page.getByRole("link", { name: "All sessions" }).focus();
-    await page.keyboard.press("Tab");
-    // Safari's native Tab preference may reach the select before buttons.
-    await expect(controls.locator(":focus")).toHaveCount(1);
-    await expect(controls).toHaveCSS("opacity", "1");
-    await page.getByRole("link", { name: "All sessions" }).focus();
-    await stage.hover();
-    await expect(controls).toHaveCSS("opacity", "1");
-  }
-  await page.getByRole("button", { name: "Pause", exact: true }).click();
-  await page.getByRole("button", { name: "Replay", exact: true }).click();
-  await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
-  // A mouse click must not leave the toolbar stuck open after pointer exit.
-  if (!isMobile) {
-    await page.mouse.move(0, 0);
-    await expect(controls).toHaveCSS("opacity", "0");
-    await stage.hover();
-  }
-  await page.getByRole("button", { name: "Replay", exact: true }).focus();
-  await page.keyboard.press("Enter");
+  const sidebar = page.getByRole("complementary", {
+    name: "Session and scene details",
+  });
+  const controls = sidebar.getByRole("navigation", { name: "Story controls" });
   await expect(
-    page.getByRole("button", { name: "Replay", exact: true }),
-  ).toBeFocused();
+    sidebar.getByRole("link", { name: "All sessions" }),
+  ).toBeVisible();
+  await expect(sidebar.locator("time")).toHaveText("28.10.2026");
+  await expect(
+    sidebar.getByRole("heading", { name: "A little luck" }),
+  ).toBeVisible();
+  await expect(sidebar.locator(".narration-line").first()).toBeAttached();
+  await page.mouse.move(0, 0);
+  await expect(controls).toBeVisible();
+  const frame = await page.locator(".reader-main").boundingBox();
+  const panel = await sidebar.boundingBox();
+  expect(frame).not.toBeNull();
+  expect(panel).not.toBeNull();
+  const stacked = await page.evaluate(
+    () => matchMedia("(max-width: 760px), (max-height: 520px)").matches,
+  );
+  if (stacked) {
+    expect(frame!.y + frame!.height).toBeLessThanOrEqual(panel!.y + 1);
+  } else {
+    expect(panel!.x + panel!.width).toBeLessThanOrEqual(frame!.x + 1);
+    expect(frame!.height).toBe(await page.evaluate(() => innerHeight));
+  }
+  const replay = controls.getByRole("button", { name: "Replay", exact: true });
+  await controls.getByRole("button", { name: "Pause", exact: true }).click();
+  await replay.focus();
+  await page.keyboard.press("Enter");
+  await expect(replay).toBeFocused();
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.screenshot({
-    path: test.info().outputPath("floating-controls.png"),
+    path: test.info().outputPath("sidebar-player.png"),
     fullPage: true,
   });
 });
 
-test("ink draws far, middle, near, then actors; movement overlaps the drawing and replay resets it", async ({
+test("ink draws far, middle, near, then actors; movement and narration overlap the drawing, and replay resets it", async ({
   page,
 }) => {
   await page.goto("./sessions/2026-10-28/#scene=an-offering-for-the-peryton");
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
-  await page.locator(".scene-player").hover();
   await page.getByRole("button", { name: "Pause", exact: true }).click();
   const seek = async (time: number) =>
     page.locator(".playback").evaluate((root, time) => {
@@ -77,6 +65,13 @@ test("ink draws far, middle, near, then actors; movement overlaps the drawing an
     "radial-gradient",
   );
   await seek(200);
+  const narration = page.locator(".narration-line");
+  const firstLineOpacity = await narration
+    .first()
+    .evaluate((line) => Number(getComputedStyle(line).opacity));
+  expect(firstLineOpacity).toBeGreaterThan(0);
+  expect(firstLineOpacity).toBeLessThan(1);
+  await expect(narration.nth(1)).toHaveCSS("opacity", "0");
   await expect(far).toHaveCSS("opacity", "1");
   await expect(middle).toHaveCSS("opacity", "0");
   await expect(near).toHaveCSS("opacity", "0");
@@ -117,7 +112,7 @@ test("ink draws far, middle, near, then actors; movement overlaps the drawing an
     path: test.info().outputPath("ink-opening.png"),
     fullPage: true,
   });
-  await seek(SCENE_NARRATION_DELAY_MS);
+  await seek(1800);
   for (const reveal of await page.locator(".ink-reveal").all()) {
     await expect(reveal).toHaveCSS("opacity", "1");
     expect(
@@ -137,6 +132,7 @@ test("ink draws far, middle, near, then actors; movement overlaps the drawing an
   await page.getByRole("button", { name: "Replay", exact: true }).click();
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
   await expect(far).toHaveCSS("opacity", "0");
+  await expect(narration.first()).toHaveCSS("opacity", "0");
   await page.emulateMedia({ reducedMotion: "reduce" });
   for (const reveal of await page.locator(".ink-reveal").all()) {
     await expect(reveal).toHaveCSS("mask-image", "none");
@@ -153,7 +149,6 @@ test("a moving cutout changes position while its ink mask is still expanding", a
 }) => {
   await page.goto("./sessions/2026-10-28/#scene=a-walk-through-camp");
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
-  await page.locator(".scene-player").hover();
   await page.getByRole("button", { name: "Pause", exact: true }).click();
   const seek = async (time: number) =>
     page.locator(".playback").evaluate((root, time) => {
@@ -187,4 +182,52 @@ test("a moving cutout changes position while its ink mask is still expanding", a
     );
   expect(laterSpread).toBeGreaterThan(spread);
   expect(laterSpread).toBeLessThan(160);
+});
+
+test("mouse parallax starts after the ink reveal and returns to center on exit", async ({
+  page,
+}) => {
+  await page.goto("./sessions/2026-10-28/");
+  const stage = page.locator(".illustration-stage");
+  await expect(stage).toHaveAttribute("data-entrance-complete", "false");
+  const bounds = (await stage.boundingBox())!;
+  const moveToCorner = () => page.mouse.move(bounds.x + 2, bounds.y + 2);
+  const offsets = () =>
+    stage
+      .locator(".environment-layer")
+      .evaluateAll((layers) =>
+        layers.map((layer) => parseFloat(getComputedStyle(layer).translate)),
+      );
+  await moveToCorner();
+  expect(await offsets()).toEqual([0, 0, 0]);
+
+  await expect(stage).toHaveAttribute("data-entrance-complete", "true");
+  await stage.dispatchEvent("pointermove", {
+    pointerType: "touch",
+    clientX: 0,
+    clientY: 0,
+  });
+  expect(await offsets()).toEqual([0, 0, 0]);
+
+  await page.mouse.move(bounds.x + 4, bounds.y + 4);
+  await expect
+    .poll(async () => {
+      const [far, middle, near] = await offsets();
+      return far > 0 && middle > far && near > middle;
+    })
+    .toBe(true);
+  await page.mouse.move(
+    bounds.x + bounds.width / 2,
+    bounds.y + bounds.height / 2,
+  );
+  await moveToCorner();
+  await page.mouse.move(0, bounds.y + bounds.height + 1);
+  await expect.poll(offsets).toEqual([0, 0, 0]);
+
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await moveToCorner();
+  await expect(stage.locator(".environment-layer").first()).toHaveCSS(
+    "translate",
+    "none",
+  );
 });

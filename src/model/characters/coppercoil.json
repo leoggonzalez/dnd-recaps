@@ -29,6 +29,56 @@
       "version": 1,
       "status": "reference",
       "usage": "shared-composition"
+    },
+    {
+      "id": "lucien-coppercoil-wagon",
+      "description": "Second wagon with Lucien and Coppercoil on its bench and two harnessed horses.",
+      "sourcePath": "public/assets/sources/lucien-coppercoil-wagon-v1.png",
+      "width": 680,
+      "height": 680,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/lucien-coppercoil-wagon-v1.webp",
+      "bytes": 143028,
+      "sha256": "1ca350d83fa7061017fa688b81e809de186bdf03c352055750306883ec372a56",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 143028,
+        "nearLosslessBytes": 404530
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "lead-wagon-under-attack",
+      "description": "Lead wagon with Lucien and Coppercoil fighting from the bench. The ettercap attacks the left of its two harnessed horses.",
+      "sourcePath": "public/assets/sources/lead-wagon-under-attack-v1.png",
+      "width": 900,
+      "height": 600,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/lead-wagon-under-attack-v1.webp",
+      "bytes": 207008,
+      "sha256": "35089a90d150a690b4848fb9d8f2b9a8d90b1b590dccd5b0f780a03a8fc2d1d1",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 207008,
+        "nearLosslessBytes": 521504
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "species": "copper dragonborn",

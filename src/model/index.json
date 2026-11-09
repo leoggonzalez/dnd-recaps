@@ -23,6 +23,19 @@
     "src/model/illustrations/session-illustrations.json",
     "src/model/groups/caravan-guards.json",
     "src/model/npcs/samardag-the-hoper.json",
-    "src/model/npcs/radecere-perethun.json"
+    "src/model/npcs/radecere-perethun.json",
+    "src/model/environments/sleeping-wagon.json",
+    "src/model/objects/journal-satchel.json",
+    "src/model/objects/emerald-pen.json",
+    "src/model/npcs/zelina-innevar.json",
+    "src/model/environments/day-woodland-road.json",
+    "src/model/groups/cult-wagon.json",
+    "src/model/groups/cult-wagon-guards.json",
+    "src/model/groups/aldrik-balerias-walk.json",
+    "src/model/groups/forest-caravan-wagons.json",
+    "src/model/groups/ettercap-horse-attack.json",
+    "src/model/objects/crossbow-bolt.json",
+    "src/model/groups/spiders-and-caravan-guards.json",
+    "src/model/creatures/coppergoat.json"
   ]
 }

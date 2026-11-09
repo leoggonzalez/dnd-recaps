@@ -11,7 +11,6 @@ import type { Session } from "@/lib/schema";
 import { AssetStore, sceneAssetIds, type Progress } from "@/lib/asset-store";
 import { LayeredStage } from "./layered-stage";
 import { StoryControls } from "./story-controls";
-import { SCENE_NARRATION_DELAY_MS } from "@/lib/scene-entrance";
 export function RecapPlayer({ session }: { session: Session }) {
   const [index, setIndex] = useState(0);
   const [playbackKey, setPlaybackKey] = useState(0);
@@ -181,59 +180,44 @@ export function RecapPlayer({ session }: { session: Session }) {
     return () => window.removeEventListener("keydown", keydown);
   }, [session, enter, loadState]);
   const scene = session.scenes[index];
+  const loaded = loadState === "ready" && !!store;
   return (
-    <main id="main" className="reader">
-      <Link className="back-link" href="/">
-        ← All sessions
-      </Link>
-      <header className="reader-header">
-        <div>
+    <main
+      id="main"
+      className="reader playback"
+      data-loaded={loaded}
+      data-ready={loaded && stageReady}
+      style={
+        {
+          "--play-state":
+            userPaused || hidden || !stageReady ? "paused" : "running",
+        } as CSSProperties
+      }
+    >
+      <aside className="reader-sidebar" aria-label="Session and scene details">
+        <header className="reader-header">
+          <Link className="button back-link" href="/">
+            ← All sessions
+          </Link>
           <p className="eyebrow">
-            {session.displayDate} · {session.inWorldDate}
+            <time dateTime={session.date}>{session.displayDate}</time> ·{" "}
+            {session.inWorldDate}
           </p>
-          <h1>{session.title}</h1>
-        </div>
-        {loadState === "ready" && (
-          <p className="scene-count" aria-live="polite" aria-atomic="true">
-            Scene {index + 1} of {session.scenes.length}: {scene.title}
-          </p>
-        )}
-      </header>
-      {invalidLink && (
-        <p role="status">
-          That scene could not be found. Showing the first scene.
-        </p>
-      )}
-      {loadState !== "ready" || !store ? (
-        <section className="loading-card" aria-labelledby="loading-title">
-          <p className="eyebrow">Gathering the pages</p>
-          <h2 id="loading-title">
-            {loadState === "failed"
-              ? "Some illustrations could not load"
-              : "Preparing the whole story"}
-          </h2>
-          <progress
-            aria-label="Recap images ready"
-            value={progress.ready}
-            max={Math.max(1, progress.total)}
-          />
-          <p role="status">
-            {progress.ready} of {progress.total} images ready
-            {progress.failed ? ` · ${progress.failed} failed` : ""}
-          </p>
-          {loadState === "failed" && (
-            <>
-              <p>
-                Successful downloads are saved for this visit. Retry to load the
-                remaining images.
-              </p>
-              <button onClick={() => void retry()}>Retry images</button>
-            </>
+          {loaded && (
+            <p className="scene-count">
+              Scene {index + 1} of {session.scenes.length}
+            </p>
           )}
-          <Link href="/">Return to sessions</Link>
-        </section>
-      ) : (
-        <>
+          <h1 id="reader-title" aria-live="polite">
+            {loaded ? scene.title : session.title}
+          </h1>
+        </header>
+        <div className="sidebar-copy">
+          {invalidLink && (
+            <p role="status">
+              That scene could not be found. Showing the first scene.
+            </p>
+          )}
           {preparing && <p role="status">Preparing the next illustration…</p>}
           {prepareError && (
             <p role="alert">
@@ -243,72 +227,94 @@ export function RecapPlayer({ session }: { session: Session }) {
               </button>
             </p>
           )}
-          <div
-            className="playback"
-            data-ready={stageReady}
-            style={
-              {
-                "--narration-delay": `${SCENE_NARRATION_DELAY_MS}ms`,
-                "--play-state":
-                  userPaused || hidden || !stageReady ? "paused" : "running",
-              } as CSSProperties
-            }
-          >
-            <div className="scene-player">
-              <LayeredStage
+          {loaded && (
+            <>
+              <section
                 key={playbackKey}
-                session={session}
-                index={index}
-                store={store}
-                onReady={ready}
-              />
-              <StoryControls
-                session={session}
-                index={index}
-                paused={userPaused}
-                onPrevious={() => void enter(requested.current - 1)}
-                onNext={() => void enter(requested.current + 1)}
-                onTogglePause={() => setUserPaused((value) => !value)}
-                onReplay={() => {
-                  setStageReady(false);
-                  setPlaybackKey((key) => key + 1);
-                }}
-                onSelect={(next) => void enter(next)}
-              />
-            </div>
-            <section
-              key={playbackKey}
-              className="narration"
-              aria-labelledby="scene-title"
-            >
-              <p className="eyebrow">{session.location}</p>
-              <h2 id="scene-title">{scene.title}</h2>
-              {scene.narration.map((line) => (
-                <p
-                  className="narration-line"
-                  key={line.id}
-                  style={{
-                    animationDelay: `calc(var(--narration-delay) + ${line.delayMs}ms)`,
-                    animationDuration: `${line.durationMs}ms`,
-                  }}
-                >
-                  {line.text}
-                </p>
-              ))}
-            </section>
-          </div>
-          {index === session.scenes.length - 1 && (
-            <aside className="end-card">
-              <p>The road goes on. This chapter ends here.</p>
-              <button onClick={() => void enter(0)}>Replay session</button>
-              <Link href="/">Return to sessions</Link>
-            </aside>
+                className="narration"
+                aria-labelledby="reader-title"
+              >
+                {scene.narration.map((line) => (
+                  <p
+                    className="narration-line"
+                    key={line.id}
+                    style={{
+                      animationDelay: `${line.delayMs}ms`,
+                      animationDuration: `${line.durationMs}ms`,
+                    }}
+                  >
+                    {line.text}
+                  </p>
+                ))}
+              </section>
+              {index === session.scenes.length - 1 && (
+                <aside className="end-card">
+                  <p>The road goes on. This chapter ends here.</p>
+                  <button onClick={() => void enter(0)}>Replay session</button>
+                  <Link href="/">Return to sessions</Link>
+                </aside>
+              )}
+            </>
           )}
-        </>
-      )}
-      <footer>
-        Work in progress · Illustrated prototypes: scenes 1–3 and 7.
-      </footer>
+        </div>
+        {loaded && (
+          <StoryControls
+            session={session}
+            index={index}
+            paused={userPaused}
+            onPrevious={() => void enter(requested.current - 1)}
+            onNext={() => void enter(requested.current + 1)}
+            onTogglePause={() => setUserPaused((value) => !value)}
+            onReplay={() => {
+              setStageReady(false);
+              setPlaybackKey((key) => key + 1);
+            }}
+            onSelect={(next) => void enter(next)}
+          />
+        )}
+      </aside>
+      <div className="reader-main" aria-label="Scene player">
+        {loaded && store ? (
+          <div className="scene-player">
+            <LayeredStage
+              key={playbackKey}
+              session={session}
+              index={index}
+              store={store}
+              onReady={ready}
+              paused={userPaused || hidden}
+            />
+          </div>
+        ) : (
+          <section className="loading-card" aria-labelledby="loading-title">
+            <p className="eyebrow">Gathering the pages</p>
+            <h2 id="loading-title">
+              {loadState === "failed"
+                ? "Some illustrations could not load"
+                : "Preparing the whole story"}
+            </h2>
+            <progress
+              aria-label="Recap images ready"
+              value={progress.ready}
+              max={Math.max(1, progress.total)}
+            />
+            <p role="status">
+              {progress.ready} of {progress.total} images ready
+              {progress.failed ? ` · ${progress.failed} failed` : ""}
+            </p>
+            {loadState === "failed" && (
+              <>
+                <p>
+                  Successful downloads are saved for this visit. Retry to load
+                  the remaining images.
+                </p>
+                <button onClick={() => void retry()}>Retry images</button>
+              </>
+            )}
+            <Link href="/">Return to sessions</Link>
+          </section>
+        )}
+      </div>
     </main>
   );
 }

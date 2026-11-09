@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "coppergoat",
+  "name": "Coppergoat",
+  "category": "creatures",
+  "description": "Coppercoil’s small mechanical copper goat construct.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md",
+    "src/model/characters/coppercoil.json"
+  ],
+  "tags": [
+    "construct",
+    "coppercoil",
+    "goat"
+  ],
+  "reuseWhen": "Use this left-facing charging pose when Coppergoat rushes a target.",
+  "assets": [
+    {
+      "id": "coppergoat-charge",
+      "description": "Copper-plated mechanical goat charging left with horns lowered and faint summoning sparks.",
+      "sourcePath": "public/assets/sources/coppergoat-charge-v1.png",
+      "width": 480,
+      "height": 360,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/creatures/coppergoat-charge-v1.webp",
+      "bytes": 47724,
+      "sha256": "ebbde361a08607d5bb94056c3a00bc7e44802c2c3b7106f8752d8f7d9554e349",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 47724,
+        "nearLosslessBytes": 115754
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "journal-satchel",
+  "name": "Journal, satchel and healing potion",
+  "category": "objects",
+  "description": "Open journal and corked red healing potion in the sisters’ travel satchel.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md",
+    "public/assets/illustrations/scene-04-a-note-in-the-dark.png"
+  ],
+  "tags": [
+    "journal",
+    "satchel",
+    "healing-potion"
+  ],
+  "reuseWhen": "Shared prop arrangement with the journal open and its right page ready for a separate writing cue.",
+  "assets": [
+    {
+      "id": "journal-and-potion",
+      "description": "Lantern-lit open journal and red healing potion on a leather travel satchel.",
+      "sourcePath": "public/assets/sources/journal-and-potion-v1.png",
+      "width": 960,
+      "height": 540,
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      },
+      "status": "prototype",
+      "path": "public/assets/objects/journal-and-potion-v1.webp",
+      "bytes": 149938,
+      "sha256": "12b3538185f829c447158a0225140f958f02f6da08bfebd5035b848f2ada3158",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 149938,
+        "nearLosslessBytes": 485158
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

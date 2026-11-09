@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "cult-wagon",
+  "name": "Cult wagon and draft team",
+  "category": "groups",
+  "description": "Closed canvas wagon drawn by two draft horses.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "cult",
+    "wagon",
+    "horses"
+  ],
+  "reuseWhen": "Use a separate driver and guard formation around the wagon.",
+  "assets": [
+    {
+      "id": "cult-wagon-team",
+      "description": "Closed wagon and two harnessed horses travelling in daylight.",
+      "sourcePath": "public/assets/sources/cult-wagon-team-v1.png",
+      "width": 960,
+      "height": 480,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/cult-wagon-team-v1.webp",
+      "bytes": 171654,
+      "sha256": "69888eb723adcf7f8283ecd400409674b0f30bb5bace765a10aa85376629e92a",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 171654,
+        "nearLosslessBytes": 419652
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

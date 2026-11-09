@@ -162,6 +162,31 @@
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "aldrik-balerias-private-walk",
+      "description": "Full-body pair walking and speaking quietly.",
+      "sourcePath": "public/assets/sources/aldrik-balerias-private-walk-v1.png",
+      "width": 800,
+      "height": 800,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/aldrik-balerias-private-walk-v1.webp",
+      "bytes": 206152,
+      "sha256": "5c5662b6940cde766508d5f23f4e7293f3e3e5b5888b5d913fb1d11f755bb179",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 206152,
+        "nearLosslessBytes": 550894
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "species": "human",

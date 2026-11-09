@@ -1,6 +1,4 @@
 import type { Session } from "./schema";
-/** Ink, camera and authored actions share scene time; narration follows the opening. */
-export const SCENE_NARRATION_DELAY_MS = 2400;
 export const INK_REVEAL_DURATION_MS = 820;
 export function actorEntranceDelays(
   session: Session,

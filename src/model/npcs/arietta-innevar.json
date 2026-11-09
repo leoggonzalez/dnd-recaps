@@ -98,6 +98,31 @@
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "wagon-interior-middle",
+      "description": "Arietta asleep with her auburn braid visible in a shared wagon layer with Zelina, bedding and lantern.",
+      "sourcePath": "public/assets/sources/wagon-interior-middle-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/wagon-interior-middle-v1.webp",
+      "bytes": 179120,
+      "sha256": "7082a52dec5a8742156090c553b7c6b8dfeeefebaa293ddc9220514d524be5e3",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 179120,
+        "nearLosslessBytes": 523572
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "character_type": "npc",

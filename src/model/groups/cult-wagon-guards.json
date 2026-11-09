@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "cult-wagon-guards",
+  "name": "Cult wagon guards",
+  "category": "groups",
+  "description": "Stern escort and seated guard who drives the wagon.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "cult",
+    "guard",
+    "escort"
+  ],
+  "reuseWhen": "Use as background guard instances; keep weapons stowed or lowered for uneventful travel.",
+  "assets": [
+    {
+      "id": "cult-escort",
+      "description": "Stern travelling spear guard, full-body standing cutout.",
+      "sourcePath": "public/assets/sources/cult-escort-v1.png",
+      "width": 340,
+      "height": 510,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/cult-escort-v1.webp",
+      "bytes": 37362,
+      "sha256": "ecc0e370fd97159a705f00e8eec58381da0c46d70cb7f3c122567f8f4cbf8e88",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 37362,
+        "nearLosslessBytes": 88538
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "cult-guard-driver",
+      "description": "Seated Cult guard holding the wagon reins.",
+      "sourcePath": "public/assets/sources/cult-guard-driver-v1.png",
+      "width": 360,
+      "height": 420,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/cult-guard-driver-v1.webp",
+      "bytes": 32896,
+      "sha256": "aaf8cccde5d74944f19b6dffb9c2592d9683c8af36b7d3a4f9184c8dba71c002",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 32896,
+        "nearLosslessBytes": 82114
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

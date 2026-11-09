@@ -24,12 +24,12 @@
       }
     },
     {
-      "id": "camp-night-middle",
-      "path": "assets/environments/camp-night-middle-v1.webp",
+      "id": "camp-night-merchant-line",
+      "path": "assets/environments/camp-night-merchant-line-v1.webp",
       "width": 1600,
       "height": 900,
-      "bytes": 136904,
-      "sha256": "2c207d1098e03c042a0670f4a03604dbf5222eea8fa0274d1f0dab998826a404",
+      "bytes": 221358,
+      "sha256": "95ff4ef2157266f6c015bb27badf38006facc24648bec9eee893ca6b86403dd8",
       "kind": "background",
       "anchor": {
         "x": 0.5,
@@ -50,12 +50,12 @@
       }
     },
     {
-      "id": "camp-far",
-      "path": "assets/environments/camp-far-v1.webp",
+      "id": "wagon-interior-far",
+      "path": "assets/environments/wagon-interior-far-v1.webp",
       "width": 1600,
       "height": 900,
-      "bytes": 325366,
-      "sha256": "b5f22a27bc2b8f1653877560d493bfb0aa307f78280f11a76ddda2051ff90369",
+      "bytes": 371982,
+      "sha256": "a8ede83c88f0b807621bea830dc5e6672ac5037e00c4bd46a29f66eb92e1b118",
       "kind": "background",
       "anchor": {
         "x": 0.5,
@@ -63,12 +63,12 @@
       }
     },
     {
-      "id": "camp-middle",
-      "path": "assets/environments/camp-middle-v1.webp",
+      "id": "wagon-interior-middle",
+      "path": "assets/environments/wagon-interior-middle-v1.webp",
       "width": 1600,
       "height": 900,
-      "bytes": 188980,
-      "sha256": "6326f58cc184829d3267421172be9cd13dc8c3de00f68f54c27a91e8bb0de877",
+      "bytes": 179120,
+      "sha256": "7082a52dec5a8742156090c553b7c6b8dfeeefebaa293ddc9220514d524be5e3",
       "kind": "background",
       "anchor": {
         "x": 0.5,
@@ -76,12 +76,64 @@
       }
     },
     {
-      "id": "camp-near",
-      "path": "assets/environments/camp-near-v1.webp",
+      "id": "wagon-interior-near",
+      "path": "assets/environments/wagon-interior-near-v1.webp",
       "width": 1600,
       "height": 900,
-      "bytes": 199370,
-      "sha256": "242114727e25f00b7ef67a622b3e9fcba5d155d33e9bf651dc9b41ee35d00639",
+      "bytes": 36348,
+      "sha256": "d9455eeb9a033e0064e8b680044e6fe2de3bc0109e6f91ef59e2dccdb766bf10",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "day-road-far",
+      "path": "assets/environments/day-road-far-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 350666,
+      "sha256": "f1055b902a73bce71189ab7e0dad9e41ebe62140d5639562b31878f397095566",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "day-road-middle",
+      "path": "assets/environments/day-road-middle-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 139428,
+      "sha256": "b16e9d193a3ee5ebc263445a0665bb120239388e7326b06a45db4991cf0f2615",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "day-road-near",
+      "path": "assets/environments/day-road-near-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 142458,
+      "sha256": "0319f5f7079c1926f13498c8e481b5f9dc6ab8c0eed3a4ab066cd602d2d7e087",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "day-private-trail",
+      "path": "assets/environments/day-private-trail-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 474536,
+      "sha256": "c2eceacc5eeea4f975193197718dc06c71bb1efa5d86737330ec75a045146fa1",
       "kind": "background",
       "anchor": {
         "x": 0.5,
@@ -245,6 +297,188 @@
       }
     },
     {
+      "id": "lucien-invisible-blue",
+      "path": "assets/characters/lucien-invisible-blue-v1.webp",
+      "width": 640,
+      "height": 800,
+      "bytes": 146180,
+      "sha256": "798b84cbc3f3a20c9bd695ec9eeb652246eee8690b0eed77d03cee8054a65373",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.93
+      }
+    },
+    {
+      "id": "journal-and-potion",
+      "path": "assets/objects/journal-and-potion-v1.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 149938,
+      "sha256": "12b3538185f829c447158a0225140f958f02f6da08bfebd5035b848f2ada3158",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.96
+      }
+    },
+    {
+      "id": "emerald-pen",
+      "path": "assets/objects/emerald-pen-v1.webp",
+      "width": 256,
+      "height": 384,
+      "bytes": 13882,
+      "sha256": "14891ac07f1aec583588c6865526d405477759b83726c97aea9e8b61b8190892",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.23,
+        "y": 0.963
+      }
+    },
+    {
+      "id": "cult-wagon-team",
+      "path": "assets/groups/cult-wagon-team-v1.webp",
+      "width": 960,
+      "height": 480,
+      "bytes": 171654,
+      "sha256": "69888eb723adcf7f8283ecd400409674b0f30bb5bace765a10aa85376629e92a",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "cult-guard-driver",
+      "path": "assets/groups/cult-guard-driver-v1.webp",
+      "width": 360,
+      "height": 420,
+      "bytes": 32896,
+      "sha256": "aaf8cccde5d74944f19b6dffb9c2592d9683c8af36b7d3a4f9184c8dba71c002",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "cult-escort",
+      "path": "assets/groups/cult-escort-v1.webp",
+      "width": 340,
+      "height": 510,
+      "bytes": 37362,
+      "sha256": "ecc0e370fd97159a705f00e8eec58381da0c46d70cb7f3c122567f8f4cbf8e88",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "aldrik-riding-watch",
+      "path": "assets/characters/aldrik-riding-watch-v1.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 156490,
+      "sha256": "a2dc637d7d520741b83fff63053f7cf703d87e92c0203805d07c403a5c8c4ac5",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "aldrik-balerias-private-walk",
+      "path": "assets/groups/aldrik-balerias-private-walk-v1.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 206152,
+      "sha256": "5c5662b6940cde766508d5f23f4e7293f3e3e5b5888b5d913fb1d11f755bb179",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "lead-wagon-under-attack",
+      "path": "assets/groups/lead-wagon-under-attack-v1.webp",
+      "width": 900,
+      "height": 600,
+      "bytes": 207008,
+      "sha256": "35089a90d150a690b4848fb9d8f2b9a8d90b1b590dccd5b0f780a03a8fc2d1d1",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "forest-convoy-wagon",
+      "path": "assets/groups/forest-convoy-wagon-v1.webp",
+      "width": 680,
+      "height": 680,
+      "bytes": 159732,
+      "sha256": "8d4ae7ae64e5d9733a302920a30c403b3244bc1ec0d10e23ea5a99c8d38ade7f",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "forest-spider-defense",
+      "path": "assets/groups/forest-spider-defense-v1.webp",
+      "width": 780,
+      "height": 390,
+      "bytes": 59582,
+      "sha256": "ba5fccd4ae73554f1a950dd33d261a6987c738940ec12e5843a197fec059b56f",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "coppergoat-charge",
+      "path": "assets/creatures/coppergoat-charge-v1.webp",
+      "width": 480,
+      "height": 360,
+      "bytes": 47724,
+      "sha256": "ebbde361a08607d5bb94056c3a00bc7e44802c2c3b7106f8752d8f7d9554e349",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "aldrik-sideways-shot",
+      "path": "assets/characters/aldrik-sideways-shot-v1.webp",
+      "width": 900,
+      "height": 675,
+      "bytes": 161150,
+      "sha256": "8ce68d374be6290af60c6a63fec28f289fa3d56c98f944690bf39b6afd69efbc",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      }
+    },
+    {
+      "id": "forest-crossbow-bolt",
+      "path": "assets/objects/forest-crossbow-bolt-v1.webp",
+      "width": 256,
+      "height": 64,
+      "bytes": 3016,
+      "sha256": "2a2b239a07716dc008c522637cc4339b37e439a544af20bb4b7675b226cc4635",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
       "id": "horses-counterattack",
       "path": "assets/groups/horses-counterattack-v1.webp",
       "width": 720,
@@ -322,7 +556,7 @@
         },
         {
           "slot": "middle",
-          "assetId": "camp-night-middle",
+          "assetId": "camp-night-merchant-line",
           "zIndex": 20
         },
         {
@@ -335,22 +569,69 @@
       "cameraLimit": 32
     },
     {
-      "id": "caravan-camp",
-      "name": "Woodland caravan camp",
+      "id": "sleeping-space",
+      "name": "Inside the sleeping wagon",
       "layers": [
         {
           "slot": "far",
-          "assetId": "camp-far",
+          "assetId": "wagon-interior-far",
           "zIndex": 0
         },
         {
           "slot": "middle",
-          "assetId": "camp-middle",
+          "assetId": "wagon-interior-middle",
+          "zIndex": 20,
+          "offsetY": 110
+        },
+        {
+          "slot": "near",
+          "assetId": "wagon-interior-near",
+          "zIndex": 80
+        }
+      ],
+      "overscan": 48,
+      "cameraLimit": 32
+    },
+    {
+      "id": "woodland-road",
+      "name": "Caravan road in morning light",
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "day-road-far",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "day-road-middle",
           "zIndex": 20
         },
         {
           "slot": "near",
-          "assetId": "camp-near",
+          "assetId": "day-road-near",
+          "zIndex": 80
+        }
+      ],
+      "overscan": 48,
+      "cameraLimit": 32
+    },
+    {
+      "id": "private-trail",
+      "name": "Secluded woodland trail",
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "day-private-trail",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "day-road-middle",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "day-road-near",
           "zIndex": 80
         }
       ],
@@ -386,13 +667,13 @@
       "id": "a-little-luck",
       "title": "A little luck",
       "environmentId": "caravan-camp-night",
-      "description": "The caravan rests for the night. Twelve wagons stand parked in a long line behind five seated gamblers. Lucien and Arietta sit together; Balerias plays too. Sulesdeg and Tyjit keep watch.",
+      "description": "The caravan rests for the night. Merchant wagons with paired draft horses stand in a long line behind five seated gamblers. Lucien and Arietta sit together; Balerias plays too. Sulesdeg and Tyjit keep watch.",
       "durationMs": 4800,
       "narration": [
         {
           "id": "segment-1",
           "text": "The long caravan had stopped for the night. Along the parked wagons, Samardag called a game of Three-Dragon Ante.",
-          "delayMs": 150,
+          "delayMs": 0,
           "durationMs": 450
         },
         {
@@ -438,14 +719,14 @@
     {
       "id": "a-walk-through-camp",
       "title": "A walk through camp",
-      "environmentId": "caravan-camp",
-      "description": "Two cutouts move together a short distance through the lantern-lit camp and settle.",
+      "environmentId": "caravan-camp-night",
+      "description": "Lucien and Arietta walk arm in arm past the lantern-lit wagons while the caravan rests for the night.",
       "durationMs": 4800,
       "narration": [
         {
           "id": "segment-1",
           "text": "By lanternlight, Arietta asked about Lucien’s past and the magic in his bloodline.",
-          "delayMs": 150,
+          "delayMs": 0,
           "durationMs": 450
         },
         {
@@ -488,14 +769,14 @@
     {
       "id": "an-offering-for-the-peryton",
       "title": "An offering for the peryton",
-      "environmentId": "caravan-camp",
-      "description": "Balerias changes to offering pose; peryton approaches behind cage bars; subtle glimmer appears.",
+      "environmentId": "caravan-camp-night",
+      "description": "Balerias offers food to the caged peryton by lanternlight. Oyn watches from nearby, a step back from the bars. The merchant wagons are parked behind them.",
       "durationMs": 4800,
       "narration": [
         {
           "id": "segment-1",
           "text": "Balerias extended food through the cage while Oyn kept a safer distance.",
-          "delayMs": 150,
+          "delayMs": 0,
           "durationMs": 450
         },
         {
@@ -510,8 +791,8 @@
           "id": "oyn-watching",
           "assetId": "oyn",
           "position": {
-            "x": 310,
-            "y": 825
+            "x": 550,
+            "y": 850
           },
           "width": 290,
           "zIndex": 30,
@@ -588,13 +869,13 @@
       "id": "a-note-in-the-dark",
       "title": "A note in the dark",
       "environmentId": "sleeping-space",
-      "description": "Sleeping-space layers; journal and pen cutouts; pen moves over the page.",
+      "description": "Inside the wagon at night, Arietta and Zelina sleep behind an open journal and a healing potion. A translucent blue outline suggests the invisible Lucien as the Emerald Pen writes.",
       "durationMs": 4800,
       "narration": [
         {
           "id": "segment-1",
           "text": "Invisible, Lucien searched the sisters’ belongings and found a healing potion and a journal.",
-          "delayMs": 150,
+          "delayMs": 0,
           "durationMs": 450
         },
         {
@@ -610,69 +891,1080 @@
           "durationMs": 450
         }
       ],
-      "actors": [],
+      "actors": [
+        {
+          "id": "lucien-unseen",
+          "assetId": "lucien-invisible-blue",
+          "position": {
+            "x": 1110,
+            "y": 945
+          },
+          "width": 870,
+          "zIndex": 48,
+          "poses": [],
+          "effect": "invisibility",
+          "flipX": true
+        },
+        {
+          "id": "open-journal",
+          "assetId": "journal-and-potion",
+          "position": {
+            "x": 505,
+            "y": 1050
+          },
+          "width": 730,
+          "zIndex": 45,
+          "poses": []
+        },
+        {
+          "id": "writing-pen",
+          "assetId": "emerald-pen",
+          "position": {
+            "x": 690,
+            "y": 884
+          },
+          "width": 125,
+          "zIndex": 50,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -20,
+              "y": -8
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1150,
+            "durationMs": 1950,
+            "easing": "ease-out"
+          }
+        }
+      ],
       "reducedMotion": "final",
-      "artwork": "planned"
+      "artwork": "prototype"
     },
     {
       "id": "counting-the-wagons",
       "title": "Counting the wagons",
       "environmentId": "woodland-road",
-      "description": "Exactly three guarded wagons recede behind Aldrik and Balerias as they discuss the unconfirmed decoy suspicion away from prying ears.",
+      "description": "The next morning, Aldrik rides past three Cult of the Dragon wagons, watching their stern guards from a cautious distance.",
       "durationMs": 4800,
       "narration": [
         {
           "id": "segment-1",
-          "text": "Aldrik rode past three cult wagons, studying their disciplined watches. The middle wagon carried an extra traveller.",
-          "delayMs": 150,
+          "text": "The next morning, Aldrik rode past three Cult of the Dragon wagons. Six stern guards travelled in silence with each wagon.",
+          "delayMs": 0,
           "durationMs": 450
         },
         {
           "id": "segment-2",
-          "text": "Could one be a decoy? For now, it was only a suspicion.",
+          "text": "He kept his distance and watched as he passed. Could one wagon be a decoy? For now, it was only a suspicion.",
           "delayMs": 850,
-          "durationMs": 450
-        },
-        {
-          "id": "segment-3",
-          "text": "Far from prying eyes, Aldrik and Balerias discussed the wagons.",
-          "delayMs": 1550,
-          "durationMs": 450
-        },
-        {
-          "id": "segment-4",
-          "text": "They agreed that earning the cultists’ trust might help them follow if the wagons left the caravan.",
-          "delayMs": 2250,
           "durationMs": 450
         }
       ],
-      "actors": [],
+      "actors": [
+        {
+          "id": "cult-team-1",
+          "assetId": "cult-wagon-team",
+          "position": {
+            "x": 360,
+            "y": 560
+          },
+          "width": 365,
+          "zIndex": 25,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "cult-team-1-driver",
+          "assetId": "cult-guard-driver",
+          "position": {
+            "x": 335.91,
+            "y": 503.425
+          },
+          "width": 80.3,
+          "zIndex": 26,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "cult-team-1-escort-1",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 188.45000000000002,
+            "y": 574
+          },
+          "width": 58.4,
+          "zIndex": 27,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": true
+        },
+        {
+          "id": "cult-team-1-escort-2",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 235.89999999999998,
+            "y": 595
+          },
+          "width": 58.4,
+          "zIndex": 27,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "cult-team-1-escort-3",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 283.35,
+            "y": 574
+          },
+          "width": 58.4,
+          "zIndex": 27,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": true
+        },
+        {
+          "id": "cult-team-1-escort-4",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 330.8,
+            "y": 595
+          },
+          "width": 58.4,
+          "zIndex": 27,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "cult-team-1-escort-5",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 389.2,
+            "y": 574
+          },
+          "width": 58.4,
+          "zIndex": 27,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "cult-team-2",
+          "assetId": "cult-wagon-team",
+          "position": {
+            "x": 775,
+            "y": 650
+          },
+          "width": 445,
+          "zIndex": 30,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "cult-team-2-driver",
+          "assetId": "cult-guard-driver",
+          "position": {
+            "x": 745.63,
+            "y": 581.025
+          },
+          "width": 97.9,
+          "zIndex": 31,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "cult-team-2-escort-1",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 565.85,
+            "y": 664
+          },
+          "width": 71.2,
+          "zIndex": 32,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": true
+        },
+        {
+          "id": "cult-team-2-escort-2",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 623.7,
+            "y": 685
+          },
+          "width": 71.2,
+          "zIndex": 32,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "cult-team-2-escort-3",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 681.55,
+            "y": 664
+          },
+          "width": 71.2,
+          "zIndex": 32,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": true
+        },
+        {
+          "id": "cult-team-2-escort-4",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 739.4,
+            "y": 685
+          },
+          "width": 71.2,
+          "zIndex": 32,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "cult-team-2-escort-5",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 810.6,
+            "y": 664
+          },
+          "width": 71.2,
+          "zIndex": 32,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "cult-team-3",
+          "assetId": "cult-wagon-team",
+          "position": {
+            "x": 1270,
+            "y": 748
+          },
+          "width": 525,
+          "zIndex": 35,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "cult-team-3-driver",
+          "assetId": "cult-guard-driver",
+          "position": {
+            "x": 1235.35,
+            "y": 666.625
+          },
+          "width": 115.5,
+          "zIndex": 36,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "cult-team-3-escort-1",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 1023.25,
+            "y": 762
+          },
+          "width": 84,
+          "zIndex": 37,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": true
+        },
+        {
+          "id": "cult-team-3-escort-2",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 1091.5,
+            "y": 783
+          },
+          "width": 84,
+          "zIndex": 37,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "cult-team-3-escort-3",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 1159.75,
+            "y": 762
+          },
+          "width": 84,
+          "zIndex": 37,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": true
+        },
+        {
+          "id": "cult-team-3-escort-4",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 1228,
+            "y": 783
+          },
+          "width": 84,
+          "zIndex": 37,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "cult-team-3-escort-5",
+          "assetId": "cult-escort",
+          "position": {
+            "x": 1312,
+            "y": 762
+          },
+          "width": 84,
+          "zIndex": 37,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -65,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 3900,
+            "easing": "ease-out"
+          },
+          "flipX": false
+        },
+        {
+          "id": "aldrik-observing",
+          "assetId": "aldrik-riding-watch",
+          "position": {
+            "x": 1630,
+            "y": 1010
+          },
+          "width": 470,
+          "zIndex": 58,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -130,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4200,
+            "easing": "ease-out"
+          }
+        }
+      ],
       "reducedMotion": "final",
-      "artwork": "planned"
+      "artwork": "prototype"
+    },
+    {
+      "id": "out-of-earshot",
+      "title": "Out of earshot",
+      "environmentId": "private-trail",
+      "description": "Away from the caravan, Aldrik and Balerias walk together and quietly discuss the wagons.",
+      "durationMs": 4800,
+      "narration": [
+        {
+          "id": "segment-1",
+          "text": "Aldrik and Balerias took a walk away from the caravan. Aldrik shared what he had seen and his suspicion about a decoy.",
+          "delayMs": 0,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-2",
+          "text": "They agreed that earning the cultists’ trust might help them follow if the wagons left the caravan.",
+          "delayMs": 850,
+          "durationMs": 450
+        }
+      ],
+      "actors": [
+        {
+          "id": "private-walk",
+          "assetId": "aldrik-balerias-private-walk",
+          "position": {
+            "x": 985,
+            "y": 1010
+          },
+          "width": 690,
+          "zIndex": 45,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": -72,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 100,
+            "durationMs": 3700,
+            "easing": "ease-out"
+          }
+        }
+      ],
+      "reducedMotion": "final",
+      "artwork": "prototype"
     },
     {
       "id": "under-the-horses-neck",
       "title": "Under the horse’s neck",
       "environmentId": "tangled-forest",
-      "description": "Aldrik rides sideways and aims his light crossbow beneath his horse’s neck at a huge spider. Tangled forest and webs frame the attack; no additional kill is implied.",
+      "description": "Giant spiders attack the caravan and guards fight them farther back. Lucien and Coppercoil defend the lead wagon as an ettercap lunges at its left draft horse. Coppercoil summons Coppergoat to charge the attacker. Aldrik hangs sideways from his saddle on the right and fires beneath his horse’s neck.",
       "durationMs": 4800,
       "narration": [
         {
           "id": "segment-1",
-          "text": "The road narrowed beneath tangled branches. Webbing caught the horses; three ettercaps and huge spiders emerged.",
-          "delayMs": 150,
+          "text": "Giant spiders rushed the caravan and the guards braced their spears. An ettercap lunged at the lead wagon’s left horse.",
+          "delayMs": 0,
           "durationMs": 450
         },
         {
           "id": "segment-2",
-          "text": "The caravan fought back. From horseback, Aldrik sighted beneath his horse’s neck with his light crossbow.",
-          "delayMs": 850,
+          "text": "Lucien fought from the bench while Coppercoil summoned Coppergoat and sent it charging at the ettercap.",
+          "delayMs": 700,
+          "durationMs": 450
+        },
+        {
+          "id": "segment-3",
+          "text": "Riding on the right, Aldrik hooked a leg over his saddle, dropped sideways and fired his light crossbow beneath his horse’s neck at the ettercap.",
+          "delayMs": 1500,
           "durationMs": 450
         }
       ],
-      "actors": [],
+      "actors": [
+        {
+          "id": "forest-wagon-1",
+          "assetId": "lead-wagon-under-attack",
+          "position": {
+            "x": 595,
+            "y": 995
+          },
+          "width": 980,
+          "zIndex": 46,
+          "poses": [],
+          "motion": {
+            "preset": "recoil",
+            "from": {
+              "x": 18,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1000,
+            "durationMs": 700,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-2",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1110,
+            "y": 745
+          },
+          "width": 340,
+          "zIndex": 38,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 27.2,
+              "y": -22.1
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-3",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1240,
+            "y": 619
+          },
+          "width": 254,
+          "zIndex": 37,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 20.32,
+              "y": -16.51
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-4",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1315,
+            "y": 530
+          },
+          "width": 188,
+          "zIndex": 36,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 15.040000000000001,
+              "y": -12.22
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-5",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1350,
+            "y": 469
+          },
+          "width": 138,
+          "zIndex": 35,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 11.040000000000001,
+              "y": -8.97
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-6",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1370,
+            "y": 429
+          },
+          "width": 104,
+          "zIndex": 34,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 8.32,
+              "y": -6.76
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-7",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1382,
+            "y": 399
+          },
+          "width": 78,
+          "zIndex": 33,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 6.24,
+              "y": -5.07
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-8",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1390,
+            "y": 375
+          },
+          "width": 57,
+          "zIndex": 32,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 4.5600000000000005,
+              "y": -3.705
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-9",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1396,
+            "y": 358
+          },
+          "width": 42,
+          "zIndex": 31,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 3.36,
+              "y": -2.73
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "forest-wagon-10",
+          "assetId": "forest-convoy-wagon",
+          "position": {
+            "x": 1401,
+            "y": 345
+          },
+          "width": 31,
+          "zIndex": 30,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 2.48,
+              "y": -2.015
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 4300,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "guards-versus-spiders",
+          "assetId": "forest-spider-defense",
+          "position": {
+            "x": 345,
+            "y": 570
+          },
+          "width": 540,
+          "zIndex": 28,
+          "poses": [],
+          "motion": {
+            "preset": "recoil",
+            "from": {
+              "x": -14,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 550,
+            "durationMs": 900,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "coppergoat-charging",
+          "assetId": "coppergoat-charge",
+          "position": {
+            "x": 348,
+            "y": 1004
+          },
+          "width": 220,
+          "zIndex": 51,
+          "poses": [],
+          "motion": {
+            "preset": "fade",
+            "from": {
+              "x": 425,
+              "y": -85
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1250,
+            "durationMs": 1050,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "aldrik-hanging-shot",
+          "assetId": "aldrik-sideways-shot",
+          "position": {
+            "x": 1560,
+            "y": 1000
+          },
+          "width": 675,
+          "zIndex": 54,
+          "poses": [],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 43,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 0,
+            "durationMs": 1800,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "aldrik-crossbow-bolt",
+          "assetId": "forest-crossbow-bolt",
+          "position": {
+            "x": 395,
+            "y": 685
+          },
+          "width": 72,
+          "zIndex": 56,
+          "poses": [],
+          "motion": {
+            "preset": "projectile",
+            "from": {
+              "x": 880,
+              "y": 45
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 2000,
+            "durationMs": 420,
+            "easing": "linear"
+          }
+        }
+      ],
       "reducedMotion": "final",
-      "artwork": "planned"
+      "artwork": "prototype"
     },
     {
       "id": "the-horses-fight-back",
@@ -684,7 +1976,7 @@
         {
           "id": "segment-1",
           "text": "The intended prey fought back. Strawberry Three kicked; Mo Two struck another attacker.",
-          "delayMs": 150,
+          "delayMs": 0,
           "durationMs": 450
         },
         {
@@ -812,7 +2104,7 @@
         {
           "id": "segment-1",
           "text": "Balerias cut open a cocoon. A dead woman lay inside, clutching a scroll.",
-          "delayMs": 150,
+          "delayMs": 0,
           "durationMs": 450
         },
         {

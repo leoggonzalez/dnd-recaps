@@ -1,6 +1,6 @@
 # Animated storyboard — 28.10.2026
 
-Status: eight-scene scope approved by the user. Layered artwork production is in progress.
+Status: nine scenes following the split of the wagon watch and private conversation. Layered artwork production is in progress.
 
 Source: [session recap](../28.10.2026.md), plus Aldrik’s recorded mounted shot in [his character record](../../../model/characters/aldrik.json). The old [still storyboard](storyboard.md) informs framing only. Narration is stored in [the draft manifest](../2026-10-28.json) and reproduced below for review.
 
@@ -14,15 +14,15 @@ Each environment has far (depth 0), middle (20), near (80) layers. Actors use ex
 
 | Environment | Scenes | Layers and reuse |
 | --- | --- | --- |
-| caravan-camp-night | 01 | Night sky/ground; twelve stationary wagons in one long line; dark near foliage. Seated game and standing guards are separate cutouts. |
-| caravan-camp | 02–03 | Earlier camp layers retained for these prototype scenes and future reuse. |
-| sleeping-space | 04 | Dark sleeping area; belongings; close foreground cloth. No visible Lucien. |
-| woodland-road | 05 | Distant road; exactly three cult wagons as separate props; foreground verge. |
-| tangled-forest | 06–08 | Canopy; road and trunks; transparent branches/web edges. Reframe 08 before commissioning a fifth environment. |
+| caravan-camp-night | 01–03 | Night sky and ground, a parked merchant wagon line with paired horses and varied goods, and dark foreground foliage. Scene 01 adds the game and guards. Scene 02 uses the walking pair. Scene 03 adds Balerias, Oyn and the caged peryton. |
+| sleeping-space | 04 | Wagon shell and moonlit opening; sleeping sisters and lantern; close foreground cloth. Lucien appears as a translucent outline for the audience. |
+| woodland-road | 05 | Morning road, roadside hedges and foreground foliage. Three guarded wagon teams travel past Aldrik. |
+| private-trail | 06 | Secluded woodland path with matching daylight and reused verge layers. |
+| tangled-forest | 07–09 | Canopy; road and trunks; transparent branches/web edges. Reframe 09 before commissioning a fifth environment. |
 
 Required shared cutouts and variants (not a generated-image quota):
 
-- Lucien: neutral, casting/hurling; dark skin, closely cropped black hair, short trimmed beard and moustache, crimson-purple robes (current character record supersedes older prompts). Never visible in scene 04.
+- Lucien: neutral, casting/hurling; dark skin, closely cropped black hair, short trimmed beard and moustache, crimson-purple robes (current character record supersedes older prompts). Invisible to the other characters in scene 04, shown to the audience as a translucent monochrome outline.
 - Aldrik: mounted neutral and under-neck aiming group; youthful pale elf, short dark hair, no facial hair, dark leather, light crossbow.
 - Balerias: neutral, food offering, crossbow aiming/fired, cocoon opening; gray hair/beard, mechanical eye, oversized crossbow.
 - Coppercoil: neutral/casting, visibly tiny copper dragonborn with mechanical jaw and green core; Coppergoat neutral/ramming. No other constructs added.
@@ -39,9 +39,9 @@ The recap explicitly introduces **three ettercaps**, but later describes Baleria
 
 Samardag, Radecere, Orvustia, Leda, horse coats, and detailed peryton markings lack close-up references. Keep them indistinct in rough staging; resolve close-ups before final art. Arietta’s intentions, the decoy suspicion, the eye reflection, and the scroll’s contents stay unresolved. Rumble and Vladifix are absent. User clarifications about participation are recorded in the affected character/NPC events without changing their sheets.
 
-## Scene specification — approved eight-scene scope
+## Scene specification
 
-The user selected the eight scenes in [storyboard.md](storyboard.md). This replaces the earlier 15-scene proposal. Narration is in the app manifest. All movement is proposed presentation; the source storyboard’s 3:2 painterly prompts are retained as historical references, while new assets use this document’s layered 16:9 parchment/ink direction.
+The original eight storyboard beats expand to nine scenes following the user’s split of the wagon watch and private conversation. Narration is in the app manifest. All movement is proposed presentation; the source storyboard’s 3:2 painterly prompts are retained as historical references, while new assets use this document’s layered 16:9 parchment/ink direction.
 
 ### 01 — A little luck (`a-little-luck`)
 
@@ -53,27 +53,27 @@ Lucien and Arietta sat together at the cards, with Balerias playing too. Radecer
 
 Sulesdeg and Tyjit stood watch without joining.
 
-Current staging: twelve stationary wagons form a long line behind five seated gamblers. Lucien and Arietta share a bench. Balerias holds cards. The two guards stand separately at depth 35; the game group is at depth 50. No walking or travelling motion is assigned to these cutouts. Background parallax and the existing ink reveal run concurrently. The night sky, wagon line, near foliage, game and guards are five new assets; earlier lighting variants remain registered for reuse. The caravan total is distinct from the three cult wagons in scene 05.
+Current staging: stationary merchant wagons form a long line behind five seated gamblers. Paired draft horses rest by the wagons, and merchants and guards gather near textiles, barrels, produce, pottery and other cargo. Lucien and Arietta share a bench. Balerias holds cards. The two guards stand separately at depth 35; the game group is at depth 50. No walking or travelling motion is assigned to these cutouts. Background parallax and the existing ink reveal run concurrently. The night sky, wagon line, near foliage, game and guards are five new assets; earlier lighting variants remain registered for reuse. The caravan total is distinct from the three cult wagons in scene 05.
 
 ### 02 — A walk through camp (`a-walk-through-camp`)
 
-Environment: `caravan-camp`.
+Environment: `caravan-camp-night`.
 
 By lanternlight, Arietta asked about Lucien’s past and the magic in his bloodline.
 
 Lucien sensed she was concealing something. He could not yet say what.
 
-Proposed staging: Two cutouts move together a short distance through the lantern-lit camp and settle.
+Current staging: Lucien and Arietta walk arm in arm past the lantern-lit wagons using their existing walking cutout and motion.
 
 ### 03 — An offering for the peryton (`an-offering-for-the-peryton`)
 
-Environment: `caravan-camp`.
+Environment: `caravan-camp-night`.
 
 Balerias extended food through the cage while Oyn kept a safer distance.
 
 The peryton accepted and stayed close. Something glimmered strangely in its eyes.
 
-Proposed staging: Balerias changes to offering pose; peryton approaches behind cage bars; subtle glimmer appears.
+Current staging: Balerias changes to his offering pose and the peryton approaches behind the cage bars. Oyn stands beside Balerias, a step back from the cage, with the parked merchant wagons behind them.
 
 ### 04 — A note in the dark (`a-note-in-the-dark`)
 
@@ -85,33 +85,29 @@ Its entries concealed familiar names behind descriptions. On the final page, he 
 
 “I know what you are doing.”
 
-Proposed staging: Sleeping-space layers; journal and pen cutouts; pen moves over the page.
+Current staging: Inside the covered wagon, Arietta and Zelina sleep on bedrolls beside a lantern. A translucent blue silhouette with a clearer icy edge suggests Lucien crouching by their open satchel. The healing potion rests beside the journal while the Emerald Pen travels across its open page. The note is conveyed by narration.
 
 ### 05 — Counting the wagons (`counting-the-wagons`)
 
 Environment: `woodland-road`.
 
-Aldrik rode past three cult wagons, studying their disciplined watches. The middle wagon carried an extra traveller.
+The next morning, Aldrik rides past three Cult of the Dragon wagons with six guards each. The teams travel in silence. Aldrik keeps a separate line on the road and glances back as he rides by. The possibility of a decoy remains a suspicion.
 
-Could one be a decoy? For now, it was only a suspicion.
+### 06 — Out of earshot (`out-of-earshot`)
 
-Far from prying eyes, Aldrik and Balerias discussed the wagons.
+Environment: `private-trail`.
 
-They agreed that earning the cultists’ trust might help them follow if the wagons left the caravan.
+Aldrik and Balerias walk a secluded trail away from the caravan and talk over what Aldrik saw. They agree that earning the cultists’ trust might help them follow if the wagons leave the caravan.
 
-Proposed staging: Exactly three guarded wagons recede behind Aldrik and Balerias as they discuss the unconfirmed decoy suspicion away from prying ears.
-
-### 06 — Under the horse’s neck (`under-the-horses-neck`)
+### 07 — Under the horse’s neck (`under-the-horses-neck`)
 
 Environment: `tangled-forest`.
 
-The road narrowed beneath tangled branches. Webbing caught the horses; three ettercaps and huge spiders emerged.
+The caravan comes down the forest road in a long line. Guards defend against two giant spiders farther back. Lucien and Coppercoil fight from the lead wagon.
 
-The caravan fought back. From horseback, Aldrik sighted beneath his horse’s neck with his light crossbow.
+An ettercap lunges at the lead wagon’s left draft horse while it is still in harness. Coppercoil summons Coppergoat and sends it charging left at the ettercap. On the right, Aldrik hangs sideways from his saddle and fires beneath his mount’s neck toward the same attacker. The three forest layers are shared with Scene 08.
 
-Proposed staging: Aldrik rides sideways and aims his light crossbow beneath his horse’s neck at a huge spider. Tangled forest and webs frame the attack; no additional kill is implied.
-
-### 07 — The horses fight back (`the-horses-fight-back`)
+### 08 — The horses fight back (`the-horses-fight-back`)
 
 Environment: `tangled-forest`.
 
@@ -125,7 +121,7 @@ Lucien killed the creature before it could carry the horse away.
 
 Proposed staging: Strawberry Three and Mo Two strike back at the spiders. Nearby, an ettercap drags a webbed horse; Lucien stops it before the horse can be taken away.
 
-### 08 — The cocoon’s secret (`the-cocoons-secret`)
+### 09 — The cocoon’s secret (`the-cocoons-secret`)
 
 Environment: `tangled-forest`.
 
@@ -147,6 +143,6 @@ Audit dimensions and byte counts are recorded in [asset_audit.json](asset_audit.
 
 Selected assets are registered in [src/model/index.json](../../../model/index.json). Each categorized entity record has an `assets` array with descriptions and image paths. See [the register guide](../../../model/README.md) before creating another asset. Generated source PNGs are preserved in the ignored local `public/assets/sources/` archive; optimized WebP copies are in `public/assets/`. Exact prompts and source paths are in [art/generation-prompts.json](art/generation-prompts.json).
 
-Scenes 01 and 02 share the camp environment and walking pair. Scene 03 uses Oyn, two aligned Balerias poses, a peryton, and matching rear/front cage planes at depths 35/45 around the creature at 40. Scene 07 uses the forest layers, Lucien’s hurling pose, an unnamed webbed horse, and one ettercap switching from dragging to defeated at 2400 ms. A smaller two-horse/spider group supports the counterattack beat behind the rescue. The spider is a distinct target; the grouped bitmap is not copied into additional enemies.
+Scenes 01–03 share the night camp layers. The seated game appears in Scene 01 and the walking pair appears in Scene 02. Scene 03 uses Oyn, two aligned Balerias poses, a peryton, and matching rear/front cage planes at depths 35/45 around the creature at 40. Scene 08 uses the forest layers, Lucien’s hurling pose, an unnamed webbed horse, and one ettercap switching from dragging to defeated at 2400 ms. A smaller two-horse/spider group supports the counterattack beat behind the rescue. The spider is a distinct target; the grouped bitmap is not copied into additional enemies.
 
 These are integrated prototype drafts. Remaining scene artwork and real-device visual/memory acceptance are still required before marking the recap complete.

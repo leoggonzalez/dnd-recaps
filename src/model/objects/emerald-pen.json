@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "emerald-pen",
+  "name": "Emerald Pen",
+  "category": "objects",
+  "description": "Faceted green pen with gold fittings and a fine nib.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md",
+    "public/assets/illustrations/scene-04-a-note-in-the-dark.png"
+  ],
+  "tags": [
+    "pen",
+    "emerald",
+    "writing"
+  ],
+  "reuseWhen": "Position the nib anchor on the writing surface.",
+  "assets": [
+    {
+      "id": "emerald-pen",
+      "description": "Isolated Emerald Pen angled upward to the right, anchored at the nib.",
+      "sourcePath": "public/assets/sources/emerald-pen-v1.png",
+      "width": 256,
+      "height": 384,
+      "kind": "prop",
+      "anchor": {
+        "x": 0.23,
+        "y": 0.963
+      },
+      "status": "prototype",
+      "path": "public/assets/objects/emerald-pen-v1.webp",
+      "bytes": 13882,
+      "sha256": "14891ac07f1aec583588c6865526d405477759b83726c97aea9e8b61b8190892",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 13882,
+        "nearLosslessBytes": 31298
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # The Caravan Chronicles
 
-A static Next.js storybook for D&D session recaps, hosted on GitHub Pages. The app currently has eight scenes from the [October 28 storyboard](src/data/sessions/28.10.2026/storyboard.md), with layered artwork drafts for scenes 1–3 and 7. Scenes 4–6 and 8 still need artwork; see [implementation status](docs/IMPLEMENTATION_STATUS.md) and [the plan](docs/IMPLEMENTATION_PLAN.md).
+A static Next.js storybook for D&D session recaps, hosted on GitHub Pages. The app currently has nine scenes from the [October 28 storyboard](src/data/sessions/28.10.2026/storyboard.md), with layered artwork drafts for scenes 1–8. Scene 9 still needs artwork; see [implementation status](docs/IMPLEMENTATION_STATUS.md) and [the plan](docs/IMPLEMENTATION_PLAN.md).
 
 ## Project layout
 
@@ -76,7 +76,7 @@ All images live in `public/assets/`, including legacy stills, portraits and loca
 
 ## Playback and publishing
 
-The parchment/ink toolbar floats at the bottom of the scene: mouse hover or keyboard focus reveals it, while touch controls remain visible. Opening ink masks reveal far/middle/near layers, then props and characters. Camera movement, actor motion and pose cues overlap the reveal on their original scene clock; narration has a separate 2400 ms delay. Pause, replay, tab visibility and reduced motion coordinate all effects.
+The player uses a parchment sidebar for the session date, scene title, narration and controls. The main panel fits the full illustration, and narrow screens stack the illustration above the sidebar. Opening ink masks reveal far/middle/near layers, then props and characters. Camera movement, actor motion, pose cues and narration share the reveal’s scene clock. The first line starts with the artwork, and later lines appear in sequence. Pause, replay, tab visibility and reduced motion coordinate all effects.
 
 The effect uses native CSS gradient masks and a registered custom property ([Chrome technique reference](https://developer.chrome.com/docs/modern-web-guidance/guides/ui-behaviors/interactive-content-reveal)); no animation framework or extra reveal artwork is needed.
 

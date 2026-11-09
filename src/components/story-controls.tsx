@@ -76,6 +76,15 @@ export function StoryControls({
         <ControlIcon name="replay" />
         <span className="control-label">Replay</span>
       </button>
+      <button
+        onClick={onNext}
+        disabled={index === session.scenes.length - 1}
+        aria-label="Next scene"
+        title="Next scene (Right arrow)"
+      >
+        <ControlIcon name="next" />
+        <span className="control-label">Next</span>
+      </button>
       <label className="scene-selector">
         <span className="visually-hidden">Go to scene</span>
         <select
@@ -90,15 +99,6 @@ export function StoryControls({
           ))}
         </select>
       </label>
-      <button
-        onClick={onNext}
-        disabled={index === session.scenes.length - 1}
-        aria-label="Next scene"
-        title="Next scene (Right arrow)"
-      >
-        <span className="control-label">Next</span>
-        <ControlIcon name="next" />
-      </button>
     </nav>
   );
 }

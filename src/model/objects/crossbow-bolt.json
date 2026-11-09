@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "crossbow-bolt",
+  "name": "Light crossbow bolt",
+  "category": "objects",
+  "description": "Left-facing wooden crossbow bolt.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "crossbow",
+    "bolt",
+    "projectile"
+  ],
+  "reuseWhen": "Align the projectile to the crossbow and hide it outside the brief firing cue.",
+  "assets": [
+    {
+      "id": "forest-crossbow-bolt",
+      "description": "Horizontal bolt with metal head pointing left.",
+      "sourcePath": "public/assets/sources/forest-crossbow-bolt-v1.png",
+      "width": 256,
+      "height": 64,
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/objects/forest-crossbow-bolt-v1.webp",
+      "bytes": 3016,
+      "sha256": "2a2b239a07716dc008c522637cc4339b37e439a544af20bb4b7675b226cc4635",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 3016,
+        "nearLosslessBytes": 4328
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

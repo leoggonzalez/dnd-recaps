@@ -14,7 +14,7 @@ All project images live in `public/assets/`. Keep full-resolution generated orig
 
 For session illustrations, follow [skills/dnd-session-images/SKILL.md](skills/dnd-session-images/SKILL.md). For an explicitly requested retro cartoon treatment, also apply [skills/retro-action-cartoon-images/SKILL.md](skills/retro-action-cartoon-images/SKILL.md). Current character records override older image prompts; keep source events and unresolved story facts intact.
 
-The October 28 app scope is the eight scenes in [the storyboard](src/data/sessions/28.10.2026/storyboard.md). Maintain the existing parchment/ink layered direction for animated assets. Camera/motion and ink reveal run concurrently; preserve pause/replay/reduced-motion behavior.
+The October 28 app scope is the nine scenes in [the storyboard](src/data/sessions/28.10.2026/storyboard.md). Maintain the existing parchment/ink layered direction for animated assets. Camera/motion and ink reveal run concurrently; preserve pause/replay/reduced-motion behavior.
 
 ## Checks
 

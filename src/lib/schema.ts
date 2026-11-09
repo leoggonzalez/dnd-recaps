@@ -33,6 +33,7 @@ const environmentSchema = z
       z
         .object({
           slot: z.literal("middle"),
+          offsetY: z.number().finite().optional(),
           assetId: id,
           zIndex: z.number().int(),
         })
@@ -54,12 +55,22 @@ const actorSchema = z
     id,
     assetId: id,
     position: point,
+    opacity: z.number().min(0).max(1).optional(),
+    effect: z.literal("invisibility").optional(),
+    flipX: z.boolean().optional(),
     width: z.number().finite().positive(),
     zIndex: z.number().int(),
     poses: z.array(z.object({ assetId: id, startMs: time }).strict()),
     motion: z
       .object({
-        preset: z.enum(["translate", "fade", "recoil", "lunge", "rise"]),
+        preset: z.enum([
+          "translate",
+          "fade",
+          "recoil",
+          "lunge",
+          "rise",
+          "projectile",
+        ]),
         from: point,
         to: point,
         delayMs: time,

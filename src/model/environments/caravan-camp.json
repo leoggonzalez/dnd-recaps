@@ -3,7 +3,7 @@
   "id": "caravan-camp",
   "name": "Woodland caravan camp",
   "category": "environments",
-  "description": "Reusable caravan camp layers, including preserved earlier light variants and a matched night rest set with twelve parked wagons.",
+  "description": "Reusable caravan camp layers, including an overnight merchant caravan and earlier lighting and wagon variants.",
   "style": "parchment-ink-v1",
   "references": [],
   "tags": [
@@ -15,7 +15,7 @@
     "rest-stop",
     "twelve-wagons"
   ],
-  "reuseWhen": "Use matched lighting sets: camp-night-far/middle/near depict the stationary night rest with twelve wagons; camp-far/middle/near preserve the earlier camp lighting for future reuse. Do not mix the sets.",
+  "reuseWhen": "Use camp-night-far and camp-night-near with either night midground. The merchant line adds paired horses, varied cargo and background camp figures. Use camp-far/middle/near together for the earlier lighting.",
   "assets": [
     {
       "id": "camp-far",
@@ -158,6 +158,30 @@
       "alternatives": {
         "lossyBytes": 129560,
         "nearLosslessBytes": 228142
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "camp-night-merchant-line",
+      "description": "Transparent night midground with a long line of parked merchant wagons, paired draft teams, varied cargo, lanterns, and small groups of merchants and guards.",
+      "sourcePath": "public/assets/sources/camp-night-merchant-line-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/camp-night-merchant-line-v1.webp",
+      "bytes": 221358,
+      "sha256": "95ff4ef2157266f6c015bb27badf38006facc24648bec9eee893ca6b86403dd8",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 221358,
+        "nearLosslessBytes": 556628
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
     }

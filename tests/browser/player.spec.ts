@@ -7,20 +7,18 @@ test("library, deep reload, navigation, boundaries and history work under reposi
   await page.goto("./");
   await page.getByRole("link", { name: "Open the story" }).click();
   await expect(page.getByRole("button", { name: "Previous" })).toBeDisabled();
-  await page.locator(".scene-player").hover();
   await page.getByRole("button", { name: "Next" }).click();
   await expect(page).toHaveURL(/#scene=a-walk-through-camp$/);
   await page.reload();
   await expect(
     page.getByRole("heading", { name: "A walk through camp" }),
   ).toBeVisible();
-  await page.locator(".scene-player").hover();
   await page.getByRole("button", { name: "Next" }).click();
   await page.goBack();
   await expect(
     page.getByRole("heading", { name: "A walk through camp" }),
   ).toBeVisible();
-  await page.getByLabel("Go to scene").selectOption("7");
+  await page.getByLabel("Go to scene").selectOption("8");
   await expect(page.getByRole("button", { name: "Next" })).toBeDisabled();
   await expect(
     page.getByRole("button", { name: "Replay session" }),
@@ -34,7 +32,6 @@ test("invalid scene fallback, pause and reduced motion", async ({ page }) => {
   await expect(
     page.getByText("That scene could not be found. Showing the first scene."),
   ).toBeVisible();
-  await page.locator(".scene-player").hover();
   await page.getByRole("button", { name: "Pause", exact: true }).click();
   await expect(page.locator(".narration-line").first()).toHaveCSS(
     "animation-play-state",
@@ -147,15 +144,16 @@ test("required image failure blocks entry, retry retains successes, and every sc
     fullPage: true,
   });
   await context.setOffline(true);
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 9; i++) {
     await page.getByLabel("Go to scene").selectOption(String(i));
-    await expect(page.getByRole("heading", { level: 2 })).toHaveText(
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(
       [
         "A little luck",
         "A walk through camp",
         "An offering for the peryton",
         "A note in the dark",
         "Counting the wagons",
+        "Out of earshot",
         "Under the horse’s neck",
         "The horses fight back",
         "The cocoon’s secret",
@@ -186,7 +184,6 @@ test("pause applies to environment, actor and narration, and survives visibility
 }) => {
   await page.goto("./sessions/2026-10-28/");
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
-  await page.locator(".scene-player").hover();
   await page.getByRole("button", { name: "Pause", exact: true }).click();
   for (const selector of [
     ".environment-layer",
@@ -228,7 +225,6 @@ test("authored pose changes are exclusive before and after the cue and hold thei
 }) => {
   await page.goto("./sessions/2026-10-28/#scene=an-offering-for-the-peryton");
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
-  await page.locator(".scene-player").hover();
   await page.getByRole("button", { name: "Pause", exact: true }).click();
   const seek = async (time: number) =>
     page.locator(".playback").evaluate((root, time) => {

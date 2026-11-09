@@ -14,8 +14,8 @@ const asset = (id: string, hash: string) => ({
   kind: "cutout",
   anchor: { x: 0, y: 1 },
 });
-test("complete narrative draft has eight distinct ordered scenes", () => {
-  assert.equal(draft.scenes.length, 8);
+test("complete narrative draft has nine distinct ordered scenes", () => {
+  assert.equal(draft.scenes.length, 9);
   assert.equal(draft.scenes[0].id, "a-little-luck");
   assert.equal(draft.scenes.at(-1)?.id, "the-cocoons-secret");
 });

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "sleeping-wagon",
+  "name": "Covered sleeping wagon",
+  "category": "environments",
+  "description": "Three night layers for a covered wagon interior. The middle composition includes Arietta and Zelina asleep.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md",
+    "public/assets/illustrations/scene-04-a-note-in-the-dark.png"
+  ],
+  "tags": [
+    "wagon",
+    "interior",
+    "night"
+  ],
+  "reuseWhen": "Use the far shell and near cloth with matching light and perspective. The middle includes specific sleepers and needs the authored vertical alignment.",
+  "assets": [
+    {
+      "id": "wagon-interior-far",
+      "description": "Opaque wagon shell, canvas hoops, moonlit opening and bare floor.",
+      "sourcePath": "public/assets/sources/wagon-interior-far-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/wagon-interior-far-v1.webp",
+      "bytes": 371982,
+      "sha256": "a8ede83c88f0b807621bea830dc5e6672ac5037e00c4bd46a29f66eb92e1b118",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 371982,
+        "nearLosslessBytes": 1684798
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "wagon-interior-middle",
+      "description": "Transparent middle layer with sleeping Arietta and Zelina, bedding and a lantern on a crate.",
+      "sourcePath": "public/assets/sources/wagon-interior-middle-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/wagon-interior-middle-v1.webp",
+      "bytes": 179120,
+      "sha256": "7082a52dec5a8742156090c553b7c6b8dfeeefebaa293ddc9220514d524be5e3",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 179120,
+        "nearLosslessBytes": 523572
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "wagon-interior-near",
+      "description": "Transparent close blanket and canvas corners.",
+      "sourcePath": "public/assets/sources/wagon-interior-near-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/wagon-interior-near-v1.webp",
+      "bytes": 36348,
+      "sha256": "d9455eeb9a033e0064e8b680044e6fe2de3bc0109e6f91ef59e2dccdb766bf10",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 36348,
+        "nearLosslessBytes": 97322
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

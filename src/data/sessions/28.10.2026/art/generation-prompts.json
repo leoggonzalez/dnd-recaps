@@ -173,5 +173,180 @@
     "prompt": "Use case: identity-preserve. Extract ONLY the TWO STANDING GUARDS from the supplied card-game reference into a new shared NIGHT cutout, side by side with a little transparent space between them, full body and boots/spear visible. Do not include the seated gamblers, crate, stool or any other person. LEFT: Sulesdeg the Pole, exceptionally tall broad-shouldered deep-brown-skinned adult human man, dark beard, tan/navy layered headwrap, cream tunic and navy robes/cloak with gold trim, leather/brass harness, long spear held upright; composed and watchful. RIGHT: Tyjit Skesh, short sturdy muscular adult shield dwarf woman, long braided red hair, stern clearly drawn face, chainmail and engraved dark armor, deep red cloak, leather boots, arms folded. They are guarding an overnight caravan rest camp and do NOT gamble. Keep original faces/costume identities and their strong height difference. Relight for full night: restrained amber lantern/firelight from lower right on faces and inner clothing edges, deep indigo shadows, no daylight fill. Antique parchment-storybook sepia ink crosshatching and muted watercolor. Genuine transparent background, no paper rectangle/haze/ground/sky. Both figures are stationary, no action or walking, no text/watermark/UI. Leave generous margins around the whole group, no cropped spear tip.",
     "tool": "built-in image_gen",
     "archive": "public/assets/sources/camp-night-guards-v1.png"
+  },
+  {
+    "id": "camp-night-merchant-line",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-5c6dbad6-84d4-42d2-8562-d5ab806fc70a.png",
+    "prompt": "Edit the reference transparent game midground layer. Keep the same wide 16:9 canvas, parchment ink fantasy illustration with warm amber lanterns and blue night shadow, the same diagonal line receding from the large left wagons toward the tiny right wagons, and true transparent negative space above and below. Redesign the line into twelve PARKED medieval merchant wagon teams for an overnight caravan stop. Every wagon has exactly two draft horses together at its front, stopped, relaxed, loosely hitched or tethered next to the drawpole for the night. Especially clearly show TWO separate horse heads, necks and bodies side by side on the nearest four teams, with dark and light coat variation for clarity; alternate wagons and paired teams along one clear diagonal, reduce the scale of the nearest wagon if needed to fit. Use visually distinct loads: first wagon open cloth canopy with colorful rolled textiles, next open barrel wagon, next piled produce baskets, next strapped earthenware crates and amphorae, other wagons with lumber, sacks, metalware, leather bundles and mixed dry goods. Add a handful of small background medieval merchants and armed caravan guards chatting or checking goods near the wagons. Match perspective, keep figures much smaller than the foreground party, no game table, no firepit, no text. Keep the full line inside the left/right borders. Match the reference alignment: nearest wagon wheel contacts at about 58% canvas height, farthest around 44%; preserve empty transparent lower 37% for foreground characters and open transparent sky above. Output only the isolated wagon line with horses, cargo and people on genuine alpha, no sky, no trees, no backdrop, no large ground slab.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/camp-night-merchant-line-v1.png"
+  },
+  {
+    "id": "wagon-interior-far",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-382354ff-ac15-4299-8b41-2ce0ee73f565.png",
+    "prompt": "Use the reference only for the low viewing angle and amber-left moonlight, and reconstruct the bare interior of a parked covered medieval wagon at midnight, 16:9 landscape. Antique fantasy storybook, fine sepia ink crosshatching with muted watercolor, amber lantern highlights and cool midnight indigo shadows, hand-drawn, no photorealism. Camera INSIDE wagon looking down its length: arching canvas roof over curved wood ribs, plank side walls with horizontal rails, modest moonlit canvas opening in the back wall centered slightly left, and dark unobstructed wooden wagon floor across the bottom 46% of frame, with a gentle warm glow falling across lower center from the unseen lantern at left. Cozy cramped scale, not a room in a house. Full bleed opaque far parallax background. No people, blankets, crates, luggage, furniture, pen, bottle, books, text or borders; those are separate layers.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/wagon-interior-far-v1.png"
+  },
+  {
+    "id": "wagon-interior-middle",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-a5362e09-0e8b-4b92-946e-ce0ecfc514e7.png",
+    "prompt": "Transparent 16:9 midground overlay for the interior of the covered wagon in the reference. Antique fantasy storybook, fine sepia ink crosshatching with muted watercolor, amber lantern highlights and cool midnight indigo shadows, hand-drawn, no photorealism. A low arrangement of bedding against the wagon's far side across the middle horizontal band (x 12–90%, y 38–63%), two adult travellers sleeping fully clothed under quilts on low bedrolls, one a small glimpse of an auburn braid and olive cloak, the other turned away with face obscured. A small amber iron lantern sits on a low wooden crate at far left next to the beds. Sleepers secondary and softly shaded, low silhouettes. ONLY these props and sleeping figures. True transparency above and below including transparent lower 36% of canvas. No interior walls, floor, frame, moon, journal, pen, writing or visible magic.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/wagon-interior-middle-v1.png"
+  },
+  {
+    "id": "wagon-interior-near",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-aaa9838f-fa18-4f28-ae08-2295401fe4db.png",
+    "prompt": "Transparent 16:9 foreground overlay for a moonlit medieval covered wagon interior. Antique fantasy storybook, fine sepia ink crosshatching with muted watercolor, amber lantern highlights and cool midnight indigo shadows, hand-drawn, no photorealism. A dark indigo charcoal woven blanket edge intrudes only from bottom left corner and a short draped canvas flap intrudes from extreme lower-right corner. Frame corners, keep all central 80% and entire upper half entirely transparent. Genuine alpha outside two small corner shapes. Strongly dim candlelit cloth texture. No background, room, people, glowing symbols, objects or lettering.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/wagon-interior-near-v1.png"
+  },
+  {
+    "id": "journal-and-potion",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-c61051d6-42d7-4e32-a811-f7435662edb3.png",
+    "prompt": "Make a wide landscape transparent cutout of exactly the lower central objects from the reference, simplified into an illustrated game prop. Antique fantasy storybook, fine sepia ink crosshatching with muted watercolor, amber lantern highlights and cool midnight indigo shadows, hand-drawn, no photorealism. An open weathered leather travel satchel rests flat with a large open journal resting on it at a low three-quarter angle, its right page mostly blank and clearly visible as a surface for a separate pen sprite. A small corked red glass healing potion nestled at the left of the book in the satchel. Warm amber light from left. Center the tightly framed complete silhouette, leave a small clear margin. Only satchel, open journal and potion. No pen, hands, other figures, ground plane, backdrop, large shadow, lettering or legible text. Genuine alpha.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/journal-and-potion-v1.png"
+  },
+  {
+    "id": "emerald-pen",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-10971a8a-f9a7-4edc-aafe-75312c6bfb44.png",
+    "prompt": "Isolated single Emerald Pen from the reference on genuine transparent background. Antique fantasy storybook, fine sepia ink crosshatching with muted watercolor, amber lantern highlights and cool midnight indigo shadows, hand-drawn, no photorealism. Narrow polished emerald green faceted shaft, small decorative gold collars, fine dark metal nib pointing down and slightly left, shaft rises diagonally up and to the right at roughly 25 degrees from vertical. Tight portrait framing with the nib near x 27% and y 94%; no clipping. A small warm edge highlight, dark refined ink linework. Only the pen, no ink strokes, hand, paper, book, backdrop, magical trails or glow.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/emerald-pen-v1.png"
+  },
+  {
+    "id": "lucien-invisible",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-7e09ce4d-215a-4091-afde-0062389f3ab6.png",
+    "prompt": "Create one isolated transparent 4:5 game sprite from this Lucien character identity for an illustrated antique fantasy storybook. The new pose is low crouching on one knee, body and face turned three-quarter to screen right looking down at a low journal offscreen, left elbow near knee, right hand extended low to the right as if delicately writing with empty fingers. Preserve closely cropped hair, beard and the distinct draped robes. Invisible to other characters: render only a muted pale slate-indigo MONOCHROME contour and fine sepia-ink-style crosshatched wisps with very light translucent fill through the body, no saturated hues, no obvious glow or spell effect. A restrained suggestion of his shape, not a ghost. Isolated true alpha including around and through much of the silhouette. No pen, paper, scenery, magic rings, lettering or extra objects. Keep full crouched shape uncropped, wide enough for extended forearm.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/lucien-invisible-v1.png"
+  },
+  {
+    "id": "lucien-invisible-blue",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-a5faaf68-f6c5-40a5-a1c5-ef9fffd504ec.png",
+    "prompt": "Edit image 1, the transparent crouching Lucien sprite. Preserve his exact pose, framing and position of face, robes, feet and outstretched writing fingers. Image 2 is ONLY a reference for the optical invisibility treatment: a blue see-through body with a more visible, thin icy-blue contour around the silhouette. Do not borrow its character, costume, symbol, background or pink effects. Give Lucien a restrained slate/cyan-blue monochrome translucency suitable for an antique ink-and-watercolor fantasy scene. Most of his interior should have genuinely low alpha (roughly 15–30% opacity so the real wagon background behind the sprite will show through); only fine rim and select folds are more visible (roughly 65–90% opacity). Trace the entire pose, including head and fingers, with delicate clearly legible pale blue outer lines, minimal bloom. No bright solid fill, no aura, no extra objects. True transparent background outside the figure, preserve 4:5 layout and exact scale.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/lucien-invisible-blue-v1.png"
+  },
+  {
+    "id": "day-road-far",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-6e86931c-08b1-4ffc-a67a-ef1aa9f12128.png",
+    "prompt": "Opaque wide 16:9 background for a layered D&D scene. Hand-drawn antique fantasy storybook, parchment ink linework, fine sepia crosshatching, muted watercolor, warm clean morning daylight with cool soft shadows. Match the illustrated caravan assets; no photorealism or text. Open woodland countryside the morning after an overnight caravan stop. Low rolling wooded hills at horizon, pale blue morning sky, wide compacted dirt road cutting from distant center-left to right and widening into a generous flat foreground lane for passing a caravan. Quiet low green grass banks, near foreground ground visible to all edges. No people, animals, wagons, buildings, signs or close tree trunks.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/day-road-far-v1.png"
+  },
+  {
+    "id": "day-road-middle",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-b9efba9b-1af6-4e1c-bc28-e3916a8b9772.png",
+    "prompt": "16:9 transparent middle parallax overlay. Hand-drawn antique fantasy storybook, parchment ink linework, fine sepia crosshatching, muted watercolor, warm clean morning daylight with cool soft shadows. Match the illustrated caravan assets; no photorealism or text. A sparse narrow strip of low roadside grasses, hedgerow bushes and rocks grouped on the outer left and right, mostly from y 37% to 56%. Leave the central road and all lower 40% empty transparent for wagon actors. True alpha with no sky, ground plane, backdrop, wagon, character, tree canopy or frame.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/day-road-middle-v1.png"
+  },
+  {
+    "id": "day-road-near",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-bf67a571-2681-4663-b79c-70c26e205696.png",
+    "prompt": "Wide 16:9 genuine transparent close foreground game layer. Hand-drawn antique fantasy storybook, parchment ink linework, fine sepia crosshatching, muted watercolor, warm clean morning daylight with cool soft shadows. Match the illustrated caravan assets; no photorealism or text. Only two small tufts of roadside grasses and fern fronds in the bottom left and right corners, with some branches poking in from the upper right edge. Keep central 85% empty transparent. No ground slab or paper fill, no people, no horses, no structures.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/day-road-near-v1.png"
+  },
+  {
+    "id": "day-private-trail",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-766e2043-1088-4012-9d78-94a2a3addf0b.png",
+    "prompt": "Opaque wide 16:9 daylight parallax far layer for a D&D storybook. Small secluded woodland footpath branching away from the main caravan road, narrow grassy dirt trail curving into birch and oak woods, distant sunlit hills between trees, no wagons and nobody in view. Mid-morning pale blue sky, patchy warm sunlight, muted moss and golden grasses, finely hand-drawn sepia ink contours and crosshatching, watercolor washes on parchment. Open broad enough flat lower center for two full-body walking figures added separately. No people, no animals, no buildings, no text, no borders.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/day-private-trail-v1.png"
+  },
+  {
+    "id": "cult-wagon-team",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-5f01f607-c578-429f-842f-819ca7c31dc2.png",
+    "prompt": "One isolated full medieval covered cargo wagon and exactly two harnessed draft horses abreast, on genuine transparency. Hand-drawn antique fantasy storybook, parchment ink linework, fine sepia crosshatching, muted watercolor, warm clean morning daylight with cool soft shadows. Match the illustrated caravan assets; no photorealism or text. Wagon on left, horses on right facing screen right, low three-quarter side view showing both horse heads. Tight 2:1 wide silhouette, wheels and hoof bottoms visible. Tightly tied dull dark gray canvas with burgundy fabric edging, closed loads, iron hardware, solid wooden wheels. Leave a small visibly open front driver's bench, no driver, no guard, no humans, no writing, no emblems, no dust or backdrop. Draft horses walking calmly, not galloping.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/cult-wagon-team-v1.png"
+  },
+  {
+    "id": "cult-escort",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-a50a5a69-9313-478a-a362-e397197d5793.png",
+    "prompt": "A single isolated full-body adult medieval Cult of the Dragon wagon guard, marching to screen right in three-quarter profile, clearly visible stern hard face under a low open-faced steel helmet, dark gray and burgundy practical travel armor, spear upright close to shoulder. Hand-drawn antique fantasy storybook, parchment ink linework, fine sepia crosshatching, muted watercolor, warm clean morning daylight with cool soft shadows. Match the illustrated caravan assets; no photorealism or text. Quiet disciplined pace, all boots and spear tip in frame, tight portrait framing and true transparent background, no text, badges, scenery, multiple people or ground patch.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/cult-escort-v1.png"
+  },
+  {
+    "id": "cult-guard-driver",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-d419c43c-4a4d-41f2-8091-9e4a0d50848a.png",
+    "prompt": "Single transparent seated medieval wagon driver, a stern quiet Cult of the Dragon guard in dark gray leather-and-mail travel armor, burgundy cloak, open-faced steel helmet, practical no symbols. Side profile facing right, holding reins low in front; bent seated posture with thighs horizontal and boots lower, ready to be composited on a wagon bench. Only the driver, no seat, no wagon, no horses, no terrain. Tight full-body framing, alpha outside silhouette. Antique hand-drawn fantasy storybook ink crosshatching and muted watercolor, clear daylight.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/cult-guard-driver-v1.png"
+  },
+  {
+    "id": "aldrik-balerias-private-walk",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-b485fb57-8b5a-45f1-84cb-89a47179c077.png",
+    "prompt": "Reference 1 defines Aldrik, reference 2 Balerias. One full-body transparent paired sprite, Aldrik on left and Balerias on right walking side by side and quietly conferring. Aldrik is a youthful pale clean-shaven dark-haired elf in dark leather and navy details, looking toward Balerias and gesturing subtly low with one hand. Balerias is elderly with long grey hair and beard, brass mechanical eye, weathered moss ranger clothing and oversized crossbow stowed across his back, listening seriously. Both feet visible, no fighting or food, no other people, no horses, no props on ground or background. Hand-drawn antique fantasy storybook, parchment ink linework, fine sepia crosshatching, muted watercolor, warm clean morning daylight with cool soft shadows. Match the illustrated caravan assets; no photorealism or text.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/aldrik-balerias-private-walk-v1.png"
+  },
+  {
+    "id": "aldrik-riding-watch",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-f531b5fd-4691-42ab-a976-51aaeb8bce6a.png",
+    "prompt": "Image 1 is canonical Aldrik appearance. Show him alone riding one ordinary dapple brown horse walking screen right at an unhurried pace, rider glancing back over his shoulder to watch something offscreen left. Youthful pale elf, short dark hair, no facial hair, dark leather, navy accents, light crossbow stowed, reins in hand. Calm cautious posture, no combat. Hand-drawn antique fantasy storybook, parchment ink linework, fine sepia crosshatching, muted watercolor, warm clean morning daylight with cool soft shadows. Match the illustrated caravan assets; no photorealism or text. Full rider and horse with all four legs visible, framed tightly as one square-ish transparent sprite. No scenery or other people, no text.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/aldrik-riding-watch-v1.png"
+  },
+  {
+    "id": "forest-convoy-wagon",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-4c2b4f1e-1fd9-46f2-b20b-8e1e476480f0.png",
+    "prompt": "A complete single covered medieval merchant wagon in a front three-quarter view advancing toward camera and slightly left. Exactly two draft horses abreast, both heads and bodies readable, warm brown and gray coats, connected by genuine harnesses to the wagon. The two conductors' bench and both riders clearly visible under the rolled-up open front of the pale canvas hood, cargo under cover. Centered complete silhouette on real transparent alpha, square-ish framing, no ground, no shadows beyond the cutout, no text. Exactly two ordinary medieval caravan drivers on its front bench, distinct hats and travel cloaks, one holding reins. Antique fantasy storybook ink crosshatching and muted watercolor, hand-drawn, cool shaded woodland daylight.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/forest-convoy-wagon-v1.png"
+  },
+  {
+    "id": "lucien-coppercoil-wagon",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-b4a9ccc0-8b09-47fe-843c-047b6dc188c1.png",
+    "prompt": "A complete single covered medieval merchant wagon in a front three-quarter view advancing toward camera and slightly left. Exactly two draft horses abreast, both heads and bodies readable, warm brown and gray coats, connected by genuine harnesses to the wagon. The two conductors' bench and both riders clearly visible under the rolled-up open front of the pale canvas hood, cargo under cover. Centered complete silhouette on real transparent alpha, square-ish framing, no ground, no shadows beyond the cutout, no text. Exactly two conductors, identifiable: screen left Lucien from reference, dark-skinned man with cropped black hair and short beard wearing deep burgundy-purple robes, holding reins; screen right Coppercoil, a tiny 1-meter tall copper dragonborn with orange metallic scales, draconic snout, mechanical brass lower jaw, bright green eyes and a small glowing green chest core. Coppercoil is much smaller than Lucien and sits on the same bench with him. No other riders. Antique fantasy storybook ink crosshatching and muted watercolor, hand-drawn, cool shaded woodland daylight.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/lucien-coppercoil-wagon-v1.png"
+  },
+  {
+    "id": "ettercap-attacking-team-horse",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-bb05464d-5249-4714-9928-9b7d9b9a8d44.png",
+    "prompt": "One isolated fantasy action group, genuine alpha, wide 4:3. An ettercap matching reference on SCREEN LEFT, shaggy sinewy brown humanoid spider monster with a hunched back and mandibles, lunges low at the neck and forequarters of one frightened gray-brown harnessed draft horse on SCREEN RIGHT. The horse faces left toward the attacker, jerks its head and lifts one front hoof; a few strands of silk stretch between the claws and the harness. Keep both full forms visible, attacker on left open to an incoming bolt from the right. No injury, no blood, no wagons or other figures, no environment. Antique fantasy storybook ink crosshatching and muted watercolor, hand-drawn, cool shaded woodland daylight.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/ettercap-attacking-team-horse-v1.png"
+  },
+  {
+    "id": "forest-crossbow-bolt",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-290c22b0-befa-4160-85fa-589cbb39dace.png",
+    "prompt": "Single medieval crossbow bolt in exact horizontal profile, pointed metal arrowhead on LEFT, wooden shaft, dark fletching on RIGHT. A small crisp isolated transparent game projectile, tightly cropped wide horizontal layout, no glow, no motion trails, no scenery or lettering. Antique fantasy storybook ink crosshatching and muted watercolor, hand-drawn, cool shaded woodland daylight.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/forest-crossbow-bolt-v1.png"
+  },
+  {
+    "id": "aldrik-sideways-shot",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-bb971b00-0a4a-4d45-8630-9c6fd048beef.png",
+    "prompt": "Image 1 is pose reference only. Image 2 is the fantasy elf and the horse appearance. Create one isolated mounted sprite, no background, 4:3 landscape. Horse oriented screen LEFT, mostly profile, moving left. Aldrik the pale youthful clean-shaven dark-haired elf in dark leather and navy cape hooks his far leg over the saddle and hangs far down over the viewer-facing side of his horse, torso nearly horizontal with shoulders BELOW the horse's neck and head by its left shoulder, as in the stunt reference. He holds a small medieval light crossbow in his hands, stock close to shoulder, aimed unmistakably horizontally toward SCREEN LEFT below the horse's throat, with a clear line of fire across the front of the horse. Keep all horse legs and crossbow visible. This is an agile mounted shot, not an upright rider, not falling. Antique fantasy storybook ink crosshatching and muted watercolor, hand-drawn, cool shaded woodland daylight. Real transparency, no dust, scenery, other people, typography or watermark.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/aldrik-sideways-shot-v1.png"
+  },
+  {
+    "id": "lead-wagon-under-attack",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-b2d2b241-cd12-4023-ac6d-60c4f24fafba.png",
+    "prompt": "Edit the first sprite into one cohesive wide 3:2 action composition. Keep its exact wagon, right-hand three-quarter view, and exactly TWO horses still physically harnessed to the same crossbar and wagon. At far LEFT add the shaggy mandible-faced ettercap from reference 2 lunging at the chestnut LEFT draft horse attached to the wagon, with a thin web strand joining its claw to that horse’s breast harness; the left horse recoils but remains in harness. The gray right horse remains beside it. NO third horse, no separate attacker-victim group. Lucien and tiny copper dragonborn Coppercoil are fighting from the bench: Lucien, dark-skinned with cropped hair, short beard and burgundy-purple robes, extends one hand with restrained violet force aimed left. Coppercoil, tiny with brass lower jaw, green eyes and green chest core, leans forward with an open palm casting a few restrained green-copper sparks down toward the road to summon Coppergoat. The goat is a separate sprite, do not depict it. Keep all forms fully in frame. Fine antique fantasy ink crosshatching and muted watercolor on parchment, woodland daylight matching the supplied game assets. Isolated true-alpha game sprite, no scenery or text.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/lead-wagon-under-attack-v1.png"
+  },
+  {
+    "id": "forest-spider-defense",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-875ca8ef-f4c7-4a60-8d78-78f9406f8f2d.png",
+    "prompt": "Wide transparent 2:1 background action sprite. Exactly two giant woodland spiders, each the size of a pony, dark earthy legs and muted body markings. Three caravan guards with travel cloaks actively defend against them with lowered spears and a wooden shield: one spider lunges at a shield on the left, another faces two guards bracing their spears on the right. Two clearly separate small skirmishes with an open gap between them. All figures complete and on the same ground level, no wagon, horses, trees, landscape, excessive effects or gore. Fine antique fantasy ink crosshatching and muted watercolor on parchment, woodland daylight matching the supplied game assets. Isolated true-alpha game sprite, no scenery or text.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/forest-spider-defense-v1.png"
+  },
+  {
+    "id": "coppergoat-charge",
+    "source": "/Users/leogonzalez/.codex/generated_images/01a1bcc0-64a2-72e2-adb2-b5dc2b7fbeca/exec-2bb31a7a-eadd-4690-af57-15c4ec60f944.png",
+    "prompt": "One small mechanical goat construct made of aged hammered orange copper plates, visible brass joints, curled metal horns and a tiny jade-green chest light. It charges to SCREEN LEFT, head and horns lowered to ram an offscreen enemy, short leaping stride. A few close green sparks suggest it has just been summoned. Full goat isolated on transparent alpha, wide 4:3 framing, no ground, wheels, humanoids, or enemies. Fine antique fantasy ink crosshatching and muted watercolor on parchment, woodland daylight matching the supplied game assets. Isolated true-alpha game sprite, no scenery or text.",
+    "tool": "built-in image_gen",
+    "archive": "public/assets/sources/coppergoat-charge-v1.png"
   }
 ]

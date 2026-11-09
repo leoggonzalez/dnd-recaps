@@ -86,6 +86,79 @@
       "version": 1,
       "status": "reference",
       "usage": "shared-composition"
+    },
+    {
+      "id": "aldrik-riding-watch",
+      "description": "Mounted Aldrik glances back during a cautious daylight pass, crossbow stowed.",
+      "sourcePath": "public/assets/sources/aldrik-riding-watch-v1.png",
+      "width": 800,
+      "height": 800,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/characters/aldrik-riding-watch-v1.webp",
+      "bytes": 156490,
+      "sha256": "a2dc637d7d520741b83fff63053f7cf703d87e92c0203805d07c403a5c8c4ac5",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 156490,
+        "nearLosslessBytes": 408154
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "aldrik-balerias-private-walk",
+      "description": "Full-body pair walking and speaking quietly.",
+      "sourcePath": "public/assets/sources/aldrik-balerias-private-walk-v1.png",
+      "width": 800,
+      "height": 800,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/aldrik-balerias-private-walk-v1.webp",
+      "bytes": 206152,
+      "sha256": "5c5662b6940cde766508d5f23f4e7293f3e3e5b5888b5d913fb1d11f755bb179",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 206152,
+        "nearLosslessBytes": 550894
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "aldrik-sideways-shot",
+      "description": "Mounted Aldrik hangs off the saddle and aims his light crossbow left beneath the horse’s neck.",
+      "sourcePath": "public/assets/sources/aldrik-sideways-shot-v1.png",
+      "width": 900,
+      "height": 675,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/characters/aldrik-sideways-shot-v1.webp",
+      "bytes": 161150,
+      "sha256": "8ce68d374be6290af60c6a63fec28f289fa3d56c98f944690bf39b6afd69efbc",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 161150,
+        "nearLosslessBytes": 382492
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
     }
   ],
   "sheet_name": "Aldrik",
@@ -415,7 +488,7 @@
     {
       "date": "6 Ches 1492 DR",
       "location": "Road from Baldur's Gate to Waterdeep",
-      "event": "Fought the spider ambush from horseback, riding sideways and aiming his light crossbow beneath the horse's neck at a huge spider."
+      "event": "Hung sideways from his saddle and fired his light crossbow beneath the horse’s neck at an ettercap attacking a caravan horse."
     }
   ]
 }

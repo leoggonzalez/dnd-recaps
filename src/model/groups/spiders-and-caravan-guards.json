@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "spiders-and-caravan-guards",
+  "name": "Spiders and caravan guards",
+  "category": "groups",
+  "description": "Two giant spiders meet guards with spears and shield in a background skirmish.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "spider",
+    "guards",
+    "forest"
+  ],
+  "reuseWhen": "Use as a shared composition in the daylight forest ambush.",
+  "assets": [
+    {
+      "id": "forest-spider-defense",
+      "description": "Two giant spiders and three guards defending the caravan with spears and shield.",
+      "sourcePath": "public/assets/sources/forest-spider-defense-v1.png",
+      "width": 780,
+      "height": 390,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/forest-spider-defense-v1.webp",
+      "bytes": 59582,
+      "sha256": "ba5fccd4ae73554f1a950dd33d261a6987c738940ec12e5843a197fec059b56f",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 59582,
+        "nearLosslessBytes": 124080
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

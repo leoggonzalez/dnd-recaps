@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "day-woodland-road",
+  "name": "Daylight road and secluded trail",
+  "category": "environments",
+  "description": "Morning woodland road and separate trail with shared roadside overlays.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/28.10.2026.md"
+  ],
+  "tags": [
+    "day",
+    "woodland",
+    "road"
+  ],
+  "reuseWhen": "Use the open road for passing wagons and the enclosed trail for a private walk.",
+  "assets": [
+    {
+      "id": "day-road-far",
+      "description": "Opaque morning road and distant woodland hills.",
+      "sourcePath": "public/assets/sources/day-road-far-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/day-road-far-v1.webp",
+      "bytes": 350666,
+      "sha256": "f1055b902a73bce71189ab7e0dad9e41ebe62140d5639562b31878f397095566",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 350666,
+        "nearLosslessBytes": 1610068
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "day-road-middle",
+      "description": "Transparent roadside shrubs and rocks.",
+      "sourcePath": "public/assets/sources/day-road-middle-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/day-road-middle-v1.webp",
+      "bytes": 139428,
+      "sha256": "b16e9d193a3ee5ebc263445a0665bb120239388e7326b06a45db4991cf0f2615",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 139428,
+        "nearLosslessBytes": 281838
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "day-road-near",
+      "description": "Transparent near grass and branches.",
+      "sourcePath": "public/assets/sources/day-road-near-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/day-road-near-v1.webp",
+      "bytes": 142458,
+      "sha256": "0319f5f7079c1926f13498c8e481b5f9dc6ab8c0eed3a4ab066cd602d2d7e087",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 142458,
+        "nearLosslessBytes": 277268
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "day-private-trail",
+      "description": "Opaque secluded daytime woodland footpath.",
+      "sourcePath": "public/assets/sources/day-private-trail-v1.png",
+      "width": 1600,
+      "height": 900,
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "status": "prototype",
+      "path": "public/assets/environments/day-private-trail-v1.webp",
+      "bytes": 474536,
+      "sha256": "c2eceacc5eeea4f975193197718dc06c71bb1efa5d86737330ec75a045146fa1",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 474536,
+        "nearLosslessBytes": 1856762
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    }
+  ]
+}

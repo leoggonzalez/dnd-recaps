@@ -6,14 +6,14 @@
 This storyboard and its scene prompts are based on the session recap and available party/NPC references. Recap events are kept distinct from proposed framing. The illustrations have been generated; the selected files are listed at the end of this document.
 
 
-**Animated adaptation note:** These eight scenes are the approved app scope. The current `src/model/characters/lucien.json` and portrait supersede the older bald/moustache-only descriptions below: Lucien has cropped black hair and a short trimmed beard. New animated assets follow `animated_storyboard.md` for 16:9 parchment/ink layers; existing still prompts and illustrations are preserved.
+**Animated adaptation note:** The original eight beats expand to nine app scenes following the split of the daylight wagon sequence. The current `src/model/characters/lucien.json` and portrait supersede the older bald/moustache-only descriptions below: Lucien has cropped black hair and a short trimmed beard. New animated assets follow `animated_storyboard.md` for 16:9 parchment/ink layers; existing still prompts and illustrations are preserved.
 
 ## 1. A little luck
 
 - **Recap event:** Samardag offers the caravan a game of Three-Dragon Ante. Radecere joins with a surprisingly substantial purse; Arietta draws Lucien toward an empty seat. Sulesdeg and Tyjit watch without joining.
 - **Characters:** Lucien, Arietta, Balerias, Samardag, Radecere, Sulesdeg, Tyjit.
-- **Current framing (user clarification):** The caravan has stopped to rest for the night. At least ten wagons are parked in a long line; the night middle layer depicts twelve. Lucien and Arietta sit together gambling with Balerias, Samardag and Radecere around a lantern-lit crate table. Sulesdeg and Tyjit stand watch. Samardag and Radecere remain indistinct and provisional. Earlier still prompts below are historical references.
-- **Night assets:** [far sky/ground](../../../../public/assets/environments/camp-night-far-v1.webp), [twelve parked wagons](../../../../public/assets/environments/camp-night-middle-v1.webp), [near foliage](../../../../public/assets/environments/camp-night-near-v1.webp), [seated gamblers](../../../../public/assets/groups/camp-night-gamblers-v1.webp), [watching guards](../../../../public/assets/groups/camp-night-guards-v1.webp). Earlier assets are preserved.
+- **Current framing (user clarification):** The caravan has stopped to rest for the night. At least ten wagons are parked in a long line, with paired draft horses, varied merchandise, and merchants and guards near the wagons. Lucien and Arietta sit together gambling with Balerias, Samardag and Radecere around a lantern-lit crate table. Sulesdeg and Tyjit stand watch. Samardag and Radecere remain indistinct and provisional. Earlier still prompts below are historical references.
+- **Night assets:** [far sky/ground](../../../../public/assets/environments/camp-night-far-v1.webp), [parked merchant caravan](../../../../public/assets/environments/camp-night-merchant-line-v1.webp), [near foliage](../../../../public/assets/environments/camp-night-near-v1.webp), [seated gamblers](../../../../public/assets/groups/camp-night-gamblers-v1.webp), [watching guards](../../../../public/assets/groups/camp-night-guards-v1.webp). Earlier assets are preserved.
 - **Mood:** Welcoming and lively, with a trace of watchfulness.
 
 ## 2. A walk through camp
@@ -39,27 +39,26 @@ This storyboard and its scene prompts are based on the session recap and availab
 
 ## 5. Counting the wagons
 
-- **Recap event:** Aldrik observes the Cult of the Dragon's three wagons and their disciplined watch formation. Suspecting that some wagons might be decoys rather than all carrying treasure, he rides back to Balerias, the party's acting leader. They take a walk far from prying eyes to discuss what he saw. They agree that earning the cultists' trust may let them follow if the wagons leave.
-- **Characters:** Aldrik, Balerias, cultist guards in the wagons.
-- **Proposed framing:** A two-part composition: first, Aldrik watching all three wagons from the road, with their watch positions legible; then Aldrik and Balerias walking away from camp and wagons to speak privately. Keep the cultists' faces indistinct; no identifying insignia or visible valuables are established in the recap.
-- **Mood:** Cautious, analytical, unresolved.
+- The next morning, Aldrik rides past three Cult of the Dragon wagons at a cautious distance. Six stern guards travel silently with each wagon. He watches as he passes and suspects that one might be a decoy.
 
-## 6. Under the horse's neck
+## 6. Out of earshot
+
+- Aldrik and Balerias walk away from the caravan and talk privately about his suspicions. They consider earning the cultists’ trust so they can follow if the wagons leave.
+
+## 7. Under the horse's neck
 
 - **Recap event:** Ettercaps and a huge spider attack the caravan horses in the tangled forest. The defenders fight back.
-- **User-confirmed visual beat:** Aldrik is riding his horse sideways and aiming his crossbow from beneath the horse's neck at the huge spider.
-- **Characters:** Aldrik, the horse, the huge spider, and the other defenders in the broader battle.
-- **Proposed framing:** Make Aldrik's unusual mounted shot the unmistakable focal point: the horse's neck creates a foreground arch, with Aldrik riding sideways and sighting his crossbow beneath it toward the looming spider. Show the webbed horses and tangled canopy around them. Other party members can register farther back without competing with the shot.
-- **Continuity:** Aldrik uses his light crossbow in the recap. Preserve his youthful, pale, dark-haired elven appearance and fitted dark leather armor. The user described this as a particularly visual moment; retain the pose and target through refinement.
+- **User-confirmed staging:** A long line of horse-drawn wagons advances down the center, with two conductors per wagon and Coppercoil and Lucien fighting from the lead wagon. An ettercap attacks their left draft horse and Coppercoil sends Coppergoat charging at it. Guards hold off two giant spiders farther back. Aldrik hangs sideways from his mount on the right and shoots under its neck at the ettercap.
+- **Continuity:** Preserve Aldrik’s light crossbow and his established appearance. The next scene covers the ensuing rescue.
 
-## 7. The horses fight back
+## 8. The horses fight back
 
 - **Recap event:** The horses land unusually powerful, critical strikes against the spiders, becoming a major force in the fight. Near the end, an ettercap webs an entire horse and starts dragging it toward the forest; Lucien kills the ettercap before it can take the horse away.
 - **Characters:** The horses (including Strawberry Three and Mo Two), Lucien, the ettercap, other defenders nearby.
 - **Proposed framing:** Catch the rescue at its clearest instant: the horse is being hauled toward the dark tree line while Lucien's attack brings down the ettercap. In the wider scene, show other horses kicking at the spider attackers, so their decisive contribution reads clearly without competing with Aldrik's separate mounted shot.
 - **Mood:** Desperate, kinetic, then abruptly relieved.
 
-## 8. The cocoon's secret
+## 9. The cocoon's secret
 
 - **Recap event:** After the fight, Balerias opens a cocoon and finds a dead woman clutching a scroll. The company gathers the scroll, a silver cloak pin, and seventy-six gold pieces.
 - **Characters:** Balerias and the gathered company; the unidentified dead woman.

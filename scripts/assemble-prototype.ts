@@ -33,19 +33,46 @@ session.environments = [
     name: "Caravan resting for the night",
     layers: [
       { slot: "far", assetId: "camp-night-far", zIndex: 0 },
-      { slot: "middle", assetId: "camp-night-middle", zIndex: 20 },
+      { slot: "middle", assetId: "camp-night-merchant-line", zIndex: 20 },
       { slot: "near", assetId: "camp-night-near", zIndex: 80 },
     ],
     overscan: 48,
     cameraLimit: 32,
   },
   {
-    id: "caravan-camp",
-    name: "Woodland caravan camp",
+    id: "sleeping-space",
+    name: "Inside the sleeping wagon",
     layers: [
-      { slot: "far", assetId: "camp-far", zIndex: 0 },
-      { slot: "middle", assetId: "camp-middle", zIndex: 20 },
-      { slot: "near", assetId: "camp-near", zIndex: 80 },
+      { slot: "far", assetId: "wagon-interior-far", zIndex: 0 },
+      {
+        slot: "middle",
+        assetId: "wagon-interior-middle",
+        zIndex: 20,
+        offsetY: 110,
+      },
+      { slot: "near", assetId: "wagon-interior-near", zIndex: 80 },
+    ],
+    overscan: 48,
+    cameraLimit: 32,
+  },
+  {
+    id: "woodland-road",
+    name: "Caravan road in morning light",
+    layers: [
+      { slot: "far", assetId: "day-road-far", zIndex: 0 },
+      { slot: "middle", assetId: "day-road-middle", zIndex: 20 },
+      { slot: "near", assetId: "day-road-near", zIndex: 80 },
+    ],
+    overscan: 48,
+    cameraLimit: 32,
+  },
+  {
+    id: "private-trail",
+    name: "Secluded woodland trail",
+    layers: [
+      { slot: "far", assetId: "day-private-trail", zIndex: 0 },
+      { slot: "middle", assetId: "day-road-middle", zIndex: 20 },
+      { slot: "near", assetId: "day-road-near", zIndex: 80 },
     ],
     overscan: 48,
     cameraLimit: 32,
@@ -89,12 +116,12 @@ const actor = (
 session.scenes[0].artwork = "prototype";
 session.scenes[0].environmentId = "caravan-camp-night";
 session.scenes[0].description =
-  "The caravan rests for the night. Twelve wagons stand parked in a long line behind five seated gamblers. Lucien and Arietta sit together; Balerias plays too. Sulesdeg and Tyjit keep watch.";
+  "The caravan rests for the night. Merchant wagons with paired draft horses stand in a long line behind five seated gamblers. Lucien and Arietta sit together; Balerias plays too. Sulesdeg and Tyjit keep watch.";
 session.scenes[0].narration = [
   {
     id: "segment-1",
     text: "The long caravan had stopped for the night. Along the parked wagons, Samardag called a game of Three-Dragon Ante.",
-    delayMs: 150,
+    delayMs: 0,
     durationMs: 450,
   },
   {
@@ -115,14 +142,20 @@ session.scenes[0].actors = [
   actor("night-gamblers", "camp-night-gamblers", 1110, 1025, 1280, 50),
 ];
 session.scenes[1].artwork = "prototype";
+session.scenes[1].environmentId = "caravan-camp-night";
+session.scenes[1].description =
+  "Lucien and Arietta walk arm in arm past the lantern-lit wagons while the caravan rests for the night.";
 session.scenes[1].actors = [
   actor("walking-pair", "arietta-lucien", 960, 950, 610, 45, {
     motion: travel(70, -30, 100, 3500),
   }),
 ];
 session.scenes[2].artwork = "prototype";
+session.scenes[2].environmentId = "caravan-camp-night";
+session.scenes[2].description =
+  "Balerias offers food to the caged peryton by lanternlight. Oyn watches from nearby, a step back from the bars. The merchant wagons are parked behind them.";
 session.scenes[2].actors = [
-  actor("oyn-watching", "oyn", 310, 825, 290, 30),
+  actor("oyn-watching", "oyn", 550, 850, 290, 30),
   actor("cage-rear", "cage-rear", 1290, 880, 860, 35),
   actor("captive-peryton", "peryton", 1315, 810, 610, 40, {
     motion: travel(55, -25, 1500, 1800),
@@ -132,8 +165,136 @@ session.scenes[2].actors = [
     poses: [{ assetId: "balerias-offering", startMs: 1200 }],
   }),
 ];
-session.scenes[6].artwork = "prototype";
-session.scenes[6].actors = [
+session.scenes[3].artwork = "prototype";
+session.scenes[3].description =
+  "Inside the wagon at night, Arietta and Zelina sleep behind an open journal and a healing potion. A translucent blue outline suggests the invisible Lucien as the Emerald Pen writes.";
+session.scenes[3].actors = [
+  actor("lucien-unseen", "lucien-invisible-blue", 1110, 945, 870, 48, {
+    effect: "invisibility",
+    flipX: true,
+  }),
+  actor("open-journal", "journal-and-potion", 505, 1050, 730, 45),
+  actor("writing-pen", "emerald-pen", 690, 884, 125, 50, {
+    motion: travel(-20, 0, 1150, 1950, -8, 0),
+  }),
+];
+session.scenes[4].artwork = "prototype";
+const cultTeams = [
+  { x: 360, y: 560, width: 365 },
+  { x: 775, y: 650, width: 445 },
+  { x: 1270, y: 748, width: 525 },
+];
+session.scenes[4].actors = [
+  ...cultTeams.flatMap(({ x, y, width }, index) => {
+    const id = `cult-team-${index + 1}`;
+    const depth = 25 + index * 5;
+    const motion = travel(-65, 0, 0, 3900);
+    return [
+      actor(id, "cult-wagon-team", x, y, width, depth, { motion }),
+      actor(
+        `${id}-driver`,
+        "cult-guard-driver",
+        x - width * 0.066,
+        y - width * 0.155,
+        width * 0.22,
+        depth + 1,
+        { motion },
+      ),
+      ...[-0.47, -0.34, -0.21, -0.08, 0.08].map((offset, guardIndex) =>
+        actor(
+          `${id}-escort-${guardIndex + 1}`,
+          "cult-escort",
+          x + width * offset,
+          y + (guardIndex % 2 ? 35 : 14),
+          width * 0.16,
+          depth + 2,
+          { motion, flipX: guardIndex === 0 || guardIndex === 2 },
+        ),
+      ),
+    ];
+  }),
+  actor("aldrik-observing", "aldrik-riding-watch", 1630, 1010, 470, 58, {
+    motion: travel(-130, 0, 0, 4200),
+  }),
+];
+session.scenes[5].artwork = "prototype";
+session.scenes[5].actors = [
+  actor("private-walk", "aldrik-balerias-private-walk", 985, 1010, 690, 45, {
+    motion: travel(-72, 0, 100, 3700),
+  }),
+];
+const mountedShot = session.scenes[6];
+mountedShot.artwork = "prototype";
+mountedShot.description =
+  "Giant spiders attack the caravan and guards fight them farther back. Lucien and Coppercoil defend the lead wagon as an ettercap lunges at its left draft horse. Coppercoil summons Coppergoat to charge the attacker. Aldrik hangs sideways from his saddle on the right and fires beneath his horse’s neck.";
+mountedShot.narration = [
+  {
+    id: "segment-1",
+    text: "Giant spiders rushed the caravan and the guards braced their spears. An ettercap lunged at the lead wagon’s left horse.",
+    delayMs: 0,
+    durationMs: 450,
+  },
+  {
+    id: "segment-2",
+    text: "Lucien fought from the bench while Coppercoil summoned Coppergoat and sent it charging at the ettercap.",
+    delayMs: 700,
+    durationMs: 450,
+  },
+  {
+    id: "segment-3",
+    text: "Riding on the right, Aldrik hooked a leg over his saddle, dropped sideways and fired his light crossbow beneath his horse’s neck at the ettercap.",
+    delayMs: 1500,
+    durationMs: 450,
+  },
+];
+const convoy = [
+  [595, 995, 980],
+  [1110, 745, 340],
+  [1240, 619, 254],
+  [1315, 530, 188],
+  [1350, 469, 138],
+  [1370, 429, 104],
+  [1382, 399, 78],
+  [1390, 375, 57],
+  [1396, 358, 42],
+  [1401, 345, 31],
+];
+mountedShot.actors = [
+  ...convoy.map(([x, y, width], index) =>
+    actor(
+      `forest-wagon-${index + 1}`,
+      index === 0 ? "lead-wagon-under-attack" : "forest-convoy-wagon",
+      x,
+      y,
+      width,
+      index === 0 ? 46 : 39 - index,
+      {
+        motion:
+          index === 0
+            ? { ...travel(18, 0, 1000, 700), preset: "recoil" }
+            : travel(width * 0.08, 0, 0, 4300, -width * 0.065, 0),
+      },
+    ),
+  ),
+  actor("guards-versus-spiders", "forest-spider-defense", 345, 570, 540, 28, {
+    motion: { ...travel(-14, 0, 550, 900), preset: "recoil" },
+  }),
+  actor("coppergoat-charging", "coppergoat-charge", 348, 1004, 220, 51, {
+    motion: { ...travel(425, 0, 1250, 1050, -85, 0), preset: "fade" },
+  }),
+  actor("aldrik-hanging-shot", "aldrik-sideways-shot", 1560, 1000, 675, 54, {
+    motion: travel(43, 0, 0, 1800),
+  }),
+  actor("aldrik-crossbow-bolt", "forest-crossbow-bolt", 395, 685, 72, 56, {
+    motion: {
+      ...travel(880, 0, 2000, 420, 45, 0),
+      preset: "projectile",
+      easing: "linear",
+    },
+  }),
+];
+session.scenes[7].artwork = "prototype";
+session.scenes[7].actors = [
   actor("horses-counterattack", "horses-counterattack", 1420, 590, 620, 30, {
     motion: { ...travel(-12, 0, 300, 700), preset: "recoil" },
   }),
@@ -162,5 +323,5 @@ session.assets = [...required].map((id) => {
 });
 writeFileSync(path, JSON.stringify(session, null, 2) + "\n");
 console.log(
-  `Assembled eight-scene manifest with ${session.assets.length} registered assets and four illustrated drafts`,
+  `Assembled ${session.scenes.length}-scene manifest with ${session.assets.length} registered assets and ${session.scenes.filter((scene: { artwork: string }) => scene.artwork === "prototype").length} illustrated drafts`,
 );

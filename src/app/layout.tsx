@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./scene-poses.css";
 export const metadata: Metadata = {
-  title: "The Caravan Chronicles",
+  title: "Whispers of Fire",
   description:
     "Tales from the road to Waterdeep. An illustrated D&D session journal.",
 };

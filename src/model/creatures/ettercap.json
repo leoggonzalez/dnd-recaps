@@ -63,6 +63,56 @@
         "nearLosslessBytes": 128862
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "ettercap-attacking-team-horse",
+      "description": "Ettercap lunging at a frightened harnessed horse from screen left.",
+      "sourcePath": "public/assets/sources/ettercap-attacking-team-horse-v1.png",
+      "width": 880,
+      "height": 660,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/ettercap-attacking-team-horse-v1.webp",
+      "bytes": 156144,
+      "sha256": "568a16078bfc846ecf38ff01ce4276e20a0355c4420d8a330b64b99c327403b2",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 156144,
+        "nearLosslessBytes": 348960
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "lead-wagon-under-attack",
+      "description": "Lead wagon with Lucien and Coppercoil fighting from the bench. The ettercap attacks the left of its two harnessed horses.",
+      "sourcePath": "public/assets/sources/lead-wagon-under-attack-v1.png",
+      "width": 900,
+      "height": 600,
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.98
+      },
+      "status": "prototype",
+      "path": "public/assets/groups/lead-wagon-under-attack-v1.webp",
+      "bytes": 207008,
+      "sha256": "35089a90d150a690b4848fb9d8f2b9a8d90b1b590dccd5b0f780a03a8fc2d1d1",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "alternatives": {
+        "lossyBytes": 207008,
+        "nearLosslessBytes": 521504
+      },
+      "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ]
 }

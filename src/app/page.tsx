@@ -7,9 +7,9 @@ export default function Library() {
     <main id="main" className="library">
       <p className="eyebrow">A journal of unlikely company</p>
       <h1>
-        The Caravan
+        Whispers{" "}
         <br />
-        <em>Chronicles</em>
+        <em>of Fire</em>
       </h1>
       <p className="intro">
         Along the road to Waterdeep, every campfire has a story.
@@ -56,7 +56,7 @@ export default function Library() {
           </article>
         ))}
       </section>
-      <footer>Eight moments from the road. Layered artwork in progress.</footer>
+      <footer>Nine moments from the road. Layered artwork in progress.</footer>
     </main>
   );
 }
