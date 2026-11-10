@@ -27,3 +27,35 @@ test("pose compiler creates complete exclusive intervals and a holding final sta
     /75\.000000%\{opacity:1\}100%\{opacity:1\}/,
   );
 });
+
+test("an opted-in pose fades both frames over the same window", () => {
+  const actor = {
+    id: "cap",
+    assetId: "worn",
+    position: { x: 0, y: 0 },
+    width: 200,
+    zIndex: 30,
+    poses: [{ assetId: "lifted", startMs: 1000, fadeMs: 500 }],
+  };
+  const [worn, lifted] = poseIntervals(actor, 4000);
+  assert.equal(worn.fadeOutMs, 500);
+  assert.equal(lifted.fadeInMs, 500);
+  const compile = (pose: typeof worn) =>
+    poseKeyframes(
+      pose.assetId,
+      pose.startMs,
+      pose.endMs,
+      4000,
+      pose.final,
+      pose.fadeInMs,
+      pose.fadeOutMs,
+    );
+  assert.match(
+    compile(worn),
+    /25\.000000%\{opacity:1;animation-timing-function:linear\}37\.500000%\{opacity:0\}/,
+  );
+  assert.match(
+    compile(lifted),
+    /25\.000000%\{opacity:0;animation-timing-function:linear\}37\.500000%\{opacity:1\}100%\{opacity:1\}/,
+  );
+});

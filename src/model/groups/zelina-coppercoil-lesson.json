@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "zelina-coppercoil-lesson",
+  "category": "groups",
+  "name": "Zelina and Coppercoil’s lesson",
+  "description": "Shared pose of Zelina and Coppercoil during her first sparks, with a fixed hand anchor.",
+  "assets": [
+    {
+      "id": "zelina-lesson-pair",
+      "path": "public/assets/groups/zelina-lesson-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 176444,
+      "sha256": "060e85b1cb202696f767c8da8c25fb4ff5696d3ad84ff2ab43cb6c05846b19fe",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Shared pose of Zelina seated with an open palm and Coppercoil leaning in beside her.",
+      "sourcePath": "public/assets/sources/zelina-lesson-pair-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ],
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "zelina",
+    "lesson"
+  ],
+  "reuseWhen": "Use with the registered daylight wagon composition and aligned lesson layers."
+}

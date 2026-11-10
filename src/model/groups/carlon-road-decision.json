@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "carlon-road-decision",
+  "name": "The roadside decision",
+  "category": "groups",
+  "description": "Grouped roadside decision pose with Sulesdeg, Aldor and his ledger, Aldrik’s discreet gesture, and Tyjit.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "rescue",
+    "carlon"
+  ],
+  "reuseWhen": "Use with the November 4 roadside rescue composition and its registered layers.",
+  "assets": [
+    {
+      "id": "carlon-road-decision",
+      "path": "public/assets/groups/carlon-road-decision-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 118226,
+      "sha256": "bad704cf257028078e5da2f4ee4014fdf090afa845f5c4e4c73c745f6730ab12",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Grouped roadside decision pose with Sulesdeg, Aldor and his ledger, Aldrik’s discreet gesture, and Tyjit.",
+      "sourcePath": "public/assets/sources/carlon-road-decision-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

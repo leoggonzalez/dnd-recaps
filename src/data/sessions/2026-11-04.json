@@ -1,0 +1,923 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-04",
+  "title": "Nightglass and black water",
+  "date": "2026-11-04",
+  "displayDate": "04.11.2026",
+  "inWorldDate": "7–9 Ches 1492 DR",
+  "location": "Road from Baldur’s Gate to Waterdeep",
+  "summary": "Lucien dreams of black water, a man is found buried in the road, and Zelina works on a secret gift.",
+  "status": "draft",
+  "coverAssetId": null,
+  "assets": [
+    {
+      "id": "lucien-dream-held-crossing",
+      "path": "assets/environments/lucien-dream-held-crossing-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 346786,
+      "sha256": "711e4522a7cc48959948a4869fc04f323d729f0d8ca46449c2c0021d5a434e44",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-dream-mist",
+      "path": "assets/environments/lucien-dream-mist-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 214630,
+      "sha256": "191f12121f6736cfca0e1bc126a197666adfc2a0c6471ae5e9ab0e24fe93b53e",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-dream-edge",
+      "path": "assets/environments/lucien-dream-edge-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149376,
+      "sha256": "481d23ab81259036e20d32c1feb82d58198a54a6a8d5a205f9f9656c9f0d353f",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-dream-watching",
+      "path": "assets/characters/lucien-dream-watching-v1.webp",
+      "width": 640,
+      "height": 960,
+      "bytes": 82104,
+      "sha256": "71f84610500334ae2fc028450dcaf399e3e6a77ff6076008edc97922994ce35c",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    {
+      "id": "lucien-dream-reflected-cap",
+      "path": "assets/objects/lucien-dream-reflected-cap-v1.webp",
+      "width": 640,
+      "height": 880,
+      "bytes": 70966,
+      "sha256": "d6111172bdf3d6420e3013ebbcaf0748a3a61d0c9aaa338abe3a7a3450a45f8f",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-dream-worn-cap",
+      "path": "assets/objects/lucien-dream-worn-cap-v1.webp",
+      "width": 640,
+      "height": 880,
+      "bytes": 51814,
+      "sha256": "55231224123f8508a712fb6b6c143ba4eb11419edd46519a936e4e88b61f8fb5",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-dream-lost-bank-clean",
+      "path": "assets/environments/lucien-dream-lost-bank-clean-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 401676,
+      "sha256": "733efdd06c5c602f9f6b93d9305417eeece007b4bd97f458f8e6ba3de1ff6305",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-dream-march-a",
+      "path": "assets/environments/lucien-dream-march-a-v1.webp",
+      "width": 960,
+      "height": 560,
+      "bytes": 42770,
+      "sha256": "2636f1a33780b7f97fff7263d9a3da7cceb66f3ff8fc77684ef5feabd75f4d98",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-dream-march-b",
+      "path": "assets/environments/lucien-dream-march-b-v1.webp",
+      "width": 960,
+      "height": 560,
+      "bytes": 41718,
+      "sha256": "5a0461b11fb12f5401721de055eb948efe407510f996a369dbe9d688d740faf2",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "zelina-lesson-pair",
+      "path": "assets/groups/zelina-lesson-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 176444,
+      "sha256": "060e85b1cb202696f767c8da8c25fb4ff5696d3ad84ff2ab43cb6c05846b19fe",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "zelina-lesson-sketch",
+      "path": "assets/objects/zelina-lesson-sketch-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 19954,
+      "sha256": "d2696f0a336519fb03d7f33f734a7c91b3c26802869f22389bdb996f355db523",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "zelina-lesson-thread",
+      "path": "assets/objects/zelina-lesson-thread-v1.webp",
+      "width": 280,
+      "height": 220,
+      "bytes": 1784,
+      "sha256": "2566f71d829ea7cb735c8c744025db5f8a70dd690f356e0ef83cd8395c4dbe52",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "zelina-lesson-sparks-a",
+      "path": "assets/objects/zelina-lesson-sparks-a-v1.webp",
+      "width": 280,
+      "height": 220,
+      "bytes": 8238,
+      "sha256": "2b8865cbdfe47b2eebf1c34ec9640aaa2c746ffd9e66bb5bb1d35c00137db5e1",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "zelina-lesson-sparks-b",
+      "path": "assets/objects/zelina-lesson-sparks-b-v1.webp",
+      "width": 280,
+      "height": 220,
+      "bytes": 8176,
+      "sha256": "578620a7499d8a274b2c0775ef555129d76c41da7d9f49828567dd426a257f92",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "zelina-lesson-fitted-workshop",
+      "path": "assets/environments/zelina-lesson-fitted-workshop-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 291356,
+      "sha256": "6e6c797f013596acb6efaa2ace0d3c200e577d2863049ae090e13284d672deef",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "carlon-road-road",
+      "path": "assets/environments/carlon-road-road-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 496666,
+      "sha256": "ea48809c79f4a7ab874cb11061c605d1d38750a14864aa71e4a544e157091e77",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "carlon-road-decision",
+      "path": "assets/groups/carlon-road-decision-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 118226,
+      "sha256": "bad704cf257028078e5da2f4ee4014fdf090afa845f5c4e4c73c745f6730ab12",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "carlon-road-rune-rescue",
+      "path": "assets/groups/carlon-road-rune-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136450,
+      "sha256": "e087048f50bee80cb25bf232ce3f18b55a534f526114b67beb262f25602240be",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "carlon-road-charm-trail",
+      "path": "assets/objects/carlon-road-charm-trail-v1.webp",
+      "width": 240,
+      "height": 128,
+      "bytes": 4494,
+      "sha256": "da834a420d62c20a9a1047cf2ccba6e9ebfe855e377c5ee79356990799c55a02",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "carlon-road-charm-halo",
+      "path": "assets/objects/carlon-road-charm-halo-v1.webp",
+      "width": 180,
+      "height": 126,
+      "bytes": 5902,
+      "sha256": "9e8a207314c81ccc6f8fa5a3c9b61e251ef7d791c5510b08c5dc93b3a9f98836",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "carlon-road-charm-halo-b",
+      "path": "assets/objects/carlon-road-charm-halo-b-v1.webp",
+      "width": 180,
+      "height": 126,
+      "bytes": 5820,
+      "sha256": "5986a140768bf0f8afd6fa09178cbd1f3c6491fdc90e8c7ef6bd3c75bb9910cc",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-interview-pair",
+      "path": "assets/groups/lucien-interview-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 153300,
+      "sha256": "cd2252c96f29684acf40dafeead0a4c37dae0ccf2712e8e5233e5b3e26d893f9",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-interview-imsa",
+      "path": "assets/npcs/lucien-interview-imsa-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 48336,
+      "sha256": "0648ada20704c581f980a3f33c902d4d98d402cccd919ca62de9e736e4e54a8f",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-interview-dust-a",
+      "path": "assets/objects/lucien-interview-dust-a-v1.webp",
+      "width": 320,
+      "height": 220,
+      "bytes": 656,
+      "sha256": "e978284e3d7ea52648f0549ec834b25ea0de1c444a9380aad2999e7595a3fdbf",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "lucien-interview-dust-b",
+      "path": "assets/objects/lucien-interview-dust-b-v1.webp",
+      "width": 320,
+      "height": 220,
+      "bytes": 640,
+      "sha256": "e2e27f6c042ec978402833fcb361af27925ba1f54b04f2b87e7add9518398f13",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "environments": [
+    {
+      "id": "lucien-dream",
+      "name": "Lucien’s dream",
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "lucien-dream-held-crossing",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "lucien-dream-mist",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "lucien-dream-edge",
+          "zIndex": 80
+        }
+      ],
+      "overscan": 48,
+      "cameraLimit": 32
+    },
+    {
+      "id": "dream-crossing-lost",
+      "name": "The lost crossing",
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "lucien-dream-lost-bank-clean",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "lucien-dream-mist",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "lucien-dream-edge",
+          "zIndex": 80
+        }
+      ],
+      "overscan": 48,
+      "cameraLimit": 24
+    },
+    {
+      "id": "daylight-wagon",
+      "name": "Daylit caravan wagon",
+      "overscan": 48,
+      "cameraLimit": 22,
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "zelina-lesson-fitted-workshop",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "zelina-lesson-pair",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "zelina-lesson-sketch",
+          "zIndex": 80
+        }
+      ]
+    },
+    {
+      "id": "caravan-road",
+      "name": "Halted caravan road",
+      "overscan": 48,
+      "cameraLimit": 22,
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "carlon-road-road",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "carlon-road-decision",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "carlon-road-rune-rescue",
+          "zIndex": 80
+        }
+      ]
+    },
+    {
+      "id": "lucien-wagon",
+      "name": "Shared caravan wagon during Carlon’s interview",
+      "overscan": 48,
+      "cameraLimit": 22,
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "zelina-lesson-fitted-workshop",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "lucien-interview-imsa",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "lucien-interview-pair",
+          "zIndex": 80
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "the-markings",
+      "title": "The markings",
+      "environmentId": "lucien-dream",
+      "description": "Lucien stands in a shadowed hall before black water that leads to a bridge crowded with soldiers. A warm reflection hints at a traveller in the river.",
+      "durationMs": 10500,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 1 of 10.mp3",
+      "narration": [
+        {
+          "id": "chamber",
+          "text": "Lucien stood before a familiar robed figure in a chamber of polished black stone. News of someone seen near a town dissolved beneath the rush of water.",
+          "delayMs": 0,
+          "durationMs": 480
+        },
+        {
+          "id": "crossing",
+          "text": "Black liquid seeped through the tiles. The chamber became a bridge crowded with soldiers, with arrows overhead and a dark river below.",
+          "delayMs": 3100,
+          "durationMs": 480
+        },
+        {
+          "id": "glimpse",
+          "text": "In a patch of warm sunlight, Lucien caught the reflection of a traveller wearing a woollen cap.",
+          "delayMs": 6900,
+          "durationMs": 480
+        }
+      ],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "lucien-watching",
+          "assetId": "lucien-dream-watching",
+          "position": {
+            "x": 170,
+            "y": 1170
+          },
+          "width": 490,
+          "zIndex": 45,
+          "poses": []
+        }
+      ],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "the-crossing-lost",
+      "title": "The crossing lost",
+      "environmentId": "dream-crossing-lost",
+      "description": "A traveller’s marked forehead appears in the river, with broken swords and graves on the near bank and soldiers fading into the haze beyond the bridge.",
+      "durationMs": 15000,
+      "narration": [
+        {
+          "id": "river",
+          "text": "The river held the traveller’s reflection in a patch of warm sunlight.",
+          "delayMs": 0,
+          "durationMs": 480
+        },
+        {
+          "id": "reflection",
+          "text": "A gust lifted the woollen cap and exposed intricate markings across his forehead. “The markings! Remember the markings!”",
+          "delayMs": 1550,
+          "durationMs": 480
+        },
+        {
+          "id": "dagger",
+          "text": "Broken swords and forgotten graves. Voices whispered of a crossing lost. One word came through, “Dagger,” before black water swallowed him.",
+          "delayMs": 6900,
+          "durationMs": 480
+        },
+        {
+          "id": "awakening",
+          "text": "Lucien woke tangled in blankets. Across the wagon, Arietta asked whether he always dreamed so intensely.",
+          "delayMs": 12000,
+          "durationMs": 480
+        }
+      ],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "marching-bridge",
+          "assetId": "lucien-dream-march-a",
+          "position": {
+            "x": 960,
+            "y": 540
+          },
+          "width": 2016,
+          "zIndex": 10,
+          "poseLoopMs": 1400,
+          "poses": [
+            {
+              "assetId": "lucien-dream-march-b",
+              "startMs": 700
+            }
+          ]
+        },
+        {
+          "id": "reflected-cap",
+          "assetId": "lucien-dream-worn-cap",
+          "position": {
+            "x": 1430,
+            "y": 644
+          },
+          "width": 400,
+          "zIndex": 45,
+          "poses": [
+            {
+              "assetId": "lucien-dream-reflected-cap",
+              "startMs": 1160,
+              "fadeMs": 320
+            }
+          ],
+          "motion": {
+            "preset": "rise",
+            "from": {
+              "x": 0,
+              "y": 0
+            },
+            "to": {
+              "x": -24,
+              "y": -184
+            },
+            "delayMs": 1050,
+            "durationMs": 850,
+            "easing": "ease-out"
+          }
+        }
+      ],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "a-thread-of-light",
+      "title": "A thread of light",
+      "environmentId": "daylight-wagon",
+      "description": "Inside Coppercoil’s daylit wagon workshop, warm sparks light Zelina’s open palm as Coppercoil leans in. His workbench and parts rack frame the lesson, with the nightglass vial sketch in front and Arietta by the opening.",
+      "durationMs": 14000,
+      "narration": [
+        {
+          "id": "lesson",
+          "text": "Zelina asked Coppercoil for a lesson in magic. Her first attempt produced a thread of light and a small pop.",
+          "delayMs": 0,
+          "durationMs": 480
+        },
+        {
+          "id": "weave",
+          "text": "Under his guidance she found the pattern of the Weave. Sparks warmed her palm. “I did that,” she said.",
+          "delayMs": 1650,
+          "durationMs": 480
+        },
+        {
+          "id": "origin",
+          "text": "Coppercoil could not place the magic. Soon Zelina tired, describing it as something tugging at a thread inside her.",
+          "delayMs": 5700,
+          "durationMs": 480
+        },
+        {
+          "id": "gift",
+          "text": "While Arietta was occupied, Zelina showed him her sketch of a black-glass perfume vial bound with copper wire. Her mother had called the material nightglass, and she wanted to make Arietta a gift.",
+          "delayMs": 9300,
+          "durationMs": 480
+        }
+      ],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "thread-to-palm",
+          "assetId": "zelina-lesson-thread",
+          "position": {
+            "x": 876,
+            "y": 576
+          },
+          "width": 180,
+          "zIndex": 47,
+          "poses": [],
+          "motion": {
+            "preset": "projectile",
+            "from": {
+              "x": -20,
+              "y": -14
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1120,
+            "durationMs": 520,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "palm-sparks",
+          "assetId": "zelina-lesson-sparks-a",
+          "position": {
+            "x": 876,
+            "y": 548
+          },
+          "width": 210,
+          "zIndex": 46,
+          "poseLoopMs": 1400,
+          "poses": [
+            {
+              "assetId": "zelina-lesson-sparks-b",
+              "startMs": 700,
+              "fadeMs": 260
+            }
+          ],
+          "motion": {
+            "preset": "fade",
+            "from": {
+              "x": 0,
+              "y": 0
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1500,
+            "durationMs": 500,
+            "easing": "ease-out"
+          }
+        }
+      ],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "the-man-in-the-road",
+      "title": "The man in the road — Carlon Amoffel",
+      "environmentId": "caravan-road",
+      "description": "Carlon’s head protrudes from the road, a complex circular rune tattooed on his forehead. Coppercoil offers water while Lucien kneels nearby. Behind them, a thread of charm magic runs from Aldrik’s hand to Lord Aldor.",
+      "durationMs": 15000,
+      "narration": [
+        {
+          "id": "discovery",
+          "text": "The caravan stopped at a man buried up to his neck. A complex circular rune marked his forehead as an oathbreaker. Coppercoil gave him water.",
+          "delayMs": 0,
+          "durationMs": 480
+        },
+        {
+          "id": "objection",
+          "text": "Tyjit demanded they dig him out. Lord Aldor Urnpoleshurst objected to the delay. Lucien thought the marking echoed his dream and volunteered to take responsibility for the man.",
+          "delayMs": 2600,
+          "durationMs": 480
+        },
+        {
+          "id": "friends",
+          "text": "Aldrik cast Friends to sway Aldor. When objections persisted, Sulesdeg rose to his full height and announced that the caravan had decided.",
+          "delayMs": 5700,
+          "durationMs": 480
+        },
+        {
+          "id": "rescue",
+          "text": "Coppercoil summoned Copperbear. The bear and the travellers dug Carlon Amoffel free, then caught him when his legs buckled.",
+          "delayMs": 10300,
+          "durationMs": 480
+        }
+      ],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "aldrik-friends-cue",
+          "assetId": "carlon-road-charm-trail",
+          "position": {
+            "x": 790,
+            "y": 262
+          },
+          "width": 220,
+          "zIndex": 45,
+          "poses": [],
+          "motion": {
+            "preset": "projectile",
+            "from": {
+              "x": 102,
+              "y": 35
+            },
+            "to": {
+              "x": -80,
+              "y": -25
+            },
+            "delayMs": 675,
+            "durationMs": 680,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "aldor-charm-shimmer",
+          "assetId": "carlon-road-charm-halo",
+          "position": {
+            "x": 650,
+            "y": 222
+          },
+          "width": 132,
+          "zIndex": 45,
+          "poses": [
+            {
+              "assetId": "carlon-road-charm-halo-b",
+              "startMs": 825,
+              "fadeMs": 385
+            },
+            {
+              "assetId": "carlon-road-charm-halo",
+              "startMs": 1650,
+              "fadeMs": 385
+            }
+          ],
+          "motion": {
+            "preset": "fade",
+            "from": {
+              "x": 0,
+              "y": 3
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1175,
+            "durationMs": 375,
+            "easing": "ease-out"
+          },
+          "poseLoopMs": 2100
+        }
+      ],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "luciens-first-questions",
+      "title": "Lucien’s first questions",
+      "environmentId": "lucien-wagon",
+      "description": "Window light outlines Carlon and the circular rune on his forehead. Lucien listens from the shadowed side of the shared wagon. Green Imsa offers folded clothes, with Coppercoil’s fitted workbench and parts rack framing the conversation.",
+      "durationMs": 13500,
+      "narration": [
+        {
+          "id": "shelter",
+          "text": "Lucien gave Carlon shelter in the wagon he shared with Coppercoil, Arietta, and Zelina and asked how he had ended up buried in the road.",
+          "delayMs": 0,
+          "durationMs": 480
+        },
+        {
+          "id": "account",
+          "text": "Carlon said he had promised to marry a woman, then backed out when he learned her family were bandits and expected him to join them.",
+          "delayMs": 3400,
+          "durationMs": 480
+        },
+        {
+          "id": "suspicion",
+          "text": "Lucien suspected Carlon was holding something back. Green Imsa supplied a change of clothes.",
+          "delayMs": 7900,
+          "durationMs": 480
+        }
+      ],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "wagon-daylight-motes",
+          "assetId": "lucien-interview-dust-a",
+          "position": {
+            "x": 1435,
+            "y": 470
+          },
+          "width": 310,
+          "zIndex": 30,
+          "poseLoopMs": 4200,
+          "poses": [
+            {
+              "assetId": "lucien-interview-dust-b",
+              "startMs": 700,
+              "fadeMs": 1300
+            },
+            {
+              "assetId": "lucien-interview-dust-a",
+              "startMs": 2450,
+              "fadeMs": 1300
+            }
+          ]
+        }
+      ],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "a-wagon-full-of-porcelain",
+      "title": "A wagon full of porcelain",
+      "environmentId": "losvius-wagon",
+      "description": "Coppercoil picks his way past porcelain vases while Aldrik’s spectral hand catches one.",
+      "durationMs": 12000,
+      "narration": [
+        {
+          "id": "recap",
+          "text": "Losvius invites Coppercoil in from the rain. His wagon is so full of porcelain that Coppercoil has to choose every handhold and foothold carefully. When a vase wobbles, Aldrik’s spectral hand saves it.",
+          "delayMs": 0,
+          "durationMs": 0
+        }
+      ],
+      "artwork": "planned",
+      "actors": [],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "a-wager-on-the-cult-wagons",
+      "title": "A wager on the cult wagons",
+      "environmentId": "losvius-wagon",
+      "description": "Coppercoil, Aldrik, and Losvius talk quietly among the vases.",
+      "durationMs": 12000,
+      "narration": [
+        {
+          "id": "recap",
+          "text": "Losvius tells Coppercoil and Aldrik about a seven-foot wooden crate surrounded by dark soil in Lasfelro’s wagon. Aldrik suspects a vampire and still wonders whether some cult wagons are decoys. A wager persuades Losvius to investigate a cult wagon during the next substantial fight.",
+          "delayMs": 0,
+          "durationMs": 0
+        }
+      ],
+      "artwork": "planned",
+      "actors": [],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "nightglass",
+      "title": "Nightglass",
+      "environmentId": "rainy-workbench",
+      "description": "Behind a blanket, Coppercoil and Zelina mend black obsidian into a small perfume vial.",
+      "durationMs": 12000,
+      "narration": [
+        {
+          "id": "recap",
+          "text": "Samardag explains that nightglass means obsidian in Amn. Coppercoil loses twenty gold gambling with Radecere, then buys his lucky pendant for another two hundred and fifty. Behind a blanket, Coppercoil and Zelina shape the obsidian into a vial for Arietta, and he gives her five gold for perfume.",
+          "delayMs": 0,
+          "durationMs": 0
+        }
+      ],
+      "artwork": "planned",
+      "actors": [],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "the-road-cries-out",
+      "title": "The road cries out",
+      "environmentId": "shrieker-road",
+      "description": "A hoof crushes a mushroom on the wet road, releasing black dust.",
+      "durationMs": 12000,
+      "narration": [
+        {
+          "id": "recap",
+          "text": "After two stormy nights, mushrooms carpet the road. A crushed cap moans, and the cries of the connected shriekers overwhelm Aldrik, Lucien, and Coppercoil with grief. Vladefix and the guards plug their ears and spend three hours clearing a passage.",
+          "delayMs": 0,
+          "durationMs": 0
+        }
+      ],
+      "artwork": "planned",
+      "actors": [],
+      "reducedMotion": "final"
+    },
+    {
+      "id": "an-overturned-wagon",
+      "title": "An overturned wagon",
+      "environmentId": "sunset-road",
+      "description": "At sunset, hobgoblins attack an overturned wagon farther down the road.",
+      "durationMs": 12000,
+      "narration": [
+        {
+          "id": "recap",
+          "text": "Carlon takes the reins while Lucien talks about his dreams. Aldrik returns from scouting with word of hobgoblins attacking an overturned wagon. Tyjit halts the caravan, and Aldrik, Coppercoil, and Lucien plan their approach as the sun sets.",
+          "delayMs": 0,
+          "durationMs": 0
+        }
+      ],
+      "artwork": "planned",
+      "actors": [],
+      "reducedMotion": "final"
+    }
+  ]
+}

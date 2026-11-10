@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "id": "lucien-dream",
+  "name": "Lucien’s dream",
+  "category": "environments",
+  "description": "Four dream settings connected by black water and a sunlit reflection.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md",
+    "src/model/characters/lucien.json"
+  ],
+  "tags": [
+    "dream",
+    "river",
+    "bridge",
+    "reflection",
+    "graves"
+  ],
+  "reuseWhen": "Reuse these matching plates and translucent ink layers for the November 4 dream sequence.",
+  "assets": [
+    {
+      "id": "lucien-dream-chamber",
+      "path": "public/assets/environments/lucien-dream-chamber-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 347078,
+      "sha256": "280eba2bf6ba369543a64fe48e2ed2a0b598a67eb20a988b4b5ab4364fc76050",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien and a robed silhouette in the black stone chamber. The figures are part of the scenery plate.",
+      "sourcePath": "public/assets/sources/lucien-dream-chamber-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-bridge",
+      "path": "public/assets/environments/lucien-dream-bridge-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 458158,
+      "sha256": "db598f0a2aea50175b56cb007dcb0b41bb7b45fa019f3ea444be862ff0cd5fc6",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Soldiers and airborne arrows over a bridge spanning the dark river.",
+      "sourcePath": "public/assets/sources/lucien-dream-bridge-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-covered",
+      "path": "public/assets/environments/lucien-dream-covered-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 228600,
+      "sha256": "dfed0e38a588c81ad331adb1a3ce4fed4c05705d615f02ea7f27ac39e6885933",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "The sunlit traveller reflected in dark water, with the cap over his forehead.",
+      "sourcePath": "public/assets/sources/lucien-dream-covered-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-reflection",
+      "path": "public/assets/environments/lucien-dream-reflection-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 270506,
+      "sha256": "548eb204c85e267c0f1307c45b296b7d82f2a6a37c361e91f82e82692485b665",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "The traveller’s reflected face with the cap lifted and intricate markings revealed.",
+      "sourcePath": "public/assets/sources/lucien-dream-reflection-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-graves",
+      "path": "public/assets/environments/lucien-dream-graves-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 374508,
+      "sha256": "50bbd5e4ae0e8122c20a2d837d576d7bfd47581d95ac8c689c9230bb14fb7ab8",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Broken swords and forgotten graves at the lost crossing.",
+      "sourcePath": "public/assets/sources/lucien-dream-graves-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-mist",
+      "path": "public/assets/environments/lucien-dream-mist-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 214630,
+      "sha256": "191f12121f6736cfca0e1bc126a197666adfc2a0c6471ae5e9ab0e24fe93b53e",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Transparent edge mist for depth across the dream.",
+      "sourcePath": "public/assets/sources/lucien-dream-mist-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-edge",
+      "path": "public/assets/environments/lucien-dream-edge-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149376,
+      "sha256": "481d23ab81259036e20d32c1feb82d58198a54a6a8d5a205f9f9656c9f0d353f",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Transparent ink droplets and ripples framing the dream.",
+      "sourcePath": "public/assets/sources/lucien-dream-edge-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-wash",
+      "path": "public/assets/environments/lucien-dream-wash-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 227684,
+      "sha256": "07bdd1382c2a0034410d823308b018d7aac821bdd02dc7717ae9d2ea025bd8e4",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Transparent leading edge of the rising black-water wash.",
+      "sourcePath": "public/assets/sources/lucien-dream-wash-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-held-crossing",
+      "path": "public/assets/environments/lucien-dream-held-crossing-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 346786,
+      "sha256": "711e4522a7cc48959948a4869fc04f323d729f0d8ca46449c2c0021d5a434e44",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "One continuous dream composition with a black stone hall, a bridge crowded with soldiers, and a faint reflection of a capped traveller.",
+      "sourcePath": "public/assets/sources/lucien-dream-held-crossing-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-lost-bank",
+      "path": "public/assets/environments/lucien-dream-lost-bank-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 433188,
+      "sha256": "2900bebfed751964d6e45e0fc0395e405c9ea131bae61192927a8b38b3684a06",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "One held riverbank composition with graves, broken swords, a bridge under siege, and the marked traveller reflected in black water.",
+      "sourcePath": "public/assets/sources/lucien-dream-lost-bank-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-reflected-cap",
+      "path": "public/assets/objects/lucien-dream-reflected-cap-v1.webp",
+      "width": 640,
+      "height": 880,
+      "bytes": 70966,
+      "sha256": "d6111172bdf3d6420e3013ebbcaf0748a3a61d0c9aaa338abe3a7a3450a45f8f",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Transparent woollen cap layered over the reflected traveller’s forehead for the wind reveal.",
+      "sourcePath": "public/assets/sources/lucien-dream-reflected-cap-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-worn-cap",
+      "path": "public/assets/objects/lucien-dream-worn-cap-v1.webp",
+      "width": 640,
+      "height": 880,
+      "bytes": 51814,
+      "sha256": "55231224123f8508a712fb6b6c143ba4eb11419edd46519a936e4e88b61f8fb5",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Fitted woollen cap pose with a transparent underside, aligned to the full lifted pose.",
+      "sourcePath": "public/assets/sources/lucien-dream-worn-cap-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-lost-bank-clean",
+      "path": "public/assets/environments/lucien-dream-lost-bank-clean-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 401676,
+      "sha256": "733efdd06c5c602f9f6b93d9305417eeece007b4bd97f458f8e6ba3de1ff6305",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Riverbank and reflected traveller with a cleared area behind the independent bridge layer.",
+      "sourcePath": "public/assets/sources/lucien-dream-lost-bank-clean-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-march-a",
+      "path": "public/assets/environments/lucien-dream-march-a-v1.webp",
+      "width": 960,
+      "height": 560,
+      "bytes": 42770,
+      "sha256": "2636f1a33780b7f97fff7263d9a3da7cceb66f3ff8fc77684ef5feabd75f4d98",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Bridge and soldiers in the first marching pose, registered to the riverbank.",
+      "sourcePath": "public/assets/sources/lucien-dream-march-a-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-march-b",
+      "path": "public/assets/environments/lucien-dream-march-b-v1.webp",
+      "width": 960,
+      "height": 560,
+      "bytes": 41718,
+      "sha256": "5a0461b11fb12f5401721de055eb948efe407510f996a369dbe9d688d740faf2",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Matching bridge with varied soldier silhouettes for the second marching pose.",
+      "sourcePath": "public/assets/sources/lucien-dream-march-b-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

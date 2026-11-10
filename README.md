@@ -2,6 +2,8 @@
 
 A static Next.js storybook for D&D session recaps, hosted on GitHub Pages. The app currently has nine scenes from the [October 28 storyboard](src/data/sessions/28.10.2026/storyboard.md), with layered artwork drafts for all nine scenes; see [implementation status](docs/IMPLEMENTATION_STATUS.md) and [the plan](docs/IMPLEMENTATION_PLAN.md).
 
+Use [Animated Session Recaps](skills/animated-session-recaps/SKILL.md) to create or revise playable scenes. It links the style guide, asset pipeline, runtime fields and all nine October examples. For standalone illustrations use [D&D One-Off Images](skills/dnd-one-off-images/SKILL.md) or [Retro Action-Cartoon One-Off Images](skills/retro-action-cartoon-one-off-images/SKILL.md).
+
 ## Project layout
 
 ```text
@@ -52,6 +54,8 @@ New preparation settings live in `src/data/art/production-recipes.json`. `npm ru
 
 ## Validate and preview
 
+Run `npm run dev` for the development app at [localhost:4000](http://localhost:4000/). The static preview uses the same port.
+
 ```sh
 npm run lint
 npm run typecheck
@@ -60,7 +64,7 @@ npm run build
 NEXT_PUBLIC_BASE_PATH='' node scripts/serve-export.mjs
 ```
 
-The preview serves the root export at [localhost:4173](http://127.0.0.1:4173/). For the repository URL:
+The preview serves the root export at [localhost:4000](http://127.0.0.1:4000/). For the repository URL:
 
 ```sh
 NEXT_PUBLIC_BASE_PATH=/dnd-recaps npm run build

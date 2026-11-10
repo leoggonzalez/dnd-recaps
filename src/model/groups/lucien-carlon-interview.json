@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "lucien-carlon-interview",
+  "name": "Lucien and Carlon’s interview",
+  "category": "groups",
+  "description": "Registered paired seated pose with Carlon’s circular oathbreaker rune.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "lucien",
+    "carlon"
+  ],
+  "reuseWhen": "Use with the registered November 4 interview composition.",
+  "assets": [
+    {
+      "id": "lucien-interview-pair",
+      "path": "public/assets/groups/lucien-interview-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 153300,
+      "sha256": "cd2252c96f29684acf40dafeead0a4c37dae0ccf2712e8e5233e5b3e26d893f9",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien listens while the weary Carlon speaks, with the existing oathbreaker rune on his forehead.",
+      "sourcePath": "public/assets/sources/lucien-interview-pair-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "carlon-road-friends-cue",
+  "name": "Aldrik’s Friends spell cue",
+  "category": "objects",
+  "description": "A faint thread of light used as a visual cue for Aldrik’s Friends spell.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "rescue",
+    "carlon"
+  ],
+  "reuseWhen": "Use with the November 4 roadside rescue composition and its registered layers.",
+  "assets": [
+    {
+      "id": "carlon-road-friends",
+      "path": "public/assets/objects/carlon-road-friends-v1.webp",
+      "width": 150,
+      "height": 100,
+      "bytes": 1546,
+      "sha256": "c1e70ed335ddb29e5f5f5c0dd71b9bb4e5b7d9ae96a79f5cbf5bd31ad801be38",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "A faint thread of light used as a visual cue for Aldrik’s Friends spell.",
+      "sourcePath": "public/assets/sources/carlon-road-friends-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "carlon-road-charm-trail",
+      "path": "public/assets/objects/carlon-road-charm-trail-v1.webp",
+      "width": 240,
+      "height": 128,
+      "bytes": 4494,
+      "sha256": "da834a420d62c20a9a1047cf2ccba6e9ebfe855e377c5ee79356990799c55a02",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Faint jade and ivory threads that sweep from Aldrik toward Lord Aldor.",
+      "sourcePath": "public/assets/sources/carlon-road-charm-trail-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "carlon-road-charm-halo",
+      "path": "public/assets/objects/carlon-road-charm-halo-v1.webp",
+      "width": 180,
+      "height": 126,
+      "bytes": 5902,
+      "sha256": "9e8a207314c81ccc6f8fa5a3c9b61e251ef7d791c5510b08c5dc93b3a9f98836",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "A brief jade shimmer that curls around Aldor as Friends takes hold.",
+      "sourcePath": "public/assets/sources/carlon-road-charm-halo-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "carlon-road-charm-halo-b",
+      "path": "public/assets/objects/carlon-road-charm-halo-b-v1.webp",
+      "width": 180,
+      "height": 126,
+      "bytes": 5820,
+      "sha256": "5986a140768bf0f8afd6fa09178cbd1f3c6491fdc90e8c7ef6bd3c75bb9910cc",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Second pose of Aldor’s jade charm halo, with the orbit shifted slightly upward and the motes staggered.",
+      "sourcePath": "public/assets/sources/carlon-road-charm-halo-b-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

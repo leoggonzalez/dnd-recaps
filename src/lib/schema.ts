@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { narrationAudioPath } from "./urls";
 const id = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
 const time = z.number().finite().nonnegative();
 const point = z
@@ -60,7 +61,10 @@ const actorSchema = z
     flipX: z.boolean().optional(),
     width: z.number().finite().positive(),
     zIndex: z.number().int(),
-    poses: z.array(z.object({ assetId: id, startMs: time }).strict()),
+    poseLoopMs: z.number().finite().positive().optional(),
+    poses: z.array(
+      z.object({ assetId: id, startMs: time, fadeMs: time.optional() }).strict(),
+    ),
     motion: z
       .object({
         preset: z.enum([
@@ -104,6 +108,7 @@ export const sessionSchema = z
             environmentId: id,
             description: z.string().min(1),
             durationMs: z.number().finite().positive(),
+            narrationAudio: z.string().regex(narrationAudioPath).optional(),
             narration: z
               .array(
                 z
@@ -186,6 +191,9 @@ export const sessionSchema = z
       });
       s.actors.forEach((a) => {
         reference(a.assetId);
+        const poseDuration = a.poseLoopMs ?? s.durationMs;
+        if (a.poseLoopMs && !a.poses.some(pose => pose.startMs > 0 && pose.startMs < poseDuration))
+          fail(`Pose loop needs an alternate frame: ${a.id}`);
         a.poses.forEach((p, i) => {
           const base = session.assets.find((asset) => asset.id === a.assetId);
           const pose = session.assets.find((asset) => asset.id === p.assetId);
@@ -199,8 +207,15 @@ export const sessionSchema = z
           )
             fail(`Pose frame mismatch: ${a.id}`);
           reference(p.assetId);
+          const fadeMs = p.fadeMs ?? 0;
+          if (fadeMs && (
+            p.startMs === 0 ||
+            p.startMs + fadeMs > (a.poses[i + 1]?.startMs ?? poseDuration)
+          ))
+            fail(`Invalid pose crossfade: ${a.id}`);
           if (
-            p.startMs > s.durationMs ||
+            p.startMs > poseDuration ||
+            (a.poseLoopMs !== undefined && p.startMs === poseDuration) ||
             (i > 0 && p.startMs <= a.poses[i - 1].startMs)
           )
             fail(`Invalid pose timing: ${a.id}`);

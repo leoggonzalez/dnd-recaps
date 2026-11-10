@@ -114,6 +114,10 @@ button:disabled {
   background: var(--line);
   flex: 1;
 }
+.sessions {
+  display: grid;
+  gap: 1.5rem;
+}
 .session-card {
   display: grid;
   grid-template-columns: 0.9fr 1.3fr;
@@ -238,6 +242,9 @@ footer {
   font-size: clamp(3rem, 10vw, 7rem);
   color: var(--line);
   line-height: 1.15;
+}
+.scene-audio {
+  margin-bottom: 1rem;
 }
 .narration-line {
   font-size: 1.12rem;

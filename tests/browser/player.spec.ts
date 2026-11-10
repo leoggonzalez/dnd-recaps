@@ -5,7 +5,11 @@ test("library, deep reload, navigation, boundaries and history work under reposi
   const failures: string[] = [];
   page.on("pageerror", (e) => failures.push(e.message));
   await page.goto("./");
-  await page.getByRole("link", { name: "Open the story" }).click();
+  await page
+    .getByRole("article")
+    .filter({ hasText: "Session 28.10.2026" })
+    .getByRole("link", { name: "Open the story" })
+    .click();
   await expect(page.getByRole("button", { name: "Previous" })).toBeDisabled();
   await page.getByRole("button", { name: "Next" }).click();
   await expect(page).toHaveURL(/#scene=a-walk-through-camp$/);
@@ -256,4 +260,94 @@ test("authored pose changes are exclusive before and after the cue and hold thei
     "opacity",
     "1",
   );
+});
+
+test("marching poses loop beyond the narration and settle under reduced motion", async ({
+  page,
+}) => {
+  await page.goto("./sessions/2026-11-04/#scene=the-crossing-lost");
+  await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
+  await page.getByRole("button", { name: "Pause", exact: true }).click();
+
+  const first = page.locator('[data-pose="lucien-dream-march-a"]');
+  const second = page.locator('[data-pose="lucien-dream-march-b"]');
+  const seek = (time: number) =>
+    first.evaluate((element, time) => {
+      for (const animation of element.parentElement!.getAnimations({
+        subtree: true,
+      })) {
+        animation.currentTime = time;
+      }
+    }, time);
+
+  await expect(first).toHaveCSS("animation-iteration-count", "infinite");
+  await expect(first).toHaveCSS("animation-play-state", "paused");
+  await seek(350);
+  await expect(first).toHaveCSS("opacity", "1");
+  await expect(second).toHaveCSS("opacity", "0");
+  await seek(1050);
+  await expect(first).toHaveCSS("opacity", "0");
+  await expect(second).toHaveCSS("opacity", "1");
+  await seek(1750);
+  await expect(first).toHaveCSS("opacity", "1");
+  await seek(17850);
+  await expect(second).toHaveCSS("opacity", "1");
+
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await expect(first).toHaveCSS("animation-name", "none");
+  await expect(first).toHaveCSS("opacity", "0");
+  await expect(second).toHaveCSS("opacity", "1");
+});
+
+test("scene narration plays on request and follows pause, replay, and navigation", async ({
+  page,
+}) => {
+  await page.goto("./sessions/2026-11-04/#scene=the-markings");
+  await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
+  const audio = page.locator("audio");
+  const state = () =>
+    audio.evaluate((element) => {
+      const audio = element as HTMLAudioElement;
+      return {
+        paused: audio.paused,
+        time: audio.currentTime,
+        duration: audio.duration,
+      };
+    });
+
+  expect((await state()).paused).toBe(true);
+  const response = page.waitForResponse((response) =>
+    response.url().endsWith(".mp3"),
+  );
+  await page
+    .getByRole("button", { name: "Play narration", exact: true })
+    .click();
+  expect((await response).headers()["content-type"]).toBe("audio/mpeg");
+  await expect.poll(async () => (await state()).time).toBeGreaterThan(0.15);
+  await expect.poll(async () => (await state()).duration).toBeCloseTo(27.87, 1);
+
+  await page.getByRole("button", { name: "Pause", exact: true }).click();
+  await expect.poll(async () => (await state()).paused).toBe(true);
+  await page.getByRole("button", { name: "Replay", exact: true }).click();
+  await expect.poll(async () => (await state()).time).toBe(0);
+  await page.getByRole("button", { name: "Resume", exact: true }).click();
+  await expect.poll(async () => (await state()).time).toBeGreaterThan(0.1);
+  await page
+    .getByRole("button", { name: "Stop narration", exact: true })
+    .click();
+  await expect.poll(async () => (await state()).paused).toBe(true);
+
+  await page
+    .getByRole("button", { name: "Play narration", exact: true })
+    .click();
+  await expect.poll(async () => (await state()).paused).toBe(false);
+  const element = await audio.elementHandle();
+  await page.getByRole("button", { name: "Next scene", exact: true }).click();
+  await expect(
+    page.getByRole("heading", { name: "The crossing lost" }),
+  ).toBeVisible();
+  await expect(audio).toHaveCount(0);
+  expect(
+    await element.evaluate((element) => (element as HTMLAudioElement).paused),
+  ).toBe(true);
 });

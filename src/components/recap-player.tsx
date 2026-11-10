@@ -11,6 +11,7 @@ import type { Session } from "@/lib/schema";
 import { AssetStore, sceneAssetIds, type Progress } from "@/lib/asset-store";
 import { LayeredStage } from "./layered-stage";
 import { StoryControls } from "./story-controls";
+import { NarrationAudio } from "./narration-audio";
 export function RecapPlayer({ session }: { session: Session }) {
   const [index, setIndex] = useState(0);
   const [playbackKey, setPlaybackKey] = useState(0);
@@ -229,6 +230,15 @@ export function RecapPlayer({ session }: { session: Session }) {
           )}
           {loaded && (
             <>
+              {scene.narrationAudio && (
+                <NarrationAudio
+                  key={scene.id}
+                  path={scene.narrationAudio}
+                  playbackKey={playbackKey}
+                  paused={userPaused || hidden || preparing}
+                  onStart={() => setUserPaused(false)}
+                />
+              )}
               <section
                 key={playbackKey}
                 className="narration"

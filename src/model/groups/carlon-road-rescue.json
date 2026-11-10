@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "carlon-road-rescue",
+  "name": "Carlon at the roadside",
+  "category": "groups",
+  "description": "Grouped near layer of Carlon buried to his neck, Coppercoil with a flask, and kneeling Lucien. The forehead lettering is a separate editable source overlay composited into this plane.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "rescue",
+    "carlon"
+  ],
+  "reuseWhen": "Use with the November 4 roadside rescue composition and its registered layers.",
+  "assets": [
+    {
+      "id": "carlon-road-rescue",
+      "path": "public/assets/groups/carlon-road-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136384,
+      "sha256": "5a56e1fbc2dc20f6821ddb55d0a08e438d5793098ecd85f2d8f623412c90cf96",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Grouped near layer of Carlon buried to his neck, Coppercoil with a flask, and kneeling Lucien. The forehead lettering is a separate editable source overlay composited into this plane.",
+      "sourcePath": "public/assets/sources/carlon-road-rescue-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "carlon-road-rune-rescue",
+      "path": "public/assets/groups/carlon-road-rune-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136450,
+      "sha256": "e087048f50bee80cb25bf232ce3f18b55a534f526114b67beb262f25602240be",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Carlon’s circular oathbreaker rune stays registered to his forehead in the roadside rescue group.",
+      "sourcePath": "public/assets/sources/carlon-road-rune-rescue-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

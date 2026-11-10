@@ -6,16 +6,20 @@ const rules = [
 ];
 for (const session of sessions)
   for (const scene of session.scenes)
-    for (const actor of scene.actors)
-      poseIntervals(actor, scene.durationMs).forEach((pose, index) =>
+    for (const actor of scene.actors) {
+      const poseDuration = actor.poseLoopMs ?? scene.durationMs;
+      poseIntervals(actor, poseDuration).forEach((pose, index) =>
         rules.push(
           poseKeyframes(
             `pose-${session.id}-${scene.id}-${actor.id}-${index}`,
             pose.startMs,
             pose.endMs,
-            scene.durationMs,
+            poseDuration,
             pose.final,
+            pose.fadeInMs,
+            pose.fadeOutMs,
           ),
         ),
       );
+    }
 writeFileSync("src/app/scene-poses.css", rules.join("\n") + "\n");

@@ -3,17 +3,19 @@
   "id": "radecere-perethun",
   "name": "Radecere Perethun",
   "category": "npcs",
-  "description": "Traveller who joined the game with a substantial purse. Appearance remains provisional and indistinct in the group illustration.",
+  "description": "Rock gnome traveller who keeps to himself until there is a game of chance.",
   "style": "parchment-ink-v1",
   "references": [
-    "src/data/sessions/28.10.2026.md"
+    "src/data/sessions/28.10.2026.md",
+    "src/data/sessions/04.11.2026.md",
+    "public/assets/references/radecere-perethun-visual-reference.png"
   ],
   "tags": [
     "caravan",
     "cards",
     "night"
   ],
-  "reuseWhen": "Reuse this shared game composition for this night rest only. No approved individual portrait or detailed appearance reference exists.",
+  "reuseWhen": "Use the supplied portrait for appearance continuity. Existing shared artwork depicts the original scene and setting.",
   "assets": [
     {
       "id": "camp-night-gamblers",
@@ -39,6 +41,25 @@
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "reference-radecere-perethun",
+      "description": "Supplied portrait card for Radecere Perethun.",
+      "path": "public/assets/references/radecere-perethun-visual-reference.png",
+      "width": 714,
+      "height": 1136,
+      "bytes": 690043,
+      "sha256": "0a8088d5240fa22a601c519454427f0e9d8272e7166cd7beba7373a195e3f801",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": true,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
     }
   ],
   "events": [
@@ -46,6 +67,15 @@
       "date": "6 Ches 1492 DR",
       "location": "Road from Baldur’s Gate to Waterdeep",
       "event": "Traveller who joined the game with a substantial purse while the caravan rested for the night."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Won twenty gold from Coppercoil, then sold him the lucky pendant for two hundred and fifty gold."
     }
-  ]
+  ],
+  "appearance": {
+    "features": "Short and stocky, with swept gray hair and a full gray beard.",
+    "clothing": "Dark green cloak, slate-blue scarf, cream shirt, sturdy boots, loaded pack and a crooked walking staff."
+  }
 }

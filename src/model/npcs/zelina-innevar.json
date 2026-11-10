@@ -3,17 +3,19 @@
   "id": "zelina-innevar",
   "name": "Zelina Innevar",
   "category": "npcs",
-  "description": "Arietta’s sister, asleep during the wagon journal scene.",
+  "description": "Arietta’s sister, a charming traveller who asks others about their pasts, plans and families.",
   "style": "parchment-ink-v1",
   "references": [
     "src/data/sessions/28.10.2026.md",
-    "src/model/npcs/arietta-innevar.json"
+    "src/model/npcs/arietta-innevar.json",
+    "src/data/sessions/04.11.2026.md",
+    "public/assets/references/zelina-innevar-visual-reference.png"
   ],
   "tags": [
     "wagon",
     "innevar"
   ],
-  "reuseWhen": "This composition shows Zelina asleep with her face turned away and does not establish an individual portrait.",
+  "reuseWhen": "Use the supplied portrait for appearance continuity. Existing shared artwork depicts the original scene and setting.",
   "assets": [
     {
       "id": "wagon-interior-middle",
@@ -39,6 +41,67 @@
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "reference-zelina-innevar",
+      "description": "Supplied portrait card for Zelina Innevar.",
+      "path": "public/assets/references/zelina-innevar-visual-reference.png",
+      "width": 682,
+      "height": 1116,
+      "bytes": 528534,
+      "sha256": "dfca50d9540c7d611858ce303bc158700404a9423e1a9b7e5dab55f211722000",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": true,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
+    },
+    {
+      "id": "zelina-lesson-pair",
+      "path": "public/assets/groups/zelina-lesson-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 176444,
+      "sha256": "060e85b1cb202696f767c8da8c25fb4ff5696d3ad84ff2ab43cb6c05846b19fe",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Shared pose of Zelina seated with an open palm and Coppercoil leaning in beside her.",
+      "sourcePath": "public/assets/sources/zelina-lesson-pair-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    }
+  ],
+  "appearance": {
+    "features": "Long dark-brown hair worn in a braid.",
+    "clothing": "Rust-red hooded cloak, blue-green scarf, cream tunic, olive trousers and brown boots, with a bedroll and coiled rope."
+  },
+  "events": [
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Practised magic with Coppercoil and made an obsidian perfume vial for Arietta."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Privately showed Coppercoil her drawing for Arietta’s perfume vial and explained that her mother called the material nightglass."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Accepted five gold from Coppercoil to buy perfume for Arietta’s gift."
     }
   ]
 }

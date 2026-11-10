@@ -12,10 +12,10 @@ All project images live in `public/assets/`. Keep full-resolution generated orig
 
 ## Illustration workflows
 
-For session illustrations, follow [skills/dnd-session-images/SKILL.md](skills/dnd-session-images/SKILL.md). For an explicitly requested retro cartoon treatment, also apply [skills/retro-action-cartoon-images/SKILL.md](skills/retro-action-cartoon-images/SKILL.md). Current character records override older image prompts; keep source events and unresolved story facts intact.
+For turning a session recap into a playable scene plan, follow [Session Storyboard](skills/session-storyboard/SKILL.md). For playable scenes, parallax assets and recap staging, follow [Animated Session Recaps](skills/animated-session-recaps/SKILL.md). For standalone stills use [D&D One-Off Images](skills/dnd-one-off-images/SKILL.md). Apply [Retro Action-Cartoon One-Off Images](skills/retro-action-cartoon-one-off-images/SKILL.md) when the user requests that look for a still.
 
-The October 28 app scope is the nine scenes in [the storyboard](src/data/sessions/28.10.2026/storyboard.md). Maintain the existing parchment/ink layered direction for animated assets. Camera/motion and ink reveal run concurrently; preserve pause/replay/reduced-motion behavior.
+The October 28 [storyboard](src/data/sessions/28.10.2026/storyboard.md) documents the nine-scene worked example. For new sessions, use the scope established for that session.
 
 ## Checks
 
-Run `npm run validate`, `npm run lint`, `npm run typecheck`, `npm test`, a static build and focused browser checks for relevant changes. Verify repository-subpath routing and export pruning after moving assets. Preserve local source archives. The final animated-recap authoring skill remains a later milestone after the full recap and release validation work.
+Run `npm run validate`, `npm run lint`, `npm run typecheck`, `npm test`, a static build and focused browser checks for relevant changes. Verify repository-subpath routing and export pruning after moving assets. Preserve local source archives.

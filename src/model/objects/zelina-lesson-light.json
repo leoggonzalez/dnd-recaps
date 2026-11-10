@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "zelina-lesson-light",
+  "category": "objects",
+  "name": "Zelina’s thread of light",
+  "description": "Directional light thread and two matched spark poses for the lesson.",
+  "assets": [
+    {
+      "id": "zelina-lesson-thread",
+      "path": "public/assets/objects/zelina-lesson-thread-v1.webp",
+      "width": 280,
+      "height": 220,
+      "bytes": 1784,
+      "sha256": "2566f71d829ea7cb735c8c744025db5f8a70dd690f356e0ef83cd8395c4dbe52",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "A tapered thread of warm light approaches Zelina’s palm.",
+      "sourcePath": "public/assets/sources/zelina-lesson-thread-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "zelina-lesson-sparks-a",
+      "path": "public/assets/objects/zelina-lesson-sparks-a-v1.webp",
+      "width": 280,
+      "height": 220,
+      "bytes": 8238,
+      "sha256": "2b8865cbdfe47b2eebf1c34ec9640aaa2c746ffd9e66bb5bb1d35c00137db5e1",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "First pose of a warm spark shimmer above Zelina’s palm.",
+      "sourcePath": "public/assets/sources/zelina-lesson-sparks-a-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "zelina-lesson-sparks-b",
+      "path": "public/assets/objects/zelina-lesson-sparks-b-v1.webp",
+      "width": 280,
+      "height": 220,
+      "bytes": 8176,
+      "sha256": "578620a7499d8a274b2c0775ef555129d76c41da7d9f49828567dd426a257f92",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Second pose of the same warm spark shimmer, with slightly shifted motes.",
+      "sourcePath": "public/assets/sources/zelina-lesson-sparks-b-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ],
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "zelina",
+    "lesson"
+  ],
+  "reuseWhen": "Use with the registered daylight wagon composition and aligned lesson layers."
+}

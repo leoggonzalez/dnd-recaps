@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "carlon-amoffel",
+  "name": "Carlon Amoffel",
+  "category": "npcs",
+  "description": "A 33-year-old human man and Harper agent, found buried up to his neck in the caravan road.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026.md",
+    "public/assets/references/carlon-amoffel-visual-reference.png"
+  ],
+  "tags": [
+    "caravan",
+    "harper"
+  ],
+  "reuseWhen": "Use the supplied card for visual continuity when staging the character.",
+  "assets": [
+    {
+      "id": "reference-carlon-amoffel",
+      "description": "Supplied portrait card for Carlon Amoffel.",
+      "path": "public/assets/references/carlon-amoffel-visual-reference.png",
+      "width": 700,
+      "height": 1016,
+      "bytes": 379128,
+      "sha256": "7539c5885aed9492298e078063645d3d15592587fb53371f5bbfdcf8ba851d34",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": true,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
+    },
+    {
+      "id": "carlon-road-rescue",
+      "path": "public/assets/groups/carlon-road-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136384,
+      "sha256": "5a56e1fbc2dc20f6821ddb55d0a08e438d5793098ecd85f2d8f623412c90cf96",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Grouped near layer of Carlon buried to his neck, Coppercoil with a flask, and kneeling Lucien. The forehead lettering is a separate editable source overlay composited into this plane.",
+      "sourcePath": "public/assets/sources/carlon-road-rescue-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "carlon-road-rune-rescue",
+      "path": "public/assets/groups/carlon-road-rune-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136450,
+      "sha256": "e087048f50bee80cb25bf232ce3f18b55a534f526114b67beb262f25602240be",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Carlon’s circular oathbreaker rune stays registered to his forehead in the roadside rescue group.",
+      "sourcePath": "public/assets/sources/carlon-road-rune-rescue-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "lucien-interview-pair",
+      "path": "public/assets/groups/lucien-interview-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 153300,
+      "sha256": "cd2252c96f29684acf40dafeead0a4c37dae0ccf2712e8e5233e5b3e26d893f9",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien listens while the weary Carlon speaks, with the existing oathbreaker rune on his forehead.",
+      "sourcePath": "public/assets/sources/lucien-interview-pair-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    }
+  ],
+  "appearance": {
+    "build": "Lean, wiry adult man.",
+    "features": "Tangled shoulder-length brown hair, stubble, sunburned and dirt-streaked skin, and dark tattoos on his left shoulder and upper arm.",
+    "rescueClothing": "Bare chest and feet, a ragged tan waist wrap tied with rope, and a round pendant.",
+    "forehead": "A complex circular oathbreaker rune tattooed on his forehead, with interlocking strokes inside the ring."
+  },
+  "events": [
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Rescued from burial in the road and questioned in Lucien’s wagon."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Said he broke off an engagement after learning the woman’s family were bandits who expected him to join them. Lucien suspected he was withholding something."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Volunteered to drive the wagon after the shrieker delay, freeing Lucien to talk about his dreams."
+    }
+  ]
+}

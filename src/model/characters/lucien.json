@@ -306,6 +306,110 @@
         "nearLosslessBytes": 222294
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-dream-chamber",
+      "path": "public/assets/environments/lucien-dream-chamber-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 347078,
+      "sha256": "280eba2bf6ba369543a64fe48e2ed2a0b598a67eb20a988b4b5ab4364fc76050",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien and a robed silhouette in the black stone chamber. The figures are part of the scenery plate.",
+      "sourcePath": "public/assets/sources/lucien-dream-chamber-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "lucien-dream-watching",
+      "path": "public/assets/characters/lucien-dream-watching-v1.webp",
+      "width": 640,
+      "height": 960,
+      "bytes": 82104,
+      "sha256": "71f84610500334ae2fc028450dcaf399e3e6a77ff6076008edc97922994ce35c",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "description": "Rear three-quarter cutout of Lucien in crimson-purple robes, looking toward the dream crossing.",
+      "sourcePath": "public/assets/sources/lucien-dream-watching-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "carlon-road-rescue",
+      "path": "public/assets/groups/carlon-road-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136384,
+      "sha256": "5a56e1fbc2dc20f6821ddb55d0a08e438d5793098ecd85f2d8f623412c90cf96",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Grouped near layer of Carlon buried to his neck, Coppercoil with a flask, and kneeling Lucien. The forehead lettering is a separate editable source overlay composited into this plane.",
+      "sourcePath": "public/assets/sources/carlon-road-rescue-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "carlon-road-rune-rescue",
+      "path": "public/assets/groups/carlon-road-rune-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136450,
+      "sha256": "e087048f50bee80cb25bf232ce3f18b55a534f526114b67beb262f25602240be",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Carlon’s circular oathbreaker rune stays registered to his forehead in the roadside rescue group.",
+      "sourcePath": "public/assets/sources/carlon-road-rune-rescue-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "lucien-interview-pair",
+      "path": "public/assets/groups/lucien-interview-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 153300,
+      "sha256": "cd2252c96f29684acf40dafeead0a4c37dae0ccf2712e8e5233e5b3e26d893f9",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien listens while the weary Carlon speaks, with the existing oathbreaker rune on his forehead.",
+      "sourcePath": "public/assets/sources/lucien-interview-pair-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "species": "aasimar",
@@ -478,6 +582,31 @@
       "date": "6 Ches 1492 DR",
       "location": "Road from Baldur’s Gate to Waterdeep",
       "event": "Played Three-Dragon Ante with Balerias, Lucien, Arietta, Samardag and Radecere while the caravan rested for the night; Lucien and Arietta sat together."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Received the Spell Scroll (Tremor) from Coppercoil and claimed the silver cloak pin recovered from the cocoon."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Dreamed of a robed figure, a bridge under fire, and a traveller with intricate forehead markings. Heard “Dagger” before black water swallowed him, then woke to Arietta asking about his dreams."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Thought Carlon’s forehead marking echoed his dream and volunteered to take responsibility for him. Sheltered and questioned him in the wagon and suspected he was withholding something."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Identified the roadside shriekers and their shared mycelium with Aldrik and Coppercoil, then retreated as their cries overwhelmed him with grief."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Talked further about his dreams while Carlon drove, then joined Aldrik and Coppercoil in planning an approach to the overturned wagon under hobgoblin attack."
     }
   ]
 }

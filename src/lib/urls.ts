@@ -7,3 +7,16 @@ export function assetUrl(
   }
   return `${basePath}/${path}`;
 }
+
+export const narrationAudioPath =
+  /^assets\/audio\/(?:[a-zA-Z0-9_-]+\/)*[^/\\]+\.mp3$/u;
+
+export function narrationAudioUrl(
+  path: string,
+  basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "",
+): string {
+  if (!narrationAudioPath.test(path)) {
+    throw new Error(`Invalid narration audio path: ${path}`);
+  }
+  return `${basePath}/${path.split("/").map(encodeURIComponent).join("/")}`;
+}

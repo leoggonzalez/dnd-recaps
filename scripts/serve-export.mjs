@@ -9,6 +9,7 @@ const types = {
   ".css": "text/css",
   ".json": "application/json",
   ".webp": "image/webp",
+  ".mp3": "audio/mpeg",
 };
 createServer(async (req, res) => {
   const url = new URL(req.url, "http://localhost");
@@ -28,13 +29,38 @@ createServer(async (req, res) => {
   }
   try {
     const body = await readFile(file);
-    res
-      .writeHead(200, {
-        "Content-Type": types[extname(file)] ?? "application/octet-stream",
-      })
-      .end(body);
+    const contentType = types[extname(file)] ?? "application/octet-stream";
+    const headers = {
+      "Content-Type": contentType,
+      "Content-Length": body.length,
+    };
+    if (contentType === "audio/mpeg") {
+      headers["Accept-Ranges"] = "bytes";
+      const range = /^bytes=(\d+)-(\d*)$/.exec(req.headers.range ?? "");
+      if (range) {
+        const start = Number(range[1]);
+        const end = range[2]
+          ? Math.min(Number(range[2]), body.length - 1)
+          : body.length - 1;
+        if (start > end) {
+          res
+            .writeHead(416, { "Content-Range": `bytes */${body.length}` })
+            .end();
+          return;
+        }
+        res
+          .writeHead(206, {
+            ...headers,
+            "Content-Length": end - start + 1,
+            "Content-Range": `bytes ${start}-${end}/${body.length}`,
+          })
+          .end(body.subarray(start, end + 1));
+        return;
+      }
+    }
+    res.writeHead(200, headers).end(body);
   } catch {
     const body = await readFile(resolve(root, "404.html"));
     res.writeHead(404, { "Content-Type": "text/html" }).end(body);
   }
-}).listen(4173, "127.0.0.1");
+}).listen(4000, "127.0.0.1");

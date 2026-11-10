@@ -34,7 +34,7 @@ The three-scene prototype described below is an intermediate validation mileston
 - Narrative source: [src/data/sessions/28.10.2026.md](../src/data/sessions/28.10.2026.md).
 - Visual and framing reference only: [src/data/sessions/28.10.2026/storyboard.md](../src/data/sessions/28.10.2026/storyboard.md).
 - Character continuity: records and portraits in [src/model/characters/](../src/model/characters/).
-- Existing illustration workflow: [skills/dnd-session-images/SKILL.md](../skills/dnd-session-images/SKILL.md).
+- Standalone illustrations: [D&D One-Off Images](../skills/dnd-one-off-images/SKILL.md). Playable scenes: [Animated Session Recaps](../skills/animated-session-recaps/SKILL.md).
 - Existing still illustrations: [public/assets/illustrations/](../public/assets/illustrations/).
 - Current user direction: parchment and ink reference images supplied in the planning conversation.
 
@@ -421,7 +421,7 @@ Tasks: execute focused automated tests; review all scenes on target browsers/dev
 
 Done when: the deployed recap meets the checklist below and all identified blocking issues are resolved.
 
-The last implementation phase is the authoring skill in section 17. It must follow validation of the finished app so it describes actual behavior rather than this proposal.
+The authoring skill in section 17 documents verified behavior in the implemented player. Hosted release checks are tracked separately.
 
 ## 14. Verification strategy and MVP definition of done
 
@@ -454,7 +454,7 @@ Review Chromium, Firefox, and WebKit, with at least one real mobile browser for 
 - [ ] Per-image and total recap budgets pass, with any exceptions recorded.
 - [ ] Static export and deployed Pages subpath work on reload.
 - [ ] Source archives and unrelated project material are absent from the published artifact.
-- [ ] The final authoring skill is created and verified as described in section 17.
+- [x] The authoring skill is created and verified with the disposable example in section 17.
 
 ## 15. Risks and planned responses
 
@@ -481,7 +481,7 @@ Do not add placeholder audio controls, generator integrations, or audio files to
 
 ## 17. Final implementation task — write and verify the recap-authoring skill
 
-Only after the app, complete October 28 recap, and release checks work, create `skills/animated-session-recaps/SKILL.md` using the skill-creator workflow. This is the final implementation milestone, not work to perform while writing this plan.
+The user requested the [authoring skill](../skills/animated-session-recaps/SKILL.md) after all nine October scenes were illustrated. It documents the implemented workflow. Release validation remains a separate milestone.
 
 The skill must describe the finished implementation accurately and enable a future assistant to create another recap without reverse-engineering the application.
 

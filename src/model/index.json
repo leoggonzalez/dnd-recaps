@@ -39,6 +39,24 @@
     "src/model/creatures/coppergoat.json",
     "src/model/environments/deep-forest.json",
     "src/model/objects/forest-cocoon.json",
-    "src/model/groups/cocoon-observers.json"
+    "src/model/groups/cocoon-observers.json",
+    "src/model/npcs/carlon-amoffel.json",
+    "src/model/npcs/losvius-longnose.json",
+    "src/model/npcs/green-imsa.json",
+    "src/model/npcs/lasfelro-the-silent.json",
+    "src/model/npcs/lai-angesstun.json",
+    "src/model/npcs/aldor-urnpoleshurst.json",
+    "src/model/environments/lucien-dream.json",
+    "src/model/environments/daylight-wagon.json",
+    "src/model/groups/zelina-coppercoil-lesson.json",
+    "src/model/objects/nightglass-sketch.json",
+    "src/model/objects/zelina-lesson-light.json",
+    "src/model/objects/coppercoil-wagon-workshop.json",
+    "src/model/environments/caravan-road-rescue.json",
+    "src/model/groups/carlon-road-decision.json",
+    "src/model/groups/carlon-road-rescue.json",
+    "src/model/objects/carlon-road-friends-cue.json",
+    "src/model/groups/lucien-carlon-interview.json",
+    "src/model/objects/lucien-wagon-dust.json"
   ]
 }

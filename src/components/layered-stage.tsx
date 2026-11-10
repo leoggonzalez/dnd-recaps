@@ -61,10 +61,10 @@ export function LayeredStage({
         ref={ref}
         className="stage-placeholder"
         role="img"
-        aria-label={`Artwork in preparation. Planned scene: ${scene.description}`}
+        aria-label={`Illustration in progress. Planned scene: ${scene.description}`}
       >
         <div className="placeholder-border">
-          <span className="eyebrow">Illustration in preparation</span>
+          <span className="eyebrow">Illustration in progress</span>
           <span className="chapter-number" aria-hidden="true">
             {String(index + 1).padStart(2, "0")}
           </span>
@@ -199,7 +199,8 @@ export function LayeredStage({
         const base = session.assets.find((a) => a.id === actor.assetId)!;
         const height = (actor.width * base.height) / base.width;
         const motion = actor.motion;
-        const intervals = poseIntervals(actor, scene.durationMs);
+        const poseDuration = actor.poseLoopMs ?? scene.durationMs;
+        const intervals = poseIntervals(actor, poseDuration);
         return (
           <div
             className="actor-position"
@@ -260,7 +261,10 @@ export function LayeredStage({
                             : undefined,
                         scale: actor.flipX ? "-1 1" : undefined,
                         animationName: name,
-                        animationDuration: `${scene.durationMs}ms`,
+                        animationDuration: `${poseDuration}ms`,
+                        animationIterationCount: actor.poseLoopMs
+                          ? "infinite"
+                          : undefined,
                       }}
                     />
                   );

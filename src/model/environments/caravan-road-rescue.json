@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "caravan-road-rescue",
+  "name": "Halted caravan road",
+  "category": "environments",
+  "description": "Ground-level view of a halted merchant caravan, horses and distant spectators.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "rescue",
+    "carlon"
+  ],
+  "reuseWhen": "Use with the November 4 roadside rescue composition and its registered layers.",
+  "assets": [
+    {
+      "id": "carlon-road-road",
+      "path": "public/assets/environments/carlon-road-road-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 496666,
+      "sha256": "ea48809c79f4a7ab874cb11061c605d1d38750a14864aa71e4a544e157091e77",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Ground-level view of a halted merchant caravan, horses and distant spectators.",
+      "sourcePath": "public/assets/sources/carlon-road-road-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "lai-angesstun",
+  "name": "Lai Angesstun",
+  "category": "npcs",
+  "style": "parchment-ink-v1",
+  "tags": [
+    "caravan"
+  ],
+  "assets": [
+    {
+      "id": "reference-lai-angesstun",
+      "description": "Supplied portrait card for Lai Angesstun.",
+      "path": "public/assets/references/lai-angesstun-visual-reference.png",
+      "width": 744,
+      "height": 1168,
+      "bytes": 789833,
+      "sha256": "da4bf085cba7f0992ff0a42aad90196871841c3b3dd6144db8a1e3fed78ce6ab",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": true,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
+    }
+  ],
+  "description": "Gold dwarf merchant hauling cooking oil and perfume from Amn. Talks frequently about money and is reluctant to spend it on others.",
+  "references": [
+    "src/data/sessions/04.11.2026.md",
+    "public/assets/references/lai-angesstun-visual-reference.png"
+  ],
+  "reuseWhen": "Use the supplied portrait for appearance continuity. Existing shared artwork depicts the original scene and setting.",
+  "appearance": {
+    "features": "Sturdy dwarf with golden hair and a long, elaborately braided golden beard.",
+    "clothing": "Gold-trimmed violet coat, cream shirt, patterned red sash, gold jewelry and a carrying rack for bottles and barrels."
+  },
+  "events": [
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Coppercoil asked him about nightglass, which Lai did not recognise."
+    }
+  ]
+}

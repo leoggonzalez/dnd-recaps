@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "coppercoil-wagon-workshop",
+  "name": "Coppercoil’s wagon workshop",
+  "category": "objects",
+  "style": "parchment-ink-v1",
+  "description": "Coppercoil’s travelling artificer workbench and hanging organizer, stocked with tools, gears, spare parts, wire, and gems for building magical artifacts.",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md",
+    "src/model/characters/coppercoil.json"
+  ],
+  "tags": [
+    "coppercoil",
+    "artificer",
+    "wagon",
+    "workbench"
+  ],
+  "reuseWhen": "Stage with Coppercoil’s wagon. Keep the workbench and organizer on separate planes so the lesson or work in progress stays visible.",
+  "assets": [
+    {
+      "id": "coppercoil-wagon-bench",
+      "path": "public/assets/objects/coppercoil-wagon-bench-v1.webp",
+      "width": 720,
+      "height": 480,
+      "bytes": 96458,
+      "sha256": "ae3d42f2149628342890ddcc4a94f3a9e359a967838b678f42aa938b0bfa9550",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "description": "Compact strapped workbench with tools, brass gears, wire, gems, and a partly assembled brass-and-crystal mechanism.",
+      "sourcePath": "public/assets/sources/coppercoil-wagon-bench-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "coppercoil-wagon-rack",
+      "path": "public/assets/objects/coppercoil-wagon-rack-v1.webp",
+      "width": 720,
+      "height": 240,
+      "bytes": 29140,
+      "sha256": "ed12fd3aa680b94d5558e4159b86ad8786132e6efa5e100be50c31089dc048a8",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "description": "Hanging wagon organizer with gears, wire, pliers, glass jars of small stones, and spare brass parts.",
+      "sourcePath": "public/assets/sources/coppercoil-wagon-rack-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

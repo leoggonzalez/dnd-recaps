@@ -3,17 +3,19 @@
   "id": "samardag-the-hoper",
   "name": "Samardag the Hoper",
   "category": "npcs",
-  "description": "Host of the caravan’s Three-Dragon Ante game. Appearance remains provisional and indistinct in the group illustration.",
+  "description": "Optimistic human merchant who hauls fragile porcelain and has a soft spot for people in need.",
   "style": "parchment-ink-v1",
   "references": [
-    "src/data/sessions/28.10.2026.md"
+    "src/data/sessions/28.10.2026.md",
+    "src/data/sessions/04.11.2026.md",
+    "public/assets/references/samardag-the-hoper-visual-reference.png"
   ],
   "tags": [
     "caravan",
     "cards",
     "night"
   ],
-  "reuseWhen": "Reuse this shared game composition for this night rest only. No approved individual portrait or detailed appearance reference exists.",
+  "reuseWhen": "Use the supplied portrait for appearance continuity. Existing shared artwork depicts the original scene and setting.",
   "assets": [
     {
       "id": "camp-night-gamblers",
@@ -39,6 +41,25 @@
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "reference-samardag-the-hoper",
+      "description": "Supplied portrait card for Samardag the Hoper.",
+      "path": "public/assets/references/samardag-the-hoper-visual-reference.png",
+      "width": 732,
+      "height": 1116,
+      "bytes": 711270,
+      "sha256": "fe7dee82af119b76188a620a891ca086386604ea018b2f07a1d83f7fc4e38f1a",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": true,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
     }
   ],
   "events": [
@@ -46,6 +67,15 @@
       "date": "6 Ches 1492 DR",
       "location": "Road from Baldur’s Gate to Waterdeep",
       "event": "Host of the caravan’s Three-Dragon Ante game while the caravan rested for the night."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Explained that nightglass means obsidian in Amn."
     }
-  ]
+  ],
+  "appearance": {
+    "features": "Wavy dark hair and a full salt-and-pepper beard.",
+    "clothing": "Gold-trimmed blue coat, cream shirt, patterned red scarf and a wooden carrying rack for blue-and-white porcelain."
+  }
 }

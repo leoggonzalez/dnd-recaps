@@ -104,6 +104,27 @@
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "carlon-road-decision",
+      "path": "public/assets/groups/carlon-road-decision-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 118226,
+      "sha256": "bad704cf257028078e5da2f4ee4014fdf090afa845f5c4e4c73c745f6730ab12",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Grouped roadside decision pose with Sulesdeg, Aldor and his ledger, Aldrik’s discreet gesture, and Tyjit.",
+      "sourcePath": "public/assets/sources/carlon-road-decision-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "character_type": "npc",
@@ -135,6 +156,21 @@
       "date": "6 Ches 1492 DR",
       "location": "Road from Baldur's Gate to Waterdeep",
       "event": "Watched the Three-Dragon Ante game with Sulesdeg; neither joined, and both appeared ready to deter cheating."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Called for the caravan to dig Carlon Amoffel free after finding him buried up to his neck."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Suggested asking porcelain merchant Samardag the Hoper about nightglass."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Halted the caravan after Aldrik reported hobgoblins attacking an overturned wagon and asked the party to clear the danger."
     }
   ]
 }

@@ -1,0 +1,316 @@
+[
+  {
+    "id": "lucien-dream-chamber",
+    "tool": "Built-in ImageGen",
+    "prompt": "16:9 landscape, antique fantasy storybook plate, fine sepia pen contours and intricate crosshatching on visible warm parchment grain, restrained watercolor washes, hand-inked, subdued palette, quiet menace. No text, borders, graphic panels, modern objects, or photographic rendering. Compose edge to edge with safe margins for a small camera crop. Lucid nightmare establishing shot. A vast chamber of polished black stone, centered vanishing point and floor tiles covering the lower half. Black liquid seeps through a few tile seams. A familiar but unidentifiable robed silhouette stands in the distant middle, backlit dimly. Near foreground left of center, seen from behind, a dark-skinned man with tightly cropped black hair and crimson-purple robes with gold edging looks toward the figure. Ink black, faded indigo and subdued wine red.",
+    "archive": "public/assets/sources/lucien-dream-chamber-v1.png",
+    "reference": "public/assets/references/lucien-visual-reference.png"
+  },
+  {
+    "id": "lucien-dream-bridge",
+    "tool": "Built-in ImageGen",
+    "prompt": "16:9 landscape, antique fantasy storybook plate, fine sepia pen contours and intricate crosshatching on visible warm parchment grain, restrained watercolor washes, hand-inked, subdued palette, quiet menace. No text, borders, graphic panels, modern objects, or photographic rendering. Compose edge to edge with safe margins for a small camera crop. A broad medieval stone bridge crowded with silhouetted foot soldiers at a troubled crossing. View across and slightly downstream from water level. Arrow silhouettes traverse the stormy sky, and the river below the arch turns inky black. Distant indistinct faces, smoke-gray and cold indigo wash, warm parchment glints in the water. No gore.",
+    "archive": "public/assets/sources/lucien-dream-bridge-v1.png"
+  },
+  {
+    "id": "lucien-dream-covered",
+    "tool": "Built-in ImageGen",
+    "prompt": "Create the immediately preceding frame of the supplied dream illustration. Preserve the exact 16:9 composition, river surface, ripples, leaves, sunlight, color, orientation, and reflected traveller's identity and position. Make a single targeted change: put the already depicted brown woollen cap back on the traveller's head with its front brim pulled down to just above his eyebrows, completely covering the forehead markings. This frame will cut directly to the reference frame as the wind lifts the cap. Keep the style, pose, scale, light and every surrounding element as close to identical as possible. No text.",
+    "archive": "public/assets/sources/lucien-dream-covered-v1.png",
+    "reference": "public/assets/sources/lucien-dream-reflection-v1.png"
+  },
+  {
+    "id": "lucien-dream-reflection",
+    "tool": "Built-in ImageGen",
+    "prompt": "16:9 landscape, antique fantasy storybook plate, fine sepia pen contours and intricate crosshatching on visible warm parchment grain, restrained watercolor washes, hand-inked, subdued palette, quiet menace. No text, borders, graphic panels, modern objects, or photographic rendering. Compose edge to edge with safe margins for a small camera crop. Single surreal dream view, close overhead on black river water, with the upright reflected face of an adult human traveller clearly readable in the water near center. Warm sunlight strikes the reflection alone. A woollen travel cap has been lifted just above the forehead by a gust, clearly exposing intricate interlocking ink markings resembling abstract knots and curls on the forehead. The face belongs to an anonymous traveller, softened by subtle ripples toward its edges. No letters, no word OATHBREAKER. Frame a dark river around the warm focal point.",
+    "archive": "public/assets/sources/lucien-dream-reflection-v1.png"
+  },
+  {
+    "id": "lucien-dream-graves",
+    "tool": "Built-in ImageGen",
+    "prompt": "16:9 landscape, antique fantasy storybook plate, fine sepia pen contours and intricate crosshatching on visible warm parchment grain, restrained watercolor washes, hand-inked, subdued palette, quiet menace. No text, borders, graphic panels, modern objects, or photographic rendering. Compose edge to edge with safe margins for a small camera crop. Forgotten graves and broken medieval swords jutting from a riverbank at a lost crossing. Wide view low to the earth, quiet grief, two or three weathered gravestones, fragment of a bridge far away, black river encroaching, with the graves and swords still clearly legible. Slate washes, dull umber and faded ochre parchment. No people and no lettering.",
+    "archive": "public/assets/sources/lucien-dream-graves-v1.png"
+  },
+  {
+    "id": "lucien-dream-mist",
+    "tool": "Built-in ImageGen",
+    "prompt": "Transparent background asset, 16:9 landscape. Sparse wispy graphite-black ink river mist framing the outer corners only, thin irregular tendrils with feathered watercolor edges, vast center and most of frame fully transparent. Fine etched sepia texture, quiet antique fantasy storybook. Frame edge effect only, no scenery, no writing, no background fill.",
+    "archive": "public/assets/sources/lucien-dream-mist-v1.png"
+  },
+  {
+    "id": "lucien-dream-edge",
+    "tool": "Built-in ImageGen",
+    "prompt": "A transparent 16:9 frame overlay for an antique fantasy storybook nightmare. Extremely sparse watery ink droplets and fine curved wave-lines hugging the bottom left and right corners and the lower edge only. Mostly true transparent alpha, leave the central 85 percent empty and fully transparent. Subtle semi-translucent cool sepia and indigo watercolor with hand-drawn ink hatching. No landscape, no solid background, no lettering, no straight border. This is a near-camera effect viewed over separately illustrated dream scenes.",
+    "archive": "public/assets/sources/lucien-dream-edge-v1.png"
+  },
+  {
+    "id": "lucien-dream-wash",
+    "tool": "Built-in ImageGen",
+    "prompt": "Transparent background asset, 16:9 landscape. A single dense rolling black ink-water wash fills the bottom two thirds from edge to edge, with a low uneven waterline, a few stylized rising tongues of black liquid and subtle etched wave lines. Upper third truly transparent, bottom edge solid black, clean alpha. Antique fantasy parchment storybook, fine sepia ink crosshatching and inky indigo watercolor with subtle texture. Single foreground animation layer. No background, no scenery, no lettering.",
+    "archive": "public/assets/sources/lucien-dream-wash-v1.png"
+  },
+  {
+    "id": "lucien-dream-held-crossing",
+    "tool": "Built-in ImageGen",
+    "prompt": "Create an opaque wide 16:9 antique fantasy storybook environment for a single held dream scene. Use attached ink artwork for texture, architecture and river mood. One uninterrupted composition, no panel borders, no text. On left quarter, polished charcoal stone hall tiles and a dim vaulted interior; leave lower-left mostly open and dark for a large separately supplied character silhouette. A small anonymous hooded robed figure stands deep within the hall around one third across. On the right two-thirds the wet stone architecture opens impossibly into a cold indigo river landscape. At upper middle right a medieval stone arch bridge crosses the water. Small crowded ranks of soldiers as overlapping silhouettes, a few fine arrow streaks through distant pale storm haze. Black water running along the tile seams widens naturally into the river. In the lower right, an understated amber patch in the water holds a faint reflected human face partly hidden under a brown wool cap, distorted by surface ripples, no visible forehead marks. The bridge and hall remain readable simultaneously, atmospheric fog subtly connects them. Fine sepia etched contours, muted watercolor on aged parchment, darker near shapes and lighter distant silhouettes, crisp middle distance, dramatic but readable. Full bleed, no graphic frames or lettering.",
+    "archive": "public/assets/sources/lucien-dream-held-crossing-v1.png",
+    "references": [
+      "public/assets/sources/lucien-dream-chamber-v1.png",
+      "public/assets/sources/lucien-dream-bridge-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-dream-watching",
+    "tool": "Built-in ImageGen",
+    "prompt": "Transparent alpha character cutout for a 16:9 fantasy storybook illustration, asset only, full figure, no setting, floor or shadow. Lucien is a dark-skinned adult man, tightly cropped black hair and neat short beard, shown from behind in a slight three-quarter rear view facing right toward a distant bridge. His stance is still and watchful. Dark burgundy-crimson and purple layered robes with understated fine gold trim, no hood, no weapons. Use the first attached portrait solely for identity and the second illustration for matching wardrobe, angle, and muted pen-and-ink watercolor rendering. Soft cool rim light on his right shoulder, fine sepia crosshatching, clean silhouette and enough room around head, hands, cloak and feet. Vertical character canvas with true transparency everywhere outside the character.",
+    "archive": "public/assets/sources/lucien-dream-watching-v1.png",
+    "references": [
+      "public/assets/references/lucien-visual-reference.png",
+      "public/assets/sources/lucien-dream-chamber-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-dream-lost-bank",
+    "tool": "Built-in ImageGen",
+    "prompt": "One continuous opaque 16:9 parchment-and-ink fantasy dream illustration, full bleed, no borders, no typography. Show one unified riverbank view, low over the near shore. Across the upper third, the same medieval stone bridge from reference 1 recedes through cold smoke and scattered anonymous soldier silhouettes. At the left bank in the near foreground are forgotten stone grave markers and a few broken sword blades, as in reference 3. Use dark rippling water across the center and lower half. The most important detail is a large warm sunlit reflection of the exact anonymous brown-haired stubbled traveller in reference 2, in the lower right quadrant. His face appears only as a reflection blended into the river, looking upright toward us, with intricate curling abstract ink markings across the forehead, and clear amber light on them. His head is BARE, no hat anywhere. Position his reflected forehead around 69% across and 65% down, with space immediately above it for a separately composited cap. Keep the reflected face about one fourth the frame width, muted enough to belong to the water but unmistakable at small display size. Mood is a lost crossing, ambiguity, grief. Fine sepia etching and crosshatching, warm parchment texture, deep indigo river, soft distance, no gore, no readable marks other than abstract curls.",
+    "archive": "public/assets/sources/lucien-dream-lost-bank-v1.png",
+    "references": [
+      "public/assets/sources/lucien-dream-held-crossing-v1.png",
+      "public/assets/sources/lucien-dream-reflection-v1.png",
+      "public/assets/sources/lucien-dream-graves-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-dream-reflected-cap",
+    "tool": "Built-in ImageGen",
+    "prompt": "Isolate the anonymous traveller’s brown woollen cap from the reference dream reflections as a single asset. Show only the cap viewed straight from the front at the same perspective as the reflected traveller, horizontal low fold, rounded crown, no head, no other objects, no background. Antique parchment pen and ink style, muted amber reflected sunlight with cool dark brown shadows. Soft subtly rippled edges like a reflection, clean true transparent alpha around the entire hat, no cast shadow or atmospheric backdrop. Close crop around hat, landscape frame.",
+    "archive": "public/assets/sources/lucien-dream-reflected-cap-v1.png",
+    "references": [
+      "public/assets/sources/lucien-dream-covered-v1.png",
+      "public/assets/sources/lucien-dream-reflection-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-dream-worn-cap",
+    "tool": "Built-in ImageGen",
+    "prompt": "Edit the supplied isolated brown woollen cap into an alternate sprite for when it is worn by the man shown in the second reference. Keep the same exact camera angle, shape of the knitted crown, ribbing, warm amber light, front folded brim and centered framing as the first image, because the sprites will crossfade in the exact same position. Change only the area BELOW the rolled front brim: remove the dark inner opening, the back rim, and the visible underside of the hat entirely, making them fully transparent. The lower silhouette should end at the front edge of the rolled brim like a cutout over a forehead. Do not add any face, hair, head, shadow or background. Antique sepia pen-and-ink crosshatching. True transparent alpha. Match existing cap dimensions and scale.",
+    "archive": "public/assets/sources/lucien-dream-worn-cap-v1.png",
+    "references": [
+      "public/assets/sources/lucien-dream-reflected-cap-v1.png",
+      "public/assets/sources/lucien-dream-lost-bank-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-dream-lost-bank-clean",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Edit only the distant stone bridge and the soldiers, spears and banners directly on it. Remove that entire bridge and the ranks on it, and paint through the opening with the natural river valley, matching the storm haze, far rocks and grey sky already visible behind the bridge. Preserve the exact composition, 16:9 canvas, warm light, river, reflected traveller, swords, and grave bank. Match all pixels away from the bridge as closely as possible. This is a clean plate for a separately layered illustration. No new structures.",
+    "archive": "public/assets/sources/lucien-dream-lost-bank-clean-v1.png",
+    "references": [
+      "public/assets/sources/lucien-dream-lost-bank-v1.png",
+      "public/assets/sources/lucien-dream-march-clean-edit-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-dream-march-a",
+    "tool": "Asset preparation",
+    "prompt": "Extract the bridge and ranks from the original held riverbank illustration with a feathered alpha boundary.",
+    "archive": "public/assets/sources/lucien-dream-march-a-v1.png",
+    "references": [
+      "public/assets/sources/lucien-dream-lost-bank-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-dream-march-b",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Create an alternate animation frame of this exact 16:9 ink illustration. Edit only the small silhouettes of the soldiers marching along the top of the bridge. Maintain their size, direction, and silhouette density. Shift some silhouettes by about one head-width along the parapet and stagger their heads, weapons, and shoulders to suggest the next step of a marching army. Change only small gestures and banner folds. Keep the bridge stonework, arches, perspective, crop, distant haze, riverbank, sky, and light pixel-aligned with the input. Do not move or redraw the architecture. No text.",
+    "archive": "public/assets/sources/lucien-dream-march-b-v1.png",
+    "references": [
+      "public/assets/sources/lucien-dream-lost-bank-v1.png",
+      "public/assets/sources/lucien-dream-march-stride-edit-v1.png"
+    ]
+  },
+  {
+    "id": "zelina-lesson-wagon",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook art, fine sepia pen outlines and crosshatching over muted watercolor on warm parchment, hand-etched texture, cinematic but readable shapes, natural anatomy and restrained color. No lettering, frames, or subtitles. Full opaque landscape 16:9 background plate, low camera at seated hand height inside a small travelling wooden wagon with rounded canvas ribs. Camera looks toward the daylight opening, which is in the UPPER RIGHT third. Diffused soft cool daylight cuts through the opening into a warm, shadowy cream and walnut interior. In the far distance near that opening at upper right, a small backlit adult woman with auburn braid, olive-green travel cloak and blue-gray scarf sits facing out, attending to a bundle, unaware of the foreground. This is Arietta, loosely match the green-cloaked woman in the character reference. Leave the entire middle and left foreground OPEN and darker for two separate transparent figures who will be added later. Floorboard plane, wall and doorway connect naturally, quiet close quarters. No foreground figures, vials, hands, magic, sparks or bright lights in the foreground.",
+    "archive": "public/assets/sources/zelina-lesson-wagon-v1.png",
+    "references": [
+      "public/assets/sources/wagon-interior-far-v1.png",
+      "public/assets/sources/arietta-lucien-v1.png",
+      "public/assets/sources/zelina-lesson-wagon-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "zelina-lesson-pair",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook art, fine sepia pen outlines and crosshatching over muted watercolor on warm parchment, hand-etched texture, cinematic but readable shapes, natural anatomy and restrained color. No lettering, frames, or subtitles. One isolated grouped character cutout on true transparent alpha, landscape canvas. Intimate two-person magic lesson at hand height in a covered wagon, with NO room, ground, or setting painted. On LEFT, adult woman Zelina as shown in first reference: rust-red hood and cloak, long dark-brown braid, blue-green scarf, cream tunic, olive trousers. She is seated on a simple low wooden bench shown under her, in three-quarter profile facing right, alert delighted expression. Her right forearm extends into the clear CENTER gap, ONE hand palm up, anatomically clean, palm at the exact center of the whole image and easy to see. Her other hand rests on her knee. At RIGHT, tiny 1-meter copper dragonborn Coppercoil leans in attentively, reptilian not human, orange metallic scales, clearly mechanical brass lower jaw, bright green eyes, goggles perched on brow, visible glowing emerald chest core, eccentric artificer travel gear. Use the smallest copper figure in second reference solely for his design. He is noticeably smaller than a standing adult, and his head is at about Zelina's seated shoulder height. Warm light faintly grazes both their fingers and faces from the empty space over the palm; cool soft daylight rim from upper right. Leave space between both faces and above the open palm for separately animated sparks. No drawn spark or magic, no floating accessories or extra limbs. Keep outer silhouettes, heads, hands and feet fully in frame. The bench is attached to her pose. No other figures or background.",
+    "archive": "public/assets/sources/zelina-lesson-pair-v1.png",
+    "references": [
+      "public/assets/references/zelina-innevar-visual-reference.png",
+      "public/assets/sources/cocoon-party-observers-v1.png",
+      "public/assets/sources/zelina-lesson-pair-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "zelina-lesson-sketch",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook art, fine sepia pen outlines and crosshatching over muted watercolor on warm parchment, hand-etched texture, cinematic but readable shapes, natural anatomy and restrained color. No lettering, frames, or subtitles. Transparent foreground prop cutout. Oblique view looking down slightly on an open small parchment sketchbook resting on the end of a rough wooden traveller’s crate, with a small dark charcoal pencil. The open page has a simple clear rough line drawing of a little black glass perfume vial with a copper wire coil around the neck and stopper. The drawing is a sketch ON the page. No real glass vial, text, human, glow or ground. The support and book are one grouped isolated asset, 3:2 landscape with transparency everywhere outside.",
+    "archive": "public/assets/sources/zelina-lesson-sketch-v1.png",
+    "references": [
+      "public/assets/sources/zelina-lesson-sketch-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "zelina-lesson-thread",
+    "tool": "SVG and asset preparation",
+    "prompt": "A tapered thread of warm light approaches Zelina’s palm.",
+    "archive": "public/assets/sources/zelina-lesson-thread-v1.png"
+  },
+  {
+    "id": "zelina-lesson-sparks-a",
+    "tool": "SVG and asset preparation",
+    "prompt": "First pose of a warm spark shimmer above Zelina’s palm.",
+    "archive": "public/assets/sources/zelina-lesson-sparks-a-v1.png"
+  },
+  {
+    "id": "zelina-lesson-sparks-b",
+    "tool": "SVG and asset preparation",
+    "prompt": "Second pose of the same warm spark shimmer, with slightly shifted motes.",
+    "archive": "public/assets/sources/zelina-lesson-sparks-b-v1.png"
+  },
+  {
+    "id": "coppercoil-wagon-bench",
+    "tool": "Built-in ImageGen",
+    "prompt": "Match the reference wagon’s hand-etched sepia lines, watercolor on parchment, subdued walnut and brass, and cool daylight from the upper right. Isolated transparent prop cutout, no surrounding room, people, floor, or text. A compact but busy medieval fantasy artificer's workbench for the right foreground of that narrow moving wagon. Look down slightly at the work surface, in three-quarter perspective, its long axis receding away toward upper right to follow the right wall of the wagon. Waist height for a one-meter-tall artificer. Sturdy strapped wooden bench with visible legs, shallow parts trays of brass gears, springs and tiny screws, calipers, small hammer, pliers, a vise and copper wire. Two or three subdued cut gemstones and a partially assembled brass-and-crystal magical mechanism. Secure parts in trays so they can travel. Dark worn wood, muted gem color, small catching highlights. Show enough of the legs for grounding. Landscape 3:2, clean alpha throughout the outside.",
+    "archive": "public/assets/sources/coppercoil-wagon-bench-v1.png",
+    "references": [
+      "public/assets/sources/zelina-lesson-wagon-v1.png"
+    ]
+  },
+  {
+    "id": "coppercoil-wagon-rack",
+    "tool": "Built-in ImageGen",
+    "prompt": "Match the reference wagon’s hand-etched sepia lines, watercolor on parchment, subdued walnut and brass, and cool daylight from the upper right. Isolated transparent prop cutout, no surrounding room, people, floor, or text. A long shallow wooden artificer parts organizer on leather hanging straps, viewed slightly from its right, for a background wagon wall. The upper straps are fully visible and attach above the organizer. Narrow compartments hold labeled-by-shape only tiny cogs, rolled copper wire, pliers, small glass jars with subdued colored stones, and bits of unfinished brass mechanisms. Keep it visually quiet, low contrast and darker than the main cast. Horizontal wide silhouette, no books with writing, isolated alpha.",
+    "archive": "public/assets/sources/coppercoil-wagon-rack-v1.png",
+    "references": [
+      "public/assets/sources/zelina-lesson-wagon-v1.png"
+    ]
+  },
+  {
+    "id": "zelina-lesson-fitted-workshop",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Edit this exact opaque 16:9 wagon background illustration to add two built-in artificer workshop fixtures. Keep the camera, wood floor perspective, canvas ribs, window location, distant backlit woman with olive cloak and auburn braid, daylight and composition exactly as in input. Do not add other people. 1. Along the LEFT timber wall, add a generously sized wall-mounted wooden organizer with cogs, pliers, wire, gem jars and small parts. It should span approximately x=10% to x=58% of the image on the existing side wall, following the strong diagonal perspective of the horizontal timber rails. Its support brackets are visibly bolted into thick existing wooden uprights and rails, the back of the rack touches the wall, and it casts a short contact shadow onto wood. Keep the rack below the canvas roof and within the timber wall zone. Much of its left end will be partly obscured by a separate foreground woman added later. Leave the center clear. 2. On the RIGHT side, close to the camera, add one substantial built-in artificer workbench, about 28% of the image width, with a raised work surface just below the far seated woman's lower torso in screen space. The bench runs back along the right wall, the nearest end extends out of the right and bottom crop, and its visible legs and mounting brackets are firmly fitted to the wagon's floorboards and wall. Give it grounded contact shadows and match the scene's vanishing lines. Lay out a vise, pliers, calipers, brass gears, copper wire, a couple of muted faceted gems and a partly assembled magical mechanism. Keep the far woman’s head, hands and the window clear. Preserve the empty center and left floor for the foreground lesson characters. Antique fantasy parchment watercolor and fine sepia etching exactly matching the input. No lettering, no other props or architectural changes.",
+    "archive": "public/assets/sources/zelina-lesson-fitted-workshop-v1.png",
+    "references": [
+      "public/assets/sources/zelina-lesson-wagon-v1.png",
+      "public/assets/sources/zelina-lesson-fitted-workshop-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "carlon-road-road",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique fantasy storybook on parchment, rich fine sepia pen outlines and crosshatching over muted watercolor, earthy daylight, coherent natural anatomy, no text, no borders, no UI, no photographic rendering. Opaque full-bleed 16:9 establishing environment for a caravan stopped on the road to Waterdeep. Low camera almost at road surface, diffuse neutral overcast daylight. A long line of covered merchant wagons and horses waits along the right side and recedes into haze, small spectators gathered in loose silhouette well back on both verges. The close unpaved road fills the lower half, with weathered earth, small stones, and little grass. Leave a broad unobstructed patch of packed earth at the bottom center for a buried man and helpers, plus clear ground immediately behind at left-center for a separate standing group. Mid-distance trees and open verges. Wagons remain in the distance, not giant close vehicles. No main characters, holes, lettering, or writing.",
+    "archive": "public/assets/sources/carlon-road-road-v1.png",
+    "references": [
+      "public/assets/sources/forest-convoy-wagon-v1.png",
+      "public/assets/sources/carlon-road-road-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "carlon-road-decision",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique fantasy storybook on parchment, rich fine sepia pen outlines and crosshatching over muted watercolor, earthy daylight, coherent natural anatomy, no text, no borders, no UI, no photographic rendering. Transparent grouped character cutout for a roadside disagreement, no terrain, no ground, no background. Four full-body figures, all facing roughly inward, at camera knee height and clearly distinct, with all feet visible. On left the very tall broad dark-skinned guard Sulesdeg, full dark beard and layered tan and navy headwrap, cream tunic under gold-trimmed navy robes, stands with grounded long spear, attentive. Center-left Lord Aldor, a pompous well-dressed lordly clerk with spectacles, moustache and pointed goatee, red tailored coat, large closed ledger visibly under arm, looking down at the scene and objecting with one raised hand. Near Aldor but readable just behind his right shoulder, youthful pale clean-shaven elf Aldrik with pointed ears, short messy black hair, fitted dark leather rogue armor, a discreet small one-hand casting gesture in silhouette, no overt light or effects. On right Tyjit, a short sturdy adult dwarf woman with long red braids, engraved dark armor and red cloak, stern and clearly demanding action, decorated handaxe stays at belt. Diffuse overcast light from upper left. Landscape canvas, clean true transparency.",
+    "archive": "public/assets/sources/carlon-road-decision-v1.png",
+    "references": [
+      "public/assets/references/aldrik.png",
+      "public/assets/sources/carlon-road-decision-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "carlon-road-rescue",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique fantasy storybook on parchment, rich fine sepia pen outlines and crosshatching over muted watercolor, earthy daylight, coherent natural anatomy, no text, no borders, no UI, no photographic rendering. A close low-angle grouped transparent cutout, landscape canvas, depicting a fantasy caravan finding a buried traveller. Center: ONLY the adult human Carlon's head and very top of his neck protrude from a low small irregular patch of packed dry tan road soil. He is a lean man with tangled brown hair and stubble, sunburnt, dirt-streaked and exhausted, eyebrows and forehead fully visible, looks slightly upward toward the camera. IMPORTANT leave forehead totally bare, no tattoo or writing, with broad uninterrupted skin between hairline and brows, so lettering can be composited separately later. No exposed shoulders, no torso or hands for the buried man. At LEFT crouches very small orange-copper dragonborn artificer Coppercoil, reptilian face, mechanical brass jaw, goggles, green chest core, holding a small practical flask out near the buried man's mouth, flask never obscures forehead. At RIGHT dark-skinned Lucien kneels at ground level in crimson-purple and gold-trimmed robes, tightly cropped black hair and short neat beard, concerned eyes on the buried man, hand braced in the dust. Match the supplied references for faces and clothing, ignoring the forehead symbol on the Carlon card. All silhouettes fully in frame, all hands anatomically clear, no other figures. Keep earth patch low and narrow under their knees and the buried head, blended irregular outer alpha edges, true transparent background everywhere outside group and earth patch. Soft neutral natural daytime illumination from upper left.",
+    "archive": "public/assets/sources/carlon-road-rescue-v1.png",
+    "references": [
+      "public/assets/references/carlon-amoffel-visual-reference.png",
+      "public/assets/sources/zelina-lesson-pair-imagegen-v1.png",
+      "public/assets/references/lucien-visual-reference.png",
+      "public/assets/sources/carlon-road-rescue-imagegen-v1.png",
+      "src/data/sessions/04.11.2026/art/carlon-oathbreaker.svg"
+    ]
+  },
+  {
+    "id": "carlon-road-friends",
+    "tool": "SVG and asset preparation",
+    "prompt": "A faint thread of light used as a visual cue for Aldrik’s Friends spell.",
+    "archive": "public/assets/sources/carlon-road-friends-v1.png"
+  },
+  {
+    "id": "carlon-road-rune-rescue",
+    "tool": "SVG and asset preparation",
+    "prompt": "Carlon’s circular oathbreaker rune stays registered to his forehead in the roadside rescue group.",
+    "archive": "public/assets/sources/carlon-road-rune-rescue-v1.png",
+    "references": [
+      "public/assets/sources/carlon-road-rescue-imagegen-v1.png",
+      "src/data/sessions/04.11.2026/art/carlon-oathbreaker-rune.svg"
+    ]
+  },
+  {
+    "id": "carlon-road-charm-trail",
+    "tool": "SVG and asset preparation",
+    "prompt": "Faint jade and ivory threads that sweep from Aldrik toward Lord Aldor.",
+    "archive": "public/assets/sources/carlon-road-charm-trail-v1.png",
+    "references": []
+  },
+  {
+    "id": "carlon-road-charm-halo",
+    "tool": "SVG and asset preparation",
+    "prompt": "A brief jade shimmer that curls around Aldor as Friends takes hold.",
+    "archive": "public/assets/sources/carlon-road-charm-halo-v1.png",
+    "references": []
+  },
+  {
+    "id": "carlon-road-charm-halo-b",
+    "tool": "SVG and asset preparation",
+    "prompt": "Second pose of Aldor’s jade charm halo, with the orbit shifted slightly upward and the motes staggered.",
+    "archive": "public/assets/sources/carlon-road-charm-halo-b-v1.png",
+    "references": [
+      "public/assets/sources/carlon-road-charm-halo-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-interview-pair",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique fantasy storybook illustration, fine sepia ink contours, dense crosshatching and restrained watercolor on warm parchment, match the references' tactile muted color. Daylit wagon with cool white-gold backlight from the upper right. No readable text, frames, captions, or photorealism. Transparent isolated group for a seated conversation, landscape canvas. Show two distinct men seated at similar eye height on separate low wagon benches that are included beneath them, full seated bodies from head through boots or bare feet with room around silhouettes, no room or ground. On the LEFT, dark-skinned Lucien with close-cropped black hair and a short neatly trimmed beard, in burgundy-purple robes and subtle gold trim, leans toward the other man, scrutinizing him quietly, shadowed face with only a soft rim light from the right. On the RIGHT, Carlon, wiry tan human with tangled shoulder-length brown hair and stubble, dirt streaks, tired guarded expression, ragged tan waist wrap and round pendant, dark tattoos visible on left shoulder and upper arm. He is seated, speaking softly and looking LEFT, face in a three-quarter view toward camera enough to see the skin between his hairline and brows. Keep his forehead bare of any symbol or writing for a separate tattoo overlay. A cloth across his lap keeps the pose modest. Use the third reference for face likenesses and the rescue condition, ignore the image's other figures and scene. Stronger window backlight on Carlon. No extra characters or props except the benches. True transparent alpha.",
+    "archive": "public/assets/sources/lucien-interview-pair-v1.png",
+    "references": [
+      "public/assets/references/lucien-visual-reference.png",
+      "public/assets/references/carlon-amoffel-visual-reference.png",
+      "public/assets/sources/carlon-road-rescue-imagegen-v1.png",
+      "public/assets/sources/lucien-interview-pair-imagegen-v1.png",
+      "src/data/sessions/04.11.2026/art/carlon-oathbreaker-rune.svg"
+    ]
+  },
+  {
+    "id": "lucien-interview-imsa",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique fantasy storybook illustration, fine sepia ink contours, dense crosshatching and restrained watercolor on warm parchment, match the references' tactile muted color. Daylit wagon with cool white-gold backlight from the upper right. No readable text, frames, captions, or photorealism. Isolated transparent full-body cutout of Green Imsa, the human woman from the supplied card, green skin and long deep green hair with loose braids, cream blouse, brown vest, muted patterned red sash, olive trousers and tall brown travel boots. She stands at the side of a small caravan wagon, angled left toward a seated traveller, gently offering an armful of plain folded cream and blue-gray clothes at waist height. Her posture is patient and practical, folded clothes unmistakable. A little rim light from upper right. Both hands natural and partly covered by the folded clothes. No furniture, floor, background, text, or other characters. Clean true transparent alpha and entire body in frame. Vertical canvas.\nRevision: Edit only the head angle and expression of this exact transparent Green Imsa cutout. Turn her face leftward in the image, in a gentle three-quarter profile looking slightly down past the left side of the folded clothes toward a seated man just off image left. Use a small kind closed-mouth expression, attentive to the man. Keep her face identity, green skin, dark green braids, costume, scale, silhouette below the shoulders, folded clothes, hands, and original full figure framing. Fine parchment pen-and-ink style and true alpha everywhere outside the figure. No other change or scenery.",
+    "archive": "public/assets/sources/lucien-interview-imsa-v1.png",
+    "references": [
+      "public/assets/references/green-imsa-visual-reference.png",
+      "public/assets/sources/lucien-interview-imsa-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "lucien-interview-dust-a",
+    "tool": "SVG and asset preparation",
+    "prompt": "Sparse daylight motes drifting near the wagon opening, first pose.",
+    "archive": "public/assets/sources/lucien-interview-dust-a-v1.png"
+  },
+  {
+    "id": "lucien-interview-dust-b",
+    "tool": "SVG and asset preparation",
+    "prompt": "Sparse daylight motes drifting near the wagon opening, second pose.",
+    "archive": "public/assets/sources/lucien-interview-dust-b-v1.png"
+  }
+]

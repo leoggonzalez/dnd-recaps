@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "losvius-longnose",
+  "name": "Losvius Longnose",
+  "category": "npcs",
+  "description": "Lightfoot halfling teamster with an overpowering curiosity about other people’s embarrassing secrets.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026.md",
+    "public/assets/references/losvius-longnose-visual-reference.png"
+  ],
+  "tags": [
+    "caravan",
+    "teamster",
+    "porcelain"
+  ],
+  "reuseWhen": "Use the supplied card for visual continuity when staging the character.",
+  "assets": [
+    {
+      "id": "reference-losvius-longnose",
+      "description": "Supplied portrait card for Losvius Longnose.",
+      "path": "public/assets/references/losvius-longnose-visual-reference.png",
+      "width": 706,
+      "height": 1222,
+      "bytes": 615129,
+      "sha256": "c31de63b1e280e20624d14fd98fdfe63ffc4020b70e879e7b862bbcb0c3a2304",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": true,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
+    }
+  ],
+  "appearance": {
+    "features": "Curly brown hair, prominent ears and an amused expression.",
+    "clothing": "Cream rolled-sleeve shirt, dark green vest, red neckerchief, patched trousers and buckled brown boots.",
+    "equipment": "Driving whip, coiled rope, leather satchel and a brass bell."
+  },
+  "events": [
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Reported the crate in Lasfelro’s wagon and accepted a wager to investigate a cult wagon during the next substantial fight."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Slipped into Lasfelro’s wagon during Carlon’s rescue and found a seven-foot wooden crate surrounded by dark soil."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Invited Coppercoil into his porcelain-filled wagon during the rain. Aldrik used a spectral hand to save some of the porcelain as Coppercoil climbed in."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "lasfelro-the-silent",
+  "name": "Lasfelro the Silent",
+  "category": "npcs",
+  "style": "parchment-ink-v1",
+  "tags": [
+    "caravan"
+  ],
+  "assets": [
+    {
+      "id": "reference-lasfelro-the-silent",
+      "description": "Supplied portrait card for Lasfelro the Silent.",
+      "path": "public/assets/references/lasfelro-the-silent-visual-reference.png",
+      "width": 724,
+      "height": 1128,
+      "bytes": 875765,
+      "sha256": "413915a99629bebfc35dec478dfabc36547eac119011303d5efc869f035be693",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": true,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
+    }
+  ],
+  "description": "Human merchant who stays quiet for long stretches, then breaks into song and jokes.",
+  "references": [
+    "src/data/sessions/04.11.2026.md",
+    "public/assets/references/lasfelro-the-silent-visual-reference.png"
+  ],
+  "reuseWhen": "Use the supplied portrait for appearance continuity. Existing shared artwork depicts the original scene and setting.",
+  "appearance": {
+    "features": "Dark brown skin and a close dark beard.",
+    "clothing": "Dark blue wrapped headcloth and scarf, cream shirt, leather bracers and a loaded merchant wagon."
+  },
+  "events": [
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Losvius reported finding a wooden crate surrounded by dark soil in Lasfelro’s wagon."
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 ---
-name: retro-action-cartoon-images
-description: Apply a late-1980s and 1990s Saturday-morning action-cartoon art direction to D&D storyboards and image prompts, with fantasy, space-opera, and graphic-superhero variants. Use when the user asks for this retro cartoon look or invokes this skill.
+name: retro-action-cartoon-one-off-images
+description: Create standalone D&D stills in a late-1980s or 1990s action-cartoon style. Use when the user asks for a retro cartoon still, with fantasy, space-opera, and graphic-superhero variants.
 metadata:
-  short-description: Retro action-cartoon image style
+  short-description: Create retro action-cartoon stills
 ---
 
-# Retro Action-Cartoon Image Style
+# Retro Action-Cartoon One-Off Images
 
-Use this as an optional art-direction layer with `dnd-session-images`, or when the user asks to give an image this look. It changes the visual treatment, not the story, character facts, scene plan, or approval steps in the session-image workflow.
+Use with [D&D One-Off Images](../dnd-one-off-images/SKILL.md) when the user asks for this look. Apply the style to the still while preserving the story and character facts. For playable parallax scenes, use [Animated Session Recaps](../animated-session-recaps/SKILL.md).
 
 For the research basis, distinctions between the style variants, and prompt recipes, read [the style research report](references/style-research-report.md).
 
@@ -32,4 +32,4 @@ Treat the sample as a scaffold, not mandatory wording. Tailor it to each image g
 
 ## Project records and storage
 
-Read the complete party/NPC records in `src/model/characters/` and `src/model/npcs/`, including each record’s `assets` array, before defining faces or costumes. Search existing imagery with `npm run assets:find -- <term>` from the repository root. Keep a retro variant distinct from the animated app’s parchment/ink treatment. Save images under `public/assets/` using the session-image workflow, then register each version in the relevant model entity; shared compositions should be mentioned in every depicted character/NPC’s asset list without pretending they are standalone poses. Session/storyboard sources are under `src/data/sessions/`.
+Read the complete party/NPC records in `src/model/characters/` and `src/model/npcs/`, including each record’s `assets` array, before defining faces or costumes. Search existing imagery with `npm run assets:find -- <term>` from the repository root. Keep a retro variant distinct from the animated app’s parchment/ink treatment. Save images under `public/assets/` using the one-off image workflow, then register each version in the relevant model entity; shared compositions should be mentioned in every depicted character/NPC’s asset list without pretending they are standalone poses. Session/storyboard sources are under `src/data/sessions/`.

@@ -15,13 +15,15 @@ The app uses **nine scenes from `src/data/sessions/28.10.2026/storyboard.md`** a
 - **E — Prototype drafts:** scene 01 card game; scene 03 separate rear cage/peryton/front bars and Balerias pose switch; scene 07 timed rescue/ettercap defeat with horses’ counterattack behind. Scene 02 reuses the walking pair. Generated images are integrated as actual WebP layers/cutouts, not flattened still illustrations.
 - **Reusable register:** `src/model/` contains categorized entity JSON records. Each entity has an `assets` array, and every asset has an individual description and repository-relative image path. Records include canonical references, reuse conditions, tags, dimensions, hashes, alpha, anchors, source archive/provenance and variant status. `assets:find`, `assets:build` and `validate:library` support future reuse. Original generations are preserved locally in the ignored `public/assets/sources/` archive.
 
+- **Authoring workflow:** [Animated Session Recaps](../skills/animated-session-recaps/SKILL.md) documents art direction, asset preparation, scene assembly, all nine October examples, and a disposable validation fixture. Standalone stills have separate skills.
+
 ## Still missing
 
 - **Artwork review:** All nine scenes have layered artwork drafts. The final scene reuses the deep-forest layers and switches from the closed cocoon to the revealed woman, scroll and loot.
 - **Prototype acceptance:** inspect all three focal prototype animations and pose alignment, alpha edges and small-screen legibility; real mobile memory/loading review remains outstanding. The local screenshots and mobile browser emulation are useful evidence, not a substitute for actual mobile hardware.
 - **Hardening:** extend manual visual/performance review across browsers; test throttled/slow decodes and interruption on real devices; measure peak memory and cold-load time before scaling artwork. The decoded retention policy is implemented, but physical-device memory performance is not yet measured.
 - **Release:** GitHub Pages and CI are configured and the initial draft deployed successfully. Verify each new hosted revision and complete the remaining release checklist. Publishing the draft does not complete the full-artwork or real-device release gates.
-- **Final authoring skill:** create and verify only after the full nine-scene app and release checks work, as required by section 17 of the plan.
+
 
 ## Verification
 

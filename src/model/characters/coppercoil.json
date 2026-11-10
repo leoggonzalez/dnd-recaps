@@ -5,7 +5,10 @@
   "category": "characters",
   "description": "Coppercoil — canonical party character record.",
   "style": "parchment-ink-v1",
-  "references": [],
+  "references": [
+    "src/model/objects/coppercoil-wagon-workshop.json",
+    "src/model/environments/daylight-wagon.json"
+  ],
   "tags": [
     "coppercoil"
   ],
@@ -103,6 +106,69 @@
         "nearLosslessBytes": 530414
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "zelina-lesson-pair",
+      "path": "public/assets/groups/zelina-lesson-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 176444,
+      "sha256": "060e85b1cb202696f767c8da8c25fb4ff5696d3ad84ff2ab43cb6c05846b19fe",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Shared pose of Zelina seated with an open palm and Coppercoil leaning in beside her.",
+      "sourcePath": "public/assets/sources/zelina-lesson-pair-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "carlon-road-rescue",
+      "path": "public/assets/groups/carlon-road-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136384,
+      "sha256": "5a56e1fbc2dc20f6821ddb55d0a08e438d5793098ecd85f2d8f623412c90cf96",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Grouped near layer of Carlon buried to his neck, Coppercoil with a flask, and kneeling Lucien. The forehead lettering is a separate editable source overlay composited into this plane.",
+      "sourcePath": "public/assets/sources/carlon-road-rescue-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "carlon-road-rune-rescue",
+      "path": "public/assets/groups/carlon-road-rune-rescue-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 136450,
+      "sha256": "e087048f50bee80cb25bf232ce3f18b55a534f526114b67beb262f25602240be",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Carlon’s circular oathbreaker rune stays registered to his forehead in the roadside rescue group.",
+      "sourcePath": "public/assets/sources/carlon-road-rune-rescue-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
       "usage": "shared-composition"
     }
   ],
@@ -285,6 +351,73 @@
       "date": "6 Ches 1492 DR",
       "location": "Road from Baldur's Gate to Waterdeep",
       "event": "Sent Coppergoat to ram an attacking spider, then used force darts against the attackers while defending the caravan horses."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Identified the recovered parchment as a Spell Scroll (Tremor) and transferred it from Balerias’s keeping to Lucien."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Taught Zelina Innevar to draw sparks from the Weave and found the source of her magic elusive. She privately showed him her sketch for a nightglass perfume vial."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Gave the buried Carlon Amoffel water and summoned Copperbear from the Bag of Tricks (Rust) to help dig him out."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Rode Copperbear while discussing possible cult decoys with Aldrik, climbed into Losvius’s porcelain-filled wagon, and helped secure a wager for Losvius to investigate a cult wagon."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Worked on Rumble’s Goggles of Night while the caravan waited out the downpour. Asked about nightglass and learned from Samardag that it meant obsidian in Amn."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Lost twenty gold gambling with Radecere Perethun and bought his lucky pendant for another two hundred and fifty gold."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Helped Zelina magically mend obsidian into a copper-bound perfume vial for Arietta and gave Zelina five gold for perfume."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Identified the roadside shriekers and their shared mycelium with Aldrik and Lucien. Retreated when their cries brought overwhelming grief and later blamed Carlon, whom he called Sprout."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Began planning an approach to the overturned wagon under hobgoblin attack with Aldrik and Lucien."
     }
-  ]
+  ],
+  "wagon_workshop": {
+    "location": "Coppercoil’s covered caravan wagon",
+    "purpose": "Travelling workshop for building and maintaining magical artifacts.",
+    "furnishings": [
+      "Compact workbench",
+      "Hanging parts organizer",
+      "Shallow trays for work in progress"
+    ],
+    "supplies": [
+      "Artificer’s hand tools",
+      "Brass gears, springs, and spare mechanical parts",
+      "Copper wire and fittings",
+      "Cut gems and crystals",
+      "Partially assembled mechanisms"
+    ],
+    "travelling_companions": [
+      "Lucien",
+      "Arietta Innevar",
+      "Zelina Innevar",
+      "Carlon Amoffel (joined after his rescue)"
+    ]
+  }
 }

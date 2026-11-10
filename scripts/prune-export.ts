@@ -1,11 +1,16 @@
 import { readdir, rm, stat } from "node:fs/promises";
 import { resolve, relative } from "node:path";
 import { sessions } from "../src/data";
-/** Public is the local image home; the static release contains selected runtime assets only. */
+/** The static release contains selected runtime media only. */
 async function main() {
   const root = resolve("out");
   const allowed = new Set(
-    sessions.flatMap((session) => session.assets.map((asset) => asset.path)),
+    sessions.flatMap((session) => [
+      ...session.assets.map((asset) => asset.path),
+      ...session.scenes.flatMap((scene) =>
+        scene.narrationAudio ? [scene.narrationAudio] : [],
+      ),
+    ]),
   );
   let removed = 0;
   async function visit(directory: string) {
@@ -24,7 +29,7 @@ async function main() {
   await visit(resolve(root, "assets"));
   for (const asset of allowed) await stat(resolve(root, asset));
   console.log(
-    `Static export: ${allowed.size} selected images; excluded ${removed} source/reference/unused images`,
+    `Static export: ${allowed.size} selected media files; excluded ${removed} source/reference/unused files`,
   );
 }
 void main().catch((error) => {

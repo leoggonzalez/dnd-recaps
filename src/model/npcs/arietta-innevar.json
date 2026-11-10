@@ -123,6 +123,48 @@
       },
       "provenance": "src/data/sessions/28.10.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "zelina-lesson-wagon",
+      "path": "public/assets/environments/zelina-lesson-wagon-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 283600,
+      "sha256": "8870b34203248b94047f0106d81c357d91208eb77fa3f34afb2badcae7db2982",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Daylit covered wagon shell with Arietta backlit at the distant opening.",
+      "sourcePath": "public/assets/sources/zelina-lesson-wagon-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "zelina-lesson-fitted-workshop",
+      "path": "public/assets/environments/zelina-lesson-fitted-workshop-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 291356,
+      "sha256": "6e6c797f013596acb6efaa2ace0d3c200e577d2863049ae090e13284d672deef",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Daylit wagon shell with Arietta at the opening, a rack bolted to the left timber wall and Coppercoil’s full workbench fitted to the right side.",
+      "sourcePath": "public/assets/sources/zelina-lesson-fitted-workshop-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "character_type": "npc",
@@ -176,6 +218,11 @@
       "date": "6 Ches 1492 DR",
       "location": "Road from Baldur’s Gate to Waterdeep",
       "event": "Played Three-Dragon Ante with Balerias, Lucien, Arietta, Samardag and Radecere while the caravan rested for the night; Lucien and Arietta sat together."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Watched Lucien wake from an intense dream and asked whether he always dreamed that way."
     }
   ]
 }

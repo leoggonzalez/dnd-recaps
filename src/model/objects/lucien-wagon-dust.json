@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "lucien-wagon-dust",
+  "name": "Daylight dust motes",
+  "category": "objects",
+  "description": "Two matched ambient effect poses for Lucien’s wagon.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "lucien",
+    "carlon"
+  ],
+  "reuseWhen": "Use with the registered November 4 interview composition.",
+  "assets": [
+    {
+      "id": "lucien-interview-dust-a",
+      "path": "public/assets/objects/lucien-interview-dust-a-v1.webp",
+      "width": 320,
+      "height": 220,
+      "bytes": 656,
+      "sha256": "e978284e3d7ea52648f0549ec834b25ea0de1c444a9380aad2999e7595a3fdbf",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Sparse daylight motes drifting near the wagon opening, first pose.",
+      "sourcePath": "public/assets/sources/lucien-interview-dust-a-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "lucien-interview-dust-b",
+      "path": "public/assets/objects/lucien-interview-dust-b-v1.webp",
+      "width": 320,
+      "height": 220,
+      "bytes": 640,
+      "sha256": "e2e27f6c042ec978402833fcb361af27925ba1f54b04f2b87e7add9518398f13",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Sparse daylight motes drifting near the wagon opening, second pose.",
+      "sourcePath": "public/assets/sources/lucien-interview-dust-b-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

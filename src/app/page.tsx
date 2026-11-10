@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { assetUrl } from "@/lib/urls";
 import { sessions } from "@/data";
+const newestFirst = sessions.toSorted((a, b) => b.date.localeCompare(a.date));
+
 export default function Library() {
   return (
     <main id="main" className="library">
@@ -18,7 +20,7 @@ export default function Library() {
         ✧
       </div>
       <section aria-label="Session library" className="sessions">
-        {sessions.map((session) => (
+        {newestFirst.map((session) => (
           <article className="session-card" key={session.id}>
             <div className="cover-placeholder" aria-label="Session cover">
               {session.coverAssetId ? (
@@ -56,7 +58,7 @@ export default function Library() {
           </article>
         ))}
       </section>
-      <footer>Nine moments from the road. Layered artwork in progress.</footer>
+      <footer>Stories from the road. Layered artwork in progress.</footer>
     </main>
   );
 }

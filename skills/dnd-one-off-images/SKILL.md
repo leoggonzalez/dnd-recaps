@@ -1,13 +1,13 @@
 ---
-name: dnd-session-images
-description: Turn D&D session recaps into a collaboratively planned storyboard and cohesive scene illustrations. Use when the user wants to select, refine, or generate images of events from a session recap.
+name: dnd-one-off-images
+description: Create standalone D&D illustrations from a recap, a character reference, or a requested story moment. Use for flattened still images or a set of stills. Use animated-session-recaps for scenes that play in the parallax app.
 metadata:
-  short-description: Plan and illustrate D&D session recaps
+  short-description: Create standalone D&D illustrations
 ---
 
-# D&D Session Recap Images
+# D&D One-Off Images
 
-Use this project workflow to turn a DM's session recap into a small, coherent set of scene images. A **storyboard** is the right planning format: it lays out the scenes and visual beats before illustration. An illustrated storybook is the finished sequence of prose and images, if the user later wants one.
+Produce a standalone image or a coherent set of stills. For one image, confirm the framing from the request and skip the multi-scene storyboard. For several related stills, use a short storyboard to settle the visual beats. Use [the animated recap skill](../animated-session-recaps/SKILL.md) for playable scenes and their assets.
 
 ## Workflow
 
@@ -17,7 +17,7 @@ Use this project workflow to turn a DM's session recap into a small, coherent se
 4. **Propose a session storyboard.** Select the scenes that best communicate the session's main events; combine closely related beats when that improves the sequence. For each scene, give a short title, the recap event, characters, setting, action, mood, framing, and continuity details. Add a generation-ready prompt for every selected scene, with a shared art direction for visual cohesion. Label any proposed visual interpretation. Keep it concise enough to review as a set. Use “storyboard,” not “screenplay,” for this planning document.
 5. **Refine the scenes with the user.** Revise the storyboard from the user's feedback. Track which details are settled and preserve them across scenes. Do not generate the images until the user approves the scene plan or clearly asks to proceed after reviewing it.
 6. **Generate the approved images.** Use the built-in image generation tool, normally one image per approved scene. Keep a consistent visual treatment across the set and preserve each character's established appearance and equipment. Avoid adding text, captions, or a game HUD unless requested. Do not invent consequential events or character actions absent from the recap or the approved storyboard.
-7. **Save and present the result.** Store original generated PNGs in `public/assets/sources/` (local ignored archive) and selected still illustrations in `public/assets/illustrations/`. For animated assets, prepare optimized WebP files into `public/assets/{characters,npcs,creatures,objects,environments,groups}/`. Append a described asset entry with its repository-relative path to the relevant entity in `src/model/`; keep canonical stats, appearance and events intact. Mention shared group images in each relevant character/NPC’s array, using the same asset ID/path/hash and identifying the full composition. Use clear scene-based filenames. Preserve earlier assets by using new filenames for revisions. Record final image paths in the storyboard, link the images, and briefly identify the scene each one depicts.
+7. **Save and present the result.** Store original generated PNGs in `public/assets/sources/` (local ignored archive) and selected still illustrations in `public/assets/illustrations/`. Append a described illustration or reference entry with its repository-relative path to the relevant entity in `src/model/`; keep canonical stats, appearance and events intact. Mention shared group images in each relevant character/NPC’s array, using the same asset ID/path/hash and identifying the full composition. Use clear scene-based filenames. Preserve earlier assets by using new filenames for revisions. Record final image paths in the storyboard, link the images, and briefly identify the scene each one depicts.
 
 ## Project references
 
@@ -30,7 +30,3 @@ Use this project workflow to turn a DM's session recap into a small, coherent se
 - Root commands: `npm run validate:library`, `npm run validate`, `npm run build`
 
 When a recap scene conflicts with an existing character record, preserve the recap's event while keeping the character's established visual traits. Point out the conflict for the user to resolve if it changes the character's identity or equipment.
-
-For the animated app, preserve the eight approved scenes in `src/data/sessions/28.10.2026/storyboard.md`; use `animated_storyboard.md` for layered parchment/ink framing. Source facts remain in the Markdown recap; runtime scene data is `src/data/sessions/2026-10-28.json`. Existing skill approval guidance does not require reconfirming artwork already authorized in the current conversation. Validate the model and runtime references after registration. The postbuild step publishes only selected manifest images; original/reference images stay locally under `public/assets/`.
-
-For scene 01 of October 28, preserve the user’s correction: the caravan is resting at night, at least ten wagons are parked in a long line, Lucien and Arietta sit together gambling, and Balerias is playing. Use the matching `camp-night-*` set; retain earlier lighting variants. The three cult wagons later investigated are a subset of the caravan.

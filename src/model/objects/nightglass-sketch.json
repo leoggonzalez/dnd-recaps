@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "nightglass-sketch",
+  "category": "objects",
+  "name": "Nightglass vial sketch",
+  "description": "Zelina’s drawing of the perfume vial intended for Arietta, resting on a crate.",
+  "assets": [
+    {
+      "id": "zelina-lesson-sketch",
+      "path": "public/assets/objects/zelina-lesson-sketch-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 19954,
+      "sha256": "d2696f0a336519fb03d7f33f734a7c91b3c26802869f22389bdb996f355db523",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "The charcoal sketch of the nightglass perfume vial on a small wooden crate.",
+      "sourcePath": "public/assets/sources/zelina-lesson-sketch-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ],
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "zelina",
+    "lesson"
+  ],
+  "reuseWhen": "Use with the registered daylight wagon composition and aligned lesson layers."
+}

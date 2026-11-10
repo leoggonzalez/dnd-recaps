@@ -155,5 +155,16 @@
       "The sheet spells the name “Vladefix”; the party reference uses “Vladifix”. Current hit points are a session-time snapshot."
     ]
   },
-  "events": []
+  "events": [
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Brought ale diluted by the rain while the caravan sheltered."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Used earplugs and helped the other guards clear a passage through the roadside shriekers over three hours."
+    }
+  ]
 }

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "green-imsa",
+  "name": "Green Imsa",
+  "category": "npcs",
+  "style": "parchment-ink-v1",
+  "tags": [
+    "caravan"
+  ],
+  "assets": [
+    {
+      "id": "reference-green-imsa",
+      "description": "Supplied portrait card for Green Imsa.",
+      "path": "public/assets/references/green-imsa-visual-reference.png",
+      "width": 710,
+      "height": 1128,
+      "bytes": 506971,
+      "sha256": "ac77e0bbf35466bfeef46169383a0760933b4e65a84a8c3d383eb5a8f5667968",
+      "kind": "reference",
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "hasAlpha": true,
+      "encoding": "original-png",
+      "version": 1,
+      "status": "reference",
+      "usage": "portrait-reference"
+    },
+    {
+      "id": "lucien-interview-imsa",
+      "path": "public/assets/npcs/lucien-interview-imsa-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 48336,
+      "sha256": "0648ada20704c581f980a3f33c902d4d98d402cccd919ca62de9e736e4e54a8f",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Green Imsa offers a folded change of clothes, registered to the side of the shared wagon workshop.",
+      "sourcePath": "public/assets/sources/lucien-interview-imsa-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "standalone"
+    }
+  ],
+  "description": "Human traveller, green from head to foot. Friendly and quiet when the conversation stays away from her past.",
+  "references": [
+    "src/data/sessions/04.11.2026.md",
+    "public/assets/references/green-imsa-visual-reference.png"
+  ],
+  "reuseWhen": "Use the supplied portrait for appearance continuity. Existing shared artwork depicts the original scene and setting.",
+  "appearance": {
+    "features": "Green skin and long dark-green hair with loose braids.",
+    "clothing": "Cream blouse, fitted brown vest, patterned red sash, olive trousers, tall brown boots and a pack with a bedroll."
+  },
+  "events": [
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Supplied clothes for Carlon after his rescue."
+    },
+    {
+      "date": "7–9 Ches 1492 DR",
+      "location": "Road from Baldur’s Gate to Waterdeep",
+      "event": "Redirected Coppercoil’s questions about her green appearance after Carlon’s rescue."
+    }
+  ]
+}
