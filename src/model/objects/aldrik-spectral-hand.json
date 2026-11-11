@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "aldrik-spectral-hand",
+  "name": "Aldrik’s spectral hand",
+  "category": "objects",
+  "description": "Spectral hand and its directional casting trail.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "porcelain",
+    "losvius"
+  ],
+  "reuseWhen": "Use with the registered November 4 porcelain wagon composition and aligned layers.",
+  "assets": [
+    {
+      "id": "porcelain-wagon-hand",
+      "path": "public/assets/objects/porcelain-wagon-hand-v1.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 44904,
+      "sha256": "b1e6b3def08b0454218292e353f907e749741fe67a6c4445a60da335b9d52d77",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Aldrik’s pale spectral hand, palm up, reaching to catch the vase.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-hand-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "porcelain-wagon-trail",
+      "path": "public/assets/objects/porcelain-wagon-trail-v1.webp",
+      "width": 240,
+      "height": 120,
+      "bytes": 2372,
+      "sha256": "614ffc233551120963342e18c8bba53390dc889e53d3c550ae3ae35f842532cb",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "A fleeting blue trail leading toward the spectral hand.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-trail-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

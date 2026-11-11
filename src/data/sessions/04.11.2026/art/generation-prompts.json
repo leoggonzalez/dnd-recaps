@@ -312,5 +312,344 @@
     "tool": "SVG and asset preparation",
     "prompt": "Sparse daylight motes drifting near the wagon opening, second pose.",
     "archive": "public/assets/sources/lucien-interview-dust-b-v1.png"
+  },
+  {
+    "id": "porcelain-wagon-wagon",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique parchment-and-ink fantasy storybook, fine sepia contours and etched crosshatching with muted watercolor. Warm walnut interior, cool soft rain daylight, readable silhouettes, no borders, typography, or UI. Opaque 16:9 wide view from low inside a covered merchant wagon looking straight toward a broad rain-bright opening in the CENTER. Use the first reference only for wagon construction and storybook style. The wagon belongs to a porcelain merchant: shelves attached to left and right wooden rails with blue-and-white porcelain vases in straw, bundled ceramics, and crates. Leave a broad open central aisle and threshold in the lower middle for two separate foreground character cutouts. The entrance sill is around 64 percent down the frame with one short step leading to the wet road. Outside and toward the upper right edge of the opening, a small distant pale, dark-haired, clean-shaven elven rogue in dark fitted leather from the second reference stands in the rain, partly obscured by a doorway edge, one hand raised. The central doorway behind the future climber stays open. Distant wet trees and light rain. No other people. Reserve room at the right middle of the frame for a separately layered tipping vase and hand. One coherent perspective, bolted shelf brackets and floor shadows.",
+    "archive": "public/assets/sources/porcelain-wagon-wagon-v1.png",
+    "references": [
+      "public/assets/sources/zelina-lesson-wagon-v1.png",
+      "public/assets/references/aldrik.png",
+      "public/assets/sources/porcelain-wagon-wagon-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "porcelain-wagon-pair",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique parchment-and-ink fantasy storybook, fine sepia contours and etched crosshatching with muted watercolor. Warm walnut interior, cool soft rain daylight, readable silhouettes, no borders, typography, or UI. Two isolated full-body character cutouts posed together on one transparent landscape canvas, no scenery. On left, Losvius from his card, a short lightfoot halfling teamster with curly brown hair and prominent ears, cream rolled-sleeve shirt, dark green vest, red neckerchief, patched trousers and brown boots. He stands on the inside edge of an unseen wagon step, leaning back and to his left to give the climber room, right hand gesturing an invitation, amused but anxious. On center-right, tiny one-meter copper dragonborn Coppercoil as seen on right of second reference: reptilian orange copper scales, brass mechanical jaw, bright green eyes, forehead goggles, visible green chest core, artificer gear. Pose him climbing over an imaginary wagon threshold toward camera, with his left hand low and braced and one boot high while the other trails a step below; body angled diagonally toward the viewer, head turns toward his right as he notices a wobbling vase. Different clear silhouettes, faces recognizable and anatomically clean. Mild cool rim light from behind. No visible floor, platform, porcelain, magic, other people or background. Clean true alpha, all limbs fully within frame.",
+    "archive": "public/assets/sources/porcelain-wagon-pair-v1.png",
+    "references": [
+      "public/assets/references/losvius-longnose-visual-reference.png",
+      "public/assets/sources/zelina-lesson-pair-imagegen-v1.png",
+      "public/assets/sources/porcelain-wagon-pair-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "porcelain-wagon-edges",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique parchment-and-ink fantasy storybook, fine sepia contours and etched crosshatching with muted watercolor. Warm walnut interior, cool soft rain daylight, readable silhouettes, no borders, typography, or UI. Transparent 16:9 wagon foreground overlay. Paint only dark close framing details in the extreme lower-left and lower-right corners: cropped shoulders and rims of a few blue-and-white porcelain jars held securely in open straw packing crates. A couple of left jars and one right jar, large enough to read as close to lens. They occupy ONLY the outer 18 percent of each side and bottom third, center and upper two-thirds entirely transparent. Matched inward perspective and muted shadow, crisp etched glaze marks, actual transparency. No shelves crossing center, no floor, no other things, no background.\nRevision: Make a true transparent PNG cutout of the exact two porcelain-filled straw crates already painted at the bottom corners of the reference. Preserve their position, scale, cropping at edges, muted colors and exact 16:9 landscape layout. Remove the entire dark gray backdrop to actual zero alpha, including the empty central area and entire upper portion. Only the illustrated crate, straw and ceramic shapes may be visible. Transparent output, not a painted gray or black canvas.",
+    "archive": "public/assets/sources/porcelain-wagon-edges-v1.png",
+    "references": [
+      "public/assets/sources/porcelain-wagon-edges-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "porcelain-wagon-vase-upright",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique parchment-and-ink fantasy storybook, fine sepia contours and etched crosshatching with muted watercolor. Warm walnut interior, cool soft rain daylight, readable silhouettes, no borders, typography, or UI. One isolated blue-and-white porcelain vase cutout on true transparent alpha, vertical frame. A rounded bulbous merchant vase with a narrow neck, painted blue vines and floral glaze, no writing. Upright, viewed from slightly below tabletop height, show entire silhouette including its flat bottom, no stand, shadow, floor, cracks or other objects. Warm side light from the left with a cool daylight rim, muted hand-painted glaze, fine etched outlines, plenty of margin.",
+    "archive": "public/assets/sources/porcelain-wagon-vase-upright-v1.png",
+    "references": [
+      "public/assets/sources/porcelain-wagon-vase-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "porcelain-wagon-vase-wobble",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique parchment-and-ink fantasy storybook, fine sepia contours and etched crosshatching with muted watercolor. Warm walnut interior, cool soft rain daylight, readable silhouettes, no borders, typography, or UI. One isolated blue-and-white porcelain vase cutout on true transparent alpha, vertical frame. A rounded bulbous merchant vase with a narrow neck, painted blue vines and floral glaze, no writing. Upright, viewed from slightly below tabletop height, show entire silhouette including its flat bottom, no stand, shadow, floor, cracks or other objects. Warm side light from the left with a cool daylight rim, muted hand-painted glaze, fine etched outlines, plenty of margin.",
+    "archive": "public/assets/sources/porcelain-wagon-vase-wobble-v1.png",
+    "references": [
+      "public/assets/sources/porcelain-wagon-vase-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "porcelain-wagon-vase-caught",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique parchment-and-ink fantasy storybook, fine sepia contours and etched crosshatching with muted watercolor. Warm walnut interior, cool soft rain daylight, readable silhouettes, no borders, typography, or UI. One isolated blue-and-white porcelain vase cutout on true transparent alpha, vertical frame. A rounded bulbous merchant vase with a narrow neck, painted blue vines and floral glaze, no writing. Upright, viewed from slightly below tabletop height, show entire silhouette including its flat bottom, no stand, shadow, floor, cracks or other objects. Warm side light from the left with a cool daylight rim, muted hand-painted glaze, fine etched outlines, plenty of margin.",
+    "archive": "public/assets/sources/porcelain-wagon-vase-caught-v1.png",
+    "references": [
+      "public/assets/sources/porcelain-wagon-vase-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "porcelain-wagon-hand",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique parchment-and-ink fantasy storybook, fine sepia contours and etched crosshatching with muted watercolor. Warm walnut interior, cool soft rain daylight, readable silhouettes, no borders, typography, or UI. One isolated translucent spectral mage hand on a transparent landscape canvas, faint cool blue-white color. Hand seen in three-quarter profile entering from right, palm facing UP and reaching LEFT, cupped naturally to catch the base of a falling vase, fingers gently extended, five anatomically correct digits, wrist tapers into a short mist thread at the right. No arm above wrist, vase, cast shadow, background or other objects. Distinct readable hand silhouette with luminous edges, semitransparent center, minimal glow.",
+    "archive": "public/assets/sources/porcelain-wagon-hand-v1.png",
+    "references": [
+      "public/assets/sources/porcelain-wagon-hand-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "porcelain-wagon-trail",
+    "tool": "SVG and asset preparation",
+    "prompt": "A fleeting blue trail leading toward the spectral hand.",
+    "archive": "public/assets/sources/porcelain-wagon-trail-v1.png"
+  },
+  {
+    "id": "porcelain-wagon-rain-a",
+    "tool": "SVG and asset preparation",
+    "prompt": "Subtle rain streaks at the wagon opening, first pose.",
+    "archive": "public/assets/sources/porcelain-wagon-rain-a-v1.png"
+  },
+  {
+    "id": "porcelain-wagon-rain-b",
+    "tool": "SVG and asset preparation",
+    "prompt": "Subtle rain streaks at the wagon opening, second pose.",
+    "archive": "public/assets/sources/porcelain-wagon-rain-b-v1.png"
+  },
+  {
+    "id": "porcelain-wager-plate",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Edit this 16:9 illustration. Remove only the elf standing outside at the right edge of the open wagon doorway. Replace him with the same wet track, rainy haze and greenery continuing naturally behind him. Preserve the precise camera position, doorway and timber construction, shelf brackets, every ceramic arrangement, straw, foreground floorboards, rain, and illumination. This is the exact same wagon moments later, used as a registered background plate. Do not add people, objects, furniture or writing. Opaque edge-to-edge landscape 16:9.",
+    "archive": "public/assets/sources/porcelain-wager-plate-v1.png",
+    "references": [
+      "public/assets/sources/porcelain-wagon-wagon-imagegen-v1.png",
+      "public/assets/sources/porcelain-wager-plate-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "porcelain-wager-cast",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique fantasy parchment storybook, very fine sepia etched outlines, dense crosshatching and muted transparent watercolor. Warm walnut interior, cool grey daylight from the open wagon doorway, subdued saturation, no typography. Three full-body characters only, one isolated grouped cutout on true transparent alpha, wide landscape frame. Use the fourth reference only as camera and light guidance. Three adventurers confer quietly in a small triangular group, all faces readable and feet on the same low floor plane. At LEFT, lively lightfoot halfling Losvius from the first reference, curly brown hair, prominent ears, dark green vest over rolled cream sleeves, rust red neckerchief, patched trousers and buckled boots; he turns toward the others with an intrigued smile, one hand low on an imagined shelf just outside the group at his left and the other open in a small gesture of agreement. In CENTER, Coppercoil from the third reference, noticeably the smallest at one meter, reptilian orange-copper scales, mechanical brass lower jaw, green eyes, forehead goggles, green chest core, travel artificer gear, looking up at Losvius, his hands relaxed, both boots visibly grounded. At RIGHT the noticeably tallest, Aldrik, a slender pale elf with youthful clean-shaven pointed features, messy short dark hair, fitted dark rogue leathers and muted blue scarf, leaning slightly left toward Losvius as he proposes the wager. He makes a discreet small palm-up gesture, hands separated and natural. No weapons drawn and no visible spell. Maintain space around each silhouette, grounded relaxed feet, soft cool edge light from behind and restrained warm highlights from left. No room, shelf, porcelain, crate, platform, ground, shadows on the ground, scenery, coins, or text. The whole surrounding canvas has true transparent alpha.",
+    "archive": "public/assets/sources/porcelain-wager-cast-v1.png",
+    "references": [
+      "public/assets/references/losvius-longnose-visual-reference.png",
+      "public/assets/references/aldrik.png",
+      "public/assets/sources/porcelain-wagon-pair-imagegen-v1.png",
+      "public/assets/sources/porcelain-wagon-wagon-imagegen-v1.png",
+      "public/assets/sources/porcelain-wager-cast-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "nightglass-desk",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook pen-and-ink etching, fine sepia crosshatching, subdued watercolor, richly textured walnut, warm amber task lighting, muted colors, no lettering or captions. Full opaque 16:9 image, straight overhead camera looking down at the very same fitted artificer workbench shown at right of the wagon reference. Match its dark wood, old iron vise at the far left edge, small tinker pliers and calipers, a few gears and a loose spool of copper wire at the sides. A warm circular light falls across the CENTRAL empty plank surface. Keep that center empty for an independently layered small vial and hands. At upper left, the same open parchment sketchbook from reference two with its charcoal drawing of a black perfume vial and copper-bound neck. Let the right side of the table have an empty patch big enough for five small coins to be added later. The work is private behind a blanket and it is raining outside, expressed with a cool dim tone at the margins and warm work light in center. No people, hands, coins, vial, obsidian fragments, letters, or modern objects. Table top fills frame.",
+    "archive": "public/assets/sources/nightglass-desk-v1.png",
+    "references": [
+      "public/assets/sources/zelina-lesson-fitted-workshop-v1.png",
+      "public/assets/sources/zelina-lesson-sketch-imagegen-v1.png",
+      "public/assets/sources/nightglass-desk-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "nightglass-hands",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook pen-and-ink etching, fine sepia crosshatching, subdued watercolor, richly textured walnut, warm amber task lighting, muted colors, no lettering or captions. A straight overhead illustrated cutout showing ONLY two people’s hands and parts of sleeves reaching in from left and right, true transparent alpha. At left, Coppercoil’s small orange-copper dragonborn hands with neatly scaled reptilian fingers and his familiar tan artificer sleeves and leather bracers. At right, Zelina’s human hands, cream cuffs and muted rust-red cloak fabric. Their fingers are relaxed and directed toward an imaginary small object at exact center, with a wide empty gap between left and right fingertips and empty space beneath the right hand for coins. Aim for two or three visible hands total, natural anatomy, no magic. Open space above center. Camera is perpendicular to workbench, matching an overhead plan. No object being held, no floor or table, no writing, alpha around all outlines. Wide 16:9 framing.",
+    "archive": "public/assets/sources/nightglass-hands-v1.png",
+    "references": [
+      "public/assets/sources/zelina-lesson-pair-imagegen-v1.png",
+      "public/assets/sources/nightglass-hands-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "nightglass-cloth",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook pen-and-ink etching, fine sepia crosshatching, subdued watercolor, richly textured walnut, warm amber task lighting, muted colors, no lettering or captions. Isolated transparent 16:9 framing overlay of a single dark charcoal-burgundy woven privacy blanket, as seen from directly overhead. Only a narrow soft fold across the TOP edge, with a tiny fringed corner toward upper right, maximum fifteen percent of frame height. The entire lower eighty-five percent and most of both sides are completely transparent. Quiet and dark to frame the light on a wooden workbench. True zero alpha outside the fabric, no floor, no people, no objects, no text.",
+    "archive": "public/assets/sources/nightglass-cloth-v1.png",
+    "references": [
+      "public/assets/sources/nightglass-cloth-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "nightglass-shards",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook pen-and-ink etching, fine sepia crosshatching, subdued watercolor, richly textured walnut, warm amber task lighting, muted colors, no lettering or captions. Isolated true transparent cutout of five or six small broken dark black obsidian fragments arranged in a close, elongated group oriented diagonally from bottom left to top right. Directly overhead view, sharp but attractive faceted volcanic glass reflecting a little amber. These fragments will be mended into a perfume vial. No hands, floor, glow, wire, bottle, letters, or other objects. True zero alpha outside the fragments.",
+    "archive": "public/assets/sources/nightglass-shards-v1.png",
+    "references": [
+      "public/assets/sources/nightglass-shards-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "nightglass-vial",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook pen-and-ink etching, fine sepia crosshatching, subdued watercolor, richly textured walnut, warm amber task lighting, muted colors, no lettering or captions. Isolated transparent cutout of the finished small black obsidian perfume vial from the drawing in the reference, shown laid horizontally on its side as viewed directly from above, stopper points diagonally upper right. Dark polished volcanic glass, faceted bottle shape, tiny warm highlights, fine copper wire wound around the neck and securing the dark stopper. No table, cast shadow, hand, coins, text, or other objects. Readable silhouette, not too tall, broad true alpha margin around the object.",
+    "archive": "public/assets/sources/nightglass-vial-v1.png",
+    "references": [
+      "public/assets/sources/zelina-lesson-sketch-imagegen-v1.png",
+      "public/assets/sources/nightglass-vial-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "nightglass-coins",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D storybook pen-and-ink etching, fine sepia crosshatching, subdued watercolor, richly textured walnut, warm amber task lighting, muted colors, no lettering or captions. Isolated true transparent cutout of ONE small worn fantasy gold coin from directly overhead, flat face toward viewer. Simple stamped concentric border and central geometric crest, no text or numbers. Restrained amber-gold warm work light. No other coins, hands, floor, cast shadow, or objects.",
+    "archive": "public/assets/sources/nightglass-coins-v1.png",
+    "references": [
+      "public/assets/sources/nightglass-coin-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "nightglass-mending-light",
+    "tool": "SVG and asset preparation",
+    "prompt": "Brief warm highlight along the obsidian as the shards mend.",
+    "archive": "public/assets/sources/nightglass-mending-light-v1.png"
+  },
+  {
+    "id": "shrieker-road-far",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D parchment storybook, very fine sepia pen etching and crosshatching, muted watercolor, cool damp dawn haze and restrained earthy tones, cinematic wide composition, no typography. Full opaque 16:9 landscape of the same travelling merchant caravan road at dawn after heavy rain, seen from an extremely low ground-level camera. Wet rutted road with puddles running from foreground center into a foggy distance. The surface and verges are thickly carpeted with many small uncanny mushrooms in pale buff, smoky gray and muted violet, physically realistic caps, no faces. Leave a narrow empty patch of wet packed dirt around x=45 percent and y=80 percent to receive a separately layered foreground horse hoof and crushed mushroom, and leave the right verge visually clear for three separately added foreground adventurers. Covered wagons and horses halted in atmospheric silhouette well back. Three or four caravan guards farther up the road clearing a narrow strip, small lower-contrast figures, one earth-clad human adventurer from behind alongside them, no detailed faces or distinctive invention. No foreground people or horses, no buildings, no black dust cloud in the foreground. Dim gray-green dawn with a narrow pale horizon, grave uneasy mood.",
+    "archive": "public/assets/sources/shrieker-road-far-v1.png",
+    "references": [
+      "public/assets/sources/carlon-road-road-imagegen-v1.png",
+      "public/assets/sources/shrieker-road-road-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "shrieker-road-party",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D parchment storybook, very fine sepia pen etching and crosshatching, muted watercolor, cool damp dawn haze and restrained earthy tones, cinematic wide composition, no typography. Transparent wide grouped cutout of exactly three adventurers recoiling from an uncanny sound, shown full body on one low ground plane. On LEFT, youthful slender pale clean-shaven dark-haired elf Aldrik with pointed ears and fitted dark leather, retreats a step, elbow raised and one hand to ear, looking down with a stricken expression. CENTER, dark-skinned Lucien with short tightly cropped hair and neatly trimmed beard, red-purple robes with fine gold trim, pulls away in deep grief, shoulders curled and face down, one hand near his face. On RIGHT and shortest, one-meter copper dragonborn Coppercoil, brass mechanical lower jaw, forehead goggles, green chest core, orange metallic scales and artificer gear, crouches and turns away with hands at his ears. Readable distinct silhouettes, no theatrical yelling, no battle, no weapons drawn. Use reference one for Aldrik, reference two for Lucien, the copper dragonborn at right of reference three for Coppercoil. Soft cool rim daylight from upper left, no surrounding floor, mushrooms, black dust, scenery, text, or other people. True alpha outside the group.",
+    "archive": "public/assets/sources/shrieker-road-party-v1.png",
+    "references": [
+      "public/assets/references/aldrik.png",
+      "public/assets/sources/carlon-road-rescue-imagegen-v1.png",
+      "public/assets/sources/zelina-lesson-pair-imagegen-v1.png",
+      "public/assets/sources/shrieker-road-party-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "shrieker-road-near",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D parchment storybook, very fine sepia pen etching and crosshatching, muted watercolor, cool damp dawn haze and restrained earthy tones, cinematic wide composition, no typography. Isolated 16:9 transparent foreground framing layer for an eerie dawn road. Only the extreme LOWER LEFT and LOWER RIGHT corners contain cropped very close small mushroom caps, damp moss, and a few tiny wet stones with organic silhouette edges. Parchment pen-ink texture. Dark buff, olive and muted purple. Central 68 percent and entire upper 65 percent perfectly clear with true zero alpha. No horizon, characters, horse, dust or opaque painted backdrop.",
+    "archive": "public/assets/sources/shrieker-road-near-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-near-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "shrieker-road-hoof",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D parchment storybook, very fine sepia pen etching and crosshatching, muted watercolor, cool damp dawn haze and restrained earthy tones, cinematic wide composition, no typography. Isolated transparent cutout of a close horse's lower foreleg, seen at road level from the side with very slight three-quarter perspective. The dark chestnut leg enters diagonally from the UPPER LEFT of a landscape frame and leads down toward a large planted dark hoof slightly right of center. Cropped upper end touches the top left edge naturally, as if the leg continues above the frame. Detailed fetlock hairs, damp gray-brown unshod hoof, no object underneath, no other leg, horse body, ground, dirt, mushroom, black dust, text or scenery. Ground-level perspective with cool damp dawn lighting. Transparent alpha outside the leg.",
+    "archive": "public/assets/sources/shrieker-road-hoof-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-hoof-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "shrieker-road-cap",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D parchment storybook, very fine sepia pen etching and crosshatching, muted watercolor, cool damp dawn haze and restrained earthy tones, cinematic wide composition, no typography. Isolated transparent cutout of one squat little fantasy mushroom, pale gray-violet flat cap with slightly rough rim, very short buff stem, low camera view. Visible full silhouette with some margin. Dull cold wet dawn light. No face, mouth, spores, surroundings, dirt, ground, lettering, or other mushrooms. True zero alpha outside the object.",
+    "archive": "public/assets/sources/shrieker-road-cap-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-cap-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "shrieker-road-crushed",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D parchment storybook, very fine sepia pen etching and crosshatching, muted watercolor, cool damp dawn haze and restrained earthy tones, cinematic wide composition, no typography. Isolated transparent cutout of the collapsed fragments of a single small pale gray-violet mushroom that has just been crushed under a horse hoof. A low irregular flattened cap with muted cream interior and short torn stem, on one local horizontal plane, close low-angle camera. A few connected torn edges, no large scattered pieces. Damp cold dawn light. No hoof, black dust, ground, text or backdrop. True alpha outside the fragments.",
+    "archive": "public/assets/sources/shrieker-road-crushed-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-crushed-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "shrieker-road-dust-a",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D parchment storybook, very fine sepia pen etching and crosshatching, muted watercolor, cool damp dawn haze and restrained earthy tones, cinematic wide composition, no typography. Isolated transparent visual effect only: one small plume of almost-black spore dust rising from a narrow base, spreading into soft ragged charcoal wisps and fine particles above. Thin enough to see through in places, restrained, no bright colors. Vertical frame, center the plume and leave generous empty margins, true zero alpha outside it. No floor, mushroom, fire, skull, people, text or opaque background.",
+    "archive": "public/assets/sources/shrieker-road-dust-a-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-dust-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "shrieker-road-dust-b",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Antique D&D parchment storybook, very fine sepia pen etching and crosshatching, muted watercolor, cool damp dawn haze and restrained earthy tones, cinematic wide composition, no typography. Isolated transparent visual effect only: one small plume of almost-black spore dust rising from a narrow base, spreading into soft ragged charcoal wisps and fine particles above. Thin enough to see through in places, restrained, no bright colors. Vertical frame, center the plume and leave generous empty margins, true zero alpha outside it. No floor, mushroom, fire, skull, people, text or opaque background.",
+    "archive": "public/assets/sources/shrieker-road-dust-b-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-dust-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-bend",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Use case: layered game recap illustration. Antique fantasy storybook, fine sepia pen contours and etched crosshatching, matte muted watercolor on parchment. Match the reference rendering, with twilight blue-violet shadows, mossy green and a soft warm sunset rim from upper right. No text, black letterbox or border. One opaque 16:9 wide landscape. Image 1 is reference for the road's visual continuity and style only. Elevated viewpoint looking downhill from a low grassy rise, along the same wet rutted trade road after rain. The open road starts in the lower center and winds diagonally into the middle-right distance, its bend clearly visible at about 74% width, 56% height. A small but distinctly readable medieval wooden covered freight wagon is overturned on its side at that bend, one prominent wheel pointing up, tilted spokes, broken shafts, some fallen freight. A handful of tiny dark hobgoblin silhouettes gather around it, softened by distance, movement implied, no gore, no injured figures. The pale yellow-orange horizon catches the wagon wheel and a puddle at the bend. Keep the left half of the landscape empty, including a flat section of road shoulder around y=64% for a separately added halted covered caravan wagon and a large nearer dirt-and-grass crest for three added figures around y=94%. No other foreground figures, animals, wagons, cutout shapes or mushrooms. A somber dusky sky and distant woodland. The right bend should be readily discernible at phone size, keep clean silhouette separation around the wreck.",
+    "archive": "public/assets/sources/sunset-road-bend-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-road-imagegen-v1.png",
+      "public/assets/sources/sunset-road-road-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-caravan",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Use case: layered game recap illustration. Antique fantasy storybook, fine sepia pen contours and etched crosshatching, matte muted watercolor on parchment. Match the reference rendering, with twilight blue-violet shadows, mossy green and a soft warm sunset rim from upper right. No text, black letterbox or border. True transparent alpha background. A small grouped cutout of the halted medieval covered wagon, Carlon seated at the driver's bench holding reins, and Tyjit by its front wheel facing toward screen right with one raised hand signaling a halt. Complete wagon in three-quarter side view oriented toward the RIGHT, entire harnessed dark bay draft horse at right with its four hooves visible and wooden shafts attached to wagon. The wagon is working dark wood and muted cream canvas with no logos, consistent with the distant caravan in Image 3. Carlon is a wiry human man with shoulder-length brown hair, stubble and a round pendant; use Image 2 for his face only. He now wears a plain borrowed muted gray tunic and trousers. Tyjit is the stocky adult dwarf woman on the far right in Image 1, with long braided red hair, dark armor over chainmail and a deep red cloak, one sheathed handaxe. The whole team is on a common horizontal ground plane, profile readable at small scale. Keep all wheels, hooves and silhouettes intact. Everything outside this isolated group is truly transparent, no painted ground, shadow plane, other travellers, other carts or scenery.",
+    "archive": "public/assets/sources/sunset-road-caravan-v1.png",
+    "references": [
+      "public/assets/sources/carlon-road-decision-imagegen-v1.png",
+      "public/assets/references/carlon-amoffel-visual-reference.png",
+      "public/assets/sources/shrieker-road-road-imagegen-v1.png",
+      "public/assets/sources/sunset-road-wagon-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-lookout",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Use case: layered game recap illustration. Antique fantasy storybook, fine sepia pen contours and etched crosshatching, matte muted watercolor on parchment. Match the reference rendering, with twilight blue-violet shadows, mossy green and a soft warm sunset rim from upper right. No text, black letterbox or border. True transparent alpha background. Wide isolated full-body cutout of the three same protagonists in Image 1, which is for identity, clothing and relative scale. Stage them together paused on the rise as they quietly confer, all looking or gesturing downhill toward screen RIGHT. LEFT, tall dark-skinned Lucien in crimson-purple robes with fine gold trim, short tight black hair and trimmed beard, shown in three-quarter rear profile. CENTER, tall slender pale young adult elf Aldrik with dark tousled hair, pointed ears, dark blue hoodless cloak and brown leather armor, extending his right hand to indicate a point off frame right, the main storytelling gesture, crossbow stowed. RIGHT, distinctly smaller one-meter Coppercoil, copper dragonborn with orange metallic scales, brass mechanical lower jaw, forehead goggles, and visible green chest core, shoulders turned toward the road in three-quarter profile, listening. Pose them at ease with staggered natural stances and overlap, standing with boots on a shared horizontal ground plane, looking down from a ridge. Give the feet room and include all limbs. Match sepia ink rendering and face likenesses. A narrow warm rim along right shoulders. Outside the characters true zero alpha, no painted ground, no platform or drop shadow, no weapons drawn, no scenery.",
+    "archive": "public/assets/sources/sunset-road-lookout-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-party-imagegen-v1.png",
+      "public/assets/sources/sunset-road-party-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-grasses",
+    "tool": "Built-in ImageGen and asset preparation",
+    "prompt": "Use case: layered game recap illustration. Antique fantasy storybook, fine sepia pen contours and etched crosshatching, matte muted watercolor on parchment. Match the reference rendering, with twilight blue-violet shadows, mossy green and a soft warm sunset rim from upper right. No text, black letterbox or border. True transparent alpha. Wide 16:9 lower-corner framing overlay for a medieval trade road at sunset, style matched to the plant details in Image 1. Wet dark grasses, moss and scattered small stones in a slim cropped bank at the lower left corner, with a few separate taller stems at the extreme lower right edge. Tangle of thin wind-bent stalks, low detail where it will overlay boots, darker than the scene. Lowest 8–13 percent only, plus a few slim grasses at the edges. Leave the center and upper frame entirely transparent, no terrain across the center, no flowers, mushrooms, trees or characters. True zero alpha outside the plants and stones.",
+    "archive": "public/assets/sources/sunset-road-grasses-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-road-imagegen-v1.png",
+      "public/assets/sources/sunset-road-near-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-dust-a",
+    "tool": "Asset preparation from existing ImageGen source",
+    "prompt": "Faint backlit dust at the road bend, first drift pose.",
+    "archive": "public/assets/sources/sunset-road-dust-a-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-dust-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-dust-b",
+    "tool": "Asset preparation from existing ImageGen source",
+    "prompt": "Faint backlit dust at the road bend, second drift pose.",
+    "archive": "public/assets/sources/sunset-road-dust-b-v1.png",
+    "references": [
+      "public/assets/sources/shrieker-road-dust-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-mounted-a",
+    "tool": "Built-in ImageGen and registered cutout preparation",
+    "prompt": "Transparent full-body animated cutout in fine sepia pen etching, antique fantasy storybook crosshatching, muted watercolor on parchment. Reference 1 establishes the exact young pale clean-shaven elf Aldrik with pointed ears, tousled brown hair, dark navy cloak, brown rogue leather, stowed crossbow, and his dappled bay horse with blue saddle blanket and leather tack. Reference 2 is for low warm sunset rim light from image right and muted dusk hues only. Draw this same mounted rider and horse from a dramatic frontal three-quarter camera. The horse is travelling diagonally TOWARD CAMERA and toward screen LEFT, chest and near eye visible, body receding toward upper-right, with a readable four-beat quick trot. Aldrik twists at the waist to look BACK over his shoulder, extending his RIGHT arm back and upward diagonally to screen RIGHT, finger indicating the faraway overturned wagon off frame behind him. His other hand holds the reins. Make the arm and face clearly silhouetted to screen right, far above the horse's legs. Complete horse from ears to all four hooves, full tail and both rider hands visible, no crop, 8% transparent margin. One foreleg bent and lifted clearly, diagonal opposite hind leg lifted, other diagonal carrying the weight. Natural stance with clean distinct silhouettes for each leg and a baseline under the supporting hooves. No ground, platform, typography, scenery, dust, outline halo or drop shadow. True alpha outside the rider and horse. Portrait or square canvas.",
+    "archive": "public/assets/sources/sunset-road-mounted-a-v1.png",
+    "references": [
+      "public/assets/sources/aldrik-riding-watch-v1.png",
+      "public/assets/environments/sunset-road-bend-v1.webp",
+      "public/assets/sources/sunset-road-mounted-a-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-mounted-b",
+    "tool": "Built-in ImageGen and registered cutout preparation",
+    "prompt": "Edit this exact transparent animation frame in place. This is pose B of a two-frame diagonal horse trot. Preserve the exact square canvas, scale and pixel alignment. Keep the entire elf rider, face, pointing gesture, reins, horse head, neck, torso, tail, saddle, all tack, and the rider's boots absolutely unchanged and in their exact positions. Change ONLY the four horse legs from their joints down. Reverse the current trot phase: straighten and plant the raised viewer-left foreleg on the ground just to the left of the other foreleg's old hoof, and bend and lift the previously planted viewer-middle foreleg, hoof clearly off the ground. For the hind legs, straighten the raised rightmost leg and plant its hoof, and flex the more central hind leg so its hoof lifts. Maintain exactly four anatomical horse legs. Keep the same baseline near bottom of original. Preserve the same detailed sepia crosshatched coat texture and exact colors. Empty space must be transparent, no motion lines, ground, or shadow. Make the changed silhouettes clear at small size.",
+    "archive": "public/assets/sources/sunset-road-mounted-b-v1.png",
+    "references": [
+      "public/assets/sources/sunset-road-mounted-a-imagegen-v1.png",
+      "public/assets/sources/sunset-road-mounted-b-imagegen-v1.png"
+    ]
+  },
+  {
+    "id": "sunset-road-watchers",
+    "tool": "Built-in ImageGen and registered cutout preparation",
+    "prompt": "Create a transparent cutout of exactly TWO characters for the left edge of a layered sunset scene. Image 1 is reference for the two outer figures and their parchment-ink rendering. Keep Lucien, the man on the left, in a closely matching standing full-body three-quarter pose looking screen-right, hand at chin, dark skin, short tightly curled hair, trimmed beard, burgundy-purple robes with gold trim. Omit the central pointing elf altogether. Place the copper-scaled dragonborn from the right of the reference immediately at Lucien's right, their gap about the width of a hand, boots on the same horizontal line. Coppercoil is a one-meter adult and his head reaches just below Lucien's waist to lower ribcage; use copper scales, brass mechanical jaw, raised brass goggles, green glowing chest core, leather artificer pouches, pale loose breeches and heavy boots. Both look screen right at an arriving mounted scout outside the image, neither points. Preserve exact warm sunset rim from the right, sepia pen etching and matte muted watercolors from reference. Both complete silhouettes with a margin, no ground platform, scenery, horse, elf, or shadows. True transparent alpha outside the characters.",
+    "archive": "public/assets/sources/sunset-road-watchers-v1.png",
+    "references": [
+      "public/assets/sources/sunset-road-party-imagegen-v1.png",
+      "public/assets/sources/sunset-road-watchers-imagegen-v1.png"
+    ]
   }
 ]

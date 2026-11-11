@@ -381,6 +381,10 @@ select {
   animation-name: actor-recoil;
   animation-fill-mode: both;
 }
+.motion-stomp {
+  animation-name: actor-stomp;
+  animation-fill-mode: both;
+}
 .motion-fade {
   animation-name: actor-fade;
   animation-fill-mode: both;
@@ -418,10 +422,10 @@ select {
 }
 @keyframes actor-travel {
   from {
-    transform: translate(var(--from-x), var(--from-y));
+    transform: translate(var(--from-x), var(--from-y)) scale(var(--from-scale, 1));
   }
   to {
-    transform: translate(var(--to-x), var(--to-y));
+    transform: translate(var(--to-x), var(--to-y)) scale(1);
   }
 }
 @keyframes actor-recoil {
@@ -433,6 +437,16 @@ select {
   }
   100% {
     transform: translate(var(--to-x), var(--to-y));
+  }
+}
+@keyframes actor-stomp {
+  0%,
+  100% {
+    transform: translate(var(--to-x), var(--to-y));
+  }
+  40%,
+  48% {
+    transform: translate(var(--from-x), var(--from-y));
   }
 }
 @keyframes actor-fade {

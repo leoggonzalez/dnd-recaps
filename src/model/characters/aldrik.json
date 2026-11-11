@@ -205,6 +205,132 @@
       "status": "prototype",
       "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "porcelain-wagon-wagon",
+      "path": "public/assets/environments/porcelain-wagon-wagon-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 465244,
+      "sha256": "4c6ffe61280a0bffa78b249dd92a5434a108c10804457db4951c962cf85873f8",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Rain-lit porcelain wagon with Aldrik outside the opening.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-wagon-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "porcelain-wager-cast",
+      "path": "public/assets/groups/porcelain-wager-cast-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 131046,
+      "sha256": "d9bb2a907fefde051c1fdc25952e0aaba721cb759a4ba426049ee2ddccf1303e",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Losvius, Coppercoil and Aldrik confer quietly about the wager inside the porcelain wagon.",
+      "sourcePath": "public/assets/sources/porcelain-wager-cast-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "shrieker-road-party",
+      "path": "public/assets/groups/shrieker-road-party-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 64998,
+      "sha256": "9ebb3f75f4688fcef93995595f646ebb6f804369604f2733527d11a6a3cb0594",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Aldrik, Lucien and Coppercoil pull back from the shrieker cries at the right verge.",
+      "sourcePath": "public/assets/sources/shrieker-road-party-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "sunset-road-lookout",
+      "path": "public/assets/groups/sunset-road-lookout-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 73458,
+      "sha256": "74c6b56b77005de420953c97549d93455783001da3fdeb44b4b95dc6af706cd3",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien, Aldrik and Coppercoil confer on the rise and look toward the bend.",
+      "sourcePath": "public/assets/sources/sunset-road-lookout-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "sunset-road-mounted-a",
+      "path": "public/assets/characters/sunset-road-mounted-a-v1.webp",
+      "width": 1536,
+      "height": 864,
+      "bytes": 80828,
+      "sha256": "aecfc1908dfb0f30f1a2613901dcfca64cabaec869bb39a8e5ba06419638168e",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5533854166666666,
+        "y": 0.9386574074074074
+      },
+      "description": "Aldrik rides toward the party and points back toward the wreck. First diagonal trot phase.",
+      "sourcePath": "public/assets/sources/sunset-road-mounted-a-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "sunset-road-mounted-b",
+      "path": "public/assets/characters/sunset-road-mounted-b-v1.webp",
+      "width": 1536,
+      "height": 864,
+      "bytes": 81404,
+      "sha256": "32ec5d4b50cccc1496daddba99290fa6661dbe3ad8ae85a542c09c9a0b076d17",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5533854166666666,
+        "y": 0.9386574074074074
+      },
+      "description": "Alternate diagonal trot phase. The horse’s legs change while Aldrik and the horse’s upper body stay registered.",
+      "sourcePath": "public/assets/sources/sunset-road-mounted-b-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "sheet_name": "Aldrik",

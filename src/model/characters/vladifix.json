@@ -29,6 +29,27 @@
       "version": 1,
       "status": "reference",
       "usage": "shared-composition"
+    },
+    {
+      "id": "shrieker-road-far",
+      "path": "public/assets/environments/shrieker-road-far-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 430138,
+      "sha256": "81bd3e92ff660473979416758b8a16c5f3e8ac571ad81940b45392aaa1534109",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Mushroom-covered dawn road, halted wagons and distant guards clearing a passage.",
+      "sourcePath": "public/assets/sources/shrieker-road-far-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "aliases": [

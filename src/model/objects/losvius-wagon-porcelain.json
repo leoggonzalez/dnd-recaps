@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "losvius-wagon-porcelain",
+  "name": "Wobbling porcelain vase",
+  "category": "objects",
+  "description": "Three poses share a base pivot for a brief wobble and catch.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "porcelain",
+    "losvius"
+  ],
+  "reuseWhen": "Use with the registered November 4 porcelain wagon composition and aligned layers.",
+  "assets": [
+    {
+      "id": "porcelain-wagon-vase-upright",
+      "path": "public/assets/objects/porcelain-wagon-vase-upright-v1.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 9672,
+      "sha256": "1647be9a7b0ff8e6c52e74f8e653ef85ad35624ed3e3ff0c549b9a5e277568fe",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5859375
+      },
+      "description": "Porcelain vase upright on its shelf before it rocks.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-vase-upright-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "porcelain-wagon-vase-wobble",
+      "path": "public/assets/objects/porcelain-wagon-vase-wobble-v1.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 9716,
+      "sha256": "58ba8005ed85db26c7f31c21bd2294839b16ff6d3009914e2a56382e3074b679",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5859375
+      },
+      "description": "Matching porcelain vase tipping toward the aisle.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-vase-wobble-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "porcelain-wagon-vase-caught",
+      "path": "public/assets/objects/porcelain-wagon-vase-caught-v1.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 9866,
+      "sha256": "eb92690709673cf419f4b0183deec7a6aa7651c898fdeed5cfbf58e5447605b4",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5859375
+      },
+      "description": "Matching porcelain vase tilted in the spectral hand.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-vase-caught-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "shrieker-road",
+  "name": "Mushroom-covered caravan road",
+  "category": "environments",
+  "description": "Damp dawn road with distant wagons and a clearing party. Vladefix is the earth-clad silhouette among the guards.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "shriekers",
+    "dawn"
+  ],
+  "reuseWhen": "Use with the November 4 shrieker road composition.",
+  "assets": [
+    {
+      "id": "shrieker-road-far",
+      "path": "public/assets/environments/shrieker-road-far-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 430138,
+      "sha256": "81bd3e92ff660473979416758b8a16c5f3e8ac571ad81940b45392aaa1534109",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Mushroom-covered dawn road, halted wagons and distant guards clearing a passage.",
+      "sourcePath": "public/assets/sources/shrieker-road-far-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "shrieker-road-near",
+      "path": "public/assets/environments/shrieker-road-near-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 78712,
+      "sha256": "dc7336241aee597fe7980aeadca96c0010c3a5591d64f6e21447faeb97675268",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Near corners framed by wet mushroom caps, stones and moss.",
+      "sourcePath": "public/assets/sources/shrieker-road-near-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

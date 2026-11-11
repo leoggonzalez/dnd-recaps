@@ -34,6 +34,48 @@
       "version": 1,
       "status": "reference",
       "usage": "portrait-reference"
+    },
+    {
+      "id": "porcelain-wagon-pair",
+      "path": "public/assets/groups/porcelain-wagon-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 102010,
+      "sha256": "00dd8d0857fc6912bd41c4554e068e4499d61fb55c88b6ab910b0e852837e433",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Losvius makes room while Coppercoil climbs the threshold.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-pair-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "porcelain-wager-cast",
+      "path": "public/assets/groups/porcelain-wager-cast-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 131046,
+      "sha256": "d9bb2a907fefde051c1fdc25952e0aaba721cb759a4ba426049ee2ddccf1303e",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Losvius, Coppercoil and Aldrik confer quietly about the wager inside the porcelain wagon.",
+      "sourcePath": "public/assets/sources/porcelain-wager-cast-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "appearance": {

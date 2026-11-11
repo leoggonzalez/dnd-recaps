@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "losvius-wagon",
+  "name": "Losvius’s porcelain wagon",
+  "category": "environments",
+  "description": "Rain-lit wagon with packed porcelain and a central climbing aisle. The far layer includes Aldrik outside.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "porcelain",
+    "losvius"
+  ],
+  "reuseWhen": "Use with the registered November 4 porcelain wagon composition and aligned layers.",
+  "assets": [
+    {
+      "id": "porcelain-wagon-wagon",
+      "path": "public/assets/environments/porcelain-wagon-wagon-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 465244,
+      "sha256": "4c6ffe61280a0bffa78b249dd92a5434a108c10804457db4951c962cf85873f8",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Rain-lit porcelain wagon with Aldrik outside the opening.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-wagon-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "porcelain-wagon-edges",
+      "path": "public/assets/environments/porcelain-wagon-edges-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 79800,
+      "sha256": "80c5462b9123544dc0fb4bc57298b493f2f99b586ab9a87d9bac21442b02ea02",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Near corners of the wagon framed by crates and porcelain rims.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-edges-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "porcelain-wager-plate",
+      "path": "public/assets/environments/porcelain-wager-plate-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 462390,
+      "sha256": "f91a6fe7b9d528dc7b66f6705eb05cdad43d8ee2d75d96d3232a4ae1ccc8db2c",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Same rain-lit porcelain wagon as the climb, with the doorway cleared after Aldrik comes inside.",
+      "sourcePath": "public/assets/sources/porcelain-wager-plate-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

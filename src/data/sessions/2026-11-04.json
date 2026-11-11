@@ -334,6 +334,461 @@
         "x": 0.5,
         "y": 0.5
       }
+    },
+    {
+      "id": "porcelain-wagon-wagon",
+      "path": "assets/environments/porcelain-wagon-wagon-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 465244,
+      "sha256": "4c6ffe61280a0bffa78b249dd92a5434a108c10804457db4951c962cf85873f8",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "porcelain-wagon-pair",
+      "path": "assets/groups/porcelain-wagon-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 102010,
+      "sha256": "00dd8d0857fc6912bd41c4554e068e4499d61fb55c88b6ab910b0e852837e433",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "porcelain-wagon-edges",
+      "path": "assets/environments/porcelain-wagon-edges-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 79800,
+      "sha256": "80c5462b9123544dc0fb4bc57298b493f2f99b586ab9a87d9bac21442b02ea02",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "porcelain-wagon-vase-upright",
+      "path": "assets/objects/porcelain-wagon-vase-upright-v1.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 9672,
+      "sha256": "1647be9a7b0ff8e6c52e74f8e653ef85ad35624ed3e3ff0c549b9a5e277568fe",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5859375
+      }
+    },
+    {
+      "id": "porcelain-wagon-vase-wobble",
+      "path": "assets/objects/porcelain-wagon-vase-wobble-v1.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 9716,
+      "sha256": "58ba8005ed85db26c7f31c21bd2294839b16ff6d3009914e2a56382e3074b679",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5859375
+      }
+    },
+    {
+      "id": "porcelain-wagon-vase-caught",
+      "path": "assets/objects/porcelain-wagon-vase-caught-v1.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 9866,
+      "sha256": "eb92690709673cf419f4b0183deec7a6aa7651c898fdeed5cfbf58e5447605b4",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5859375
+      }
+    },
+    {
+      "id": "porcelain-wagon-hand",
+      "path": "assets/objects/porcelain-wagon-hand-v1.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 44904,
+      "sha256": "b1e6b3def08b0454218292e353f907e749741fe67a6c4445a60da335b9d52d77",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "porcelain-wagon-trail",
+      "path": "assets/objects/porcelain-wagon-trail-v1.webp",
+      "width": 240,
+      "height": 120,
+      "bytes": 2372,
+      "sha256": "614ffc233551120963342e18c8bba53390dc889e53d3c550ae3ae35f842532cb",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "porcelain-wagon-rain-a",
+      "path": "assets/objects/porcelain-wagon-rain-a-v1.webp",
+      "width": 320,
+      "height": 360,
+      "bytes": 998,
+      "sha256": "301f7e06d82526745ded84640dccf1953724fdb4d3708018f1a517751b97b2ec",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "porcelain-wagon-rain-b",
+      "path": "assets/objects/porcelain-wagon-rain-b-v1.webp",
+      "width": 320,
+      "height": 360,
+      "bytes": 996,
+      "sha256": "8a5a767e0fbacfd2a1337d699124f9ecbb115d9fa73a2e5ffe6277f4ce060153",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "porcelain-wager-plate",
+      "path": "assets/environments/porcelain-wager-plate-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 462390,
+      "sha256": "f91a6fe7b9d528dc7b66f6705eb05cdad43d8ee2d75d96d3232a4ae1ccc8db2c",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "porcelain-wager-cast",
+      "path": "assets/groups/porcelain-wager-cast-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 131046,
+      "sha256": "d9bb2a907fefde051c1fdc25952e0aaba721cb759a4ba426049ee2ddccf1303e",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "nightglass-desk",
+      "path": "assets/environments/nightglass-desk-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 417996,
+      "sha256": "1fb55cb239e4a6811d65affe01d8cd60980a68e16bddb8173362cda90a6f76d1",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "nightglass-hands",
+      "path": "assets/groups/nightglass-hands-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 201070,
+      "sha256": "0c73d9fef660d45fa12bc31b1072ce2cb734db31b181c56ea5b948193bef2b63",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "nightglass-cloth",
+      "path": "assets/environments/nightglass-cloth-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 51956,
+      "sha256": "e611b57aa33625a0193d367f1fd3514c9ef88de1741629157abf932e7879ef63",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "nightglass-shards",
+      "path": "assets/objects/nightglass-shards-v1.webp",
+      "width": 512,
+      "height": 384,
+      "bytes": 20376,
+      "sha256": "4e568595a41d9f99d66c5a02c7cb0887ca1c02c2fbe8e9e408a27930fec7f576",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "nightglass-vial",
+      "path": "assets/objects/nightglass-vial-v1.webp",
+      "width": 512,
+      "height": 384,
+      "bytes": 27064,
+      "sha256": "071f9153e28e125d8632d1c09ac9d3071db2745a15924a8573101dd75a85cc91",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "nightglass-coins",
+      "path": "assets/objects/nightglass-coins-v1.webp",
+      "width": 290,
+      "height": 216,
+      "bytes": 15014,
+      "sha256": "ff823ef7632be3d95a59946125056e0cb5ee2760969af76a51013e82aa412a1d",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "nightglass-mending-light",
+      "path": "assets/objects/nightglass-mending-light-v1.webp",
+      "width": 320,
+      "height": 230,
+      "bytes": 8592,
+      "sha256": "b880aeacbe264f00a65dd47d35d8d1214a74b4b0d617c8fd251b38dbe96aa654",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "shrieker-road-far",
+      "path": "assets/environments/shrieker-road-far-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 430138,
+      "sha256": "81bd3e92ff660473979416758b8a16c5f3e8ac571ad81940b45392aaa1534109",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "shrieker-road-party",
+      "path": "assets/groups/shrieker-road-party-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 64998,
+      "sha256": "9ebb3f75f4688fcef93995595f646ebb6f804369604f2733527d11a6a3cb0594",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "shrieker-road-near",
+      "path": "assets/environments/shrieker-road-near-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 78712,
+      "sha256": "dc7336241aee597fe7980aeadca96c0010c3a5591d64f6e21447faeb97675268",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "shrieker-road-hoof",
+      "path": "assets/creatures/shrieker-road-hoof-v1.webp",
+      "width": 620,
+      "height": 560,
+      "bytes": 37602,
+      "sha256": "a9096cba53e80caf6ae383286a8c9b580c804de850a82b3b191f330f27fc768c",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "shrieker-road-cap",
+      "path": "assets/objects/shrieker-road-cap-v1.webp",
+      "width": 420,
+      "height": 340,
+      "bytes": 16910,
+      "sha256": "c11327ad96e9a7e3dac05ca849010668009c3a790e1130766d6a301dad857609",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7794117647058824
+      }
+    },
+    {
+      "id": "shrieker-road-crushed",
+      "path": "assets/objects/shrieker-road-crushed-v1.webp",
+      "width": 420,
+      "height": 340,
+      "bytes": 15128,
+      "sha256": "5d6e6e492033b95e8030b3f11403ec9e91f2f07e945aee5eb4dd7e287d179a05",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7794117647058824
+      }
+    },
+    {
+      "id": "shrieker-road-dust-a",
+      "path": "assets/objects/shrieker-road-dust-a-v1.webp",
+      "width": 400,
+      "height": 500,
+      "bytes": 31026,
+      "sha256": "dde7da4d2b64b75542a8911169a837668473fba42244319d130592eabdcba9db",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.84
+      }
+    },
+    {
+      "id": "shrieker-road-dust-b",
+      "path": "assets/objects/shrieker-road-dust-b-v1.webp",
+      "width": 400,
+      "height": 500,
+      "bytes": 33064,
+      "sha256": "a8f4c3bf2e0feab30d66a348d1f70159409bdfdb85b9cba4ad674e43dc5f0e8e",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.84
+      }
+    },
+    {
+      "id": "sunset-road-bend",
+      "path": "assets/environments/sunset-road-bend-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 439960,
+      "sha256": "40fac57987fb05213421e90a66e50a522ab7be6527671d2df20fdb7cf862704f",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "sunset-road-caravan",
+      "path": "assets/groups/sunset-road-caravan-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 34424,
+      "sha256": "e679964ac54de811ff493726e0c1cf952dc2ba59f9859b17388a6d0325fe6f19",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "sunset-road-grasses",
+      "path": "assets/environments/sunset-road-grasses-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 62898,
+      "sha256": "7b7a019365de5564c2cabe1ec5360fe384a27ebef4784fc3f5205d9b96ed2ff1",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "sunset-road-dust-a",
+      "path": "assets/objects/sunset-road-dust-a-v1.webp",
+      "width": 400,
+      "height": 190,
+      "bytes": 6036,
+      "sha256": "b0771a4a2c9ae94df9a66177a7489d5c71af640fed33fede9e969d9b3685d02a",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "sunset-road-dust-b",
+      "path": "assets/objects/sunset-road-dust-b-v1.webp",
+      "width": 400,
+      "height": 190,
+      "bytes": 6428,
+      "sha256": "c1fa035bba8f239f04798530da43b06e38aa5fd090686a608efffbc6987558e9",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "sunset-road-mounted-a",
+      "path": "assets/characters/sunset-road-mounted-a-v1.webp",
+      "width": 1536,
+      "height": 864,
+      "bytes": 80828,
+      "sha256": "aecfc1908dfb0f30f1a2613901dcfca64cabaec869bb39a8e5ba06419638168e",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5533854166666666,
+        "y": 0.9386574074074074
+      }
+    },
+    {
+      "id": "sunset-road-mounted-b",
+      "path": "assets/characters/sunset-road-mounted-b-v1.webp",
+      "width": 1536,
+      "height": 864,
+      "bytes": 81404,
+      "sha256": "32ec5d4b50cccc1496daddba99290fa6661dbe3ad8ae85a542c09c9a0b076d17",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5533854166666666,
+        "y": 0.9386574074074074
+      }
+    },
+    {
+      "id": "sunset-road-watchers",
+      "path": "assets/groups/sunset-road-watchers-v1.webp",
+      "width": 1536,
+      "height": 864,
+      "bytes": 38240,
+      "sha256": "1a6a7bf5d74d28e846e67a4df681454414589527c003251b3cfd8dc9af22e014",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
     }
   ],
   "environments": [
@@ -448,6 +903,121 @@
         {
           "slot": "near",
           "assetId": "lucien-interview-pair",
+          "zIndex": 80
+        }
+      ]
+    },
+    {
+      "id": "losvius-wagon",
+      "name": "Losvius’s porcelain wagon",
+      "overscan": 48,
+      "cameraLimit": 22,
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "porcelain-wagon-wagon",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "porcelain-wagon-pair",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "porcelain-wagon-edges",
+          "zIndex": 80
+        }
+      ]
+    },
+    {
+      "id": "losvius-wagon-wager",
+      "name": "Losvius’s porcelain wagon during the wager",
+      "overscan": 48,
+      "cameraLimit": 22,
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "porcelain-wager-plate",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "porcelain-wager-cast",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "porcelain-wagon-edges",
+          "zIndex": 80
+        }
+      ]
+    },
+    {
+      "id": "rainy-workbench",
+      "name": "Coppercoil’s nightglass workbench",
+      "overscan": 48,
+      "cameraLimit": 18,
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "nightglass-desk",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "nightglass-hands",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "nightglass-cloth",
+          "zIndex": 80
+        }
+      ]
+    },
+    {
+      "id": "shrieker-road",
+      "name": "Dawn road carpeted with shriekers",
+      "overscan": 48,
+      "cameraLimit": 18,
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "shrieker-road-far",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "shrieker-road-party",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "shrieker-road-near",
+          "zIndex": 80
+        }
+      ]
+    },
+    {
+      "id": "sunset-road",
+      "name": "The road bends below a rise at sunset",
+      "overscan": 48,
+      "cameraLimit": 16,
+      "layers": [
+        {
+          "slot": "far",
+          "assetId": "sunset-road-bend",
+          "zIndex": 0
+        },
+        {
+          "slot": "middle",
+          "assetId": "sunset-road-caravan",
+          "zIndex": 20
+        },
+        {
+          "slot": "near",
+          "assetId": "sunset-road-grasses",
           "zIndex": 80
         }
       ]
@@ -833,90 +1403,557 @@
       "id": "a-wagon-full-of-porcelain",
       "title": "A wagon full of porcelain",
       "environmentId": "losvius-wagon",
-      "description": "Coppercoil picks his way past porcelain vases while Aldrik’s spectral hand catches one.",
-      "durationMs": 12000,
+      "description": "Porcelain crowds the rain-lit wagon. Losvius makes room for Coppercoil on the step while Aldrik, outside, sends a spectral hand to steady a tipping vase.",
+      "durationMs": 12800,
       "narration": [
         {
-          "id": "recap",
-          "text": "Losvius invites Coppercoil in from the rain. His wagon is so full of porcelain that Coppercoil has to choose every handhold and foothold carefully. When a vase wobbles, Aldrik’s spectral hand saves it.",
+          "id": "invitation",
+          "text": "Losvius invited Coppercoil out of the rain and into his wagon.",
           "delayMs": 0,
-          "durationMs": 0
+          "durationMs": 480
+        },
+        {
+          "id": "climb",
+          "text": "With porcelain on both sides, Coppercoil had to choose every handhold and foothold carefully.",
+          "delayMs": 2600,
+          "durationMs": 480
+        },
+        {
+          "id": "catch",
+          "text": "One vase wobbled. From outside, Aldrik sent a spectral hand to catch it.",
+          "delayMs": 5600,
+          "durationMs": 480
         }
       ],
-      "artwork": "planned",
-      "actors": [],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "rain-at-opening",
+          "assetId": "porcelain-wagon-rain-a",
+          "position": {
+            "x": 1023,
+            "y": 494
+          },
+          "width": 430,
+          "zIndex": 10,
+          "poses": [
+            {
+              "assetId": "porcelain-wagon-rain-b",
+              "startMs": 740,
+              "fadeMs": 420
+            },
+            {
+              "assetId": "porcelain-wagon-rain-a",
+              "startMs": 1500,
+              "fadeMs": 420
+            }
+          ],
+          "opacity": 0.45,
+          "poseLoopMs": 2100
+        },
+        {
+          "id": "spectral-trail",
+          "assetId": "porcelain-wagon-trail",
+          "position": {
+            "x": 1420,
+            "y": 502
+          },
+          "width": 246,
+          "zIndex": 43,
+          "poses": [],
+          "motion": {
+            "preset": "projectile",
+            "from": {
+              "x": -94,
+              "y": -36
+            },
+            "to": {
+              "x": 20,
+              "y": 24
+            },
+            "delayMs": 5000,
+            "durationMs": 660,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "spectral-hand",
+          "assetId": "porcelain-wagon-hand",
+          "position": {
+            "x": 1540,
+            "y": 645
+          },
+          "width": 222,
+          "zIndex": 44,
+          "poses": [],
+          "motion": {
+            "preset": "fade",
+            "from": {
+              "x": 52,
+              "y": 8
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 5330,
+            "durationMs": 490,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "wobbling-vase",
+          "assetId": "porcelain-wagon-vase-upright",
+          "position": {
+            "x": 1620,
+            "y": 612
+          },
+          "width": 470,
+          "zIndex": 48,
+          "poses": [
+            {
+              "assetId": "porcelain-wagon-vase-wobble",
+              "startMs": 4630
+            },
+            {
+              "assetId": "porcelain-wagon-vase-upright",
+              "startMs": 4920
+            },
+            {
+              "assetId": "porcelain-wagon-vase-caught",
+              "startMs": 5450
+            }
+          ],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 0,
+              "y": 0
+            },
+            "to": {
+              "x": -118,
+              "y": 27
+            },
+            "delayMs": 5450,
+            "durationMs": 380,
+            "easing": "ease-out"
+          }
+        }
+      ],
       "reducedMotion": "final"
     },
     {
       "id": "a-wager-on-the-cult-wagons",
       "title": "A wager on the cult wagons",
-      "environmentId": "losvius-wagon",
-      "description": "Coppercoil, Aldrik, and Losvius talk quietly among the vases.",
-      "durationMs": 12000,
+      "environmentId": "losvius-wagon-wager",
+      "description": "Losvius, Coppercoil, and Aldrik confer between porcelain shelves inside the wagon while rain falls beyond the open doorway.",
+      "durationMs": 14500,
       "narration": [
         {
-          "id": "recap",
-          "text": "Losvius tells Coppercoil and Aldrik about a seven-foot wooden crate surrounded by dark soil in Lasfelro’s wagon. Aldrik suspects a vampire and still wonders whether some cult wagons are decoys. A wager persuades Losvius to investigate a cult wagon during the next substantial fight.",
+          "id": "crate",
+          "text": "Losvius told Coppercoil and Aldrik what he had found in Lasfelro’s wagon during Carlon’s rescue. A seven-foot wooden crate sat surrounded by dark soil.",
           "delayMs": 0,
-          "durationMs": 0
+          "durationMs": 480
+        },
+        {
+          "id": "suspicions",
+          "text": "Aldrik suspected a vampire. He still wondered whether some of the Cult of the Dragon’s wagons were decoys.",
+          "delayMs": 3500,
+          "durationMs": 480
+        },
+        {
+          "id": "wager",
+          "text": "A wager persuaded Losvius to search one of the cult wagons during the next substantial fight.",
+          "delayMs": 7900,
+          "durationMs": 480
         }
       ],
-      "artwork": "planned",
-      "actors": [],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "rain-at-opening",
+          "assetId": "porcelain-wagon-rain-a",
+          "position": {
+            "x": 1023,
+            "y": 494
+          },
+          "width": 430,
+          "zIndex": 10,
+          "poses": [
+            {
+              "assetId": "porcelain-wagon-rain-b",
+              "startMs": 740,
+              "fadeMs": 420
+            },
+            {
+              "assetId": "porcelain-wagon-rain-a",
+              "startMs": 1500,
+              "fadeMs": 420
+            }
+          ],
+          "opacity": 0.45,
+          "poseLoopMs": 2100
+        }
+      ],
       "reducedMotion": "final"
     },
     {
       "id": "nightglass",
       "title": "Nightglass",
       "environmentId": "rainy-workbench",
-      "description": "Behind a blanket, Coppercoil and Zelina mend black obsidian into a small perfume vial.",
-      "durationMs": 12000,
+      "description": "From above, Coppercoil and Zelina’s hands frame an obsidian perfume vial and its sketch on the workbench. The copper-bound stopper and five gold pieces catch the light.",
+      "durationMs": 15500,
       "narration": [
         {
-          "id": "recap",
-          "text": "Samardag explains that nightglass means obsidian in Amn. Coppercoil loses twenty gold gambling with Radecere, then buys his lucky pendant for another two hundred and fifty. Behind a blanket, Coppercoil and Zelina shape the obsidian into a vial for Arietta, and he gives her five gold for perfume.",
+          "id": "obsidian",
+          "text": "As rain kept the caravan in place, Samardag explained that in Amn, nightglass meant obsidian.",
           "delayMs": 0,
-          "durationMs": 0
+          "durationMs": 480
+        },
+        {
+          "id": "wager",
+          "text": "Coppercoil lost twenty gold gambling with Radecere, then paid him another two hundred and fifty for the lucky pendant.",
+          "delayMs": 3000,
+          "durationMs": 480
+        },
+        {
+          "id": "vial",
+          "text": "Behind a blanket that hid the workbench from Arietta, Coppercoil and Zelina magically mended the obsidian into a vial and secured its stopper with copper wire.",
+          "delayMs": 6500,
+          "durationMs": 480
+        },
+        {
+          "id": "gift",
+          "text": "When Zelina asked how she could earn money for perfume, Coppercoil gave her five gold pieces. She accepted, visibly moved.",
+          "delayMs": 10700,
+          "durationMs": 480
         }
       ],
-      "artwork": "planned",
-      "actors": [],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "nightglass-mending",
+          "assetId": "nightglass-shards",
+          "position": {
+            "x": 963,
+            "y": 603
+          },
+          "width": 310,
+          "zIndex": 38,
+          "poses": [
+            {
+              "assetId": "nightglass-vial",
+              "startMs": 6960,
+              "fadeMs": 620
+            }
+          ]
+        },
+        {
+          "id": "mending-glimmer",
+          "assetId": "nightglass-mending-light",
+          "position": {
+            "x": 963,
+            "y": 603
+          },
+          "width": 346,
+          "zIndex": 45,
+          "poses": [],
+          "motion": {
+            "preset": "projectile",
+            "from": {
+              "x": -22,
+              "y": 17
+            },
+            "to": {
+              "x": 20,
+              "y": -15
+            },
+            "delayMs": 6550,
+            "durationMs": 1140,
+            "easing": "ease-out"
+          }
+        },
+        {
+          "id": "perfume-gold",
+          "assetId": "nightglass-coins",
+          "position": {
+            "x": 1382,
+            "y": 749
+          },
+          "width": 222,
+          "zIndex": 35,
+          "poses": [],
+          "motion": {
+            "preset": "fade",
+            "from": {
+              "x": -78,
+              "y": 12
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 10600,
+            "durationMs": 720,
+            "easing": "ease-out"
+          }
+        }
+      ],
       "reducedMotion": "final"
     },
     {
       "id": "the-road-cries-out",
       "title": "The road cries out",
       "environmentId": "shrieker-road",
-      "description": "A hoof crushes a mushroom on the wet road, releasing black dust.",
-      "durationMs": 12000,
+      "description": "A hoof comes down on a mushroom, releasing black dust above the wet road. Aldrik, Lucien, and Coppercoil pull back while Vladefix and the guards clear a path in the distance.",
+      "durationMs": 15400,
       "narration": [
         {
-          "id": "recap",
-          "text": "After two stormy nights, mushrooms carpet the road. A crushed cap moans, and the cries of the connected shriekers overwhelm Aldrik, Lucien, and Coppercoil with grief. Vladefix and the guards plug their ears and spend three hours clearing a passage.",
+          "id": "dawn",
+          "text": "After two nights of storms, the caravan found the road carpeted with mushrooms. A hoof crushed one, and it moaned.",
           "delayMs": 0,
-          "durationMs": 0
+          "durationMs": 480
+        },
+        {
+          "id": "mycelium",
+          "text": "Other caps burst underfoot, releasing black dust and tiny cries. Aldrik, Lucien, and Coppercoil recognized little shriekers joined by a shared mycelium.",
+          "delayMs": 3300,
+          "durationMs": 480
+        },
+        {
+          "id": "grief",
+          "text": "The cries swelled into unbearable grief and drove all three away from the road.",
+          "delayMs": 7100,
+          "durationMs": 480
+        },
+        {
+          "id": "clearing",
+          "text": "Vladefix and the guards used earplugs and spent three hours clearing a passage. The wagons moved on, but the sorrow followed the three into troubled dreams.",
+          "delayMs": 10400,
+          "durationMs": 480
         }
       ],
-      "artwork": "planned",
-      "actors": [],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "shrieker-underfoot",
+          "assetId": "shrieker-road-cap",
+          "position": {
+            "x": 737,
+            "y": 918
+          },
+          "width": 247,
+          "zIndex": 37,
+          "poses": [
+            {
+              "assetId": "shrieker-road-crushed",
+              "startMs": 1850
+            }
+          ]
+        },
+        {
+          "id": "horse-hoof",
+          "assetId": "shrieker-road-hoof",
+          "position": {
+            "x": 456,
+            "y": 371
+          },
+          "width": 1440,
+          "zIndex": 42,
+          "poses": [],
+          "motion": {
+            "preset": "stomp",
+            "from": {
+              "x": 0,
+              "y": 125
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1450,
+            "durationMs": 1000,
+            "easing": "linear"
+          }
+        },
+        {
+          "id": "shrieker-black-dust",
+          "assetId": "shrieker-road-dust-a",
+          "position": {
+            "x": 743,
+            "y": 916
+          },
+          "width": 315,
+          "zIndex": 49,
+          "poses": [
+            {
+              "assetId": "shrieker-road-dust-b",
+              "startMs": 800,
+              "fadeMs": 1100
+            },
+            {
+              "assetId": "shrieker-road-dust-a",
+              "startMs": 2260,
+              "fadeMs": 1100
+            }
+          ],
+          "opacity": 0.85,
+          "poseLoopMs": 3900,
+          "motion": {
+            "preset": "fade",
+            "from": {
+              "x": -10,
+              "y": 46
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "delayMs": 1850,
+            "durationMs": 850,
+            "easing": "ease-out"
+          }
+        }
+      ],
       "reducedMotion": "final"
     },
     {
       "id": "an-overturned-wagon",
       "title": "An overturned wagon",
       "environmentId": "sunset-road",
-      "description": "At sunset, hobgoblins attack an overturned wagon farther down the road.",
-      "durationMs": 12000,
+      "description": "Aldrik rides toward Lucien and Coppercoil on the rise, pointing back over his shoulder toward hobgoblins attacking an overturned wagon. Tyjit holds the caravan while Carlon sits at the reins.",
+      "durationMs": 16200,
       "narration": [
         {
-          "id": "recap",
-          "text": "Carlon takes the reins while Lucien talks about his dreams. Aldrik returns from scouting with word of hobgoblins attacking an overturned wagon. Tyjit halts the caravan, and Aldrik, Coppercoil, and Lucien plan their approach as the sun sets.",
+          "id": "reins",
+          "text": "Once the caravan was moving again, Carlon took the reins, freeing Lucien to talk about his dreams.",
           "delayMs": 0,
-          "durationMs": 0
+          "durationMs": 480
+        },
+        {
+          "id": "scout",
+          "text": "Late that afternoon, Aldrik rode back from scouting and pointed over his shoulder. Hobgoblins were attacking an overturned wagon ahead.",
+          "delayMs": 3500,
+          "durationMs": 480
+        },
+        {
+          "id": "halt",
+          "text": "Tyjit halted the caravan and asked the party to clear the danger.",
+          "delayMs": 7300,
+          "durationMs": 480
+        },
+        {
+          "id": "cliffhanger",
+          "text": "With sunset approaching, Aldrik, Coppercoil, and Lucien planned their approach. Down at the bend, the attack was already underway.",
+          "delayMs": 10500,
+          "durationMs": 480
         }
       ],
-      "artwork": "planned",
-      "actors": [],
+      "artwork": "prototype",
+      "actors": [
+        {
+          "id": "dust-at-the-bend",
+          "assetId": "sunset-road-dust-a",
+          "position": {
+            "x": 1584,
+            "y": 507
+          },
+          "width": 330,
+          "zIndex": 26,
+          "opacity": 0.75,
+          "poseLoopMs": 5200,
+          "poses": [
+            {
+              "assetId": "sunset-road-dust-b",
+              "startMs": 1050,
+              "fadeMs": 1300
+            },
+            {
+              "assetId": "sunset-road-dust-a",
+              "startMs": 3550,
+              "fadeMs": 1300
+            }
+          ]
+        },
+        {
+          "id": "watchers-on-the-rise",
+          "assetId": "sunset-road-watchers",
+          "position": {
+            "x": 960,
+            "y": 540
+          },
+          "width": 1920,
+          "zIndex": 50,
+          "poses": []
+        },
+        {
+          "id": "aldrik-riding-back",
+          "assetId": "sunset-road-mounted-a",
+          "position": {
+            "x": 1062.5,
+            "y": 1013.75
+          },
+          "width": 1920,
+          "zIndex": 55,
+          "poses": [
+            {
+              "assetId": "sunset-road-mounted-b",
+              "startMs": 1460
+            },
+            {
+              "assetId": "sunset-road-mounted-a",
+              "startMs": 1704
+            },
+            {
+              "assetId": "sunset-road-mounted-b",
+              "startMs": 1948
+            },
+            {
+              "assetId": "sunset-road-mounted-a",
+              "startMs": 2192
+            },
+            {
+              "assetId": "sunset-road-mounted-b",
+              "startMs": 2436
+            },
+            {
+              "assetId": "sunset-road-mounted-a",
+              "startMs": 2680
+            },
+            {
+              "assetId": "sunset-road-mounted-b",
+              "startMs": 2924
+            },
+            {
+              "assetId": "sunset-road-mounted-a",
+              "startMs": 3168
+            },
+            {
+              "assetId": "sunset-road-mounted-b",
+              "startMs": 3412
+            },
+            {
+              "assetId": "sunset-road-mounted-a",
+              "startMs": 3656
+            }
+          ],
+          "motion": {
+            "preset": "translate",
+            "from": {
+              "x": 413,
+              "y": -421
+            },
+            "to": {
+              "x": 0,
+              "y": 0
+            },
+            "fromScale": 0.42,
+            "delayMs": 1250,
+            "durationMs": 2600,
+            "easing": "ease-in-out"
+          }
+        }
+      ],
       "reducedMotion": "final"
     }
   ]

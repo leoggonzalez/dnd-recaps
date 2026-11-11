@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "sunset-road",
+  "name": "Sunset road and overturned wagon",
+  "category": "environments",
+  "description": "A wet trade road descending from a grassy rise to an overturned wagon at sunset.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "sunset"
+  ],
+  "reuseWhen": "Use with the November 4 sunset road composition.",
+  "assets": [
+    {
+      "id": "sunset-road-bend",
+      "path": "public/assets/environments/sunset-road-bend-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 439960,
+      "sha256": "40fac57987fb05213421e90a66e50a522ab7be6527671d2df20fdb7cf862704f",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Wet trade road and overturned wagon at sunset, with distant hobgoblin silhouettes.",
+      "sourcePath": "public/assets/sources/sunset-road-bend-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "sunset-road-grasses",
+      "path": "public/assets/environments/sunset-road-grasses-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 62898,
+      "sha256": "7b7a019365de5564c2cabe1ec5360fe384a27ebef4784fc3f5205d9b96ed2ff1",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Dark grasses and wet stones along the foreground bank.",
+      "sourcePath": "public/assets/sources/sunset-road-grasses-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

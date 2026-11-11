@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "losvius-wagon-rain",
+  "name": "Rain at the wagon opening",
+  "category": "objects",
+  "description": "Two matched ambient rain poses.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "porcelain",
+    "losvius"
+  ],
+  "reuseWhen": "Use with the registered November 4 porcelain wagon composition and aligned layers.",
+  "assets": [
+    {
+      "id": "porcelain-wagon-rain-a",
+      "path": "public/assets/objects/porcelain-wagon-rain-a-v1.webp",
+      "width": 320,
+      "height": 360,
+      "bytes": 998,
+      "sha256": "301f7e06d82526745ded84640dccf1953724fdb4d3708018f1a517751b97b2ec",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Subtle rain streaks at the wagon opening, first pose.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-rain-a-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "porcelain-wagon-rain-b",
+      "path": "public/assets/objects/porcelain-wagon-rain-b-v1.webp",
+      "width": 320,
+      "height": 360,
+      "bytes": 996,
+      "sha256": "8a5a767e0fbacfd2a1337d699124f9ecbb115d9fa73a2e5ffe6277f4ce060153",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Subtle rain streaks at the wagon opening, second pose.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-rain-b-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

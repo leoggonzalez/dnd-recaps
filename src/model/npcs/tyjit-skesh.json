@@ -125,6 +125,27 @@
       "status": "prototype",
       "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "sunset-road-caravan",
+      "path": "public/assets/groups/sunset-road-caravan-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 34424,
+      "sha256": "e679964ac54de811ff493726e0c1cf952dc2ba59f9859b17388a6d0325fe6f19",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Carlon at the reins and Tyjit Skesh holding the caravan at the road shoulder.",
+      "sourcePath": "public/assets/sources/sunset-road-caravan-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "character_type": "npc",

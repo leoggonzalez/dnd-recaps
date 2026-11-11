@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "sunset-road-lookout",
+  "name": "The party on the rise",
+  "category": "groups",
+  "description": "Lookout poses for the sunset road, including Lucien and Coppercoil watching the mounted scout return.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "sunset"
+  ],
+  "reuseWhen": "Use with the November 4 sunset road composition.",
+  "assets": [
+    {
+      "id": "sunset-road-lookout",
+      "path": "public/assets/groups/sunset-road-lookout-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 73458,
+      "sha256": "74c6b56b77005de420953c97549d93455783001da3fdeb44b4b95dc6af706cd3",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien, Aldrik and Coppercoil confer on the rise and look toward the bend.",
+      "sourcePath": "public/assets/sources/sunset-road-lookout-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "sunset-road-watchers",
+      "path": "public/assets/groups/sunset-road-watchers-v1.webp",
+      "width": 1536,
+      "height": 864,
+      "bytes": 38240,
+      "sha256": "1a6a7bf5d74d28e846e67a4df681454414589527c003251b3cfd8dc9af22e014",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien and Coppercoil turn toward the returning rider from the near rise.",
+      "sourcePath": "public/assets/sources/sunset-road-watchers-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

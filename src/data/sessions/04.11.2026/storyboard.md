@@ -8,7 +8,7 @@
 
 Use the established 16:9 parchment and ink style. Draw in sepia contours and crosshatching with restrained washes. Give each scene one persistent composition. Build far, middle, and near depth into that image, with separate character and effect layers for the ink entrance. Hold the focal gesture while narration continues. Use restrained idle motion or parallax, with a readable settled image in reduced motion. Use the current party and NPC records for appearance. Keep readable words and plot-critical markings in editable overlays.
 
-Scenes 1–5 are playable. Scenes 6–10 are planned for the next art passes. The transcript establishes the event order and the three-day span. The rescue, interview and wager scenes incorporate the follow-up session notes.
+All ten scenes are playable. The transcript establishes the event order and the three-day span. The rescue, interview and wager scenes incorporate the follow-up session notes.
 
 ## 1. The markings
 
@@ -63,12 +63,16 @@ The [shared wagon](../../../model/environments/daylight-wagon.json) reuses the f
 - **Composition:** View from the inside of Losvius’s wagon toward the rain-bright entrance. Porcelain rims crowd the near edges, and a single tipping vase breaks the pattern in the middle. Coppercoil is caught mid-climb with one hand on the step. Losvius leans aside to give him room, and Aldrik remains beyond the entrance. A thin, cool trail draws the eye toward the spectral hand under the vase.
 - **Entrance and hold:** Reveal the vases and the silhouette at the doorway, then the climbing Coppercoil and the spectral hand as it steadies the vase. Hold the awkward posture and near miss, with rain beyond the doorway and the faint trail settling out of view.
 
+The [porcelain wagon](../../../model/environments/losvius-wagon.json), [climb pose](../../../model/groups/losvius-coppercoil-climb.json), and close packing crates ink in at separate depths. The [vase](../../../model/objects/losvius-wagon-porcelain.json) rocks on its base, then moves into [Aldrik’s spectral hand](../../../model/objects/aldrik-spectral-hand.json). The caught pose holds as [rain at the opening](../../../model/objects/losvius-wagon-rain.json) keeps cycling.
+
 ## 7. A wager on the cult wagons
 
 - **Recap event:** Inside Losvius’s wagon, Coppercoil, Aldrik, and Losvius discuss what might be in the Cult of the Dragon’s wagons, including Aldrik’s suspicion that some are decoys. Losvius reports finding a seven-foot wooden crate surrounded by dark soil in Lasfelro’s wagon. Aldrik suspects a vampire. A bet persuades Losvius to investigate a cult wagon during the next substantial fight.
 - **Cast:** Coppercoil, Aldrik, Losvius.
 - **Composition:** Stay in Losvius’s wagon and reuse the porcelain layout. Frame the three close around a small clear space between the vases. Aldrik leans toward Losvius, Coppercoil watches the response, and Losvius holds the focal spot with one hand braced on a shelf of porcelain. A cool slit of rain light catches his profile and the nearest porcelain rims.
 - **Entrance and hold:** Reveal the vases and figures, then settle on Losvius’s reaction as he takes the bet. Hold the conversation with soft rain or lantern light. Narrate the seven-foot crate and dark soil in Lasfelro’s separate wagon, Aldrik’s vampire suspicion, and the plan to investigate a cult wagon during the next substantial fight. The crate’s contents and the wager’s terms remain unknown.
+
+The [porcelain wagon](../../../model/environments/losvius-wagon.json) carries over the shelves, foreground crates, and rain from Scene 6. Its cleared doorway frames the [new group pose](../../../model/groups/losvius-wagon-wager.json) as the three confer inside.
 
 ## 8. Nightglass
 
@@ -77,6 +81,8 @@ The [shared wagon](../../../model/environments/daylight-wagon.json) reuses the f
 - **Composition:** An overhead view of the workbench behind the blanket. The obsidian vial, copper wire, and Zelina’s sketch occupy the central pool of light. Coppercoil’s tools and Zelina’s hands frame the vial. Keep the five gold pieces on a clear patch beside her hand. Use the darker blanket edge and surrounding boards to frame the warm tabletop against the rain.
 - **Entrance and hold:** Reveal the tabletop, hands, and materials, then let a subtle magical highlight move along the obsidian seam as the vial takes shape. Hold the finished vial, copper-bound stopper, and coins. The nightglass search and Radecere’s wager and sale stay in narration.
 
+The [overhead workbench](../../../model/environments/nightglass-workbench.json) frames the [paired hands](../../../model/groups/nightglass-crafting-hands.json). A warm seam of light accompanies the change from [obsidian shards to the finished vial](../../../model/objects/nightglass-perfume-vial.json). The [five gold pieces](../../../model/objects/nightglass-perfume-coins.json) slide toward Zelina and stay visible with the vial.
+
 ## 9. The road cries out
 
 - **Recap event:** At dawn after the storms, a hoof crushes a mushroom and it moans. Breaking caps release black dust and cries. Aldrik, Lucien, and Coppercoil recognize a shared shrieker mycelium, then retreat in overwhelming grief. Vladefix and the guards use earplugs and clear a passage over three hours.
@@ -84,12 +90,16 @@ The [shared wagon](../../../model/environments/daylight-wagon.json) reuses the f
 - **Composition:** A low view up the wet road at dawn. In the near plane, broken mushroom caps and a lifted hoof frame the road. Along the middle, Aldrik, Lucien, and Coppercoil recoil toward the verge, leaving the center clear. Vladefix and the earplugged guards occupy the road farther back. Rows of shrieker silhouettes and wagon shapes fade into the dawn haze.
 - **Entrance and hold:** Reveal the unbroken growth, then let a small plume of black dust rise where the hoof came down. Hold the recoiling figures and the guards at work, with only slight dust drift. The shared mycelium, the force of the grief, and the three-hour clearing are narrated over the same view.
 
+The [dawn road](../../../model/environments/shrieker-road.json) holds the distant clearing party and [recoiling adventurers](../../../model/groups/shrieker-road-party.json) in one view. The [hoof](../../../model/creatures/shrieker-road-hoof.json) stamps once. The [cap collapses](../../../model/objects/shrieker-road-cap.json) on impact, then black dust drifts while the narration continues.
+
 ## 10. An overturned wagon
 
 - **Recap event:** As the caravan moves again, Carlon takes the reins while Lucien talks about his dreams. Aldrik returns from scouting with word of hobgoblins attacking an overturned wagon. Tyjit halts the caravan and asks the party to clear the danger. Aldrik, Coppercoil, and Lucien plan their approach.
 - **Cast:** Carlon, Lucien, Aldrik, Coppercoil, Tyjit, distant hobgoblins.
-- **Composition:** Use the road’s bend to connect the foreground party with the danger ahead. Put Aldrik, Coppercoil, and Lucien on the near rise, grouped so their eyelines lead downhill. Tyjit stands by the halted caravan, with Carlon at the reins at the edge. A narrow band of sunset picks out the overturned wagon and small hobgoblin silhouettes at the bend. Keep the immediate road between them open.
-- **Entrance and hold:** Ink in the halted caravan and the distant wagon, then reveal the party paused at the rise. Hold their approach unresolved. Use faint dust near the bend and slow parallax along the road while Aldrik’s report and Tyjit’s request carry in narration.
+- **Composition:** Lucien and Coppercoil watch from the near rise as Aldrik rides down the road toward them. He looks over his shoulder and points back to the overturned wagon and hobgoblins at the bend. Tyjit stands by the halted caravan, with Carlon at the reins.
+- **Entrance and hold:** Reveal the distant wreck and halted caravan, then bring Aldrik from the bend into the foreground. Alternate two registered horse poses during his ride so the legs trot while his pointing arm stays steady. Hold the arriving rider and his signal while dust drifts at the bend and the narration continues.
+
+The [sunset road](../../../model/environments/sunset-road.json) holds the wreck in the distance. [Carlon and Tyjit](../../../model/groups/sunset-road-caravan.json) pause behind [Lucien and Coppercoil](../../../model/groups/sunset-road-lookout.json). [Aldrik](../../../model/characters/aldrik.json) grows in perspective as he rides toward them, with [dust](../../../model/objects/sunset-road-dust.json) drifting at the wreck.
 
 ## Continuity and references
 

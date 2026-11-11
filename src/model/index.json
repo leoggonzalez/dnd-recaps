@@ -57,6 +57,24 @@
     "src/model/groups/carlon-road-rescue.json",
     "src/model/objects/carlon-road-friends-cue.json",
     "src/model/groups/lucien-carlon-interview.json",
-    "src/model/objects/lucien-wagon-dust.json"
+    "src/model/objects/lucien-wagon-dust.json",
+    "src/model/environments/losvius-wagon.json",
+    "src/model/groups/losvius-coppercoil-climb.json",
+    "src/model/objects/losvius-wagon-porcelain.json",
+    "src/model/objects/aldrik-spectral-hand.json",
+    "src/model/objects/losvius-wagon-rain.json",
+    "src/model/groups/losvius-wagon-wager.json",
+    "src/model/environments/nightglass-workbench.json",
+    "src/model/groups/nightglass-crafting-hands.json",
+    "src/model/objects/nightglass-perfume-vial.json",
+    "src/model/objects/nightglass-perfume-coins.json",
+    "src/model/environments/shrieker-road.json",
+    "src/model/groups/shrieker-road-party.json",
+    "src/model/creatures/shrieker-road-hoof.json",
+    "src/model/objects/shrieker-road-cap.json",
+    "src/model/environments/sunset-road.json",
+    "src/model/groups/sunset-road-caravan.json",
+    "src/model/groups/sunset-road-lookout.json",
+    "src/model/objects/sunset-road-dust.json"
   ]
 }

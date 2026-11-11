@@ -170,6 +170,132 @@
       "status": "prototype",
       "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
       "usage": "shared-composition"
+    },
+    {
+      "id": "porcelain-wagon-pair",
+      "path": "public/assets/groups/porcelain-wagon-pair-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 102010,
+      "sha256": "00dd8d0857fc6912bd41c4554e068e4499d61fb55c88b6ab910b0e852837e433",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Losvius makes room while Coppercoil climbs the threshold.",
+      "sourcePath": "public/assets/sources/porcelain-wagon-pair-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "porcelain-wager-cast",
+      "path": "public/assets/groups/porcelain-wager-cast-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 131046,
+      "sha256": "d9bb2a907fefde051c1fdc25952e0aaba721cb759a4ba426049ee2ddccf1303e",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Losvius, Coppercoil and Aldrik confer quietly about the wager inside the porcelain wagon.",
+      "sourcePath": "public/assets/sources/porcelain-wager-cast-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "nightglass-hands",
+      "path": "public/assets/groups/nightglass-hands-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 201070,
+      "sha256": "0c73d9fef660d45fa12bc31b1072ce2cb734db31b181c56ea5b948193bef2b63",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Coppercoil’s copper-scaled hands and Zelina’s human hands arranged around the work area.",
+      "sourcePath": "public/assets/sources/nightglass-hands-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "shrieker-road-party",
+      "path": "public/assets/groups/shrieker-road-party-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 64998,
+      "sha256": "9ebb3f75f4688fcef93995595f646ebb6f804369604f2733527d11a6a3cb0594",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Aldrik, Lucien and Coppercoil pull back from the shrieker cries at the right verge.",
+      "sourcePath": "public/assets/sources/shrieker-road-party-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "sunset-road-lookout",
+      "path": "public/assets/groups/sunset-road-lookout-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 73458,
+      "sha256": "74c6b56b77005de420953c97549d93455783001da3fdeb44b4b95dc6af706cd3",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien, Aldrik and Coppercoil confer on the rise and look toward the bend.",
+      "sourcePath": "public/assets/sources/sunset-road-lookout-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
+    },
+    {
+      "id": "sunset-road-watchers",
+      "path": "public/assets/groups/sunset-road-watchers-v1.webp",
+      "width": 1536,
+      "height": 864,
+      "bytes": 38240,
+      "sha256": "1a6a7bf5d74d28e846e67a4df681454414589527c003251b3cfd8dc9af22e014",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Lucien and Coppercoil turn toward the returning rider from the near rise.",
+      "sourcePath": "public/assets/sources/sunset-road-watchers-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json",
+      "usage": "shared-composition"
     }
   ],
   "species": "copper dragonborn",

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "nightglass-workbench",
+  "name": "Coppercoil’s workbench from above",
+  "category": "environments",
+  "description": "Overhead view of the shared wagon’s workbench screened by a blanket.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "nightglass",
+    "coppercoil",
+    "zelina"
+  ],
+  "reuseWhen": "Use with the registered overhead workbench composition.",
+  "assets": [
+    {
+      "id": "nightglass-desk",
+      "path": "public/assets/environments/nightglass-desk-v1.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 417996,
+      "sha256": "1fb55cb239e4a6811d65affe01d8cd60980a68e16bddb8173362cda90a6f76d1",
+      "kind": "background",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Overhead view of Coppercoil’s fitted workbench with tools and Zelina’s sketch.",
+      "sourcePath": "public/assets/sources/nightglass-desk-v1.png",
+      "hasAlpha": false,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "nightglass-cloth",
+      "path": "public/assets/environments/nightglass-cloth-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 51956,
+      "sha256": "e611b57aa33625a0193d367f1fd3514c9ef88de1741629157abf932e7879ef63",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Near fold of the privacy blanket screening the workbench.",
+      "sourcePath": "public/assets/sources/nightglass-cloth-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

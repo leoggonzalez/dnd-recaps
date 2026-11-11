@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shrieker-road-party",
+  "name": "Party recoiling from the shriekers",
+  "category": "groups",
+  "description": "Aldrik, Lucien and Coppercoil recoil from the cries at the verge.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "shriekers",
+    "dawn"
+  ],
+  "reuseWhen": "Use with the November 4 shrieker road composition.",
+  "assets": [
+    {
+      "id": "shrieker-road-party",
+      "path": "public/assets/groups/shrieker-road-party-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 64998,
+      "sha256": "9ebb3f75f4688fcef93995595f646ebb6f804369604f2733527d11a6a3cb0594",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Aldrik, Lucien and Coppercoil pull back from the shrieker cries at the right verge.",
+      "sourcePath": "public/assets/sources/shrieker-road-party-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

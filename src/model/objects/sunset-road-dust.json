@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "sunset-road-dust",
+  "name": "Dust at the road bend",
+  "category": "objects",
+  "description": "Two soft amber dust poses lit by the setting sun.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "sunset"
+  ],
+  "reuseWhen": "Use with the November 4 sunset road composition.",
+  "assets": [
+    {
+      "id": "sunset-road-dust-a",
+      "path": "public/assets/objects/sunset-road-dust-a-v1.webp",
+      "width": 400,
+      "height": 190,
+      "bytes": 6036,
+      "sha256": "b0771a4a2c9ae94df9a66177a7489d5c71af640fed33fede9e969d9b3685d02a",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Faint backlit dust at the road bend, first drift pose.",
+      "sourcePath": "public/assets/sources/sunset-road-dust-a-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "sunset-road-dust-b",
+      "path": "public/assets/objects/sunset-road-dust-b-v1.webp",
+      "width": 400,
+      "height": 190,
+      "bytes": 6428,
+      "sha256": "c1fa035bba8f239f04798530da43b06e38aa5fd090686a608efffbc6987558e9",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Faint backlit dust at the road bend, second drift pose.",
+      "sourcePath": "public/assets/sources/sunset-road-dust-b-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

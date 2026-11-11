@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shrieker-road-hoof",
+  "name": "Horse hoof at the shrieker patch",
+  "category": "creatures",
+  "description": "Foreground horse lower leg, registered to the mushroom.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "shriekers",
+    "dawn"
+  ],
+  "reuseWhen": "Use with the November 4 shrieker road composition.",
+  "assets": [
+    {
+      "id": "shrieker-road-hoof",
+      "path": "public/assets/creatures/shrieker-road-hoof-v1.webp",
+      "width": 620,
+      "height": 560,
+      "bytes": 37602,
+      "sha256": "a9096cba53e80caf6ae383286a8c9b580c804de850a82b3b191f330f27fc768c",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Close damp horse foreleg and hoof, padded for the downstroke and lift.",
+      "sourcePath": "public/assets/sources/shrieker-road-hoof-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

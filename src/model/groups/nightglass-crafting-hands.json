@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "nightglass-crafting-hands",
+  "name": "Coppercoil and Zelina crafting",
+  "category": "groups",
+  "description": "Shared cutout of the two artificers’ hands at the workbench.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "nightglass",
+    "coppercoil",
+    "zelina"
+  ],
+  "reuseWhen": "Use with the registered overhead workbench composition.",
+  "assets": [
+    {
+      "id": "nightglass-hands",
+      "path": "public/assets/groups/nightglass-hands-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 201070,
+      "sha256": "0c73d9fef660d45fa12bc31b1072ce2cb734db31b181c56ea5b948193bef2b63",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Coppercoil’s copper-scaled hands and Zelina’s human hands arranged around the work area.",
+      "sourcePath": "public/assets/sources/nightglass-hands-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

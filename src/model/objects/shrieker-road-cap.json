@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "shrieker-road-cap",
+  "name": "Crushed little shrieker",
+  "category": "objects",
+  "description": "Two ground-aligned cap poses and two drifting black-dust frames.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "shriekers",
+    "dawn"
+  ],
+  "reuseWhen": "Use with the November 4 shrieker road composition.",
+  "assets": [
+    {
+      "id": "shrieker-road-cap",
+      "path": "public/assets/objects/shrieker-road-cap-v1.webp",
+      "width": 420,
+      "height": 340,
+      "bytes": 16910,
+      "sha256": "c11327ad96e9a7e3dac05ca849010668009c3a790e1130766d6a301dad857609",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7794117647058824
+      },
+      "description": "Intact little shrieker cap with a matched ground anchor.",
+      "sourcePath": "public/assets/sources/shrieker-road-cap-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "shrieker-road-crushed",
+      "path": "public/assets/objects/shrieker-road-crushed-v1.webp",
+      "width": 420,
+      "height": 340,
+      "bytes": 15128,
+      "sha256": "5d6e6e492033b95e8030b3f11403ec9e91f2f07e945aee5eb4dd7e287d179a05",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.7794117647058824
+      },
+      "description": "Flattened shrieker fragments after the hoof comes down.",
+      "sourcePath": "public/assets/sources/shrieker-road-crushed-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "shrieker-road-dust-a",
+      "path": "public/assets/objects/shrieker-road-dust-a-v1.webp",
+      "width": 400,
+      "height": 500,
+      "bytes": 31026,
+      "sha256": "dde7da4d2b64b75542a8911169a837668473fba42244319d130592eabdcba9db",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.84
+      },
+      "description": "Black dust from the crushed shrieker in its first drifting pose.",
+      "sourcePath": "public/assets/sources/shrieker-road-dust-a-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "shrieker-road-dust-b",
+      "path": "public/assets/objects/shrieker-road-dust-b-v1.webp",
+      "width": 400,
+      "height": 500,
+      "bytes": 33064,
+      "sha256": "a8f4c3bf2e0feab30d66a348d1f70159409bdfdb85b9cba4ad674e43dc5f0e8e",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.84
+      },
+      "description": "Second dust pose with a slightly higher and wider plume.",
+      "sourcePath": "public/assets/sources/shrieker-road-dust-b-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

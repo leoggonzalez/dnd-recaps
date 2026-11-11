@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "losvius-wagon-wager",
+  "name": "The wager in Losvius’s wagon",
+  "category": "groups",
+  "description": "Losvius, Coppercoil and Aldrik confer quietly about the wager inside the porcelain wagon.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "caravan",
+    "porcelain",
+    "losvius"
+  ],
+  "reuseWhen": "Use with the cleared porcelain wagon, its near crates, and rain at the opening.",
+  "assets": [
+    {
+      "id": "porcelain-wager-cast",
+      "path": "public/assets/groups/porcelain-wager-cast-v1.webp",
+      "width": 1280,
+      "height": 720,
+      "bytes": 131046,
+      "sha256": "d9bb2a907fefde051c1fdc25952e0aaba721cb759a4ba426049ee2ddccf1303e",
+      "kind": "cutout",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Losvius, Coppercoil and Aldrik confer quietly about the wager inside the porcelain wagon.",
+      "sourcePath": "public/assets/sources/porcelain-wager-cast-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "nightglass-perfume-vial",
+  "name": "Nightglass perfume vial",
+  "category": "objects",
+  "description": "Obsidian shards, the finished copper-bound vial, and the mending highlight.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "nightglass",
+    "coppercoil",
+    "zelina"
+  ],
+  "reuseWhen": "Use with the registered overhead workbench composition.",
+  "assets": [
+    {
+      "id": "nightglass-shards",
+      "path": "public/assets/objects/nightglass-shards-v1.webp",
+      "width": 512,
+      "height": 384,
+      "bytes": 20376,
+      "sha256": "4e568595a41d9f99d66c5a02c7cb0887ca1c02c2fbe8e9e408a27930fec7f576",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Small obsidian fragments in the starting position, before mending.",
+      "sourcePath": "public/assets/sources/nightglass-shards-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "nightglass-vial",
+      "path": "public/assets/objects/nightglass-vial-v1.webp",
+      "width": 512,
+      "height": 384,
+      "bytes": 27064,
+      "sha256": "071f9153e28e125d8632d1c09ac9d3071db2745a15924a8573101dd75a85cc91",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Finished obsidian perfume vial with a copper-bound stopper.",
+      "sourcePath": "public/assets/sources/nightglass-vial-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    },
+    {
+      "id": "nightglass-mending-light",
+      "path": "public/assets/objects/nightglass-mending-light-v1.webp",
+      "width": 320,
+      "height": 230,
+      "bytes": 8592,
+      "sha256": "b880aeacbe264f00a65dd47d35d8d1214a74b4b0d617c8fd251b38dbe96aa654",
+      "kind": "effect",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Brief warm highlight along the obsidian as the shards mend.",
+      "sourcePath": "public/assets/sources/nightglass-mending-light-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

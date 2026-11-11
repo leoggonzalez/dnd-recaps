@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "nightglass-perfume-coins",
+  "name": "Five gold pieces for perfume",
+  "category": "objects",
+  "description": "Coppercoil’s gift to Zelina for Arietta’s perfume.",
+  "style": "parchment-ink-v1",
+  "references": [
+    "src/data/sessions/04.11.2026/storyboard.md"
+  ],
+  "tags": [
+    "wagon",
+    "nightglass",
+    "coppercoil",
+    "zelina"
+  ],
+  "reuseWhen": "Use with the registered overhead workbench composition.",
+  "assets": [
+    {
+      "id": "nightglass-coins",
+      "path": "public/assets/objects/nightglass-coins-v1.webp",
+      "width": 290,
+      "height": 216,
+      "bytes": 15014,
+      "sha256": "ff823ef7632be3d95a59946125056e0cb5ee2760969af76a51013e82aa412a1d",
+      "kind": "prop",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "description": "Exactly five gold pieces, offered for perfume.",
+      "sourcePath": "public/assets/sources/nightglass-coins-v1.png",
+      "hasAlpha": true,
+      "encoding": "lossy-webp",
+      "version": 1,
+      "status": "prototype",
+      "provenance": "src/data/sessions/04.11.2026/art/generation-prompts.json"
+    }
+  ]
+}

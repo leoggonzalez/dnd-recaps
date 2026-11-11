@@ -237,6 +237,8 @@ export function LayeredStage({
                         "--from-y": `${(motion.from.y / height) * 100}%`,
                         "--to-x": `${(motion.to.x / actor.width) * 100}%`,
                         "--to-y": `${(motion.to.y / height) * 100}%`,
+                        "--from-scale": motion.fromScale,
+                        transformOrigin: `${base.anchor.x * 100}% ${base.anchor.y * 100}%`,
                         animationDelay: `${motion.delayMs}ms`,
                         animationDuration: `${motion.durationMs}ms`,
                         animationTimingFunction: motion.easing,
