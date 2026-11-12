@@ -3,19 +3,16 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { sessions } from "../src/data";
 import { assetGraph } from "../src/lib/schema";
+import { sessionAudioPaths } from "../src/lib/session-audio";
 import { assetUrl } from "../src/lib/urls";
 if (new Set(sessions.map((s) => s.id)).size !== sessions.length)
   throw new Error("Duplicate session ID");
 for (const session of sessions) {
   let total = 0;
-  const audioPaths = new Set(
-    session.scenes.flatMap((scene) =>
-      scene.narrationAudio ? [scene.narrationAudio] : [],
-    ),
-  );
+  const audioPaths = sessionAudioPaths(session);
   for (const path of audioPaths) {
     const bytes = readFileSync(resolve("public", path));
-    if (!bytes.length) throw new Error(`Empty narration audio: ${path}`);
+    if (!bytes.length) throw new Error(`Empty audio asset: ${path}`);
     total += bytes.length;
   }
   for (const asset of session.assets) {

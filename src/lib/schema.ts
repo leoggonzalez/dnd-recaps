@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { narrationAudioPath } from "./urls";
+import { audioAssetPath } from "./urls";
 const id = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
 const time = z.number().finite().nonnegative();
 const point = z
@@ -110,7 +110,8 @@ export const sessionSchema = z
             environmentId: id,
             description: z.string().min(1),
             durationMs: z.number().finite().positive(),
-            narrationAudio: z.string().regex(narrationAudioPath).optional(),
+            narrationAudio: z.string().regex(audioAssetPath).optional(),
+            musicAudio: z.string().regex(audioAssetPath).optional(),
             narration: z
               .array(
                 z

@@ -1031,6 +1031,7 @@
       "description": "Lucien stands in a shadowed hall before black water that leads to a bridge crowded with soldiers. A warm reflection hints at a traveller in the river.",
       "durationMs": 10500,
       "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 1 of 10.mp3",
+      "musicAudio": "assets/audio/music/uncanny-mystery-loop.mp3",
       "narration": [
         {
           "id": "chamber",
@@ -1073,6 +1074,8 @@
       "environmentId": "dream-crossing-lost",
       "description": "A traveller’s marked forehead appears in the river, with broken swords and graves on the near bank and soldiers fading into the haze beyond the bridge.",
       "durationMs": 15000,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 2 of 10.mp3",
+      "musicAudio": "assets/audio/music/uncanny-mystery-loop.mp3",
       "narration": [
         {
           "id": "river",
@@ -1158,6 +1161,8 @@
       "environmentId": "daylight-wagon",
       "description": "Inside Coppercoil’s daylit wagon workshop, warm sparks light Zelina’s open palm as Coppercoil leans in. His workbench and parts rack frame the lesson, with the nightglass vial sketch in front and Arietta by the opening.",
       "durationMs": 14000,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 3 of 10.mp3",
+      "musicAudio": "assets/audio/music/quiet-wonder-loop.mp3",
       "narration": [
         {
           "id": "lesson",
@@ -1252,6 +1257,8 @@
       "environmentId": "caravan-road",
       "description": "Carlon’s head protrudes from the road, a complex circular rune tattooed on his forehead. Coppercoil offers water while Lucien kneels nearby. Behind them, a thread of charm magic runs from Aldrik’s hand to Lord Aldor.",
       "durationMs": 15000,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 4 of 10.mp3",
+      "musicAudio": "assets/audio/music/guarded-concern-loop.mp3",
       "narration": [
         {
           "id": "discovery",
@@ -1351,6 +1358,8 @@
       "environmentId": "lucien-wagon",
       "description": "Window light outlines Carlon and the circular rune on his forehead. Lucien listens from the shadowed side of the shared wagon. Green Imsa offers folded clothes, with Coppercoil’s fitted workbench and parts rack framing the conversation.",
       "durationMs": 13500,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 5 of 10.mp3",
+      "musicAudio": "assets/audio/music/guarded-concern-loop.mp3",
       "narration": [
         {
           "id": "shelter",
@@ -1405,6 +1414,8 @@
       "environmentId": "losvius-wagon",
       "description": "Porcelain crowds the rain-lit wagon. Losvius makes room for Coppercoil on the step while Aldrik, outside, sends a spectral hand to steady a tipping vase.",
       "durationMs": 12800,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 6 of 10.mp3",
+      "musicAudio": "assets/audio/music/quiet-intrigue-loop.mp3",
       "narration": [
         {
           "id": "invitation",
@@ -1548,6 +1559,8 @@
       "environmentId": "losvius-wagon-wager",
       "description": "Losvius, Coppercoil, and Aldrik confer between porcelain shelves inside the wagon while rain falls beyond the open doorway.",
       "durationMs": 14500,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 7 of 10.mp3",
+      "musicAudio": "assets/audio/music/quiet-intrigue-loop.mp3",
       "narration": [
         {
           "id": "crate",
@@ -1603,6 +1616,8 @@
       "environmentId": "rainy-workbench",
       "description": "From above, Coppercoil and Zelina’s hands frame an obsidian perfume vial and its sketch on the workbench. The copper-bound stopper and five gold pieces catch the light.",
       "durationMs": 15500,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 8 of 10.mp3",
+      "musicAudio": "assets/audio/music/quiet-wonder-loop.mp3",
       "narration": [
         {
           "id": "obsidian",
@@ -1707,6 +1722,8 @@
       "environmentId": "shrieker-road",
       "description": "A hoof comes down on a mushroom, releasing black dust above the wet road. Aldrik, Lucien, and Coppercoil pull back while Vladefix and the guards clear a path in the distance.",
       "durationMs": 15400,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 9 of 10.mp3",
+      "musicAudio": "assets/audio/music/uncanny-grief-loop.mp3",
       "narration": [
         {
           "id": "dawn",
@@ -1823,6 +1840,8 @@
       "environmentId": "sunset-road",
       "description": "Aldrik rides toward Lucien and Coppercoil on the rise, pointing back over his shoulder toward hobgoblins attacking an overturned wagon. Tyjit holds the caravan while Carlon sits at the reins.",
       "durationMs": 16200,
+      "narrationAudio": "assets/audio/sessions/04.11.2026 · 7–9 Ches 1492 DR Scene 10 of 10.mp3",
+      "musicAudio": "assets/audio/music/approaching-danger-loop.mp3",
       "narration": [
         {
           "id": "reins",

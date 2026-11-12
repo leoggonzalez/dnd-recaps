@@ -8,16 +8,18 @@ import {
   type CSSProperties,
 } from "react";
 import type { Session } from "@/lib/schema";
+import { SessionAudio, sessionAudioPaths } from "@/lib/session-audio";
 import { AssetStore, sceneAssetIds, type Progress } from "@/lib/asset-store";
 import { LayeredStage } from "./layered-stage";
 import { StoryControls } from "./story-controls";
-import { NarrationAudio } from "./narration-audio";
 export function RecapPlayer({ session }: { session: Session }) {
   const [index, setIndex] = useState(0);
   const [playbackKey, setPlaybackKey] = useState(0);
   const [userPaused, setUserPaused] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [stageReady, setStageReady] = useState(false);
+  const [audioRunning, setAudioRunning] = useState(true);
+  const [audioError, setAudioError] = useState(false);
   const [invalidLink, setInvalidLink] = useState(false);
   const [store, setStore] = useState<AssetStore | null>(null);
   const [loadState, setLoadState] = useState<"loading" | "failed" | "ready">(
@@ -34,6 +36,11 @@ export function RecapPlayer({ session }: { session: Session }) {
   const navigation = useRef(0);
   const storeRef = useRef<AssetStore | null>(null);
   const loadReady = useRef(false);
+  const audioRef = useRef<SessionAudio | null>(null);
+  const audioPreload = useRef<Promise<void> | null>(null);
+  const scene = session.scenes[index];
+  const loaded = loadState === "ready" && !!store;
+  const paused = userPaused || hidden || !audioRunning;
   const enter = useCallback(
     async (next: number, push = true) => {
       const safe = Math.max(0, Math.min(session.scenes.length - 1, next));
@@ -45,6 +52,7 @@ export function RecapPlayer({ session }: { session: Session }) {
         window.history.pushState(null, "", `#scene=${session.scenes[safe].id}`);
       const active = storeRef.current;
       if (!active || !loadReady.current) return;
+      audioRef.current?.setNarration();
       setPreparing(true);
       try {
         const destinations = [safe - 1, safe, safe + 1].filter(
@@ -84,8 +92,26 @@ export function RecapPlayer({ session }: { session: Session }) {
     let cancelled = false;
     const active = new AssetStore(session);
     storeRef.current = active;
+    const hasAudio = sessionAudioPaths(session).size > 0;
+    const audio =
+      hasAudio && typeof AudioContext !== "undefined"
+        ? new SessionAudio(new AudioContext())
+        : null;
+    audioRef.current = audio;
+    const syncAudio = () => {
+      if (!cancelled)
+        setAudioRunning(!audio || audio.context.state === "running");
+    };
+    audio?.context.addEventListener("statechange", syncAudio);
+    const preload = audio?.preload(session).then((failed) => {
+      if (!cancelled) setAudioError(failed);
+    });
+    audioPreload.current = preload ?? null;
     queueMicrotask(() => {
-      if (!cancelled) setStore(active);
+      if (cancelled) return;
+      setStore(active);
+      setAudioError(hasAudio && !audio);
+      syncAudio();
     });
 
     const sync = () => {
@@ -103,7 +129,7 @@ export function RecapPlayer({ session }: { session: Session }) {
       .load(setProgress)
       .then(async () => {
         if (cancelled) return;
-        await document.fonts.ready;
+        await Promise.all([document.fonts.ready, preload]);
         if (cancelled) return;
         loadReady.current = true;
         await enter(requested.current, false);
@@ -125,6 +151,10 @@ export function RecapPlayer({ session }: { session: Session }) {
 
       active.dispose();
       storeRef.current = null;
+      audio?.context.removeEventListener("statechange", syncAudio);
+      audio?.dispose();
+      audioRef.current = null;
+      audioPreload.current = null;
       window.removeEventListener("popstate", sync);
       window.removeEventListener("hashchange", sync);
       document.removeEventListener("visibilitychange", visibility);
@@ -135,7 +165,7 @@ export function RecapPlayer({ session }: { session: Session }) {
     setLoadState("loading");
     try {
       await store.load(setProgress);
-      await document.fonts.ready;
+      await Promise.all([document.fonts.ready, audioPreload.current]);
       loadReady.current = true;
       await enter(requested.current, false);
       setLoadState("ready");
@@ -144,6 +174,35 @@ export function RecapPlayer({ session }: { session: Session }) {
     }
   };
   const ready = useCallback(() => setStageReady(true), []);
+
+  useEffect(() => {
+    if (!loaded) return;
+    const audio = audioRef.current;
+    if (!audio) return;
+    const sceneIsCurrent = stageReady && requested.current === index;
+    if (sceneIsCurrent) audio.setMusic(scene.musicAudio);
+    audio.setNarration(sceneIsCurrent ? scene.narrationAudio : undefined);
+  }, [loaded, stageReady, scene, index, playbackKey]);
+
+  useEffect(() => {
+    const context = audioRef.current?.context;
+    if (!context || !loaded) return;
+    void (userPaused || hidden ? context.suspend() : context.resume()).catch(
+      () => {},
+    );
+  }, [loaded, userPaused, hidden]);
+
+  const togglePause = useCallback(() => {
+    const context = audioRef.current?.context;
+    if (userPaused || !audioRunning) {
+      // Resume inside the gesture so browsers that block autoplay can start sound.
+      if (!hidden) void context?.resume().catch(() => {});
+      setUserPaused(false);
+    } else {
+      setUserPaused(true);
+    }
+  }, [userPaused, audioRunning, hidden]);
+
   useEffect(() => {
     const keydown = (event: KeyboardEvent) => {
       if (
@@ -174,14 +233,12 @@ export function RecapPlayer({ session }: { session: Session }) {
       }
       if (event.code === "Space") {
         event.preventDefault();
-        setUserPaused((value) => !value);
+        togglePause();
       }
     };
     window.addEventListener("keydown", keydown);
     return () => window.removeEventListener("keydown", keydown);
-  }, [session, enter, loadState]);
-  const scene = session.scenes[index];
-  const loaded = loadState === "ready" && !!store;
+  }, [session, enter, loadState, togglePause]);
   return (
     <main
       id="main"
@@ -190,8 +247,7 @@ export function RecapPlayer({ session }: { session: Session }) {
       data-ready={loaded && stageReady}
       style={
         {
-          "--play-state":
-            userPaused || hidden || !stageReady ? "paused" : "running",
+          "--play-state": paused || !stageReady ? "paused" : "running",
         } as CSSProperties
       }
     >
@@ -230,14 +286,8 @@ export function RecapPlayer({ session }: { session: Session }) {
           )}
           {loaded && (
             <>
-              {scene.narrationAudio && (
-                <NarrationAudio
-                  key={scene.id}
-                  path={scene.narrationAudio}
-                  playbackKey={playbackKey}
-                  paused={userPaused || hidden || preparing}
-                  onStart={() => setUserPaused(false)}
-                />
+              {audioError && (
+                <p role="status">Some session audio could not load.</p>
               )}
               <section
                 key={playbackKey}
@@ -271,10 +321,10 @@ export function RecapPlayer({ session }: { session: Session }) {
           <StoryControls
             session={session}
             index={index}
-            paused={userPaused}
+            paused={userPaused || !audioRunning}
             onPrevious={() => void enter(requested.current - 1)}
             onNext={() => void enter(requested.current + 1)}
-            onTogglePause={() => setUserPaused((value) => !value)}
+            onTogglePause={togglePause}
             onReplay={() => {
               setStageReady(false);
               setPlaybackKey((key) => key + 1);
@@ -292,7 +342,7 @@ export function RecapPlayer({ session }: { session: Session }) {
               index={index}
               store={store}
               onReady={ready}
-              paused={userPaused || hidden}
+              paused={paused}
             />
           </div>
         ) : (

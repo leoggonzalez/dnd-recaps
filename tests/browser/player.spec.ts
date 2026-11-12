@@ -267,7 +267,8 @@ test("marching poses loop beyond the narration and settle under reduced motion",
 }) => {
   await page.goto("./sessions/2026-11-04/#scene=the-crossing-lost");
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
-  await page.getByRole("button", { name: "Pause", exact: true }).click();
+  const pause = page.getByRole("button", { name: "Pause", exact: true });
+  if (await pause.isVisible()) await pause.click();
 
   const first = page.locator('[data-pose="lucien-dream-march-a"]');
   const second = page.locator('[data-pose="lucien-dream-march-b"]');
@@ -299,55 +300,122 @@ test("marching poses loop beyond the narration and settle under reduced motion",
   await expect(second).toHaveCSS("opacity", "1");
 });
 
-test("scene narration plays on request and follows pause, replay, and navigation", async ({
+test("session preloads audio and shares playback controls across scenes", async ({
   page,
 }) => {
+  await page.addInitScript(() => {
+    const sources: AudioBufferSourceNode[] = [];
+    const fades: number[] = [];
+    const stoppedNarration: string[] = [];
+    let endedMusic = 0;
+    const start = AudioBufferSourceNode.prototype.start;
+    const stop = AudioBufferSourceNode.prototype.stop;
+    AudioBufferSourceNode.prototype.start = function (...args) {
+      sources.push(this);
+      if (this.loop) this.addEventListener("ended", () => endedMusic++);
+      start.apply(this, args);
+    };
+    AudioBufferSourceNode.prototype.stop = function (when = 0) {
+      if (this.loop) fades.push(when - this.context.currentTime);
+      else
+        stoppedNarration.push(
+          document.querySelector("#reader-title")?.textContent ?? "",
+        );
+      stop.call(this, when);
+    };
+    Object.assign(window, {
+      audioPlayback: () => {
+        const context = sources[0]?.context;
+        const music = sources.filter((source) => source.loop);
+        return {
+          narration: sources.length - music.length,
+          music: music.length,
+          fades,
+          stoppedNarration,
+          endedMusic,
+          state: context?.state,
+          time: context?.currentTime ?? 0,
+          seam: music.map(({ buffer }) => {
+            const data = buffer!.getChannelData(0);
+            return Math.abs(data[0] - data[data.length - 1]);
+          }),
+        };
+      },
+    });
+  });
+  const audioResponses: number[] = [];
+  page.on("response", (response) => {
+    if (response.url().endsWith(".mp3")) audioResponses.push(response.status());
+  });
+  const audio = () =>
+    page.evaluate(() =>
+      (
+        window as unknown as {
+          audioPlayback: () => {
+            narration: number;
+            music: number;
+            fades: number[];
+            stoppedNarration: string[];
+            endedMusic: number;
+            state: AudioContextState;
+            time: number;
+            seam: number[];
+          };
+        }
+      ).audioPlayback(),
+    );
+  const pause = page.getByRole("button", { name: "Pause", exact: true });
+  const resume = page.getByRole("button", { name: "Resume", exact: true });
+
   await page.goto("./sessions/2026-11-04/#scene=the-markings");
   await expect(page.locator('.playback[data-ready="true"]')).toBeVisible();
-  const audio = page.locator("audio");
-  const state = () =>
-    audio.evaluate((element) => {
-      const audio = element as HTMLAudioElement;
-      return {
-        paused: audio.paused,
-        time: audio.currentTime,
-        duration: audio.duration,
-      };
-    });
+  expect(audioResponses).toEqual(Array(16).fill(200));
+  await expect(
+    page.getByRole("button", { name: "Play narration" }),
+  ).toHaveCount(0);
+  if (await resume.isVisible()) await resume.click();
+  await expect.poll(async () => (await audio()).state).toBe("running");
+  await expect.poll(audio).toMatchObject({ narration: 1, music: 1 });
 
-  expect((await state()).paused).toBe(true);
-  const response = page.waitForResponse((response) =>
-    response.url().endsWith(".mp3"),
+  await pause.click();
+  await expect.poll(async () => (await audio()).state).toBe("suspended");
+  await expect(page.locator(".narration-line").first()).toHaveCSS(
+    "animation-play-state",
+    "paused",
   );
-  await page
-    .getByRole("button", { name: "Play narration", exact: true })
-    .click();
-  expect((await response).headers()["content-type"]).toBe("audio/mpeg");
-  await expect.poll(async () => (await state()).time).toBeGreaterThan(0.15);
-  await expect.poll(async () => (await state()).duration).toBeCloseTo(27.87, 1);
-
-  await page.getByRole("button", { name: "Pause", exact: true }).click();
-  await expect.poll(async () => (await state()).paused).toBe(true);
+  const pausedAt = (await audio()).time;
   await page.getByRole("button", { name: "Replay", exact: true }).click();
-  await expect.poll(async () => (await state()).time).toBe(0);
-  await page.getByRole("button", { name: "Resume", exact: true }).click();
-  await expect.poll(async () => (await state()).time).toBeGreaterThan(0.1);
-  await page
-    .getByRole("button", { name: "Stop narration", exact: true })
-    .click();
-  await expect.poll(async () => (await state()).paused).toBe(true);
+  await expect
+    .poll(audio)
+    .toMatchObject({ narration: 2, music: 1, time: pausedAt });
+  await resume.click();
+  await expect.poll(async () => (await audio()).time).toBeGreaterThan(pausedAt);
 
-  await page
-    .getByRole("button", { name: "Play narration", exact: true })
-    .click();
-  await expect.poll(async () => (await state()).paused).toBe(false);
-  const element = await audio.elementHandle();
   await page.getByRole("button", { name: "Next scene", exact: true }).click();
   await expect(
     page.getByRole("heading", { name: "The crossing lost" }),
   ).toBeVisible();
-  await expect(audio).toHaveCount(0);
-  expect(
-    await element.evaluate((element) => (element as HTMLAudioElement).paused),
-  ).toBe(true);
+  await expect.poll(audio).toMatchObject({
+    narration: 3,
+    music: 1,
+    fades: [],
+    endedMusic: 0,
+    stoppedNarration: ["The markings", "The markings"],
+  });
+
+  await page.getByRole("button", { name: "Next scene", exact: true }).click();
+  await expect(
+    page.getByRole("heading", { name: "A thread of light" }),
+  ).toBeVisible();
+  await expect.poll(audio).toMatchObject({ narration: 4, music: 2 });
+  const playback = await audio();
+  expect(playback.stoppedNarration.at(-1)).toBe("The crossing lost");
+  expect(playback.fades).toHaveLength(1);
+  expect(playback.fades[0]).toBeCloseTo(0.8, 1);
+  expect(Math.max(...playback.seam)).toBeLessThan(0.04);
+  expect(audioResponses).toHaveLength(16);
+  await expect.poll(async () => (await audio()).endedMusic).toBe(1);
+
+  await page.getByRole("link", { name: "All sessions" }).click();
+  await expect.poll(async () => (await audio()).state).toBe("closed");
 });

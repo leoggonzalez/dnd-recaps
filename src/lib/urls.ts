@@ -8,15 +8,15 @@ export function assetUrl(
   return `${basePath}/${path}`;
 }
 
-export const narrationAudioPath =
+export const audioAssetPath =
   /^assets\/audio\/(?:[a-zA-Z0-9_-]+\/)*[^/\\]+\.mp3$/u;
 
-export function narrationAudioUrl(
+export function audioAssetUrl(
   path: string,
   basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "",
 ): string {
-  if (!narrationAudioPath.test(path)) {
-    throw new Error(`Invalid narration audio path: ${path}`);
+  if (!audioAssetPath.test(path)) {
+    throw new Error(`Invalid audio asset path: ${path}`);
   }
   return `${basePath}/${path.split("/").map(encodeURIComponent).join("/")}`;
 }

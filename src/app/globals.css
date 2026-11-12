@@ -243,9 +243,6 @@ footer {
   color: var(--line);
   line-height: 1.15;
 }
-.scene-audio {
-  margin-bottom: 1rem;
-}
 .narration-line {
   font-size: 1.12rem;
   line-height: 1.75;

@@ -1,15 +1,14 @@
 import { readdir, rm, stat } from "node:fs/promises";
 import { resolve, relative } from "node:path";
 import { sessions } from "../src/data";
+import { sessionAudioPaths } from "../src/lib/session-audio";
 /** The static release contains selected runtime media only. */
 async function main() {
   const root = resolve("out");
   const allowed = new Set(
     sessions.flatMap((session) => [
       ...session.assets.map((asset) => asset.path),
-      ...session.scenes.flatMap((scene) =>
-        scene.narrationAudio ? [scene.narrationAudio] : [],
-      ),
+      ...sessionAudioPaths(session),
     ]),
   );
   let removed = 0;
