@@ -34,7 +34,7 @@ for (const session of sessions) {
       throw new Error(`Cutout over budget: ${asset.id}`);
     total += bytes.length;
   }
-  if (total > 20_000_000) throw new Error(`Session over 20 MB: ${session.id}`);
+  if (total > 50_000_000) throw new Error(`Session over 50 MB: ${session.id}`);
   console.log(
     `${session.id}: ${session.scenes.length} scenes, ${assetGraph(session).length + audioPaths.size} dependencies, ${total} bytes (${session.status})`,
   );

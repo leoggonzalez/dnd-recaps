@@ -195,6 +195,8 @@ Initial budgets to validate with the prototype:
 | Small prop/effect | 5–60 KB | Report outliers |
 | Complete October 28 artwork set | At most 15 MB preferred | Fail above 20 MB until reduced or explicitly revised |
 
+The current build allows up to 50 MB of images and audio per recap.
+
 These are engineering starting points, not measured results. Do not destroy fine linework just to hit a target: reduce dimensions, redundant variants, and repeated backgrounds first. Publish a per-recap unique-byte report.
 
 Do not automatically generate multiple responsive variants for the MVP; they enlarge storage and complicate the complete-recap preload contract. Reassess after measurements. Never preload multiple resolution variants when only one will be used.

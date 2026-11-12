@@ -10,3 +10,6 @@ test-results/
 
 # Local animated artwork source archive (selected WebP only is published)
 public/assets/sources/
+
+# Local art direction source images
+/references/
